@@ -1,0 +1,3 @@
+## I.12.1.6.2.1 Initializing instances of value types
+
+There are three options for initializing the home of a value type instance. You can zero it by loading the address of the home (see [Table I.8: Address and Type of Home Locations](#todo-missing-hyperlink)) and using the `initobj` instruction (for local variables this is also accomplished by setting the **localsinit** bit in the method's header). You can call a user-defined constructor by loading the address of the home (see [Table I.8: Address and Type of Home Locations](#todo-missing-hyperlink)) and then calling the constructor directly. Or you can copy an existing instance into the home, as described in §[I.12.1.6.2.2](#todo-missing-hyperlink).

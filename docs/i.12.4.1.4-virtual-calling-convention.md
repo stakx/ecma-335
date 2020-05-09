@@ -1,0 +1,9 @@
+## I.12.4.1.4 Virtual calling convention
+
+The CIL provides a "virtual calling convention" that is converted by the JIT compiler into a native calling convention. The JIT compiler determines the optimal native calling convention for the target architecture. This allows the native calling convention to differ from machine to machine, including details of register usage, local variable homes, copying conventions for large call-by-value objects (as well as deciding, based on the target machine, what is considered "large"). This also allows the JIT compiler to reorder the values placed on the CIL virtual stack to match the location and order of arguments passed in the native calling convention.
+
+The CLI uses a single uniform calling convention for all method calls. It is the responsibility of the implementation to convert this into the appropriate native calling convention. The contents of the stack at the time of a call instruction (`call`, `calli`, or `callvirt` any of which can be preceded by `tail.`) are as follows:
+
+ 1. If the method being called is an instance method (class or interface) or a virtual method, the **this** pointer is the first object on the stack at the time of the call instruction. For methods on objects (including boxed value types), the **this** pointer is of type `O` (object reference). For methods on value types, the this pointer is provided as a byref parameter; that is, the value is a pointer (managed, `&`, or unmanaged, `*` or `native int`) to the instance.
+
+ 2. The remaining arguments appear on the stack in left-to-right order (that is, the lexically leftmost argument is the lowest on the stack, immediately following the **this** pointer, if any). §[I.12.4.1.5](#todo-missing-hyperlink) describes how each of the three parameter passing conventions (by-value, byref, and typed reference) should be implemented.
