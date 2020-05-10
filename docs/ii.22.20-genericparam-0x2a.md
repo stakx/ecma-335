@@ -46,17 +46,17 @@ There is no constraint on the generic parameter `T` of the generic method `Rever
 
 _Flags_:
 
- 5. Can hold the value **Covariant** or **Contravariant**, but only if the owner row corresponds to a generic interface, or a generic delegate class. \[ERROR\]
+ 5. Can hold the value `Covariant` or `Contravariant`, but only if the owner row corresponds to a generic interface, or a generic delegate class. \[ERROR\]
 
- 6. Otherwise, shall hold the value **None** indicating nonvariant (i.e., where the parameter is nonvariant or the owner is a non delegate class, a value-type, or a generic method) \[ERROR\]
+ 6. Otherwise, shall hold the value `None` indicating nonvariant (i.e., where the parameter is nonvariant or the owner is a non delegate class, a value-type, or a generic method) \[ERROR\]
 
- 7. If _Flags_ == **Covariant** then the corresponding generic parameter can appear in a type definition only as: \[ERROR\]
+ 7. If _Flags_ == `Covariant` then the corresponding generic parameter can appear in a type definition only as: \[ERROR\]
 
      * The result type of a method
 
      * A generic parameter to an inherited interface
 
- 8. If _Flags_ == **Contravariant** then the corresponding generic parameter can appear in a type definition only as the argument to a method \[ERROR\]
+ 8. If _Flags_ == `Contravariant` then the corresponding generic parameter can appear in a type definition only as the argument to a method \[ERROR\]
 
  9. _Number_ shall have a value &ge; 0 and < the number of generic parameters in owner type or method. \[ERROR\]
 

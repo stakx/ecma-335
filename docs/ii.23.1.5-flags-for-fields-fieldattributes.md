@@ -2,7 +2,7 @@
 
  Flag | Value | Description
  ---- | ---- | ----
- **FieldAccessMask** | 0x0007 | These 3 bits contain one of the following values:
+ **`FieldAccessMask`** | 0x0007 | These 3 bits contain one of the following values:
  &emsp;`CompilerControlled` | 0x0000 | Member not referenceable
  &emsp;`Private` | 0x0001 | Accessible only by the parent type
  &emsp;`FamANDAssem` | 0x0002 | Accessible by sub-types only in this Assembly

@@ -63,9 +63,9 @@ The rows of the _DeclSecurity_ table are filled by attaching a **.permission** o
 
  3. If _Parent_ indexes a row in the _TypeDef_ table, that row should not define an Interface. The security system ignores any such parent; compilers should not emit such permissions sets.  \[WARNING\]
 
- 4. If _Parent_ indexes a _TypeDef_, then its _TypeDef_._Flags_.**HasSecurity** bit shall be set \[ERROR\]
+ 4. If _Parent_ indexes a _TypeDef_, then its _TypeDef_._Flags_.`HasSecurity` bit shall be set \[ERROR\]
 
- 5. If _Parent_ indexes a _MethodDef_, then its _MethodDef_._Flags_.**HasSecurity** bit shall be set \[ERROR\]
+ 5. If _Parent_ indexes a _MethodDef_, then its _MethodDef_._Flags_.`HasSecurity` bit shall be set \[ERROR\]
 
  6. _PermissionSet_ shall index a 'blob' in the Blob heap  \[ERROR\]
 

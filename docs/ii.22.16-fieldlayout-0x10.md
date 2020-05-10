@@ -24,13 +24,13 @@ A row in the _FieldLayout_ table is created if the **.field** directive for the 
 
  1. A _FieldLayout_ table can contain zero or more or rows
 
- 2. The Type whose Fields are described by each row of the _FieldLayout_ table shall have _Flags_.**ExplicitLayout** (§[II.23.1.15](#todo-missing-hyperlink)) set \[ERROR\]
+ 2. The Type whose Fields are described by each row of the _FieldLayout_ table shall have _Flags_.`ExplicitLayout` (§[II.23.1.15](#todo-missing-hyperlink)) set \[ERROR\]
 
  3. _Offset_ shall be zero or more \[ERROR\]
 
  4. _Field_ shall index a valid row in the _Field_ table \[ERROR\]
 
- 5. _Flags_.**Static** for the row in the _Field_ table indexed by _Field_ shall be non-static (i.e., zero 0) \[ERROR\]
+ 5. _Flags_.`Static` for the row in the _Field_ table indexed by _Field_ shall be non-static (i.e., zero 0) \[ERROR\]
 
  6. Among the rows owned by a given Type there shall be no duplicates, based upon _Field_. That is, a given _Field_ of a Type cannot be given two offsets. \[ERROR\]
 
@@ -38,6 +38,6 @@ A row in the _FieldLayout_ table is created if the **.field** directive for the 
 
  8. Among the rows owned by a given Type it is perfectly valid for several rows to have the same value of _Offset_. **ObjectRef** and a valuetype cannot have the same offset \[ERROR\]
 
- 9. Every Field of an **ExplicitLayout** Type shall be given an offset; that is, it shall have a row in the _FieldLayout_ table \[ERROR\]
+ 9. Every Field of an `ExplicitLayout` Type shall be given an offset; that is, it shall have a row in the _FieldLayout_ table \[ERROR\]
 
 > _End informative text._

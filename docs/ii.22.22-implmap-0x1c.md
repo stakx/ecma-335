@@ -26,13 +26,13 @@ A row is entered in the _ImplMap_ table for each parent Method (§[II.15.5](#tod
 
  3. _MemberForwarded_ shall index a valid row in the _MethodDef_ table \[ERROR\]
 
- 4. The _MappingFlags_.**CharSetMask** (§[II.23.1.7](#todo-missing-hyperlink)) in the row of the _MethodDef_ table indexed by _MemberForwarded_ shall have at most one of the following bits set: 
-**CharSetAnsi**, **CharSetUnicode**, or **CharSetAuto** (if none is set, the default is **CharSetNotSpec**) \[ERROR\]
+ 4. The _MappingFlags_.`CharSetMask` (§[II.23.1.7](#todo-missing-hyperlink)) in the row of the _MethodDef_ table indexed by _MemberForwarded_ shall have at most one of the following bits set: 
+`CharSetAnsi`, `CharSetUnicode`, or `CharSetAuto` (if none is set, the default is `CharSetNotSpec`) \[ERROR\]
 
  5. _ImportName_ shall index a non-empty string in the String heap \[ERROR\]
 
  6. _ImportScope_ shall index a valid row in the _ModuleRef_ table \[ERROR\]
 
- 7. The row indexed in the _MethodDef_ table by _MemberForwarded_ shall have its _Flags_.**PinvokeImpl** = 1, and _Flags_.**Static** = 1 \[ERROR\]
+ 7. The row indexed in the _MethodDef_ table by _MemberForwarded_ shall have its _Flags_.`PinvokeImpl` = 1, and _Flags_.`Static` = 1 \[ERROR\]
 
 > _End informative text._

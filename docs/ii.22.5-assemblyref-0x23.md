@@ -20,9 +20,9 @@ The table is defined by the **.assembly extern** directive (§[II.6.3](#todo-mis
 
  1. _MajorVersion_, _MinorVersion_, _BuildNumber_, and _RevisionNumber_ can each have any value
 
- 2. _Flags_ shall have only one bit set, the **PublicKey** bit (§[II.23.1.2](#todo-missing-hyperlink)). All other bits shall be zero. \[ERROR\]
+ 2. _Flags_ shall have only one bit set, the `PublicKey` bit (§[II.23.1.2](#todo-missing-hyperlink)). All other bits shall be zero. \[ERROR\]
 
- 3. _PublicKeyOrToken_ can be null, or non-null (note that the _Flags_.**PublicKey** bit specifies whether the 'blob' is a full public key, or the short hashed token)
+ 3. _PublicKeyOrToken_ can be null, or non-null (note that the _Flags_.`PublicKey` bit specifies whether the 'blob' is a full public key, or the short hashed token)
 
  4. If non-null, then _PublicKeyOrToken_ shall index a valid offset in the Blob heap \[ERROR\]
 

@@ -26,19 +26,19 @@ Each row in the _Field_ table results from a top-level **.field** directive (§[
 
  4. _Flags_ shall have only those values set that are specified \[ERROR\]
 
- 5. The **FieldAccessMask** subfield of _Flags_ shall contain precisely one of **CompilerControlled**, **Private**, **FamANDAssem**, **Assembly**, **Family**, **FamORAssem**, or **Public** (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
+ 5. The `FieldAccessMask` subfield of _Flags_ shall contain precisely one of `CompilerControlled`, `Private`, `FamANDAssem`, `Assembly`, `Family`, `FamORAssem`, or `Public` (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
 
- 6. _Flags_ can set either or neither of **Literal** or **InitOnly**, but not both (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
+ 6. _Flags_ can set either or neither of `Literal` or `InitOnly`, but not both (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
 
- 7. If _Flags_.**Literal** = 1 then _Flags_.**Static** shall also be 1 (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
+ 7. If _Flags_.`Literal` = 1 then _Flags_.`Static` shall also be 1 (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
 
- 8. If _Flags_.**RTSpecialName** = 1, then _Flags_.**SpecialName** shall also be 1 (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
+ 8. If _Flags_.`RTSpecialName` = 1, then _Flags_.`SpecialName` shall also be 1 (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
 
- 9. If _Flags_.**HasFieldMarshal** = 1, then this row shall 'own' exactly one row in the _FieldMarshal_ table (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
+ 9. If _Flags_.`HasFieldMarshal` = 1, then this row shall 'own' exactly one row in the _FieldMarshal_ table (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
 
- 10. If _Flags_.**HasDefault** = 1, then this row shall 'own' exactly one row in the _Constant_ table (§[II.23.1.5](#todo-missing-hyperlink) \[ERROR\]
+ 10. If _Flags_.`HasDefault` = 1, then this row shall 'own' exactly one row in the _Constant_ table (§[II.23.1.5](#todo-missing-hyperlink) \[ERROR\]
 
- 11. If _Flags_.**HasFieldRVA** = 1, then this row shall 'own' exactly one row in the _Field's RVA_ table (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
+ 11. If _Flags_.`HasFieldRVA` = 1, then this row shall 'own' exactly one row in the _Field's RVA_ table (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
 
  12. _Name_ shall index a non-empty string in the String heap \[ERROR\]
 
@@ -46,19 +46,19 @@ Each row in the _Field_ table results from a top-level **.field** directive (§[
 
  14. _Signature_ shall index a valid field signature in the Blob heap \[ERROR\]
 
- 15. If _Flags_.**CompilerControlled** = 1 (§[II.23.1.5](#todo-missing-hyperlink)), then this row is ignored completely in duplicate checking.
+ 15. If _Flags_.`CompilerControlled` = 1 (§[II.23.1.5](#todo-missing-hyperlink)), then this row is ignored completely in duplicate checking.
 
  16. If the owner of this field is the internally-generated type called `<Module>`, it denotes that this field is defined at module scope (commonly called a global variable). In this case:
 
-     * _Flags_.**Static** shall be 1 \[ERROR\] 
+     * _Flags_.`Static` shall be 1 \[ERROR\] 
 
-     * _Flags_.**MemberAccessMask** subfield shall be one of **Public**, **CompilerControlled**, or **Private** (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
+     * _Flags_.`MemberAccessMask` subfield shall be one of `Public`, `CompilerControlled`, or `Private` (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
 
      * module-scope fields are not allowed  \[CLS\]
 
- 17. There shall be no duplicate rows in the _Field_ table, based upon _owner_+_Name_+_Signature_ (where _owner_ is the owning row in the _TypeDef_ table, as described above) (Note however that if _Flags_.**CompilerControlled** = 1, then this row is completely excluded from duplicate checking) \[ERROR\]
+ 17. There shall be no duplicate rows in the _Field_ table, based upon _owner_+_Name_+_Signature_ (where _owner_ is the owning row in the _TypeDef_ table, as described above) (Note however that if _Flags_.`CompilerControlled` = 1, then this row is completely excluded from duplicate checking) \[ERROR\]
 
- 18. There shall be no duplicate rows in the _Field_ table, based upon _owner_+_Name_, where _Name_ fields are compared using CLS conflicting-identifier-rules. So, for example,"`int i`" and "`float i`" would be considered CLS duplicates. (Note however that if _Flags_.**CompilerControlled** = 1, then this row is completely excluded from duplicate checking, as noted above) \[CLS\]
+ 18. There shall be no duplicate rows in the _Field_ table, based upon _owner_+_Name_, where _Name_ fields are compared using CLS conflicting-identifier-rules. So, for example,"`int i`" and "`float i`" would be considered CLS duplicates. (Note however that if _Flags_.`CompilerControlled` = 1, then this row is completely excluded from duplicate checking, as noted above) \[CLS\]
 
  19. If this is a field of an Enum then: 
  

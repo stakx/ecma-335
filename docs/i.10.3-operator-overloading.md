@@ -10,4 +10,4 @@ _[Note:_ This topic is addressed by the CLS so that
 
 _end note]_
 
-Operator overloading is described by using the names specified below, and by setting a special bit in the metadata (**SpecialName**) so that they do not collide with the user's name space. A CLS-compliant producer tool shall provide some means for setting this bit. If these names are used, they shall have precisely the semantics described here.
+Operator overloading is described by using the names specified below, and by setting a special bit in the metadata (`SpecialName`) so that they do not collide with the user's name space. A CLS-compliant producer tool shall provide some means for setting this bit. If these names are used, they shall have precisely the semantics described here.
