@@ -1,25 +1,25 @@
 # Table of Contents
 
-**Foreword**
+**[Foreword](FOREWORD.md)**
 
 ## Partition 1: Concepts and Architecture
 
-**I.1 Scope**
+**[I.1 Scope](i.1-scope.md)**
 
-**I.2 Conformance**
+**[I.2 Conformance](i.2-conformance.md)**
 
-**I.3 Normative references**
+**[I.3 Normative references](i.3-normative-references.md)**
 
-**I.4 Conventions**
+**[I.4 Conventions](i.4-conventions.md)**
 
- * I.4.1 Organization
- * I.4.2 Informative text
+ * [I.4.1 Organization](i.4.1-organization.md)
+ * [I.4.2 Informative text](i.4.2-informative-text.md)
  
-**I.5 Terms and definitions**
+**[I.5 Terms and definitions](i.5-terms-and-definitions.md)**
 
-**I.6 Overview of the Common Language Infrastructure**
+**[I.6 Overview of the Common Language Infrastructure](i.6-overview-of-the-common-language-infrastructure.md)**
 
- * I.6.1 Relationship to type safety
+ * [I.6.1 Relationship to type safety](i.6.1-relationship-to-type-safety.md)
  * I.6.2 Relationship to managed metadata-driven execution
     * I.6.2.1 Managed code
     * I.6.2.2 Managed data
@@ -138,23 +138,23 @@
     * [I.12.3.2 Method state](i.12.3.2-method-state.md)
  * [I.12.4 Control flow](i.12.4-control-flow.md)
     * [I.12.4.1 Method calls](i.12.4.1-method-calls.md)
-    * I.12.4.2 Exception handling
- * I.12.5 Proxies and remoting
- * I.12.6 Memory model and optimizations
-    * I.12.6.1 The memory store
-    * I.12.6.2 Alignment
-    * I.12.6.3 Byte ordering
-    * I.12.6.4 Optimization
-    * I.12.6.5 Locks and threads
-    * I.12.6.6 Atomic reads and writes
-    * I.12.6.7 Volatile reads and writes
-    * I.12.6.8 Other memory model issues
+    * [I.12.4.2 Exception handling](i.12.4.2-exception-handling.md)
+ * [I.12.5 Proxies and remoting](i.12.5-proxies-and-remoting.md)
+ * [I.12.6 Memory model and optimizations](i.12.6-memory-model-and-optimizations.md)
+    * [I.12.6.1 The memory store](i.12.6.1-the-memory-store.md)
+    * [I.12.6.2 Alignment](i.12.6.2-alignment.md)
+    * [I.12.6.3 Byte ordering](i.12.6.3-byte-ordering.md)
+    * [I.12.6.4 Optimization](i.12.6.4-optimization.md)
+    * [I.12.6.5 Locks and threads](i.12.6.5-locks-and-threads.md)
+    * [I.12.6.6 Atomic reads and writes](i.12.6.6-atomic-reads-and-writes.md)
+    * [I.12.6.7 Volatile reads and writes](i.12.6.7-volatile-reads-and-writes.md)
+    * [I.12.6.8 Other memory model issues](i.12.6.8-other-memory-model-issues.md)
 
 ## Partition II: Metadata Definition and Semantics
 
-**II.1 Introduction**
+**[II.1 Introduction](ii.1-introduction.md)**
 
-**II.2 Overview**
+**[II.2 Overview](ii.2-overview.md)**
 
 **[II.3 Validation and verification](ii.3-validation-and-verification.md)**
 
