@@ -98,46 +98,46 @@
  * I.9.4 Method implementation metadata
  * I.9.5 Class layout
  * I.9.6 Assemblies: name scopes for types
- * I.9.7 Metadata extensibility
+ * [I.9.7 Metadata extensibility](i.9.7-metadata-extensibility.md)
  * I.9.8 Globals, imports, and exports
  * I.9.9 Scoped statics
 
 **I.10 Name and type rules for the Common Language Specification**
 
  * I.10.1 Identifiers
- * I.10.2 Overloading
- * I.10.3 Operator overloading
-    * I.10.3.1 Unary operators
-    * I.10.3.2 Binary operators
-    * I.10.3.3 Conversion operators
-    * I.10.4 Naming patterns
- * I.10.5 Exceptions
- * I.10.6 Custom attributes
- * I.10.7 Generic types and methods
-    * I.10.7.1 Nested type parameter re-declaration
+ * [I.10.2 Overloading](i.10.2-overloading.md)
+ * [I.10.3 Operator overloading](i.10.3-operator-overloading.md)
+    * [I.10.3.1 Unary operators](i.10.3.1-unary-operators.md)
+    * [I.10.3.2 Binary operators](i.10.3.2-binary-operators.md)
+    * [I.10.3.3 Conversion operators](i.10.3.3-conversion-operators.md)
+    * [I.10.4 Naming patterns](i.10.4-naming-patterns.md)
+ * [I.10.5 Exceptions](i.10.5-exceptions.md)
+ * [I.10.6 Custom attributes](i.10.6-custom-attributes.md)
+ * [I.10.7 Generic types and methods](i.10.7-generic-types-and-methods.md)
+    * [I.10.7.1 Nested type parameter re-declaration](i.10.7.1-nested-type-parameter-re-declaration.md)
     * I.10.7.2 Type names and arity encoding
     * I.10.7.3 Type constraint re-declaration
     * I.10.7.4 Constraint type restrictions
     * I.10.7.5 Frameworks and accessibility of nested types
     * I.10.7.6 Frameworks and abstract or virtual methods
 
-**I.11 Collected Common Language Specification rules**
+**[I.11 Collected Common Language Specification rules](i.11-collected-common-language-specification-rules.md)**
 
-**I.12 Virtual Execution System**
+**[I.12 Virtual Execution System](i.12-virtual-execution-system.md)**
 
- * I.12.1 Supported data types
-    * I.12.1.1 Native size: native int, native unsigned int, O and &
-    * I.12.1.2 Handling of short integer data types
-    * I.12.1.3 Handling of floating-point data types
-    * I.12.1.4 CIL instructions and numeric types
-    * I.12.1.5 CIL instructions and pointer types
-    * I.12.1.6 Aggregate data
- * I.12.2 Module information
- * I.12.3 Machine state
-    * I.12.3.1 The global state
-    * I.12.3.2 Method state
- * I.12.4 Control flow
-    * I.12.4.1 Method calls
+ * [I.12.1 Supported data types](i.12.1-supported-data-types.md)
+    * [I.12.1.1 Native size: native int, native unsigned int, O and &](i.12.1.1-native-size-native-int-native-unsigned-int-o-and-ref.md)
+    * [I.12.1.2 Handling of short integer data types](i.12.1.2-handling-of-short-integer-data-types.md)
+    * [I.12.1.3 Handling of floating-point data types](i.12.1.3-handling-of-floating-point-data-types.md)
+    * [I.12.1.4 CIL instructions and numeric types](i.12.1.4-cil-instructions-and-numeric-types.md)
+    * [I.12.1.5 CIL instructions and pointer types](i.12.1.5-cil-instructions-and-pointer-types.md)
+    * [I.12.1.6 Aggregate data](i.12.1.6-aggregate-data.md)
+ * [I.12.2 Module information](i.12.2-module-information.md)
+ * [I.12.3 Machine state](i.12.3-machine-state.md)
+    * [I.12.3.1 The global state](i.12.3.1-the-global-state.md)
+    * [I.12.3.2 Method state](i.12.3.2-method-state.md)
+ * [I.12.4 Control flow](i.12.4-control-flow.md)
+    * [I.12.4.1 Method calls](i.12.4.1-method-calls.md)
     * I.12.4.2 Exception handling
  * I.12.5 Proxies and remoting
  * I.12.6 Memory model and optimizations
@@ -156,12 +156,12 @@
 
 **II.2 Overview**
 
-**II.3 Validation and verification**
+**[II.3 Validation and verification](ii.3-validation-and-verification.md)**
 
-**II.4 Introductory examples**
+**[II.4 Introductory examples](ii.4-introductory-examples.md)**
 
- * II.4.1 "Hello world!"
- * II.4.2 Other examples
+ * [II.4.1 "Hello world!"](ii.4.1-hello-world.md)
+ * [II.4.2 Other examples](ii.4.2-other-examples.md)
 
 **II.5 General syntax**
 
@@ -190,20 +190,20 @@
  * II.6.7 Exported type definitions
  * II.6.8 Type forwarders
 
-**II.7 Types and signatures**
+**[II.7 Types and signatures](ii.7-types-and-signatures.md)**
 
- * II.7.1 Types
-    * II.7.1.1 modreq and modopt
-    * II.7.1.2 pinned
- * II.7.2 Built-in types
+ * [II.7.1 Types](ii.7.1-types.md)
+    * [II.7.1.1 modreq and modopt](ii.7.1.1-modreq-and-modopt.md)
+    * [II.7.1.2 pinned](ii.7.1.2-pinned.md)
+ * [II.7.2 Built-in types](ii.7.2-built-in-types.md)
  * II.7.3 References to user-defined types (TypeReference)
  * II.7.4 Native data types
 
-**II.8 Visibility, accessibility and hiding**
+**[II.8 Visibility, accessibility and hiding](ii.8-visibility-accessibility-and-hiding.md)**
 
- * II.8.1 Visibility of top-level types and accessibility of nested types
- * II.8.2 Accessibility
- * II.8.3 Hiding
+ * [II.8.1 Visibility of top-level types and accessibility of nested types](ii.8.1-visibility-of-top-level-types-and-accessibility-of-nested-types.md)
+ * [II.8.2 Accessibility](ii.8.2-accessibility.md)
+ * [II.8.3 Hiding](ii.8.3-hiding.md)
 
 **II.9 Generics**
 
@@ -335,30 +335,30 @@
     * II.21.2.4 Custom attributes for TLS
     * II.21.2.5 Custom attributes, various
 
-**II.22 Metadata logical format: tables**
+**[II.22 Metadata logical format: tables](ii.22-metadata-logical-format-tables.md)**
 
- * II.22.1 Metadata validation rules
- * II.22.2 Assembly: 0x20
- * II.22.3 AssemblyOS: 0x22
- * II.22.4 AssemblyProcessor: 0x21
- * II.22.5 AssemblyRef: 0x23
- * II.22.6 AssemblyRefOS: 0x25
- * II.22.7 AssemblyRefProcessor: 0x24
- * II.22.8 ClassLayout: 0x0F
- * II.22.9 Constant: 0x0B
- * II.22.10 CustomAttribute: 0x0C
- * II.22.11 DeclSecurity: 0x0E
- * II.22.12 EventMap: 0x12
- * II.22.13 Event: 0x14
- * II.22.14 ExportedType: 0x27
- * II.22.15 Field: 0x04
- * II.22.16 FieldLayout: 0x10
- * II.22.17 FieldMarshal: 0x0D
- * II.22.18 FieldRVA: 0x1D
- * II.22.19 File: 0x26
- * II.22.20 GenericParam: 0x2A
- * II.22.21 GenericParamConstraint: 0x2C
- * II.22.22 ImplMap: 0x1C
+ * [II.22.1 Metadata validation rules](ii.22.1-metadata-validation-rules.md)
+ * [II.22.2 Assembly: 0x20](ii.22.2-assembly-0x20.md)
+ * [II.22.3 AssemblyOS: 0x22](ii.22.3-assemblyos-0x22.md)
+ * [II.22.4 AssemblyProcessor: 0x21](ii.22.4-assemblyprocessor-0x21.md)
+ * [II.22.5 AssemblyRef: 0x23](ii.22.5-assemblyref-0x23.md)
+ * [II.22.6 AssemblyRefOS: 0x25](ii.22.6-assemblyrefos-0x25.md)
+ * [II.22.7 AssemblyRefProcessor: 0x24](ii.22.7-assemblyrefprocessor-0x24.md)
+ * [II.22.8 ClassLayout: 0x0F](ii.22.8-classlayout-0x0f.md)
+ * [II.22.9 Constant: 0x0B](ii.22.9-constant-0x0b.md)
+ * [II.22.10 CustomAttribute: 0x0C](ii.22.10-customattribute-0x0c.md)
+ * [II.22.11 DeclSecurity: 0x0E](ii.22.11-declsecurity-0x0e.md)
+ * [II.22.12 EventMap: 0x12](ii.22.12-eventmap-0x12.md)
+ * [II.22.13 Event: 0x14](ii.22.13-event-0x14.md)
+ * [II.22.14 ExportedType: 0x27](ii.22.14-exportedtype-0x27.md)
+ * [II.22.15 Field: 0x04](ii.22.15-field-0x04.md)
+ * [II.22.16 FieldLayout: 0x10](ii.22.16-fieldlayout-0x10.md)
+ * [II.22.17 FieldMarshal: 0x0D](ii.22.17-fieldmarshal-0x0d.md)
+ * [II.22.18 FieldRVA: 0x1D](ii.22.18-fieldrva-0x1d.md)
+ * [II.22.19 File: 0x26](ii.22.19-file-0x26.md)
+ * [II.22.20 GenericParam: 0x2A](ii.22.20-genericparam-0x2a.md)
+ * [II.22.21 GenericParamConstraint: 0x2C](ii.22.21-genericparamconstraint-0x2c.md)
+ * [II.22.22 ImplMap: 0x1C](ii.22.22-implmap-0x1c.md)
  * II.22.23 InterfaceImpl: 0x09
  * II.22.24 ManifestResource: 0x28
  * II.22.25 MemberRef: 0x0A
@@ -377,18 +377,18 @@
  * II.22.38 TypeRef: 0x01
  * II.22.39 TypeSpec: 0x1B
 
-**II.23 Metadata logical format: other structures**
+**[II.23 Metadata logical format: other structures](ii.23-metadata-logical-format-other-structures.md)**
 
- * II.23.1 Bitmasks and flags
-    * II.23.1.1 Values for AssemblyHashAlgorithm
-    * II.23.1.2 Values for AssemblyFlags
-    * II.23.1.3 Values for Culture
-    * II.23.1.4 Flags for events \[EventAttributes\]
-    * II.23.1.5 Flags for fields \[FieldAttributes\]
-    * II.23.1.6 Flags for files \[FileAttributes\]
-    * II.23.1.7 Flags for Generic Parameters \[GenericParamAttributes\]
-    * II.23.1.8 Flags for ImplMap \[PInvokeAttributes\]
-    * II.23.1.9 Flags for ManifestResource \[ManifestResourceAttributes\]
+ * [II.23.1 Bitmasks and flags](ii.23.1-bitmasks-and-flags.md)
+    * [II.23.1.1 Values for AssemblyHashAlgorithm](ii.23.1.1-values-for-assemblyhashalgorithm.md)
+    * [II.23.1.2 Values for AssemblyFlags](ii.23.1.2-values-for-assemblyflags.md)
+    * [II.23.1.3 Values for Culture](ii.23.1.3-values-for-culture.md)
+    * [II.23.1.4 Flags for events \[EventAttributes\]](ii.23.1.4-flags-for-events-eventattributes.md)
+    * [II.23.1.5 Flags for fields \[FieldAttributes\]](ii.23.1.5-flags-for-fields-fieldattributes.md)
+    * [II.23.1.6 Flags for files \[FileAttributes\]](ii.23.1.6-flags-for-files-fileattributes.md)
+    * [II.23.1.7 Flags for Generic Parameters \[GenericParamAttributes\]](ii.23.1.7-flags-for-generic-parameters-genericparamattributes.md)
+    * [II.23.1.8 Flags for ImplMap \[PInvokeAttributes\]](ii.23.1.8-flags-for-implmap-pinvokeattributes.md)
+    * [II.23.1.9 Flags for ManifestResource \[ManifestResourceAttributes\]](ii.23.1.9-flags-for-manifestresource-manifestresourceattributes.md)
     * II.23.1.10 Flags for methods \[MethodAttributes\]
     * II.23.1.11 Flags for methods \[MethodImplAttributes\]
     * II.23.1.12 Flags for MethodSemantics \[MethodSemanticsAttributes\]
@@ -448,36 +448,36 @@
 
 # Partition III: CIL Instruction Set
 
-**III.1 Introduction**
+**[III.1 Introduction](iii.1-introduction.md)**
 
- * III.1.1 Data types
-    * III.1.1.1 Numeric data types
-    * III.1.1.2 Boolean data type
-    * III.1.1.3 Character data type
-    * III.1.1.4 Object references
-    * III.1.1.5 Runtime pointer types
- * III.1.2 Instruction variant table
-    * III.1.2.1 Opcode encodings
- * III.1.3 Stack transition diagram
- * III.1.4 English description
- * III.1.5 Operand type table
- * III.1.6 Implicit argument coercion
- * III.1.7 Restrictions on CIL code sequences
-    * III.1.7.1 The instruction stream
-    * III.1.7.2 Valid branch targets
-    * III.1.7.3 Exception ranges
-    * III.1.7.4 Must provide maxstack
-    * III.1.7.5 Backward branch constraints
-    * III.1.7.6 Branch verification constraints
- * III.1.8 Verifiability and correctness
-    * III.1.8.1 Flow control restrictions for verifiable CIL
- * III.1.9 Metadata tokens
- * III.1.10 Exceptions thrown
+ * [III.1.1 Data types](iii.1.1-data-types.md)
+    * [III.1.1.1 Numeric data types](iii.1.1.1-numeric-data-types.md)
+    * [III.1.1.2 Boolean data type](iii.1.1.2-boolean-data-type.md)
+    * [III.1.1.3 Character data type](iii.1.1.3-character-data-type.md)
+    * [III.1.1.4 Object references](iii.1.1.4-object-references.md)
+    * [III.1.1.5 Runtime pointer types](iii.1.1.5-runtime-pointer-types.md)
+ * [III.1.2 Instruction variant table](iii.1.2-instruction-variant-table.md)
+    * [III.1.2.1 Opcode encodings](iii.1.2.1-opcode-encodings.md)
+ * [III.1.3 Stack transition diagram](iii.1.3-stack-transition-diagram.md)
+ * [III.1.4 English description](iii.1.4-english-description.md)
+ * [III.1.5 Operand type table](iii.1.5-operand-type-table.md)
+ * [III.1.6 Implicit argument coercion](iii.1.6-implicit-argument-coercion.md)
+ * [III.1.7 Restrictions on CIL code sequences](iii.1.7-restrictions-on-cil-code-sequences.md)
+    * [III.1.7.1 The instruction stream](iii.1.7.1-the-instruction-stream.md)
+    * [III.1.7.2 Valid branch targets](iii.1.7.2-valid-branch-targets.md)
+    * [III.1.7.3 Exception ranges](iii.1.7.3-exception-ranges.md)
+    * [III.1.7.4 Must provide maxstack](iii.1.7.4-must-provide-maxstack.md)
+    * [III.1.7.5 Backward branch constraints](iii.1.7.5-backward-branch-constraints.md)
+    * [III.1.7.6 Branch verification constraints](iii.1.7.6-branch-verification-constraints.md)
+ * [III.1.8 Verifiability and correctness](iii.1.8-verifiability-and-correctness.md)
+    * [III.1.8.1 Flow control restrictions for verifiable CIL](iii.1.8.1-flow-control-restrictions-for-verifiable-cil.md)
+ * [III.1.9 Metadata tokens](iii.1.9-metadata-tokens.md)
+ * [III.1.10 Exceptions thrown](iii.1.10-exceptions-thrown.md)
 
-**III.2 Prefixes to instructions**
+**[III.2 Prefixes to instructions](iii.2-prefixes-to-instructions.md)**
 
- * III.2.1 constrained. &ndash; (prefix) invoke a member on a value of a variable type
- * III.2.2 no. &ndash; (prefix) possibly skip a fault check
+ * [III.2.1 constrained. &ndash; (prefix) invoke a member on a value of a variable type](iii.2.1-constrained.md)
+ * [III.2.2 no. &ndash; (prefix) possibly skip a fault check](iii.2.2-no.md)
  * III.2.3 readonly. (prefix) &ndash; following instruction returns a controlled-mutability managed pointer
  * III.2.4 tail. (prefix) &ndash; call terminates current method
  * III.2.5 unaligned. (prefix) &ndash; pointer instruction might be unaligned
