@@ -1,7 +1,7 @@
 # ECMA-335: Common Language Infrastructure (CLI)
 
  * [Copyright notice](docs/COPYRIGHT.md)
- * Table of contents
+ * [Table of contents](docs/TABLE_OF_CONTENTS.md)
 
 This repository holds a manually prepared Markdown transcription of the Ecma International standard [ECMA-335: Common Language Infrastructure (CLI), 6th edition (June 2012)](https://www.ecma-international.org/publications/standards/Ecma-335.htm). (I am making use of the permission granted in the documents' copyright notice to create derivative works which translate the standards document to other formats.)
 
