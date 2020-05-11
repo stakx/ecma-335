@@ -427,24 +427,24 @@
     * [II.24.2.5 #GUID heap](ii.24.2.5-guid-heap.md)
     * [II.24.2.6 #~ stream](ii.24.2.6-metadata-stream.md)
 
-**II.25 File format extensions to PE**
+**[II.25 File format extensions to PE](ii.25-file-format-extensions-to-pe.md)**
 
- * II.25.1 Structure of the runtime file format
- * II.25.2 PE headers
-    * II.25.2.1 MS-DOS header
-    * II.25.2.2 PE file header
-    * II.25.2.3 PE optional header
- * II.25.3 Section headers
-    * II.25.3.1 Import Table and Import Address Table (IAT)
-    * II.25.3.2 Relocations
-    * II.25.3.3 CLI header
- * II.25.4 Common Intermediate Language physical layout
-    * II.25.4.1 Method header type values
-    * II.25.4.2 Tiny format
-    * II.25.4.3 Fat format
-    * II.25.4.4 Flags for method headers
-    * II.25.4.5 Method data section
-    * II.25.4.6 Exception handling clauses
+ * [II.25.1 Structure of the runtime file format](ii.25.1-structure-of-the-runtime-file-format.md)
+ * [II.25.2 PE headers](ii.25.2-pe-headers.md)
+    * [II.25.2.1 MS-DOS header](ii.25.2.1-ms-dos-header.md)
+    * [II.25.2.2 PE file header](ii.25.2.2-pe-file-header.md)
+    * [II.25.2.3 PE optional header](ii.25.2.3-pe-optional-header.md)
+ * [II.25.3 Section headers](ii.25.3-section-headers.md)
+    * [II.25.3.1 Import Table and Import Address Table (IAT)](ii.25.3.1-import-table-and-import-address-table-iat.md)
+    * [II.25.3.2 Relocations](ii.25.3.2-relocations.md)
+    * [II.25.3.3 CLI header](ii.25.3.3-cli-header.md)
+ * [II.25.4 Common Intermediate Language physical layout](ii.25.4-common-intermediate-language-physical-layout.md)
+    * [II.25.4.1 Method header type values](ii.25.4.1-method-header-type-values.md)
+    * [II.25.4.2 Tiny format](ii.25.4.2-tiny-format.md)
+    * [II.25.4.3 Fat format](ii.25.4.3-fat-format.md)
+    * [II.25.4.4 Flags for method headers](ii.25.4.4-flags-for-method-headers.md)
+    * [II.25.4.5 Method data section](ii.25.4.5-method-data-section.md)
+    * [II.25.4.6 Exception handling clauses](ii.25.4.6-exception-handling-clauses.md)
 
 # Partition III: CIL Instruction Set
 
