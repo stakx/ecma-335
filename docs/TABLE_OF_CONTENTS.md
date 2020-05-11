@@ -478,10 +478,10 @@
 
  * [III.2.1 constrained. &ndash; (prefix) invoke a member on a value of a variable type](iii.2.1-constrained.md)
  * [III.2.2 no. &ndash; (prefix) possibly skip a fault check](iii.2.2-no.md)
- * III.2.3 readonly. (prefix) &ndash; following instruction returns a controlled-mutability managed pointer
- * III.2.4 tail. (prefix) &ndash; call terminates current method
- * III.2.5 unaligned. (prefix) &ndash; pointer instruction might be unaligned
- * III.2.6 volatile. (prefix) &ndash; pointer reference is volatile
+ * [III.2.3 readonly. (prefix) &ndash; following instruction returns a controlled-mutability managed pointer](iii.2.3-readonly.md)
+ * [III.2.4 tail. (prefix) &ndash; call terminates current method](iii.2.4-tail.md)
+ * [III.2.5 unaligned. (prefix) &ndash; pointer instruction might be unaligned](iii.2.5-unaligned.md)
+ * [III.2.6 volatile. (prefix) &ndash; pointer reference is volatile](iii.2.6-volatile.md)
 
 **III.3 Base instructions**
 
