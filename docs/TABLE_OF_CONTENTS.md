@@ -102,9 +102,9 @@
  * [I.9.8 Globals, imports, and exports](i.9.8-globals-imports-and-exports.md)
  * [I.9.9 Scoped statics](i.9.9-scoped-statics.md)
 
-**I.10 Name and type rules for the Common Language Specification**
+**[I.10 Name and type rules for the Common Language Specification](i.10-name-and-type-rules-for-the-common-language-specification.md)**
 
- * I.10.1 Identifiers
+ * [I.10.1 Identifiers](i.10.1-identifiers.md)
  * [I.10.2 Overloading](i.10.2-overloading.md)
  * [I.10.3 Operator overloading](i.10.3-operator-overloading.md)
     * [I.10.3.1 Unary operators](i.10.3.1-unary-operators.md)
@@ -115,11 +115,11 @@
  * [I.10.6 Custom attributes](i.10.6-custom-attributes.md)
  * [I.10.7 Generic types and methods](i.10.7-generic-types-and-methods.md)
     * [I.10.7.1 Nested type parameter re-declaration](i.10.7.1-nested-type-parameter-re-declaration.md)
-    * I.10.7.2 Type names and arity encoding
-    * I.10.7.3 Type constraint re-declaration
-    * I.10.7.4 Constraint type restrictions
-    * I.10.7.5 Frameworks and accessibility of nested types
-    * I.10.7.6 Frameworks and abstract or virtual methods
+    * [I.10.7.2 Type names and arity encoding](i.10.7.2-type-names-and-arity-encoding.md)
+    * [I.10.7.3 Type constraint re-declaration](i.10.7.3-type-constraint-re-declaration.md)
+    * [I.10.7.4 Constraint type restrictions](i.10.7.4-constraint-type-restrictions.md)
+    * [I.10.7.5 Frameworks and accessibility of nested types](i.10.7.5-frameworks-and-accessibility-of-nested-types.md)
+    * [I.10.7.6 Frameworks and abstract or virtual methods](i.10.7.6-frameworks-and-abstract-or-virtual-methods.md)
 
 **[I.11 Collected Common Language Specification rules](i.11-collected-common-language-specification-rules.md)**
 
