@@ -88,19 +88,19 @@
     * I.8.11.4 Event definitions
     * I.8.11.5 Nested type definitions
  
-**I.9 Metadata**
+**[I.9 Metadata](i.9-metadata.md)**
 
- * I.9.1 Components and assemblies
- * I.9.2 Accessing metadata
-    * I.9.2.1 Metadata tokens
-    * I.9.2.2 Member signatures in metadata
- * I.9.3 Unmanaged code
- * I.9.4 Method implementation metadata
- * I.9.5 Class layout
- * I.9.6 Assemblies: name scopes for types
+ * [I.9.1 Components and assemblies](i.9.1-components-and-assemblies.md)
+ * [I.9.2 Accessing metadata](i.9.2-accessing-metadata.md)
+    * [I.9.2.1 Metadata tokens](i.9.2.1-metadata-tokens.md)
+    * [I.9.2.2 Member signatures in metadata](i.9.2.2-member-signatures-in-metadata.md)
+ * [I.9.3 Unmanaged code](i.9.3-unmanaged-code.md)
+ * [I.9.4 Method implementation metadata](i.9.4-method-implementation-metadata.md)
+ * [I.9.5 Class layout](i.9.5-class-layout.md)
+ * [I.9.6 Assemblies: name scopes for types](i.9.6-assemblies-name-scopes-for-types.md)
  * [I.9.7 Metadata extensibility](i.9.7-metadata-extensibility.md)
- * I.9.8 Globals, imports, and exports
- * I.9.9 Scoped statics
+ * [I.9.8 Globals, imports, and exports](i.9.8-globals-imports-and-exports.md)
+ * [I.9.9 Scoped statics](i.9.9-scoped-statics.md)
 
 **I.10 Name and type rules for the Common Language Specification**
 
