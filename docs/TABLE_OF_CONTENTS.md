@@ -196,8 +196,8 @@
     * [II.7.1.1 modreq and modopt](ii.7.1.1-modreq-and-modopt.md)
     * [II.7.1.2 pinned](ii.7.1.2-pinned.md)
  * [II.7.2 Built-in types](ii.7.2-built-in-types.md)
- * II.7.3 References to user-defined types (TypeReference)
- * II.7.4 Native data types
+ * [II.7.3 References to user-defined types (TypeReference)](ii.7.3-references-to-user-defined-types-typereference.md)
+ * [II.7.4 Native data types](ii.7.4-native-data-types.md)
 
 **[II.8 Visibility, accessibility and hiding](ii.8-visibility-accessibility-and-hiding.md)**
 
