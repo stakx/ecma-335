@@ -389,13 +389,13 @@
     * [II.23.1.7 Flags for Generic Parameters \[GenericParamAttributes\]](ii.23.1.7-flags-for-generic-parameters-genericparamattributes.md)
     * [II.23.1.8 Flags for ImplMap \[PInvokeAttributes\]](ii.23.1.8-flags-for-implmap-pinvokeattributes.md)
     * [II.23.1.9 Flags for ManifestResource \[ManifestResourceAttributes\]](ii.23.1.9-flags-for-manifestresource-manifestresourceattributes.md)
-    * II.23.1.10 Flags for methods \[MethodAttributes\]
-    * II.23.1.11 Flags for methods \[MethodImplAttributes\]
-    * II.23.1.12 Flags for MethodSemantics \[MethodSemanticsAttributes\]
-    * II.23.1.13 Flags for params \[ParamAttributes\]
-    * II.23.1.14 Flags for properties \[PropertyAttributes\]
-    * II.23.1.15 Flags for types \[TypeAttributes\]
-    * II.23.1.16 Element types used in signatures
+    * [II.23.1.10 Flags for methods \[MethodAttributes\]](ii.23.1.10-flags-for-methods-methodattributes.md)
+    * [II.23.1.11 Flags for methods \[MethodImplAttributes\]](ii.23.1.11-flags-for-methods-methodimplattributes.md)
+    * [II.23.1.12 Flags for MethodSemantics \[MethodSemanticsAttributes\]](ii.23.1.12-flags-for-methodsemantics-methodsemanticsattributes.md)
+    * [II.23.1.13 Flags for params \[ParamAttributes\]](ii.23.1.13-flags-for-params-paramattributes.md)
+    * [II.23.1.14 Flags for properties \[PropertyAttributes\]](ii.23.1.14-flags-for-properties-propertyattributes.md)
+    * [II.23.1.15 Flags for types \[TypeAttributes\]](ii.23.1.15-flags-for-types-typeattributes.md)
+    * [II.23.1.16 Element types used in signatures](ii.23.1.16-element-types-used-in-signatures.md)
  * II.23.2 Blobs and signatures
     * II.23.2.1 MethodDefSig
     * II.23.2.2 MethodRefSig
