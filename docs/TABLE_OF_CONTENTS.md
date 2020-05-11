@@ -416,16 +416,16 @@
  * II.23.3 Custom attributes
  * II.23.4 Marshalling descriptors
 
-**II.24 Metadata physical layout**
+**[II.24 Metadata physical layout](ii.24-metadata-physical-layout.md)**
 
- * II.24.1 Fixed fields
- * II.24.2 File headers
-    * II.24.2.1 Metadata root
-    * II.24.2.2 Stream header
-    * II.24.2.3 #Strings heap
-    * II.24.2.4 #US and #Blob heaps
-    * II.24.2.5 #GUID heap
-    * II.24.2.6 #~ stream
+ * [II.24.1 Fixed fields](ii.24.1-fixed-fields.md)
+ * [II.24.2 File headers](ii.24.2-file-headers.md)
+    * [II.24.2.1 Metadata root](ii.24.2.1-metadata-root.md)
+    * [II.24.2.2 Stream header](ii.24.2.2-stream-header.md)
+    * [II.24.2.3 #Strings heap](ii.24.2.3-strings-heap.md)
+    * [II.24.2.4 #US and #Blob heaps](ii.24.2.4-us-and-blob-heaps.md)
+    * [II.24.2.5 #GUID heap](ii.24.2.5-guid-heap.md)
+    * [II.24.2.6 #~ stream](ii.24.2.6-metadata-stream.md)
 
 **II.25 File format extensions to PE**
 
