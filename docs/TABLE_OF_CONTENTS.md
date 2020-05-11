@@ -370,12 +370,12 @@
  * [II.22.31 ModuleRef: 0x1A](ii.22.31-moduleref-0x1a.md)
  * [II.22.32 NestedClass: 0x29](ii.22.32-nestedclass-0x29.md)
  * [II.22.33 Param: 0x08](ii.22.33-param-0x08.md)
- * II.22.34 Property: 0x17
- * II.22.35 PropertyMap: 0x15
- * II.22.36 StandAloneSig: 0x11
- * II.22.37 TypeDef: 0x02
- * II.22.38 TypeRef: 0x01
- * II.22.39 TypeSpec: 0x1B
+ * [II.22.34 Property: 0x17](ii.22.34-property-0x17.md)
+ * [II.22.35 PropertyMap: 0x15](ii.22.35-propertymap-0x15.md)
+ * [II.22.36 StandAloneSig: 0x11](ii.22.36-standalonesig-0x11.md)
+ * [II.22.37 TypeDef: 0x02](ii.22.37-typedef-0x02.md)
+ * [II.22.38 TypeRef: 0x01](ii.22.38-typeref-0x01.md)
+ * [II.22.39 TypeSpec: 0x1B](ii.22.39-typespec-0x1b.md)
 
 **[II.23 Metadata logical format: other structures](ii.23-metadata-logical-format-other-structures.md)**
 
