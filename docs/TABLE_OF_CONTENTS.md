@@ -359,17 +359,17 @@
  * [II.22.20 GenericParam: 0x2A](ii.22.20-genericparam-0x2a.md)
  * [II.22.21 GenericParamConstraint: 0x2C](ii.22.21-genericparamconstraint-0x2c.md)
  * [II.22.22 ImplMap: 0x1C](ii.22.22-implmap-0x1c.md)
- * II.22.23 InterfaceImpl: 0x09
- * II.22.24 ManifestResource: 0x28
- * II.22.25 MemberRef: 0x0A
- * II.22.26 MethodDef: 0x06
- * II.22.27 MethodImpl: 0x19
- * II.22.28 MethodSemantics: 0x18
- * II.22.29 MethodSpec: 0x2B
- * II.22.30 Module: 0x00
- * II.22.31 ModuleRef: 0x1A
- * II.22.32 NestedClass: 0x29
- * II.22.33 Param : 0x08
+ * [II.22.23 InterfaceImpl: 0x09](ii.22.23-interfaceimpl-0x09.md)
+ * [II.22.24 ManifestResource: 0x28](ii.22.24-manifestresource-0x28.md)
+ * [II.22.25 MemberRef: 0x0A](ii.22.25-memberref-0x0a.md)
+ * [II.22.26 MethodDef: 0x06](ii.22.26-methoddef-0x06.md)
+ * [II.22.27 MethodImpl: 0x19](ii.22.27-methodimpl-0x19.md)
+ * [II.22.28 MethodSemantics: 0x18](ii.22.28-methodsemantics-0x18.md)
+ * [II.22.29 MethodSpec: 0x2B](ii.22.29-methodspec-0x2b.md)
+ * [II.22.30 Module: 0x00](ii.22.30-module_0x00.md)
+ * [II.22.31 ModuleRef: 0x1A](ii.22.31-moduleref-0x1a.md)
+ * [II.22.32 NestedClass: 0x29](ii.22.32-nestedclass-0x29.md)
+ * [II.22.33 Param: 0x08](ii.22.33-param-0x08.md)
  * II.22.34 Property: 0x17
  * II.22.35 PropertyMap: 0x15
  * II.22.36 StandAloneSig: 0x11
