@@ -28,11 +28,17 @@ These relations are defined in terms of six type subsets:
 
  * *intermediate types* &ndash; only a subset of the built-in value types can be represented on the evaluation stack (§[I.12.1](#todo-missing-hyperlink)). Values of other built-in value types are translated to/from their intermediate type when loaded onto/stored from the evaluation stack. The intermediate types are a subset of the verification types plus the floating-point type _F_ (which is not a member of the above four subsets).
 
- * *transient types* &ndash; these are types which can only occur on the evaluation stack: boxed types, controlled-mutability managed pointer types, and the null type. Assignment compatibility for these types is defined by the verifier-assignable-to relation defined in §[III.1.8.1.2.3](#todo-missing-hyperlink). The precise definitions of underlying type, reduced type, verification type and intermediate type are given below. 
+ * *transient types* &ndash; these are types which can only occur on the evaluation stack: boxed types, controlled-mutability managed pointer types, and the null type. Assignment compatibility for these types is defined by the *verifier-assignable-to* relation defined in §[III.1.8.1.2.3](#todo-missing-hyperlink). The precise definitions of underlying type, reduced type, verification type and intermediate type are given below. 
 
 > _End informative text._
 
-Treatment of floating-point types Floating-point values have two types; the nominal type, and the representation type. There are three floating-point types: `float32`, `float64` and `F`. A value of (nominal) type `float32` or `float64` may be represented by an implementation using a value of type F. See §[I.12.1.3](#todo-missing-hyperlink) for complete details. Unless explicitly indicated any reference to floating-point types refers to the nominal type, in particular when referring to signatures (§[I.8.6.1](#todo-missing-hyperlink)) and assignment compatibility. Consequently when the assignment compatibility rules indicate that a floating-point representation may change based on the (nominal) types the representation types may already be the same and no change is actually performed. Notation In the following definitions and relations:
+#### Treatment of floating-point types
+
+Floating-point values have two types; the nominal type, and the representation type. There are three floating-point types: `float32`, `float64` and `F`. A value of (nominal) type `float32` or `float64` may be represented by an implementation using a value of type `F`. See §[I.12.1.3](#todo-missing-hyperlink) for complete details. Unless explicitly indicated any reference to floating-point types refers to the nominal type, in particular when referring to signatures (§[I.8.6.1](#todo-missing-hyperlink)) and assignment compatibility. Consequently when the assignment compatibility rules indicate that a floating-point representation may change based on the (nominal) types the representation types may already be the same and no change is actually performed.
+
+#### Notation
+
+In the following definitions and relations:
 
  * _S_, _T_, _U_, _V_, _W_ represent arbitrary type expressions;
 
