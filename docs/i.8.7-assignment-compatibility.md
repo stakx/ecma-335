@@ -58,7 +58,7 @@ _T_ is a possibly-instantiated object, interface, delegate or value type of the 
 
 The following definitions are used in defining assignment compatibility.
 
-The underlying type of a type _T_ is the following:
+The *underlying type* of a type _T_ is the following:
 
  1. If _T_ is an enumeration type, then its underlying type is the underlying type declared in the enumeration's definition.
 
@@ -82,7 +82,7 @@ The *reduced type* of a type _T_ is the following:
 
 _[Note:_ in other words the reduced type ignores the semantic differences between enumerations and the signed and unsigned integer types; treating these types the same if they have the same number of bits. _end note]_
 
-The verification type (§[III.1.8.1.2.1](#todo-missing-hyperlink)) of a type *T* is the following:
+The *verification type* (§[III.1.8.1.2.1](#todo-missing-hyperlink)) of a type *T* is the following:
 
  1. If the reduced type of _T_ is:
 
@@ -134,7 +134,7 @@ The *direct base class* of a type _T_ is the following:
 
 _[Note:_ as a result of this definition, only `System.Object` itself, the unboxed form of a value type, and generic parameters have no direct base class. _end note]_
 
-The interfaces directly implemented by a type _T_ are the following:
+The *interfaces directly implemented* by a type _T_ are the following:
 
  1. If _T_ is of the form _N_\<{_X_<sub>_i_</sub> &larr; _T_<sub>_i_</sub>}\> and is declared to implement (or require implementation of, if _N_ is an interface) interfaces _U_<sub>1</sub>,&hellip;,_U_<sub>_m_</sub> of the form _M_<sub>_j_</sub>\<{_Y_<sub>_j_,_k_</sub> &larr; _S_<sub>_j_,_k_</sub>}\>, then the interfaces directly implemented by _T_ are _U_<sub>1</sub>,&hellip;,_U_<sub>_m_</sub> with any occurrence of _X_<sub>_i_</sub> in _S_<sub>_j_,_k_</sub> replaced by the corresponding _T_<sub>_i_</sub>.
 
