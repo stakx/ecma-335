@@ -59,15 +59,15 @@
     * I.8.5.3 Visibility, accessibility, and security
  * I.8.6 Contracts
     * I.8.6.1 Signatures
- * I.8.7 Assignment compatibility
+ * [I.8.7 Assignment compatibility](i.8.7-assignment-compatibility.md)
     * I.8.7.1 Assignment compatibility for signature types
     * I.8.7.2 Assignment compatibility for location types
     * I.8.7.3 General assignment compatibility
- * I.8.8 Type safety and verification
- * I.8.9 Type definers
-    * I.8.9.1 Array types
-    * I.8.9.2 Unmanaged pointer types
-    * I.8.9.3 Delegates
+ * [I.8.8 Type safety and verification](i.8.8-type-safety-and-verification.md)
+ * [I.8.9 Type definers](i.8.9-type-definers.md)
+    * [I.8.9.1 Array types](i.8.9.1-array-types.md)
+    * [I.8.9.2 Unmanaged pointer types](i.8.9.2-unmanaged-pointer-types.md)
+    * [I.8.9.3 Delegates](i.8.9.3-delegates.md)
     * I.8.9.4 Interface type definition
     * I.8.9.5 Class type definition
     * I.8.9.6 Object type definitions
