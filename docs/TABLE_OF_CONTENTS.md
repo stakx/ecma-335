@@ -483,14 +483,14 @@
  * [III.2.5 unaligned. (prefix) &ndash; pointer instruction might be unaligned](iii.2.5-unaligned.md)
  * [III.2.6 volatile. (prefix) &ndash; pointer reference is volatile](iii.2.6-volatile.md)
 
-**III.3 Base instructions**
+**[III.3 Base instructions](iii.3-base-instructions.md)**
 
- * III.3.1 add &ndash; add numeric values
- * III.3.2 add.ovf.\<signed\> &ndash; add integer values with overflow check
- * III.3.3 and &ndash; bitwise AND
- * III.3.4 arglist &ndash; get argument list
- * III.3.5 beq.\<length\> &ndash; branch on equal
- * III.3.6 bge.\<length\> &ndash; branch on greater than or equal to
+ * [III.3.1 add &ndash; add numeric values](iii.3.1-add.md)
+ * [III.3.2 add.ovf.\<signed\> &ndash; add integer values with overflow check](iii.3.2-add.ovf.signed.md)
+ * [III.3.3 and &ndash; bitwise AND](iii.3.3-and.md)
+ * [III.3.4 arglist &ndash; get argument list](iii.3.4-arglist.md)
+ * [III.3.5 beq.\<length\> &ndash; branch on equal](iii.3.5-beq.length.md)
+ * [III.3.6 bge.\<length\> &ndash; branch on greater than or equal to](iii.3.6-bge.length.md)
  * III.3.7 bge.un.\<length\> &ndash; branch on greater than or equal to, unsigned or unordered
  * III.3.8 bgt.\<length\> &ndash; branch on greater than
  * III.3.9 bgt.un.\<length\> &ndash; branch on greater than, unsigned or unordered
