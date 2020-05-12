@@ -397,7 +397,7 @@
     * [II.23.1.15 Flags for types \[TypeAttributes\]](ii.23.1.15-flags-for-types-typeattributes.md)
     * [II.23.1.16 Element types used in signatures](ii.23.1.16-element-types-used-in-signatures.md)
  * [II.23.2 Blobs and signatures](ii.23.2-blobs-and-signatures.md)
-    * II.23.2.1 MethodDefSig
+    * [II.23.2.1 MethodDefSig](ii.23.2.1-methoddefsig.md)
     * II.23.2.2 MethodRefSig
     * II.23.2.3 StandAloneMethodSig
     * II.23.2.4 FieldSig
