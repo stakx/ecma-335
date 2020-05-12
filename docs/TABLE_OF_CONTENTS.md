@@ -245,7 +245,7 @@
  * II.10.7 Controlling instance layout
  * II.10.8 Global fields and methods
 
-**II.11 Semantics of classes**
+**[II.11 Semantics of classes](ii.11-semantics-of-classes.md)**
 
 **[II.12 Semantics of interfaces](ii.12-semantics-of-interfaces.md)**
 
