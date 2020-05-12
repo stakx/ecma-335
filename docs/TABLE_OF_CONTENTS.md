@@ -253,11 +253,11 @@
  * [II.12.2 Implementing virtual methods on interfaces](ii.12.2-implementing-virtual-methods-on-interfaces.md)
     * [II.12.2.1 Interface Implementation Examples](ii.12.2.1-interface-implementation-examples.md)
 
-**II.13 Semantics of value types**
+**[II.13 Semantics of value types](ii.13-semantics-of-value-types.md)**
 
- * II.13.1 Referencing value types
- * II.13.2 Initializing value types
- * II.13.3 Methods of value types
+ * [II.13.1 Referencing value types](ii.13.1-referencing-value-types.md)
+ * [II.13.2 Initializing value types](ii.13.2-initializing-value-types.md)
+ * [II.13.3 Methods of value types](ii.13.3-methods-of-value-types.md)
 
 **II.14 Semantics of special types**
 
