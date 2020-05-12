@@ -675,10 +675,10 @@
     * VI.B.4.2 C# version
     * VI.B.4.3 Metadata
 
-**VI.Annex C CIL assembler implementation**
+**[VI.Annex C CIL assembler implementation](vi.annex-c-cil-assembler-implementation.md)**
 
- * VI.C.1 ILAsm keywords
- * VI.C.2 CIL opcode descriptions
+ * [VI.C.1 ILAsm keywords](vi.c.1-ilasm-keywords.md)
+ * [VI.C.2 CIL opcode descriptions](vi.c.2-cil-opcode-descriptions.md)
  * VI.C.3 Complete grammar
  * VI.C.4 Instruction syntax
     * VI.C.4.1 Top-level instruction syntax
