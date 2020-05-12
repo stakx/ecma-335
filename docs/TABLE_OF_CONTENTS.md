@@ -553,14 +553,14 @@
  * III.3.66 switch &ndash; table switch based on value
  * III.3.67 xor &ndash; bitwise XOR
 
-**III.4 Object model instructions**
+**[III.4 Object model instructions](iii.4-object-model-instructions.md)**
 
- * III.4.1 box &ndash; convert a boxable value to its boxed form
- * III.4.2 callvirt &ndash; call a method associated, at runtime, with an object
- * III.4.3 castclass &ndash; cast an object to a class
- * III.4.4 cpobj &ndash; copy a value from one address to another
- * III.4.5 initobj &ndash; initialize the value at an address
- * III.4.6 isinst &ndash; test if an object is an instance of a class or interface
+ * [III.4.1 box &ndash; convert a boxable value to its boxed form](iii.4.1-box.md)
+ * [III.4.2 callvirt &ndash; call a method associated, at runtime, with an object](iii.4.2-callvirt.md)
+ * [III.4.3 castclass &ndash; cast an object to a class](iii.4.3-castclass.md)
+ * [III.4.4 cpobj &ndash; copy a value from one address to another](iii.4.4-cpobj.md)
+ * [III.4.5 initobj &ndash; initialize the value at an address](iii.4.5-initobj.md)
+ * [III.4.6 isinst &ndash; test if an object is an instance of a class or interface](iii.4.6-isinst.md)
  * III.4.7 ldelem &ndash; load element from array
  * III.4.8 ldelem.\<type\> &ndash; load an element of an array
  * III.4.9 ldelema &ndash; load address of an element of an array
