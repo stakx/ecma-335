@@ -247,11 +247,11 @@
 
 **II.11 Semantics of classes**
 
-**II.12 Semantics of interfaces**
+**[II.12 Semantics of interfaces](ii.12-semantics-of-interfaces.md)**
 
- * II.12.1 Implementing interfaces
- * II.12.2 Implementing virtual methods on interfaces
-    * II.12.2.1 Interface Implementation Examples
+ * [II.12.1 Implementing interfaces](ii.12.1-implementing-interfaces.md)
+ * [II.12.2 Implementing virtual methods on interfaces](ii.12.2-implementing-virtual-methods-on-interfaces.md)
+    * [II.12.2.1 Interface Implementation Examples](ii.12.2.1-interface-implementation-examples.md)
 
 **II.13 Semantics of value types**
 
