@@ -396,7 +396,7 @@
     * [II.23.1.14 Flags for properties \[PropertyAttributes\]](ii.23.1.14-flags-for-properties-propertyattributes.md)
     * [II.23.1.15 Flags for types \[TypeAttributes\]](ii.23.1.15-flags-for-types-typeattributes.md)
     * [II.23.1.16 Element types used in signatures](ii.23.1.16-element-types-used-in-signatures.md)
- * II.23.2 Blobs and signatures
+ * [II.23.2 Blobs and signatures](ii.23.2-blobs-and-signatures.md)
     * II.23.2.1 MethodDefSig
     * II.23.2.2 MethodRefSig
     * II.23.2.3 StandAloneMethodSig
