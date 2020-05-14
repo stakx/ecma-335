@@ -399,22 +399,22 @@
  * [II.23.2 Blobs and signatures](ii.23.2-blobs-and-signatures.md)
     * [II.23.2.1 MethodDefSig](ii.23.2.1-methoddefsig.md)
     * [II.23.2.2 MethodRefSig](ii.23.2.2-methodrefsig.md)
-    * II.23.2.3 StandAloneMethodSig
-    * II.23.2.4 FieldSig
-    * II.23.2.5 PropertySig
-    * II.23.2.6 LocalVarSig
-    * II.23.2.7 CustomMod
-    * II.23.2.8 TypeDefOrRefOrSpecEncoded
-    * II.23.2.9 Constraint
-    * II.23.2.10 Param
-    * II.23.2.11 RetType
-    * II.23.2.12 Type
-    * II.23.2.13 ArrayShape
-    * II.23.2.14 TypeSpec
-    * II.23.2.15 MethodSpec
-    * II.23.2.16 Short form signatures
- * II.23.3 Custom attributes
- * II.23.4 Marshalling descriptors
+    * [II.23.2.3 StandAloneMethodSig](ii.23.2.3-standalonemethodsig.md)
+    * [II.23.2.4 FieldSig](ii.23.2.4-fieldsig.md)
+    * [II.23.2.5 PropertySig](ii.23.2.5-propertysig.md)
+    * [II.23.2.6 LocalVarSig](ii.23.2.6-localvarsig.md)
+    * [II.23.2.7 CustomMod](ii.23.2.7-custommod.md)
+    * [II.23.2.8 TypeDefOrRefOrSpecEncoded](ii.23.2.8-typedeforreforspecencoded.md)
+    * [II.23.2.9 Constraint](ii.23.2.9-constraint.md)
+    * [II.23.2.10 Param](ii.23.2.10-param.md)
+    * [II.23.2.11 RetType](ii.23.2.11-rettype.md)
+    * [II.23.2.12 Type](ii.23.2.12-type.md)
+    * [II.23.2.13 ArrayShape](ii.23.2.13-arrayshape.md)
+    * [II.23.2.14 TypeSpec](ii.23.2.14-typespec.md)
+    * [II.23.2.15 MethodSpec](ii.23.2.15-methodspec.md)
+    * [II.23.2.16 Short form signatures](ii.23.2.16-short-form-signatures.md)
+ * [II.23.3 Custom attributes](ii.23.3-custom-attributes.md)
+ * [II.23.4 Marshalling descriptors](ii.23.4-marshalling-descriptors.md)
 
 **[II.24 Metadata physical layout](ii.24-metadata-physical-layout.md)**
 
