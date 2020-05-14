@@ -566,14 +566,14 @@
  * [III.4.9 ldelema &ndash; load address of an element of an array](iii.4.9-ldelema.md)
  * [III.4.10 ldfld &ndash; load field of an object](iii.4.10-ldfld.md)
  * [III.4.11 ldflda &ndash; load field address](iii.4.11-ldflda.md)
- * III.4.12 ldlen &ndash; load the length of an array
- * III.4.13 ldobj &ndash; copy a value from an address to the stack
- * III.4.14 ldsfld &ndash; load static field of a class
- * III.4.15 ldsflda &ndash; load static field address
- * III.4.16 ldstr &ndash; load a literal string
- * III.4.17 ldtoken &ndash; load the runtime representation of a metadata token
- * III.4.18 ldvirtftn &ndash; load a virtual method pointer
- * III.4.19 mkrefany &ndash; push a typed reference on the stack
+ * [III.4.12 ldlen &ndash; load the length of an array](iii.4.12-ldlen.md)
+ * [III.4.13 ldobj &ndash; copy a value from an address to the stack](iii.4.13-ldobj.md)
+ * [III.4.14 ldsfld &ndash; load static field of a class](iii.4.14-ldsfld.md)
+ * [III.4.15 ldsflda &ndash; load static field address](iii.4.15-ldsflda.md)
+ * [III.4.16 ldstr &ndash; load a literal string](iii.4.16-ldstr.md)
+ * [III.4.17 ldtoken &ndash; load the runtime representation of a metadata token](iii.4.17-ldtoken.md)
+ * [III.4.18 ldvirtftn &ndash; load a virtual method pointer](iii.4.18-ldvirtftn.md)
+ * [III.4.19 mkrefany &ndash; push a typed reference on the stack](iii.4.19-mkrefany.md)
  * III.4.20 newarr &ndash; create a zero-based, one-dimensional array
  * III.4.21 newobj &ndash; create a new object
  * III.4.22 refanytype &ndash; load the type out of a typed reference
