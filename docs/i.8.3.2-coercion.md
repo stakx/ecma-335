@@ -1,0 +1,7 @@
+## I.8.3.2 Coercion
+
+Sometimes it is desirable to take a value of a type that is *not assignable-to* a location, and convert the value to a type that *is assignable-to* the type of the location. This is accomplished through **coercion** of the value. Coercion takes a value of a particular type and a desired type and attempts to create a value of the desired type that has equivalent meaning to the original value. Coercion can result in representation change as well as type change; hence coercion does not necessarily preserve object identity.
+
+There are two kinds of coercion: **widening**, which never loses information, and **narrowing**, in which information might be lost. An example of a widening coercion would be coercing a value that is a 32-bit signed integer to a value that is a 64-bit signed integer. An example of a narrowing coercion is the reverse: coercing a 64-bit signed integer to a 32-bit signed integer. Programming languages often implement widening coercions as **implicit  conversions**, whereas narrowing coercions usually require an **explicit conversion**.
+
+Some coercion is built directly into the VES operations on the built-in types (see §[I.12.1](#todo-missing-hyperlink)). All other coercion shall be explicitly requested. For the built-in types, the CTS provides operations to perform widening coercions with no runtime checks and narrowing coercions with runtime checks or truncation, according to the operation semantics.

@@ -35,30 +35,30 @@
  * I.7.3 CLS compliance
     * I.7.3.1 Marking items as CLS-compliant
 
-**I.8 Common Type System**
+**[I.8 Common Type System](i.8-common-type-system.md)**
 
- * I.8.1 Relationship to object-oriented programming
- * I.8.2 Values and types
-    * I.8.2.1 Value types and reference types
-    * I.8.2.2 Built-in value and reference types
-    * I.8.2.3 Classes, interfaces, and objects
-    * I.8.2.4 Boxing and unboxing of values
-    * I.8.2.5 Identity and equality of values
- * I.8.3 Locations
-    * I.8.3.1 Assignment-compatible locations
-    * I.8.3.2 Coercion
-    * I.8.3.3 Casting
- * I.8.4 Type members
-    * I.8.4.1 Fields, array elements, and values
-    * I.8.4.2 Methods
-    * I.8.4.3 Static fields and static methods
-    * I.8.4.4 Virtual methods
- * I.8.5 Naming
-    * I.8.5.1 Valid names
-    * I.8.5.2 Assemblies and scoping
-    * I.8.5.3 Visibility, accessibility, and security
- * I.8.6 Contracts
-    * I.8.6.1 Signatures
+ * [I.8.1 Relationship to object-oriented programming](i.8.1-relationship-to-object-oriented-programming.md)
+ * [I.8.2 Values and types](i.8.2-values-and-types.md)
+    * [I.8.2.1 Value types and reference types](i.8.2.1-value-types-and-reference-types.md)
+    * [I.8.2.2 Built-in value and reference types](i.8.2.2-built-in-value-and-reference-types.md)
+    * [I.8.2.3 Classes, interfaces, and objects](i.8.2.3-classes-interfaces-and-objects.md)
+    * [I.8.2.4 Boxing and unboxing of values](i.8.2.4-boxing-and-unboxing-of-values.md)
+    * [I.8.2.5 Identity and equality of values](i.8.2.5-identity-and-equality-of-values.md)
+ * [I.8.3 Locations](i.8.3-locations.md)
+    * [I.8.3.1 Assignment-compatible locations](i.8.3.1-assignment-compatible-locations.md)
+    * [I.8.3.2 Coercion](i.8.3.2-coercion.md)
+    * [I.8.3.3 Casting](i.8.3.3-casting.md)
+ * [I.8.4 Type members](i.8.4-type-members.md)
+    * [I.8.4.1 Fields, array elements, and values](i.8.4.1-fields-array-elements-and-values.md)
+    * [I.8.4.2 Methods](i.8.4.2-methods.md)
+    * [I.8.4.3 Static fields and static methods](i.8.4.3-static-fields-and-static-methods.md)
+    * [I.8.4.4 Virtual methods](i.8.4.4-virtual-methods.md)
+ * [I.8.5 Naming](i.8.5-naming.md)
+    * [I.8.5.1 Valid names](i.8.5.1-valid-names.md)
+    * [I.8.5.2 Assemblies and scoping](i.8.5.2-assemblies-and-scoping.md)
+    * [I.8.5.3 Visibility, accessibility, and security](i.8.5.3-visibility-accessibility-and-security.md)
+ * [I.8.6 Contracts](i.8.6-contracts.md)
+    * [I.8.6.1 Signatures](i.8.6.1-signatures.md)
  * [I.8.7 Assignment compatibility](i.8.7-assignment-compatibility.md)
     * I.8.7.1 Assignment compatibility for signature types
     * I.8.7.2 Assignment compatibility for location types
