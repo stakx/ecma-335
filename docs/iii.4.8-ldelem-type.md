@@ -1,4 +1,4 @@
-## III.4.8 ldelem.<type> &ndash; load an element of an array
+## III.4.8 ldelem.\<type\> &ndash; load an element of an array
 
  | Format | Assembly Format | Description
  | ---- | ---- | ----
