@@ -11,4 +11,4 @@ All name comparisons are done on a byte-by-byte (i.e., case sensitive, locale-in
 >
 > **CLS (extender):** Need not create types that violate CLS Rule 4. Shall provide a mechanism for defining new names that obey these rules, but are the same as a keyword in the language.
 >
-> **CLS (framework):33 Shall not export types that violate CLS Rule 4. Should avoid the use of names that are commonly used as keywords in programming languages (see [Partition VI - Annex D](#todo-missing-hyperlink)) _end note]_
+> **CLS (framework):** Shall not export types that violate CLS Rule 4. Should avoid the use of names that are commonly used as keywords in programming languages (see [Partition VI - Annex D](#todo-missing-hyperlink)) _end note]_
