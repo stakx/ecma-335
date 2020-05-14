@@ -561,11 +561,11 @@
  * [III.4.4 cpobj &ndash; copy a value from one address to another](iii.4.4-cpobj.md)
  * [III.4.5 initobj &ndash; initialize the value at an address](iii.4.5-initobj.md)
  * [III.4.6 isinst &ndash; test if an object is an instance of a class or interface](iii.4.6-isinst.md)
- * III.4.7 ldelem &ndash; load element from array
- * III.4.8 ldelem.\<type\> &ndash; load an element of an array
- * III.4.9 ldelema &ndash; load address of an element of an array
- * III.4.10 ldfld &ndash; load field of an object
- * III.4.11 ldflda &ndash; load field address
+ * [III.4.7 ldelem &ndash; load element from array](iii.4.7-ldelem.md)
+ * [III.4.8 ldelem.\<type\> &ndash; load an element of an array](iii.4.8-ldelem-type.md)
+ * [III.4.9 ldelema &ndash; load address of an element of an array](iii.4.9-ldelema.md)
+ * [III.4.10 ldfld &ndash; load field of an object](iii.4.10-ldfld.md)
+ * [III.4.11 ldflda &ndash; load field address](iii.4.11-ldflda.md)
  * III.4.12 ldlen &ndash; load the length of an array
  * III.4.13 ldobj &ndash; copy a value from an address to the stack
  * III.4.14 ldsfld &ndash; load static field of a class
