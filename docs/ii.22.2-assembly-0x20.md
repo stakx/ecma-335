@@ -2,11 +2,11 @@
 
 The _Assembly_ table has the following columns:
 
- * _HashAlgId_ (a 4-byte constant of type _AssemblyHashAlgorithm_, §[II.23.1.1](#todo-missing-hyperlink))
+ * _HashAlgId_ (a 4-byte constant of type _AssemblyHashAlgorithm_, §[II.23.1.1](ii.23.1.1-values-for-assemblyhashalgorithm.md))
 
  * _MajorVersion_, _MinorVersion_, _BuildNumber_, _RevisionNumber_ (each being 2-byte constants)
 
- * _Flags_ (a 4-byte bitmask of type _AssemblyFlags_, §[II.23.1.2](#todo-missing-hyperlink))
+ * _Flags_ (a 4-byte bitmask of type _AssemblyFlags_, §[II.23.1.2](ii.23.1.2-values-for-assemblyflags.md))
 
  * _PublicKey_ (an index into the Blob heap)
 
@@ -34,7 +34,7 @@ The _Assembly_ table is defined using the **.assembly** directive (§[II.6.2](#t
 
  8. _Culture_ can be null or non-null
 
- 9. If _Culture_ is non-null, it shall index a single string from the list specified (§[II.23.1.3](#todo-missing-hyperlink)) \[ERROR\]
+ 9. If _Culture_ is non-null, it shall index a single string from the list specified (§[II.23.1.3](ii.23.1.3-values-for-culture.md)) \[ERROR\]
 
 _[Note:_ _Name_ is a simple name (e.g., "Foo", with no drive letter, no path, and no file extension); on POSIX-compliant systems, Name contains no colon, no forward-slash, no backslash, and no period. _end note]_
 

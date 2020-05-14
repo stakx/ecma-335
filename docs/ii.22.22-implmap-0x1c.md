@@ -10,7 +10,7 @@ The _ImplMap_ table has the following columns:
 
  * _MappingFlags_ (a 2-byte bitmask of type _PInvokeAttributes_, §[23.1.8](#todo-missing-hyperlink))
 
- * _MemberForwarded_ (an index into the _Field_ or _MethodDef_ table; more precisely, a _MemberForwarded_  (§[II.24.2.6](#todo-missing-hyperlink)) coded index). However, it only ever indexes the _MethodDef_ table, since _Field_ export is not supported.
+ * _MemberForwarded_ (an index into the _Field_ or _MethodDef_ table; more precisely, a _MemberForwarded_  (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index). However, it only ever indexes the _MethodDef_ table, since _Field_ export is not supported.
 
  * _ImportName_ (an index into the String heap)
 
@@ -26,7 +26,7 @@ A row is entered in the _ImplMap_ table for each parent Method (§[II.15.5](#tod
 
  3. _MemberForwarded_ shall index a valid row in the _MethodDef_ table \[ERROR\]
 
- 4. The _MappingFlags_.`CharSetMask` (§[II.23.1.7](#todo-missing-hyperlink)) in the row of the _MethodDef_ table indexed by _MemberForwarded_ shall have at most one of the following bits set: 
+ 4. The _MappingFlags_.`CharSetMask` (§[II.23.1.7](ii.23.1.7-flags-for-generic-parameters-genericparamattributes.md)) in the row of the _MethodDef_ table indexed by _MemberForwarded_ shall have at most one of the following bits set: 
 `CharSetAnsi`, `CharSetUnicode`, or `CharSetAuto` (if none is set, the default is `CharSetNotSpec`) \[ERROR\]
 
  5. _ImportName_ shall index a non-empty string in the String heap \[ERROR\]

@@ -6,9 +6,9 @@ The formal description of assignment compatibility is provided here, and is exte
 
 There are different rules for determining the compatibility of types, depending upon the context in which they are evaluated. The following relations are defined in this section:
 
- * *compatible-with* &ndash; this is the relation used by `castclass` (§[III.4.3](#todo-missing-hyperlink)) and `isinst` (§[III.4.6](#todo-missing-hyperlink)), and in determining the validity of variant generic arguments. _[Note:_ operations based on this relation do not change the representation of a value. When casting, the source type is the dynamic type of the value. _end note]_
+ * *compatible-with* &ndash; this is the relation used by `castclass` (§[III.4.3](iii.4.3-castclass.md)) and `isinst` (§[III.4.6](iii.4.6-isinst.md)), and in determining the validity of variant generic arguments. _[Note:_ operations based on this relation do not change the representation of a value. When casting, the source type is the dynamic type of the value. _end note]_
 
- * *assignable-to* &ndash; this is the relation used for general assignment; including load and store instructions (§[III.3](#todo-missing-hyperlink)), implicit argument coercion (§[III.1.6](#todo-missing-hyperlink)), and method return (§[III.3.57](#todo-missing-hyperlink)). _[Note:_ operations based on this relation may change the representation of a value. When assigning, the source type is the static type of the value. _end note]_
+ * *assignable-to* &ndash; this is the relation used for general assignment; including load and store instructions (§[III.3](iii.3-base-instructions.md)), implicit argument coercion (§[III.1.6](iii.1.6-implicit-argument-coercion.md)), and method return (§[III.3.57](#todo-missing-hyperlink)). _[Note:_ operations based on this relation may change the representation of a value. When assigning, the source type is the static type of the value. _end note]_
 
  * *array-element-compatible-with* &ndash; this is the auxiliary relation used to determine the validity of assignments to array elements
 
@@ -18,23 +18,23 @@ There are different rules for determining the compatibility of types, depending 
 
 These relations are defined in terms of six type subsets:
 
-* *storage types* &ndash; these are the types that can occur as location (§[I.8.6.1.2](#todo-missing-hyperlink)), local (§[I.8.6.1.3](#todo-missing-hyperlink)) and parameter (§[I.8.6.1.4](#todo-missing-hyperlink)) signatures. _[Note:_ method signatures (§[I.8.6.1.5](#todo-missing-hyperlink)) are not included here as there are no method values which can be assigned, delegate types (§[I.8.9.3](#todo-missing-hyperlink)) are reference types (§[I.8.2.1](#todo-missing-hyperlink)) and may occur in the above signatures. _end note]_
+* *storage types* &ndash; these are the types that can occur as location (§[I.8.6.1.2](#todo-missing-hyperlink)), local (§[I.8.6.1.3](#todo-missing-hyperlink)) and parameter (§[I.8.6.1.4](#todo-missing-hyperlink)) signatures. _[Note:_ method signatures (§[I.8.6.1.5](#todo-missing-hyperlink)) are not included here as there are no method values which can be assigned, delegate types (§[I.8.9.3](i.8.9.3-delegates.md)) are reference types (§[I.8.2.1](i.8.2.1-value-types-and-reference-types.md)) and may occur in the above signatures. _end note]_
 
- * *underlying types* &ndash; in the CTS enumerations are alternate names for existing types (§[I.8.5.2](#todo-missing-hyperlink)), termed their underlying type. Except for signature matching (§[I.8.5.2](#todo-missing-hyperlink)) enumerations are treated as their underlying type. This subset is the set of storage types with the enumerations removed.
+ * *underlying types* &ndash; in the CTS enumerations are alternate names for existing types (§[I.8.5.2](i.8.5.2-assemblies-and-scoping.md)), termed their underlying type. Except for signature matching (§[I.8.5.2](i.8.5.2-assemblies-and-scoping.md)) enumerations are treated as their underlying type. This subset is the set of storage types with the enumerations removed.
 
  * *reduced types* &ndash; a value of value type _S_ can be stored into, or loaded from, an array of value type _T_; and an array of value type _S_ can be assigned to an array of value type _T_; if and only if _S_ and _T_ have the same reduced type. The reduced types are a subset of the underlying types.
 
  * *verification types* &ndash; the verification algorithm treats certain types as interchangeable, assigning them a common verification type. The verification types are a subset of the reduced types.
 
- * *intermediate types* &ndash; only a subset of the built-in value types can be represented on the evaluation stack (§[I.12.1](#todo-missing-hyperlink)). Values of other built-in value types are translated to/from their intermediate type when loaded onto/stored from the evaluation stack. The intermediate types are a subset of the verification types plus the floating-point type _F_ (which is not a member of the above four subsets).
+ * *intermediate types* &ndash; only a subset of the built-in value types can be represented on the evaluation stack (§[I.12.1](i.12.1-supported-data-types.md)). Values of other built-in value types are translated to/from their intermediate type when loaded onto/stored from the evaluation stack. The intermediate types are a subset of the verification types plus the floating-point type _F_ (which is not a member of the above four subsets).
 
- * *transient types* &ndash; these are types which can only occur on the evaluation stack: boxed types, controlled-mutability managed pointer types, and the null type. Assignment compatibility for these types is defined by the *verifier-assignable-to* relation defined in §[III.1.8.1.2.3](#todo-missing-hyperlink). The precise definitions of underlying type, reduced type, verification type and intermediate type are given below. 
+ * *transient types* &ndash; these are types which can only occur on the evaluation stack: boxed types, controlled-mutability managed pointer types, and the null type. Assignment compatibility for these types is defined by the *verifier-assignable-to* relation defined in §[III.1.8.1.2.3](iii.1.8.1.2.3-verification-type-compatibility.md). The precise definitions of underlying type, reduced type, verification type and intermediate type are given below. 
 
 > _End informative text._
 
 #### Treatment of floating-point types
 
-Floating-point values have two types; the nominal type, and the representation type. There are three floating-point types: `float32`, `float64` and `F`. A value of (nominal) type `float32` or `float64` may be represented by an implementation using a value of type `F`. See §[I.12.1.3](#todo-missing-hyperlink) for complete details. Unless explicitly indicated any reference to floating-point types refers to the nominal type, in particular when referring to signatures (§[I.8.6.1](#todo-missing-hyperlink)) and assignment compatibility. Consequently when the assignment compatibility rules indicate that a floating-point representation may change based on the (nominal) types the representation types may already be the same and no change is actually performed.
+Floating-point values have two types; the nominal type, and the representation type. There are three floating-point types: `float32`, `float64` and `F`. A value of (nominal) type `float32` or `float64` may be represented by an implementation using a value of type `F`. See §[I.12.1.3](i.12.1.3-handling-of-floating-point-data-types.md) for complete details. Unless explicitly indicated any reference to floating-point types refers to the nominal type, in particular when referring to signatures (§[I.8.6.1](i.8.6.1-signatures.md)) and assignment compatibility. Consequently when the assignment compatibility rules indicate that a floating-point representation may change based on the (nominal) types the representation types may already be the same and no change is actually performed.
 
 #### Notation
 
@@ -82,7 +82,7 @@ The *reduced type* of a type _T_ is the following:
 
 _[Note:_ in other words the reduced type ignores the semantic differences between enumerations and the signed and unsigned integer types; treating these types the same if they have the same number of bits. _end note]_
 
-The *verification type* (§[III.1.8.1.2.1](#todo-missing-hyperlink)) of a type *T* is the following:
+The *verification type* (§[III.1.8.1.2.1](iii.1.8.1.2.1-verification-types.md)) of a type *T* is the following:
 
  1. If the reduced type of _T_ is:
 
@@ -116,7 +116,7 @@ The *intermediate type* of a type _T_ is the following:
 
  1. If the verification type of _T_ is `int8`, `int16`, or `int32`, then its intermediate type is `int32`.
 
- 2. If the verification type of _T_ is a floating-point type then its intermediate type is `F` (§[III.1.1.1](#todo-missing-hyperlink)).
+ 2. If the verification type of _T_ is a floating-point type then its intermediate type is `F` (§[III.1.1.1](iii.1.1.1-numeric-data-types.md)).
 
  3. Otherwise, the intermediate type is the verification type of `T`.
 

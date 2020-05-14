@@ -24,7 +24,7 @@ A row in the _FieldLayout_ table is created if the **.field** directive for the 
 
  1. A _FieldLayout_ table can contain zero or more or rows
 
- 2. The Type whose Fields are described by each row of the _FieldLayout_ table shall have _Flags_.`ExplicitLayout` (§[II.23.1.15](#todo-missing-hyperlink)) set \[ERROR\]
+ 2. The Type whose Fields are described by each row of the _FieldLayout_ table shall have _Flags_.`ExplicitLayout` (§[II.23.1.15](ii.23.1.15-flags-for-types-typeattributes.md)) set \[ERROR\]
 
  3. _Offset_ shall be zero or more \[ERROR\]
 

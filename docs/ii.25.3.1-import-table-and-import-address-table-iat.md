@@ -5,8 +5,8 @@ The Import Table and the Import Address Table (IAT) are used to import the `_Cor
  Offset | Size | Field | Description
  ---- | ---- | ---- | ----
  0 | 4 | ImportLookupTable | RVA of the Import Lookup Table
- 4 | 4 | DateTimeStamp | Always 0 (§[II.24.1](#todo-missing-hyperlink)).
- 8 | 4 | ForwarderChain | Always 0 (§[II.24.1](#todo-missing-hyperlink)).
+ 4 | 4 | DateTimeStamp | Always 0 (§[II.24.1](ii.24.1-fixed-fields.md)).
+ 8 | 4 | ForwarderChain | Always 0 (§[II.24.1](ii.24.1-fixed-fields.md)).
  12 | 4 | Name | RVA of null-terminated ASCII string "`mscoree.dll`".
  16 | 4 | ImportAddressTable | RVA of Import Address Table (this is the same as the RVA of the IAT descriptor in the optional header).
  20 | 20 | &nbsp; | End of Import Table. Shall be filled with zeros. 

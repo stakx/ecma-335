@@ -6,11 +6,11 @@ Note that _FieldMarshal_ information is used only by code paths that arbitrate o
 
 The _FieldMarshal_ table has the following columns:
 
- * _Parent_ (an index into _Field_ or _Param_ table; more precisely, a _HasFieldMarshal_ (§[II.24.2.6](#todo-missing-hyperlink)) coded index)
+ * _Parent_ (an index into _Field_ or _Param_ table; more precisely, a _HasFieldMarshal_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index)
 
  * _NativeType_ (an index into the Blob heap)
 
-For the detailed format of the 'blob', see §[II.23.4](#todo-missing-hyperlink)
+For the detailed format of the 'blob', see §[II.23.4](ii.23.4-marshalling-descriptors.md)
 
 A row in the _FieldMarshal_ table is created if the **.field** directive for the parent field has specified a **marshal** attribute (§[II.16.1](#todo-missing-hyperlink)).
 
@@ -24,9 +24,9 @@ A row in the _FieldMarshal_ table is created if the **.field** directive for the
 
  4. No two rows shall point to the same parent. In other words, after the _Parent_ values have been decoded to determine whether they refer to the _Field_ or the _Param_ table, no two rows can point to the same row in the _Field_ table or in the _Param_ table \[ERROR\]
 
- 5. The following checks apply to the _MarshalSpec_ 'blob' (§[II.23.4](#todo-missing-hyperlink)):
+ 5. The following checks apply to the _MarshalSpec_ 'blob' (§[II.23.4](ii.23.4-marshalling-descriptors.md)):
 
-     * _NativeIntrinsic_ shall be exactly one of the constant values in its production (§[II.23.4](#todo-missing-hyperlink)) \[ERROR\]
+     * _NativeIntrinsic_ shall be exactly one of the constant values in its production (§[II.23.4](ii.23.4-marshalling-descriptors.md)) \[ERROR\]
 
      * If `ARRAY`, then ArrayElemType shall be exactly one of the constant values in its production  [ERROR]
 

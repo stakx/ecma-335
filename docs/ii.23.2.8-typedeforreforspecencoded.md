@@ -1,6 +1,6 @@
 ## II.23.2.8 TypeDefOrRefOrSpecEncoded
 
-These items are compact ways to store a _TypeDef_, _TypeRef_, or _TypeSpec_ token in a Signature (§[II.23.2.12](#todo-missing-hyperlink)). Consider a regular _TypeRef_ token, such as 0x01000012. The top byte of 0x01 indicates that this is a _TypeRef_ token (see §[II.22](#todo-missing-hyperlink) for a list of the supported metadata token types). The lower 3 bytes (0x000012) index row number 0x12 in the _TypeRef_ table.
+These items are compact ways to store a _TypeDef_, _TypeRef_, or _TypeSpec_ token in a Signature (§[II.23.2.12](ii.23.2.12-type.md)). Consider a regular _TypeRef_ token, such as 0x01000012. The top byte of 0x01 indicates that this is a _TypeRef_ token (see §[II.22](ii.22-metadata-logical-format-tables.md) for a list of the supported metadata token types). The lower 3 bytes (0x000012) index row number 0x12 in the _TypeRef_ table.
 
 The encoded version of this _TypeRef_ token is made up as follows:
 
@@ -8,7 +8,7 @@ The encoded version of this _TypeRef_ token is made up as follows:
 
  2. shift the 3-byte row index (0x000012 in this example) left by 2 bits and OR into the 2-bit encoding from step 1
 
- 3. compress the resulting value (§[II.23.2](#todo-missing-hyperlink)).
+ 3. compress the resulting value (§[II.23.2](ii.23.2-blobs-and-signatures.md)).
 
 This example yields the following encoded value:
 

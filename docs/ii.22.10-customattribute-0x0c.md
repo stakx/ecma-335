@@ -2,9 +2,9 @@
 
 The _CustomAttribute_ table has the following columns:
 
- * _Parent_ (an index into a metadata table that has an associated _HasCustomAttribute_ (§[II.24.2.6](#todo-missing-hyperlink)) coded index).
+ * _Parent_ (an index into a metadata table that has an associated _HasCustomAttribute_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index).
 
- * _Type_ (an index into the _MethodDef_ or _MemberRef_ table; more precisely, a _CustomAttributeType_ (§[II.24.2.6](#todo-missing-hyperlink)) coded index).
+ * _Type_ (an index into the _MethodDef_ or _MemberRef_ table; more precisely, a _CustomAttributeType_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index).
 
  * _Value_ (an index into the Blob heap).
 

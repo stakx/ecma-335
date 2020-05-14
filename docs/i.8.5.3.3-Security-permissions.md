@@ -1,6 +1,6 @@
 ## I.8.5.3.3 Security permissions
 
-Access to members is also controlled by security demands that can be attached to an assembly, type, method, property, or event. Security demands are not part of a type contract (see §[I.8.6](#todo-missing-hyperlink)), and hence are not inherited. There are two kinds of demands:
+Access to members is also controlled by security demands that can be attached to an assembly, type, method, property, or event. Security demands are not part of a type contract (see §[I.8.6](i.8.6-contracts.md)), and hence are not inherited. There are two kinds of demands:
 
  * An **inheritance demand**. When attached to a type, it requires that any type that wishes to inherit from this type shall have the specified security permission.  When attached to a non-final virtual method, it requires that any type that wishes to override this method shall have the specified permission.  It shall not be attached to any other member.
 

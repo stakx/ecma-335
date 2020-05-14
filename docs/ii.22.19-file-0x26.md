@@ -2,7 +2,7 @@
 
 The _File_ table has the following columns:
 
- * _Flags_ (a 4-byte bitmask of type _FileAttributes_, §[II.23.1.6](#todo-missing-hyperlink))
+ * _Flags_ (a 4-byte bitmask of type _FileAttributes_, §[II.23.1.6](ii.23.1.6-flags-for-files-fileattributes.md))
 
  * _Name_ (an index into the String heap)
 

@@ -2,7 +2,7 @@
 
 > _This subclause contains only informative text._
 
-Most CIL instructions that deal with numbers take their operands from the evaluation stack (see §[I.12.3.2.1](#todo-missing-hyperlink)), and these inputs have an associated type that is known to the VES. As a result, a single operation like `add` can have inputs of any numeric data type, although not all instructions can deal with all combinations of operand types. Binary operations other than addition and subtraction require that both operands be of the same type. Addition and subtraction allow an integer to be added to or subtracted from a managed pointer (types `&` and `O`). Details are specified in [Partition II](#todo-missing-hyperlink).
+Most CIL instructions that deal with numbers take their operands from the evaluation stack (see §[I.12.3.2.1](i.12.3.2.1-the-evaluation-stack.md)), and these inputs have an associated type that is known to the VES. As a result, a single operation like `add` can have inputs of any numeric data type, although not all instructions can deal with all combinations of operand types. Binary operations other than addition and subtraction require that both operands be of the same type. Addition and subtraction allow an integer to be added to or subtracted from a managed pointer (types `&` and `O`). Details are specified in [Partition II](#todo-missing-hyperlink).
 
 Instructions fall into the following categories:
 
@@ -12,7 +12,7 @@ Instructions fall into the following categories:
 
  * **Floating-point:** These instructions deal only with floating-point numbers.
 
- * **Specific:** These instructions deal with integer and/or floating-point numbers, but have variants that deal specially with different sizes and unsigned integers. Integer operations with overflow detection, data conversion instructions, and operations that transfer data between the evaluation stack and other parts of memory (see §[I.12.3.2](#todo-missing-hyperlink)) fit into this category.
+ * **Specific:** These instructions deal with integer and/or floating-point numbers, but have variants that deal specially with different sizes and unsigned integers. Integer operations with overflow detection, data conversion instructions, and operations that transfer data between the evaluation stack and other parts of memory (see §[I.12.3.2](i.12.3.2-method-state.md)) fit into this category.
 
  * **Unsigned/unordered:** There are special comparison and branch instructions that treat integers as unsigned and consider unordered floating-point numbers specially (as in "branch if greater than or unordered"):
 

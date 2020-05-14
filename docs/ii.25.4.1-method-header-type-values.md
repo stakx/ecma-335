@@ -4,5 +4,5 @@ The two least significant bits of the first byte of the method header indicate w
 
  Value | Value | Description
  ---- | ---- | ----
- `CorILMethod_TinyFormat` | 0x2 | The method header is tiny (§[II.25.4.2](#todo-missing-hyperlink)).
- `CorILMethod_FatFormat` | 0x3 | The method header is fat (§[II.25.4.3](#todo-missing-hyperlink)).
+ `CorILMethod_TinyFormat` | 0x2 | The method header is tiny (§[II.25.4.2](ii.25.4.2-tiny-format.md)).
+ `CorILMethod_FatFormat` | 0x3 | The method header is fat (§[II.25.4.3](ii.25.4.3-fat-format.md)).

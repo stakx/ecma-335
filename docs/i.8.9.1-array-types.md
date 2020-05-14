@@ -4,13 +4,13 @@ An **array type** shall be defined by specifying the element type of the array, 
 
 Array elements shall be laid out within the array object in row-major order (i.e., the elements associated with the rightmost array dimension shall be laid out contiguously from lowest to highest index). The actual storage allocated for each array element can include platform-specific padding. (The size of this storage, in bytes, is returned by the `sizeof` instruction when it is applied to the type of that array's elements.)
 
-Values of an array type are objects; hence an array type is a kind of object type (see §[I.8.2.3](#todo-missing-hyperlink)). Array objects are defined by the CTS to be a repetition of locations where values of the array element type are stored. The number of repeated values is determined by the rank and bounds of the array.
+Values of an array type are objects; hence an array type is a kind of object type (see §[I.8.2.3](i.8.2.3-classes-interfaces-and-objects.md)). Array objects are defined by the CTS to be a repetition of locations where values of the array element type are stored. The number of repeated values is determined by the rank and bounds of the array.
 
 Only type signatures, not location signatures, are allowed as array element types.
 
 Exact array types are created automatically by the VES when they are required. Hence, the operations on an array type are defined by the CTS. These generally are: allocating the array based on size and lower-bound information, indexing the array to read and write a value, computing the address of an element of the array (a managed pointer), and querying for the rank, bounds, and the total number of values stored in the array.
 
-Additionally, a created vector with element type `T`, implements the interface `System.Collections.Generic.IList<U>`, where `U` := `T`. (§[I.8.7](#todo-missing-hyperlink))
+Additionally, a created vector with element type `T`, implements the interface `System.Collections.Generic.IList<U>`, where `U` := `T`. (§[I.8.7](i.8.7-assignment-compatibility.md))
 
 > #### CLS Rule 16:
 >

@@ -1,6 +1,6 @@
 ## I.12.4.1 Method calls
 
-Instructions emitted by the CIL code generator contain sufficient information for different implementations of the CLI to use different native calling conventions. All method calls initialize the method state areas (see §[I.12.3.2](#todo-missing-hyperlink)) as follows:
+Instructions emitted by the CIL code generator contain sufficient information for different implementations of the CLI to use different native calling conventions. All method calls initialize the method state areas (see §[I.12.3.2](i.12.3.2-method-state.md)) as follows:
 
  1. The incoming arguments array is set by the caller to the desired values.
 

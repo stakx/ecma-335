@@ -1,6 +1,6 @@
 ## III.1.2 Instruction variant table
 
-In §[III.3](#todo-missing-hyperlink) an Instruction Variant Table is presented for each instruction. It describes each variant of the instructions. The format column of the table lists the opcode for the instruction variant, along with any operands that follow the instruction in the instruction stream. For example:
+In §[III.3](iii.3-base-instructions.md) an Instruction Variant Table is presented for each instruction. It describes each variant of the instructions. The format column of the table lists the opcode for the instruction variant, along with any operands that follow the instruction in the instruction stream. For example:
 
  Format | Assembly Format | Description
  ---- | ---- | ----

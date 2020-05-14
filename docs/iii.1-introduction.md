@@ -4,9 +4,9 @@ This partition is a detailed description of the Common Intermediate Language (CI
 
 In this partition, each instruction is described in its own subclause, one per page. Related CLI machine instructions are described together. Each instruction description consists of the following parts:
 
- * A table describing the binary format, assembly language notation, and description of each variant of the instruction. See §[III.1.2](#todo-missing-hyperlink).
+ * A table describing the binary format, assembly language notation, and description of each variant of the instruction. See §[III.1.2](iii.1.2-instruction-variant-table.md).
 
- * A stack transition diagram, that describes the state of the evaluation stack before and after the instruction is executed. (See §[III.1.3](#todo-missing-hyperlink).)
+ * A stack transition diagram, that describes the state of the evaluation stack before and after the instruction is executed. (See §[III.1.3](iii.1.3-stack-transition-diagram.md).)
 
  * An English description of the instruction. See §[III.1.4]((#todo-missing-hyperlink)).
 
@@ -20,6 +20,6 @@ In this partition, each instruction is described in its own subclause, one per p
 
  * A section describing the verifiability conditions associated with the instruction. See §[III.1.8]((#todo-missing-hyperlink)).
 
-In addition, operations that have a numeric operand also specify an operand type table that describes how they operate based on the type of the operand. See §[III.1.5](#todo-missing-hyperlink).
+In addition, operations that have a numeric operand also specify an operand type table that describes how they operate based on the type of the operand. See §[III.1.5](iii.1.5-operand-type-table.md).
 
 Note that not all instructions are included in all CLI Profiles. See [Partition IV](#todo-missing-hyperlink) for details.

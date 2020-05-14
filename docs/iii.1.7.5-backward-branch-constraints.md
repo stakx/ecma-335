@@ -13,5 +13,5 @@ _[Note:_ the stack state at location X in the above can be inferred by various m
 See the following for further information:
 
  * Exceptions: [Partition I](#todo-missing-hyperlink)
- * Verification conditions for branch instructions: §[III.3](#todo-missing-hyperlink)
+ * Verification conditions for branch instructions: §[III.3](iii.3-base-instructions.md)
  * The `tail.` prefix: §[III.3.19](#todo-missing-hyperlink)

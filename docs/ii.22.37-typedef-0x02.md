@@ -2,13 +2,13 @@
 
 The _TypeDef_ table has the following columns: 
 
- * _Flags_ (a 4-byte bitmask of type _TypeAttributes_, §[II.23.1.15](#todo-missing-hyperlink))
+ * _Flags_ (a 4-byte bitmask of type _TypeAttributes_, §[II.23.1.15](ii.23.1.15-flags-for-types-typeattributes.md))
 
  * _TypeName_ (an index into the String heap)
  
  * _TypeNamespace_ (an index into the String heap)
  
- * _Extends_ (an index into the _TypeDef_, _TypeRef_, or _TypeSpec_ table; more precisely, a _TypeDefOrRef_ (§[II.24.2.6](#todo-missing-hyperlink)) coded index)
+ * _Extends_ (an index into the _TypeDef_, _TypeRef_, or _TypeSpec_ table; more precisely, a _TypeDefOrRef_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index)
 
  * _FieldList_ (an index into the _Field_ table; it marks the first of a contiguous run of Fields owned by this Type). The run continues to the smaller of:
 
@@ -44,7 +44,7 @@ An interface can also implement one or more other interfaces&mdash;metadata stor
 
 Another slightly specialized type is a *nested* type which is declared in ILAsm as lexically nested within an enclosing type declaration. Whether a type is nested can be determined by the value of its _Flags_._Visibility_ sub-field &ndash; it shall be one of the set {_NestedPublic_, _NestedPrivate_, _NestedFamily_, _NestedAssembly_, _NestedFamANDAssem_, _NestedFamORAssem_}.
 
-If a type is generic, its parameters are defined in the _GenericParam_ table (§[II.22.20](#todo-missing-hyperlink)). Entries in the _GenericParam_ table reference entries in the _TypeDef_ table; there is no reference from the _TypeDef_ table to the _GenericParam_ table. 
+If a type is generic, its parameters are defined in the _GenericParam_ table (§[II.22.20](ii.22.20-genericparam-0x2a.md)). Entries in the _GenericParam_ table reference entries in the _TypeDef_ table; there is no reference from the _TypeDef_ table to the _GenericParam_ table. 
 
 > _This contains informative text only._
 

@@ -10,7 +10,7 @@ The _DeclSecurity_ table has the following columns:
 
  * _Action_ (a 2-byte value)
 
- * _Parent_ (an index into the _TypeDef_, _MethodDef_, or _Assembly_ table; more precisely, a _HasDeclSecurity_ (§[II.24.2.6](#todo-missing-hyperlink)) coded index)
+ * _Parent_ (an index into the _TypeDef_, _MethodDef_, or _Assembly_ table; more precisely, a _HasDeclSecurity_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index)
 
  * _PermissionSet_ (an index into the Blob heap)
 

@@ -4,7 +4,7 @@ The _MemberRef_ table combines two sorts of references, to Methods and to Fields
 
 The _MemberRef_ table has the following columns:
 
- * _Class_ (an index into the _MethodDef_, _ModuleRef_, _TypeDef_, _TypeRef_, or _TypeSpec_ tables; more precisely, a _MemberRefParent_ (§[II.24.2.6](#todo-missing-hyperlink)) coded index)
+ * _Class_ (an index into the _MethodDef_, _ModuleRef_, _TypeDef_, _TypeRef_, or _TypeSpec_ tables; more precisely, a _MemberRefParent_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index)
 
  * _Name_ (an index into the String heap)
 
@@ -41,11 +41,11 @@ An entry is made into the _MemberRef_ table whenever a reference is made in the 
 
  7. _Signature_ shall not have the `VARARG` (0x5) calling convention \[CLS\]
 
- 8. There shall be no duplicate rows, where _Name_ fields are compared using CLS conflicting-identifier-rules.  (In particular, note that the return type and whether parameters are marked `ELEMENT_TYPE_BYREF` (§[II.23.1.16](#todo-missing-hyperlink)) are ignored in the CLS. For example, `.method int32 M()`and `.method float64 M()` result in duplicate rows by CLS rules. Similarly, `.method void N(int32 i)` and `.method void N(int32& i)` also result in duplicate rows by CLS rules.) \[CLS\]
+ 8. There shall be no duplicate rows, where _Name_ fields are compared using CLS conflicting-identifier-rules.  (In particular, note that the return type and whether parameters are marked `ELEMENT_TYPE_BYREF` (§[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md)) are ignored in the CLS. For example, `.method int32 M()`and `.method float64 M()` result in duplicate rows by CLS rules. Similarly, `.method void N(int32 i)` and `.method void N(int32& i)` also result in duplicate rows by CLS rules.) \[CLS\]
 
- 9. If _Class_ and _Name_ resolve to a field, then that field shall not have a value of `CompilerControlled` (§[II.23.1.5](#todo-missing-hyperlink)) in its _Flags_.`FieldAccessMask` subfield \[ERROR\]
+ 9. If _Class_ and _Name_ resolve to a field, then that field shall not have a value of `CompilerControlled` (§[II.23.1.5](ii.23.1.5-flags-for-fields-fieldattributes.md)) in its _Flags_.`FieldAccessMask` subfield \[ERROR\]
 
- 10. If _Class_ and _Name_ resolve to a method, then that method shall not have a value of `CompilerControlled` in its _Flags_.`MemberAccessMask` (§[II.23.1.10](#todo-missing-hyperlink)) subfield \[ERROR\]
+ 10. If _Class_ and _Name_ resolve to a method, then that method shall not have a value of `CompilerControlled` in its _Flags_.`MemberAccessMask` (§[II.23.1.10](ii.23.1.10-flags-for-methods-methodattributes.md)) subfield \[ERROR\]
 
  11. The type containing the definition of a _MemberRef_ shall be a _TypeSpec_ representing an instantiated type.
 

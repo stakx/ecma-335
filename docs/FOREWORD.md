@@ -6,7 +6,7 @@ This Standard is fully aligned with ISO/IEC 23271:2012.
 
 The following features have been added, extended or clarified in the Standard:
 
- * The presentation of the rules for assignment compatibility (§[I.8.7](#todo-missing-hyperlink), §[III.1.8.1.2.3]((#todo-missing-hyperlink))) has been extensively revised to a more precise and clearer relation-based format.
+ * The presentation of the rules for assignment compatibility (§[I.8.7](i.8.7-assignment-compatibility.md), §[III.1.8.1.2.3]((#todo-missing-hyperlink))) has been extensively revised to a more precise and clearer relation-based format.
 
  * The presentation of the verification rules for many IL instructions has been revised to be more precise and clearer by building upon the revisions to the presentation of assignment compatibility.
 

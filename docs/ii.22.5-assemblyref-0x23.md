@@ -4,7 +4,7 @@ The _AssemblyRef_ table has the following columns:
 
  * _MajorVersion_, _MinorVersion_, _BuildNumber_, _RevisionNumber_ (each being 2-byte constants)
 
- * _Flags_ (a 4-byte bitmask of type _AssemblyFlags_, §[II.23.1.2](#todo-missing-hyperlink))
+ * _Flags_ (a 4-byte bitmask of type _AssemblyFlags_, §[II.23.1.2](ii.23.1.2-values-for-assemblyflags.md))
 
  * _PublicKeyOrToken_ (an index into the Blob heap, indicating the public key or token that identifies the author of this Assembly)
 
@@ -20,7 +20,7 @@ The table is defined by the **.assembly extern** directive (§[II.6.3](#todo-mis
 
  1. _MajorVersion_, _MinorVersion_, _BuildNumber_, and _RevisionNumber_ can each have any value
 
- 2. _Flags_ shall have only one bit set, the `PublicKey` bit (§[II.23.1.2](#todo-missing-hyperlink)). All other bits shall be zero. \[ERROR\]
+ 2. _Flags_ shall have only one bit set, the `PublicKey` bit (§[II.23.1.2](ii.23.1.2-values-for-assemblyflags.md)). All other bits shall be zero. \[ERROR\]
 
  3. _PublicKeyOrToken_ can be null, or non-null (note that the _Flags_.`PublicKey` bit specifies whether the 'blob' is a full public key, or the short hashed token)
 
@@ -30,7 +30,7 @@ The table is defined by the **.assembly extern** directive (§[II.6.3](#todo-mis
 
  6. _Culture_ can be null or non-null.
 
- 7. If non-null, it shall index a single string from the list specified (§[II.23.1.3](#todo-missing-hyperlink)) \[ERROR\]
+ 7. If non-null, it shall index a single string from the list specified (§[II.23.1.3](ii.23.1.3-values-for-culture.md)) \[ERROR\]
 
  8. _HashValue_ can be null or non-null
 

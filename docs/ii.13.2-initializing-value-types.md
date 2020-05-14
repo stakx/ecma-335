@@ -4,7 +4,7 @@ Like classes, value types can have both instance constructors (§[II.10.5.1](#to
 
  * Static variables shall be initialized to zero when a type is loaded (§[II.10.5.3.3](#todo-missing-hyperlink)), hence statics whose type is a value type are zero-initialized when the type is loaded.
 
- * Local variables shall be initialized to zero if the **localsinit** bit in the method header (§[II.25.4.4](#todo-missing-hyperlink)) is set.
+ * Local variables shall be initialized to zero if the **localsinit** bit in the method header (§[II.25.4.4](ii.25.4.4-flags-for-method-headers.md)) is set.
 
  * Arrays shall be zero-initialized.
 

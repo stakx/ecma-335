@@ -1,6 +1,6 @@
 ## III.1.6 Implicit argument coercion
 
-A method call involves the implicit assignment of argument values on the stack to the parameters of the called method (accessed using the `ldarg`, §III.3.38, or `ldarga`, §[III.3.39](#todo-missing-hyperlink), instructions). The assignment is an implicit `starg` (§[III.3.61](#todo-missing-hyperlink)) instruction and may be referred to as implicit argument coercion. In Verified CLI the validity of implicit argument coercion, as with the `starg` (§[III.3.61](#todo-missing-hyperlink)) instruction, is determined by the verifier-assignable-to relation (§[III.1.8.1.2.3](#todo-missing-hyperlink)). Correct CIL also allows a `native int` to be passed as a byref (`&`); in which case following implicit conversion the value will be tracked by garbage collection.
+A method call involves the implicit assignment of argument values on the stack to the parameters of the called method (accessed using the `ldarg`, §III.3.38, or `ldarga`, §[III.3.39](#todo-missing-hyperlink), instructions). The assignment is an implicit `starg` (§[III.3.61](#todo-missing-hyperlink)) instruction and may be referred to as implicit argument coercion. In Verified CLI the validity of implicit argument coercion, as with the `starg` (§[III.3.61](#todo-missing-hyperlink)) instruction, is determined by the verifier-assignable-to relation (§[III.1.8.1.2.3](iii.1.8.1.2.3-verification-type-compatibility.md)). Correct CIL also allows a `native int` to be passed as a byref (`&`); in which case following implicit conversion the value will be tracked by garbage collection.
 
 > _The remainder of this clause contains only informative text._
 
@@ -28,13 +28,13 @@ While the CLI operates only on 6 types (`int32`, `native int`, `int64`, `F`, `O`
  **By-reference (Byref) (`&`)** | &cross; | &check;<br>Start GC tracking<sup>nv</sup> | &cross; | &cross; | &check; | &cross; | &cross;
  **Typed Reference (RefAny)<sup>3</sup>** | &cross; | &cross; | &cross; | &cross; | &cross; | &cross; | &cross;
 
- <sup>1</sup> A value type in a signature cannot be the long form of a built-in type (§[II.23.2.15](#todo-missing-hyperlink)).
+ <sup>1</sup> A value type in a signature cannot be the long form of a built-in type (§[II.23.2.15](ii.23.2.15-methodspec.md)).
 
  <sup>2</sup> The CLI's stack can contain a value type. These can only be passed if the particular value type on the stack exactly matches the value type required by the corresponding parameter.
 
  <sup>3</sup> There are special instructions to construct and pass a `RefAny`.
 
- <sup>4</sup> The CLI is permitted to pass floating point arguments using its internal `F` type, see §[III.1.1.1](#todo-missing-hyperlink). CIL generators can, of course, include an explicit `conv.r4`, `conv.r4.ovf`, or similar instruction.
+ <sup>4</sup> The CLI is permitted to pass floating point arguments using its internal `F` type, see §[III.1.1.1](iii.1.1.1-numeric-data-types.md). CIL generators can, of course, include an explicit `conv.r4`, `conv.r4.ovf`, or similar instruction.
 
 Further notes concerning this table:
 

@@ -20,7 +20,7 @@ The syntax diagram for a _PropertySig_ looks like this:
 
 The first byte of the Signature holds bits for `HASTHIS` and `PROPERTY`. These are OR’d together.
 
-_Type_ specifies the type returned by the *getter* method for this property. _Type_ is defined in §[II.23.2.12](#todo-missing-hyperlink).
+_Type_ specifies the type returned by the *getter* method for this property. _Type_ is defined in §[II.23.2.12](ii.23.2.12-type.md).
 
 _Param_ is defined in §[II.23.2.10](#todo-missing-hyperlink).
 

@@ -4,7 +4,7 @@ The _TypeSpec_ table has just one column, which indexes the specification of a T
 
 The _TypeSpec_ table has the following column:
 
- * _Signature_ (index into the Blob heap, where the blob is formatted as specified in §[II.23.2.14](#todo-missing-hyperlink))
+ * _Signature_ (index into the Blob heap, where the blob is formatted as specified in §[II.23.2.14](ii.23.2.14-typespec.md))
 
 Note that _TypeSpec_ tokens can be used with any of the CIL instructions that take a _TypeDef_ or _TypeRef_ token; specifically, `castclass`, `cpobj`, `initobj`, `isinst`, `ldelema`, `ldobj`, `mkrefany`, `newarr`, `refanyval`, `sizeof`, `stobj`, `box`, and `unbox`.
 

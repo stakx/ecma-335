@@ -12,4 +12,4 @@ The logical abstraction of a thread of control is captured by an instance of the
 
 5. **Explicit atomic operations.** The class library provides a variety of atomic operations in the `System.Threading.Interlocked` class. These operations (e.g., `Increment`, `Decrement`, `Exchange`, and `CompareExchange`) perform implicit acquire/release operations.
 
-Acquiring a lock (`System.Threading.Monitor.Enter` or entering a synchronized method) shall implicitly perform a volatile read operation, and releasing a lock (`System.Threading.Monitor.Exit` or leaving a synchronized method) shall implicitly perform a volatile write operation. See §[I.12.6.7](#todo-missing-hyperlink).
+Acquiring a lock (`System.Threading.Monitor.Enter` or entering a synchronized method) shall implicitly perform a volatile read operation, and releasing a lock (`System.Threading.Monitor.Exit` or leaving a synchronized method) shall implicitly perform a volatile write operation. See §[I.12.6.7](i.12.6.7-volatile-reads-and-writes.md).

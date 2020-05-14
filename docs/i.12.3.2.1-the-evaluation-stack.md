@@ -1,10 +1,10 @@
 ## I.12.3.2.1 The evaluation stack
 
-Associated with each method state is an evaluation stack. Most CLI instructions retrieve their arguments from the evaluation stack and place their return values on the stack. Arguments to other methods and their return values are also placed on the evaluation stack. When a procedure call is made the arguments to the called methods become the incoming arguments array (see §[I.12.3.2.2](#todo-missing-hyperlink)) to the method. This can require a memory copy, or simply a sharing of these two areas by the two methods.
+Associated with each method state is an evaluation stack. Most CLI instructions retrieve their arguments from the evaluation stack and place their return values on the stack. Arguments to other methods and their return values are also placed on the evaluation stack. When a procedure call is made the arguments to the called methods become the incoming arguments array (see §[I.12.3.2.2](i.12.3.2.2-local-variables-and-arguments.md)) to the method. This can require a memory copy, or simply a sharing of these two areas by the two methods.
 
 The evaluation stack is made up of slots that can hold any data type, including an unboxed instance of a value type. The type state of the stack (the stack depth and types of each element on the stack) at any given point in a program shall be identical for all possible control flow paths. For example, a program that loops an unknown number of times and pushes a new element on the stack at each iteration would be prohibited.
 
-While the CLI, in general, supports the full set of types described in §[I.12.1](#todo-missing-hyperlink), the CLI treats the evaluation stack in a special way. While some JIT compilers might track the types on the stack in more detail, the CLI only requires that values be one of:
+While the CLI, in general, supports the full set of types described in §[I.12.1](i.12.1-supported-data-types.md), the CLI treats the evaluation stack in a special way. While some JIT compilers might track the types on the stack in more detail, the CLI only requires that values be one of:
 
  * `int64`, an 8-byte signed integer
 

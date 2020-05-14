@@ -8,9 +8,9 @@ The _MethodImpl_ table has the following columns:
 
  * _Class_ (an index into the _TypeDef_ table)
 
- * _MethodBody_ (an index into the _MethodDef_ or _MemberRef_ table; more precisely, a _MethodDefOrRef_ (§[II.24.2.6](#todo-missing-hyperlink)) coded index)
+ * _MethodBody_ (an index into the _MethodDef_ or _MemberRef_ table; more precisely, a _MethodDefOrRef_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index)
 
- * _MethodDeclaration_ (an index into the _MethodDef_ or _MemberRef_ table; more precisely, a _MethodDefOrRef_ (§[II.24.2.6](#todo-missing-hyperlink)) coded index)
+ * _MethodDeclaration_ (an index into the _MethodDef_ or _MemberRef_ table; more precisely, a _MethodDefOrRef_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index)
 
 ILAsm uses the **.override** directive to specify the rows of the _MethodImpl_ table (§[II.10.3.2](#todo-missing-hyperlink) and §[II.15.4.1](#todo-missing-hyperlink)).
 

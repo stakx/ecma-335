@@ -1,6 +1,6 @@
 ## I.10.5 Exceptions
 
-The CLI supports an exception handling model, which is introduced in §[I.12.4.2](#todo-missing-hyperlink). CLS-compliant frameworks can define and throw externally visible exceptions, but there are restrictions on the type of objects thrown:
+The CLI supports an exception handling model, which is introduced in §[I.12.4.2](i.12.4.2-exception-handling.md). CLS-compliant frameworks can define and throw externally visible exceptions, but there are restrictions on the type of objects thrown:
 
 > #### CLS Rule 40:
 >

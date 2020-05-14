@@ -29,4 +29,4 @@ Correct CIL shall observe all of the control transfer rules specified above and 
 
 #### Verifiability:
 
-Verifiable code requires the type-consistency of the stack, locals and arguments for every possible path to the destination instruction. See §[III.1.8](#todo-missing-hyperlink) for more details.
+Verifiable code requires the type-consistency of the stack, locals and arguments for every possible path to the destination instruction. See §[III.1.8](iii.1.8-verifiability-and-correctness.md) for more details.

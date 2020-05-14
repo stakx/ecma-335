@@ -1,6 +1,6 @@
 ## I.12.6.7 Volatile reads and writes
 
-The `volatile.` prefix on certain instructions shall guarantee cross-thread memory ordering rules. They do not provide atomicity, other than that guaranteed by the specification of §[I.12.6.6](#todo-missing-hyperlink).
+The `volatile.` prefix on certain instructions shall guarantee cross-thread memory ordering rules. They do not provide atomicity, other than that guaranteed by the specification of §[I.12.6.6](i.12.6.6-atomic-reads-and-writes.md).
 
 A volatile read has "acquire semantics" meaning that the read is guaranteed to occur prior to any references to memory that occur after the read instruction in the CIL instruction sequence. A volatile write has "release semantics" meaning that the write is guaranteed to happen after any memory references prior to the write instruction in the CIL instruction sequence.
 

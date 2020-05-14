@@ -11,10 +11,10 @@ Each section header has the following format, for a total of 40 bytes per entry:
  12 | 4 | VirtualAddress | For executable images this is the address of the first byte of the section, when loaded into memory, relative to the image base.
  16 | 4 | SizeOfRawData | Size of the initialized data on disk in bytes, shall be a multiple of FileAlignment from the PE header. If this is less than VirtualSize the remainder of the section is zero filled. Because this field is rounded while the VirtualSize field is not it is possible for this to be greater than VirtualSize as well. When a section contains only uninitialized data, this field should be 0.
  20 | 4 | PointerToRawData | Offset of section's first page within the PE file. This shall be a multiple of FileAlignment from the optional header. When a section contains only uninitialized data, this field should be 0.
- 24 | 4 | PointerToRelocations | Should be 0 (§[II.24.1](#todo-missing-hyperlink)).
- 28 | 4 | PointerToLinenumbers | Should be 0 (§[II.24.1](#todo-missing-hyperlink)).
- 32 | 2 | NumberOfRelocations | Should be 0 (§[II.24.1](#todo-missing-hyperlink)).
- 34 | 2 | NumberOfLinenumbers | Should be 0 (§[II.24.1](#todo-missing-hyperlink)).
+ 24 | 4 | PointerToRelocations | Should be 0 (§[II.24.1](ii.24.1-fixed-fields.md)).
+ 28 | 4 | PointerToLinenumbers | Should be 0 (§[II.24.1](ii.24.1-fixed-fields.md)).
+ 32 | 2 | NumberOfRelocations | Should be 0 (§[II.24.1](ii.24.1-fixed-fields.md)).
+ 34 | 2 | NumberOfLinenumbers | Should be 0 (§[II.24.1](ii.24.1-fixed-fields.md)).
  36 | 4 | Characteristics | Flags describing section's characteristics; see below.
 
 The following table defines the possible characteristics of the section.

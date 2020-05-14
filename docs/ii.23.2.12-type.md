@@ -1,6 +1,6 @@
 ## II.23.2.12 Type
 
-_Type_ is encoded in signatures as follows (`I1` is an abbreviation for `ELEMENT_TYPE_I1`, `U1` is an abbreviation for `ELEMENT_TYPE_U1`, and so on; see [II.23.1.16](#todo-missing-hyperlink)):
+_Type_ is encoded in signatures as follows (`I1` is an abbreviation for `ELEMENT_TYPE_I1`, `U1` is an abbreviation for `ELEMENT_TYPE_U1`, and so on; see [II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md)):
 
  | _Type_ ::=
  | ----

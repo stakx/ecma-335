@@ -1,6 +1,6 @@
 ## II.23.1.16 Element types used in signatures
 
-The following table lists the values for `ELEMENT_TYPE` constants. These are used extensively in metadata signature blobs &ndash; see §[II.23.2](#todo-missing-hyperlink).
+The following table lists the values for `ELEMENT_TYPE` constants. These are used extensively in metadata signature blobs &ndash; see §[II.23.2](ii.23.2-blobs-and-signatures.md).
 
  Name | Value | Remarks
  ---- | ---- | ----
@@ -42,6 +42,6 @@ The following table lists the values for `ELEMENT_TYPE` constants. These are use
  &nbsp; | 0x50 | Indicates an argument of type `System.Type`.
  &nbsp; | 0x51 | Used in custom attributes to specify a boxed object (§[II.23.3](#todo-missing-hyperlink)).
  &nbsp; | 0x52 | Reserved
- &nbsp; | 0x53 | Used in custom attributes to indicate a `FIELD` (§[II.22.10](#todo-missing-hyperlink), [II.23.3](#todo-missing-hyperlink)).
- &nbsp; | 0x54 | Used in custom attributes to indicate a `PROPERTY` (§[II.22.10](#todo-missing-hyperlink), [II.23.3](#todo-missing-hyperlink)).
+ &nbsp; | 0x53 | Used in custom attributes to indicate a `FIELD` (§[II.22.10](ii.22.10-customattribute-0x0c.md), [II.23.3](#todo-missing-hyperlink)).
+ &nbsp; | 0x54 | Used in custom attributes to indicate a `PROPERTY` (§[II.22.10](ii.22.10-customattribute-0x0c.md), [II.23.3](#todo-missing-hyperlink)).
  &nbsp; | 0x55 | Used in custom attributes to specify an enum (§[II.23.3](#todo-missing-hyperlink)).

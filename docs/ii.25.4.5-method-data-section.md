@@ -16,7 +16,7 @@ Currently, the method data sections are only used for exception tables (§[II.19
  0 | 1 | **Kind** | Flags as described above.
  1 | 1 | **DataSize** | Size of the data for the block, including the header, say *n*\*12+4.
  2 | 2 | **Reserved** | Padding, always 0.
- 4 | *n* | **Clauses** | *n* small exception clauses (§[II.25.4.6](#todo-missing-hyperlink)).
+ 4 | *n* | **Clauses** | *n* small exception clauses (§[II.25.4.6](ii.25.4.6-exception-handling-clauses.md)).
 
 The layout of a fat exception header structure is as follows: 
 
@@ -24,4 +24,4 @@ The layout of a fat exception header structure is as follows:
  ---- | ---- | ---- | ---- 
 0 | 1 | **Kind** | Which type of exception block is being used
 1 | 3 | **DataSize** | Size of the data for the block, including the header, say *n*\*24+4.
-4 | *n* | **Clauses** | *n* fat exception clauses (§[II.25.4.6](#todo-missing-hyperlink)).
+4 | *n* | **Clauses** | *n* fat exception clauses (§[II.25.4.6](ii.25.4.6-exception-handling-clauses.md)).

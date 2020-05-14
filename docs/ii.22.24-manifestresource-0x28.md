@@ -4,11 +4,11 @@ The _ManifestResource_ table has the following columns:
 
  * _Offset_ (a 4-byte constant)
 
- * _Flags_ (a 4-byte bitmask of type _ManifestResourceAttributes_, §[II.23.1.9](#todo-missing-hyperlink))
+ * _Flags_ (a 4-byte bitmask of type _ManifestResourceAttributes_, §[II.23.1.9](ii.23.1.9-flags-for-manifestresource-manifestresourceattributes.md))
 
  * _Name_ (an index into the String heap)
 
- * _Implementation_ (an index into a _File_ table, a _AssemblyRef_ table, or  null; more precisely, an _Implementation_ (§[II.24.2.6](#todo-missing-hyperlink)) coded index)
+ * _Implementation_ (an index into a _File_ table, a _AssemblyRef_ table, or  null; more precisely, an _Implementation_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index)
 
 The _Offset_ specifies the byte offset within the referenced file at which this resource record begins. The _Implementation_ specifies which file holds this resource.
 
@@ -22,7 +22,7 @@ The rows in the table result from **.mresource** directives on the Assembly (§[
 
  3. _Flags_ shall have only those values set that are specified \[ERROR\]
 
- 4. The `VisibilityMask` (§[II.23.1.9](#todo-missing-hyperlink)) subfield of _Flags_ shall be one of `Public` or `Private` \[ERROR\]
+ 4. The `VisibilityMask` (§[II.23.1.9](ii.23.1.9-flags-for-manifestresource-manifestresourceattributes.md)) subfield of _Flags_ shall be one of `Public` or `Private` \[ERROR\]
 
  5. _Name_ shall index a non-empty string in the String heap \[ERROR\]
 

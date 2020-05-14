@@ -8,4 +8,4 @@ This diagram uses the following abbreviations:
 
  * `FIELD` for 0x6
 
-_CustomMod_ is defined in §[II.23.2.7](#todo-missing-hyperlink). _Type_ is defined in §[II.23.2.12](#todo-missing-hyperlink).
+_CustomMod_ is defined in §[II.23.2.7](#todo-missing-hyperlink). _Type_ is defined in §[II.23.2.12](ii.23.2.12-type.md).

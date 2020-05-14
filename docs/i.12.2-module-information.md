@@ -6,13 +6,13 @@
 
  * The _signature_ of the method, which specifies the return type and the number, order, parameter passing convention, and built-in data type of each of the arguments. It also specifies the native calling convention (this does not affect the CIL virtual calling convention, just the native code).
 
- * The _exception handling array_. This array holds information delineating the ranges over which exceptions are filtered and caught. See [Partition II](#todo-missing-hyperlink) and §[I.12.4.2](#todo-missing-hyperlink).
+ * The _exception handling array_. This array holds information delineating the ranges over which exceptions are filtered and caught. See [Partition II](#todo-missing-hyperlink) and §[I.12.4.2](i.12.4.2-exception-handling.md).
 
  * The size of the evaluation stack that the method will require.
 
  * The size of the locals array that the method will require.
 
- * A "localsinit flag" that indicates whether the local variables and memory pool (§[I.12.3.2.4](#todo-missing-hyperlink)) should be initialized by the CLI (see also `localloc` §[III.3.47](#todo-missing-hyperlink)).
+ * A "localsinit flag" that indicates whether the local variables and memory pool (§[I.12.3.2.4](i.12.3.2.4-local-memory-pool.md)) should be initialized by the CLI (see also `localloc` §[III.3.47](#todo-missing-hyperlink)).
 
  * Type of each local variable in the form of a signature of the local variable array (called the "locals signature").
 

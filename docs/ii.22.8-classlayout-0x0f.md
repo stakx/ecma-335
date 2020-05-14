@@ -44,7 +44,7 @@ _ClassSize_ of zero does not mean the class has zero size. It means that no **.s
 
  2. _Parent_ shall index a valid row in the _TypeDef_ table, corresponding to a Class or ValueType (but not to an Interface) \[ERROR\]
 
- 3. The Class or ValueType indexed by _Parent_ shall be `SequentialLayout` or `ExplicitLayout` (§[II.23.1.15](#todo-missing-hyperlink)). (That is, `AutoLayout` types shall not own any rows in the _ClassLayout_ table.) \[ERROR\]
+ 3. The Class or ValueType indexed by _Parent_ shall be `SequentialLayout` or `ExplicitLayout` (§[II.23.1.15](ii.23.1.15-flags-for-types-typeattributes.md)). (That is, `AutoLayout` types shall not own any rows in the _ClassLayout_ table.) \[ERROR\]
 
  4. If _Parent_ indexes a `SequentialLayout` type, then:
 

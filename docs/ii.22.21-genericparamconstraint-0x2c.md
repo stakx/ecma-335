@@ -4,7 +4,7 @@ The _GenericParamConstraint_ table has the following columns:
 
  * _Owner_ (an index into the _GenericParam_ table, specifying to which generic parameter this row refers)
 
- * _Constraint_ (an index into the _TypeDef_, _TypeRef_, or _TypeSpec_ tables, specifying from which class this generic parameter is constrained to derive; or which interface this generic parameter is constrained to implement; more precisely, a _TypeDefOrRef_ (§[II.24.2.6](#todo-missing-hyperlink)) coded index)
+ * _Constraint_ (an index into the _TypeDef_, _TypeRef_, or _TypeSpec_ tables, specifying from which class this generic parameter is constrained to derive; or which interface this generic parameter is constrained to implement; more precisely, a _TypeDefOrRef_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index)
 
 The _GenericParamConstraint_ table records the constraints for each generic parameter. Each generic parameter can be constrained to derive from zero or one class. Each generic parameter can be constrained to implement zero or more interfaces.
 

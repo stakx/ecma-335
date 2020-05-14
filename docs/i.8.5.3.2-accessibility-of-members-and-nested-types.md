@@ -6,7 +6,7 @@ A type scopes all of its members, and it also specifies the accessibility rules 
 
  * **private** &ndash; accessible only to referents in the implementation of the exact type that defines the member.
 
- * **family** &ndash; accessible to referents that support the same type (i.e., an exact type and all of the types that inherit from it). For verifiable code (see §[I.8.8](#todo-missing-hyperlink)), there is an additional requirement that can require a runtime check: the reference shall be made through an item whose exact type supports the exact type of the referent. That is, the item whose member is being accessed shall inherit from the type performing the access.
+ * **family** &ndash; accessible to referents that support the same type (i.e., an exact type and all of the types that inherit from it). For verifiable code (see §[I.8.8](i.8.8-type-safety-and-verification.md)), there is an additional requirement that can require a runtime check: the reference shall be made through an item whose exact type supports the exact type of the referent. That is, the item whose member is being accessed shall inherit from the type performing the access.
 
  * **assembly** &ndash; accessible only to referents in the same assembly that contains the implementation of the type.
 

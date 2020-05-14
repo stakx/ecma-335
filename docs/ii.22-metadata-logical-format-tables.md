@@ -1,6 +1,6 @@
 ## II.22 Metadata logical format: tables
 
-This clause defines the structures that describe metadata, and how they are cross-indexed. This corresponds to how metadata is laid out, after being read into memory from a PE file. (For a description of metadata layout inside the PE file itself, see §[II.24](#todo-missing-hyperlink))
+This clause defines the structures that describe metadata, and how they are cross-indexed. This corresponds to how metadata is laid out, after being read into memory from a PE file. (For a description of metadata layout inside the PE file itself, see §[II.24](ii.24-metadata-physical-layout.md))
 
 Metadata is stored in two kinds of structure: tables (arrays of records) and heaps. There are four heaps in any module: String, Blob, Userstring, and Guid. The first three are byte arrays (so valid indexes into these heaps might be 0, 23, 25, 39, etc). The Guid heap is an array of GUIDs, each 16 bytes wide. Its first element is numbered 1, its second 2, and so on.
 
@@ -12,11 +12,11 @@ Each index is either 2 or 4 bytes wide. The index points into the same or anothe
 
 Indexes to tables begin at 1, so index 1 means the first row in any given metadata table. (An index value of zero denotes that it does not index a row at all; that is, it behaves like a null reference.)
 
-There are two kinds of columns that index a metadata table. (For details of the physical representation of these tables, see §[II.24.2.6](#todo-missing-hyperlink)):
+There are two kinds of columns that index a metadata table. (For details of the physical representation of these tables, see §[II.24.2.6](ii.24.2.6-metadata-stream.md)):
 
  * Simple &mdash; such a column indexes one, and only one, table. For example, the *FieldList* column in the *TypeDef* table always indexes the *Field* table. So all values in that column are simple integers, giving the row number in the target table
 
- * Coded &mdash; such a column indexes any of several tables. For example, the *Extends* column in the *TypeDef* table can index into the *TypeDef* or *TypeRef* table. A few bits of that index value are reserved to define which table it targets. For the most part, this specification talks of index values after being decoded into row numbers within the target table. However, the specification includes a description of these coded indexes in the section that describes the physical layout of Metadata (§[II.24](#todo-missing-hyperlink)).
+ * Coded &mdash; such a column indexes any of several tables. For example, the *Extends* column in the *TypeDef* table can index into the *TypeDef* or *TypeRef* table. A few bits of that index value are reserved to define which table it targets. For the most part, this specification talks of index values after being decoded into row numbers within the target table. However, the specification includes a description of these coded indexes in the section that describes the physical layout of Metadata (§[II.24](ii.24-metadata-physical-layout.md)).
 
 Metadata preserves name strings, as created by a compiler or code generator, unchanged. Essentially, it treats each string as an opaque blob. In particular, it preserves case. The CLI imposes no limit on the length of names stored in metadata and subsequently processed by the CLI.
 
@@ -51,6 +51,6 @@ Furthermore, the *InterfaceImpl* table is sorted using the *Interface* column as
 
 Finally, the *TypeDef* table has a special ordering constraint: the definition of an enclosing class shall precede the definition of all classes it encloses.
 
-Metadata items (records in the metadata tables) are addressed by metadata tokens. Uncoded metadata tokens are 4-byte unsigned integers, which contain the metadata table index in the most significant byte and a 1-based record index in the three least-significant bytes. Metadata tables and their respective indexes are described in §[II.22.2](#todo-missing-hyperlink) and later subclauses.
+Metadata items (records in the metadata tables) are addressed by metadata tokens. Uncoded metadata tokens are 4-byte unsigned integers, which contain the metadata table index in the most significant byte and a 1-based record index in the three least-significant bytes. Metadata tables and their respective indexes are described in §[II.22.2](ii.22.2-assembly-0x20.md) and later subclauses.
 
-Coded metadata tokens also contain table and record indexes, but in a different format. For details on the encoding, see §[II.24.2.6](#todo-missing-hyperlink).
+Coded metadata tokens also contain table and record indexes, but in a different format. For details on the encoding, see §[II.24.2.6](ii.24.2.6-metadata-stream.md).

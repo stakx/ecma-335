@@ -14,6 +14,6 @@ A Tiny Format header is encoded as follows:
 
  Start bit | Count of Bits | Description
  ---- | ---- | ----
- 0 | 2 | Flags (`CorILMethod_TinyFormat` shall be set, see §[II.25.4.4](#todo-missing-hyperlink)).
+ 0 | 2 | Flags (`CorILMethod_TinyFormat` shall be set, see §[II.25.4.4](ii.25.4.4-flags-for-method-headers.md)).
  2 | 6 | Size, in bytes, of the method body immediately following this header.
 

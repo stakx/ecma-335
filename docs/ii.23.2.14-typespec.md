@@ -12,4 +12,4 @@ The signature in the Blob heap indexed by a _TypeSpec_ token has the following f
  | \| `SZARRAY` _CustomMod_* _Type_
  | \| `GENERICINST` ( `CLASS` \| `VALUETYPE` ) _TypeDefOrRefOrSpecEncoded_ _GenArgCount_ _Type_ _Type_*
 
-For compactness, the `ELEMENT_TYPE_` prefixes have been omitted from this list. So, for example, `PTR` is shorthand for `ELEMENT_TYPE_PTR`. (§[II.23.1.16](#todo-missing-hyperlink))   Note that a TypeSpecBlob does not begin with a calling-convention byte, so it differs from the various other signatures that are stored into Metadata.
+For compactness, the `ELEMENT_TYPE_` prefixes have been omitted from this list. So, for example, `PTR` is shorthand for `ELEMENT_TYPE_PTR`. (§[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md))   Note that a TypeSpecBlob does not begin with a calling-convention byte, so it differs from the various other signatures that are stored into Metadata.

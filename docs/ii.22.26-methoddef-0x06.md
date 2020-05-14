@@ -6,7 +6,7 @@ The _MethodDef_ table has the following columns:
 
  * _ImplFlags_ (a 2-byte bitmask of type _MethodImplAttributes_, §[II.23.1.11](#todo-missing-hyperlinks))
 
- * _Flags_ (a 2-byte bitmask of type _MethodAttributes_, §[II.23.1.10](#todo-missing-hyperlink))
+ * _Flags_ (a 2-byte bitmask of type _MethodAttributes_, §[II.23.1.10](ii.23.1.10-flags-for-methods-methodattributes.md))
 
  * _Name_ (an index into the String heap)
 
@@ -20,7 +20,7 @@ The _MethodDef_ table has the following columns:
 
 Conceptually, every row in the _MethodDef_ table is owned by one, and only one, row in the _TypeDef_ table.
 
-The rows in the _MethodDef_ table result from **.method** directives (§[II.15](#todo-missing-hyperlink)). The RVA column is computed when the image for the PE file is emitted and points to the `COR_ILMETHOD` structure for the body of the method (§[II.25.4](#todo-missing-hyperlink))
+The rows in the _MethodDef_ table result from **.method** directives (§[II.15](#todo-missing-hyperlink)). The RVA column is computed when the image for the PE file is emitted and points to the `COR_ILMETHOD` structure for the body of the method (§[II.25.4](ii.25.4-common-intermediate-language-physical-layout.md))
 
 _[Note:_ If _Signature_ is `GENERIC` (0x10), the generic arguments are described in the _GenericParam_ table (§[II.22.20](#todo-missing-hyperlink)). _end note]_
 
@@ -36,7 +36,7 @@ _[Note:_ If _Signature_ is `GENERIC` (0x10), the generic arguments are described
 
  5. If _Name_ is `.ctor` and the method is marked `SpecialName`, there shall not be a row in the _GenericParam_ table which has this _MethodDef_ as its owner. \[ERROR\]
 
- 6. The `MemberAccessMask` (§[II.23.1.10](#todo-missing-hyperlink)) subfield of _Flags_ shall contain precisely one of `CompilerControlled`, `Private`, `FamANDAssem`, `Assem`, `Family`, `FamORAssem`, or `Public` \[ERROR\]
+ 6. The `MemberAccessMask` (§[II.23.1.10](ii.23.1.10-flags-for-methods-methodattributes.md)) subfield of _Flags_ shall contain precisely one of `CompilerControlled`, `Private`, `FamANDAssem`, `Assem`, `Family`, `FamORAssem`, or `Public` \[ERROR\]
 
  7. The following combined bit settings in _Flags_ are invalid \[ERROR\]
 
@@ -160,7 +160,7 @@ _[Note:_ If _Signature_ is `GENERIC` (0x10), the generic arguments are described
 
  38. If _Name_ = `.ctor` (an object constructor method) then:
 
-     1. return type in _Signature_ shall be `ELEMENT_TYPE_VOID` (§[II.23.1.16](#todo-missing-hyperlink)) \[ERROR\]
+     1. return type in _Signature_ shall be `ELEMENT_TYPE_VOID` (§[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md)) \[ERROR\]
 
      2. _Flags_.`Static` shall be 0  \[ERROR\]
 
@@ -174,7 +174,7 @@ _[Note:_ If _Signature_ is `GENERIC` (0x10), the generic arguments are described
 
  39. If _Name_ = `.cctor` (a class constructor method) then:
 
-     1. the return type in _Signature_ shall be `ELEMENT_TYPE_VOID` (§[II.23.1.16](#todo-missing-hyperlink)) \[ERROR\]
+     1. the return type in _Signature_ shall be `ELEMENT_TYPE_VOID` (§[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md)) \[ERROR\]
 
      2. _Signature_ shall have `DEFAULT` (0x0) for its calling convention \[ERROR\]
 

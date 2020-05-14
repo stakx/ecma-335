@@ -10,7 +10,7 @@ This prefix can only appear only immediately preceding the `ldelema` instruction
 
 1. At run-time, no type check operation is performed. (For the value class case there is never a runtime time check so this is a noop in that case).
 
- 2. The verifier treats the result of the address-of operation as a controlled-mutability managed pointer (§[III.1.8.1.2.2](#todo-missing-hyperlink)).
+ 2. The verifier treats the result of the address-of operation as a controlled-mutability managed pointer (§[III.1.8.1.2.2](iii.1.8.1.2.2-controlled-mutability-managed-pointers.md)).
 
 #### Exceptions:
 
@@ -20,7 +20,7 @@ None.
 
 #### Verifiability:
 
-A controlled-mutability managed pointer must obey the verifier rules given in (2) of §[III.1.8.1.2.2](#todo-missing-hyperlink). See also §[III.1.8.1.3](#todo-missing-hyperlink).
+A controlled-mutability managed pointer must obey the verifier rules given in (2) of §[III.1.8.1.2.2](iii.1.8.1.2.2-controlled-mutability-managed-pointers.md). See also §[III.1.8.1.3](iii.1.8.1.3-merging-stack-states.md).
 
 _[Rationale:_ The main goal of the `readonly.` prefix is to avoid a type check when fetching an element from an array in generic code. For example the expression
 

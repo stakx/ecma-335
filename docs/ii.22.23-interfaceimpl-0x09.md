@@ -4,7 +4,7 @@ The _InterfaceImpl_ table has the following columns:
 
  * _Class_ (an index into the _TypeDef_ table)
 
- * _Interface_ (an index into the _TypeDef_, _TypeRef_, or _TypeSpec_ table; more precisely, a _TypeDefOrRef_ (§[II.24.2.6](#todo-missing-hyperlink)) coded index)
+ * _Interface_ (an index into the _TypeDef_, _TypeRef_, or _TypeSpec_ table; more precisely, a _TypeDefOrRef_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index)
  
  The _InterfaceImpl_ table records the interfaces a type implements explicitly.  Conceptually, each row in the _InterfaceImpl_ table indicates that _Class_ implements _Interface_.
 

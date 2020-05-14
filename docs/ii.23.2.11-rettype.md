@@ -8,8 +8,8 @@ _RetType_ is identical to _Param_ except for one extra possibility, that it can 
 
 This diagram uses the following abbreviations:
 
- * `BYREF` for `ELEMENT_TYPE_BYREF` (§[II.23.1.16](#todo-missing-hyperlink))
+ * `BYREF` for `ELEMENT_TYPE_BYREF` (§[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md))
 
- * `TYPEDBYREF` for `ELEMENT_TYPE_TYPEDBYREF` (§[II.23.1.16](#todo-missing-hyperlink))
+ * `TYPEDBYREF` for `ELEMENT_TYPE_TYPEDBYREF` (§[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md))
 
- * `VOID` for `ELEMENT_TYPE_VOID` (§[II.23.1.16](#todo-missing-hyperlink))
+ * `VOID` for `ELEMENT_TYPE_VOID` (§[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md))

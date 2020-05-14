@@ -1,14 +1,14 @@
 ## II.24.2.6 #~ stream
 
-The "`#~`" streams contain the actual physical representations of the logical metadata tables (§[II.22](#todo-missing-hyperlink)). A "`#~`" stream has the following top-level structure:
+The "`#~`" streams contain the actual physical representations of the logical metadata tables (§[II.22](ii.22-metadata-logical-format-tables.md)). A "`#~`" stream has the following top-level structure:
 
  Offset | Size | Field | Description
  ---- | ---- | ---- | ----
- 0 | 4 | **Reserved** | Reserved, always 0 (§[II.24.1](#todo-missing-hyperlink)).
- 4 | 1 | **MajorVersion** | Major version of table schemata; shall be 2 (§[II.24.1](#todo-missing-hyperlink)).
- 5 | 1 | **MinorVersion** | Minor version of table schemata; shall be 0 (§[II.24.1](#todo-missing-hyperlink)).
+ 0 | 4 | **Reserved** | Reserved, always 0 (§[II.24.1](ii.24.1-fixed-fields.md)).
+ 4 | 1 | **MajorVersion** | Major version of table schemata; shall be 2 (§[II.24.1](ii.24.1-fixed-fields.md)).
+ 5 | 1 | **MinorVersion** | Minor version of table schemata; shall be 0 (§[II.24.1](ii.24.1-fixed-fields.md)).
  6 | 1 | **HeapSizes** | Bit vector for heap sizes.
- 7 | 1 | **Reserved** | Reserved, always 1 (§[II.24.1](#todo-missing-hyperlink)).
+ 7 | 1 | **Reserved** | Reserved, always 1 (§[II.24.1](ii.24.1-fixed-fields.md)).
  8 | 8 | **Valid** | Bit vector of present tables, let *n* be the number of bits that are 1.
  16 | 8 | **Sorted** | Bit vector of sorted tables.
  24 | 4\**n* | **Rows** | Array of *n* 4-byte unsigned integers indicating the number of rows for each present table.
@@ -22,11 +22,11 @@ The _HeapSizes_ field is a bitvector that encodes the width of indexes into the 
  0x02 | Size of "`#GUID`" stream &ge; 2<sup>16</sup>.
  0x04 | Size of "`#Blob`" stream &ge; 2<sup>16</sup>.
 
-The _Valid_ field is a 64-bit bitvector that has a specific bit set for each table that is stored in the stream; the mapping of tables to indexes is given at the start of §[II.22](#todo-missing-hyperlink). For example when the _DeclSecurity_ table is present in the logical metadata, bit 0x0e should be set in the Valid vector. It is invalid to include non-existent tables in _Valid_, so all bits above 0x2c shall be zero.
+The _Valid_ field is a 64-bit bitvector that has a specific bit set for each table that is stored in the stream; the mapping of tables to indexes is given at the start of §[II.22](ii.22-metadata-logical-format-tables.md). For example when the _DeclSecurity_ table is present in the logical metadata, bit 0x0e should be set in the Valid vector. It is invalid to include non-existent tables in _Valid_, so all bits above 0x2c shall be zero.
 
 The _Rows_ array contains the number of rows for each of the tables that are present. When decoding physical metadata to logical metadata, the number of 1's in _Valid_ indicates the number of elements in the _Rows_ array.
 
-A crucial aspect in the encoding of a logical table is its schema. The schema for each table is given in §[II.22](#todo-missing-hyperlink). For example, the table with assigned index 0x02 is a _TypeDef_ table, which, according to its specification in §[II.22.37](#todo-missing-hyperlink), has the following columns: a 4-byte-wide flags, an index into the String heap, another index into the String heap, an index into _TypeDef_, _TypeRef_, or _TypeSpec_ table, an index into _Field_ table, and an index into _MethodDef_ table.
+A crucial aspect in the encoding of a logical table is its schema. The schema for each table is given in §[II.22](ii.22-metadata-logical-format-tables.md). For example, the table with assigned index 0x02 is a _TypeDef_ table, which, according to its specification in §[II.22.37](#todo-missing-hyperlink), has the following columns: a 4-byte-wide flags, an index into the String heap, another index into the String heap, an index into _TypeDef_, _TypeRef_, or _TypeSpec_ table, an index into _Field_ table, and an index into _MethodDef_ table.
 
 The physical representation of a table with *n* columns and *m* rows with schema (*C*<sub>0</sub>,&hellip;,*C*<sub>*n*-1</sub>) consists of the concatenation of the physical representation of each of its rows. The physical representation of a row with schema (*C*<sub>0</sub>,&hellip;,*C*<sub>n-1</sub>) is the concatenation of the physical representation of each of its elements. The physical representation of a row cell *e* at a column with type *C* is defined as follows:
 

@@ -4,7 +4,7 @@ A stream header gives the names, and the position and length of a particular tab
 
  Offset | Size | Field | Description 
  ---- | ---- | ---- | ----
- 0 | 4 | **Offset** | Memory offset to start of this stream from start of the metadata root (§[II.24.2.1](#todo-missing-hyperlink))
+ 0 | 4 | **Offset** | Memory offset to start of this stream from start of the metadata root (§[II.24.2.1](ii.24.2.1-metadata-root.md))
  4 | 4 | **Size** | Size of this stream in bytes, shall be a multiple of 4.
  8 | &nbsp; | **Name** | Name of the stream as null-terminated variable length array of ASCII characters, padded to the next 4-byte boundary with `\0` characters. The name is limited to 32 characters.
 

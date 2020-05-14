@@ -2,7 +2,7 @@
 
 The _Param_ table has the following columns:
 
- * _Flags_ (a 2-byte bitmask of type _ParamAttributes_, §[II.23.1.13](#todo-missing-hyperlink))
+ * _Flags_ (a 2-byte bitmask of type _ParamAttributes_, §[II.23.1.13](ii.23.1.13-flags-for-params-paramattributes.md))
 
  * _Sequence_ (a 2-byte constant)
 

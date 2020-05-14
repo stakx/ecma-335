@@ -4,7 +4,7 @@ An _ArrayShape_ has the following syntax diagram:
 
  ![](ii.23.2.13-arrayshape-figure-1.png)
 
-_Rank_ is an unsigned integer (stored in compressed form, see §[II.23.2](#todo-missing-hyperlink)) that specifies the number of dimensions in the array (shall be 1 or more).
+_Rank_ is an unsigned integer (stored in compressed form, see §[II.23.2](ii.23.2-blobs-and-signatures.md)) that specifies the number of dimensions in the array (shall be 1 or more).
 
 _NumSizes_ is a compressed unsigned integer that says how many dimensions have specified sizes (it shall be 0 or more).
 

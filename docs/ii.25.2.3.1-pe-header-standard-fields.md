@@ -5,8 +5,8 @@ These fields are required for all PE files and contain the following information
  Offset | Size | Field | Description
  ---- | ---- | ---- | ----
  0 | 2 | Magic | Always 0x10B.
- 2 | 1 | LMajor | Always 6 (§[II.24.1](#todo-missing-hyperlink)).
- 3 | 1 | LMinor | Always 0 (§[II.24.1](#todo-missing-hyperlink)).
+ 2 | 1 | LMajor | Always 6 (§[II.24.1](ii.24.1-fixed-fields.md)).
+ 3 | 1 | LMinor | Always 0 (§[II.24.1](ii.24.1-fixed-fields.md)).
  4 | 4 | Code Size | Size of the code (text) section, or the sum of all code sections if there are multiple sections.
  8 | 4 | Initialized Data Size | Size of the initialized data section, or the sum of all such sections if there are multiple data sections.
  12 | 4 | Uninitialized Data Size | Size of the uninitialized data section, or the sum of all such sections if there are multiple unitinitalized data sections.

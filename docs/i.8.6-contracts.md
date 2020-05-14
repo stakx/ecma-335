@@ -1,6 +1,6 @@
 ## I.8.6 Contracts
 
-**Contracts** are named. They are the shared assumptions on a set of **signatures** (see §[I.8.6.1](#todo-missing-hyperlink)) between all implementers and all users of the contract. The signatures are the part of the contract that can be checked and enforced.
+**Contracts** are named. They are the shared assumptions on a set of **signatures** (see §[I.8.6.1](i.8.6.1-signatures.md)) between all implementers and all users of the contract. The signatures are the part of the contract that can be checked and enforced.
 
 Contracts are not types; rather they specify requirements on the implementation of types. Types state which contracts they abide by (i.e., which contracts all implementations of the type shall support). An implementation of a type can be verified to check that the enforceable parts of a contract—the named signatures—have been implemented. The kinds of contracts are:
 

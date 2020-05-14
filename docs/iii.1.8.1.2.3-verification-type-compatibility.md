@@ -1,6 +1,6 @@
 ## III.1.8.1.2.3 Verification type compatibility
 
-Verification type compatibility is defined in terms of assignment compatibility (see §[I.8.7](#todo-missing-hyperlink)).
+Verification type compatibility is defined in terms of assignment compatibility (see §[I.8.7](i.8.7-assignment-compatibility.md)).
 
 A type `Q` is *verifier-assignable-to* `R` (sometimes written `R` := `Q`) if and only if `T` is the verification type of `Q`, and `U` is the verification type of `R`, and at least one of the following holds:
 

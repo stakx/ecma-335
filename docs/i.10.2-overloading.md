@@ -18,7 +18,7 @@ Notice that the signature includes more information, but CLS-compliant languages
 
  * Whether a parameter is passed by value or by reference
 
-There is one exception to this rule. For the special names `op_Implicit` and `op_Explicit`, described in §[I.10.3.3](#todo-missing-hyperlink), methods can be provided that differ only by their return type. These are marked specially and can be ignored by compilers that don’t support operator overloading.
+There is one exception to this rule. For the special names `op_Implicit` and `op_Explicit`, described in §[I.10.3.3](i.10.3.3-conversion-operators.md), methods can be provided that differ only by their return type. These are marked specially and can be ignored by compilers that don’t support operator overloading.
 
 Properties shall not be overloaded by type (that is, by the return type of their **getter** method), but they can be overloaded with different number or types of indices (that is, by the number and types of the parameters of their **getter** methods). The overloading rules for properties are identical to the method overloading rules.
 

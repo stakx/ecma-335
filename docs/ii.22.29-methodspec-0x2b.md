@@ -2,9 +2,9 @@
 
 The _MethodSpec_ table has the following columns:
 
- * _Method_ (an index into the _MethodDef_ or _MemberRef_ table, specifying to which generic method this row refers; that is, which generic method this row is an instantiation of; more precisely, a _MethodDefOrRef_ (§[II.24.2.6](#todo-missing-hyperlink)) coded index)
+ * _Method_ (an index into the _MethodDef_ or _MemberRef_ table, specifying to which generic method this row refers; that is, which generic method this row is an instantiation of; more precisely, a _MethodDefOrRef_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index)
 
- * _Instantiation_ (an index into the Blob heap (§[II.23.2.15](#todo-missing-hyperlink)), holding the signature of this instantiation)
+ * _Instantiation_ (an index into the Blob heap (§[II.23.2.15](ii.23.2.15-methodspec.md)), holding the signature of this instantiation)
  
 The _MethodSpec_ table records the signature of an instantiated generic method. Each unique instantiation of a generic method (i.e., a combination of _Method_ and _Instantiation_) shall be represented by a single row in the table.
 

@@ -16,7 +16,7 @@ A fat header has the following structure
 
  Offset | Size | Field | Description
  ---- | ---- | ---- | ---- 
- 0 | 12 (bits) | **Flags** | Flags (`CorILMethod_FatFormat` shall be set in bits 0:1, see §[II.25.4.4](#todo-missing-hyperlink))
+ 0 | 12 (bits) | **Flags** | Flags (`CorILMethod_FatFormat` shall be set in bits 0:1, see §[II.25.4.4](ii.25.4.4-flags-for-method-headers.md))
  12 (bits) | 4 (bits) | **Size** | Size of this header expressed as the count of 4-byte integers occupied (currently 3)
  2 | 2 | **MaxStack** | Maximum number of items on the operand stack
  4 | 4 | **CodeSize** | Size in bytes of the actual method body

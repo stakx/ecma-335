@@ -28,7 +28,7 @@ The **type definition**:
 
  * Implicitly assigns the type to the assembly scope of the assembly that contains the type definition.
 
-The CTS supports an **enum** (also known as an **enumeration type**), an alternate name for an existing type. For the purposes of matching signatures, an enum shall not be the same as the underlying type. Instances of an enum, however, shall be *assignable-to* the underlying type, and vice versa. That is, no cast (see §[I.8.3.3](#todo-missing-hyperlink)) or coercion (see §[I.8.3.2](#todo-missing-hyperlink)) is required to convert from the enum to the underlying type, nor are they required from the underlying type to the enum. An enum is considerably more restricted than a true type, as follows:
+The CTS supports an **enum** (also known as an **enumeration type**), an alternate name for an existing type. For the purposes of matching signatures, an enum shall not be the same as the underlying type. Instances of an enum, however, shall be *assignable-to* the underlying type, and vice versa. That is, no cast (see §[I.8.3.3](i.8.3.3-casting.md)) or coercion (see §[I.8.3.2](i.8.3.2-coercion.md)) is required to convert from the enum to the underlying type, nor are they required from the underlying type to the enum. An enum is considerably more restricted than a true type, as follows:
 
  * It shall have exactly one instance field, and the type of that field defines the underlying type of the enumeration.
 
@@ -54,7 +54,7 @@ The underlying type shall be a built-in integer type. Enums shall derive from `S
 >
 > #### CLS Rule 9:
 >
-> Literal static fields (see §[I.8.6.1](#todo-missing-hyperlink)) of an enum shall have the type of the enum itself.
+> Literal static fields (see §[I.8.6.1](i.8.6.1-signatures.md)) of an enum shall have the type of the enum itself.
 >
 > _[Note:_
 >

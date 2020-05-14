@@ -14,7 +14,7 @@ This diagram uses the following abbreviations (§[II.15.3](#todo-missing-hyperli
  * `STDCALL` for 0x2
  * `THISCALL` for 0x3
  * `FASTCALL` for 0x4
- * `SENTINEL` for 0x41 (§[II.23.1.16](#todo-missing-hyperlink) and §[II.15.3](#todo-missing-hyperlink))
+ * `SENTINEL` for 0x41 (§[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md) and §[II.15.3](#todo-missing-hyperlink))
 
 The first byte of the Signature holds bits for `HASTHIS`, `EXPLICITTHIS` and calling convention &ndash; `DEFAULT`, `VARARG`, `C`, `STDCALL`, `THISCALL`, or `FASTCALL`. These are OR'd together.
 

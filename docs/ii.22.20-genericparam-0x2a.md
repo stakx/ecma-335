@@ -4,9 +4,9 @@ The _GenericParam_ table has the following columns:
 
  * _Number_ (the 2-byte index of the generic parameter, numbered left-to-right, from zero)
 
- * _Flags_ (a 2-byte bitmask of type _GenericParamAttributes_, §[II.23.1.7](#todo-missing-hyperlink))
+ * _Flags_ (a 2-byte bitmask of type _GenericParamAttributes_, §[II.23.1.7](ii.23.1.7-flags-for-generic-parameters-genericparamattributes.md))
 
- * _Owner_ (an index into the _TypeDef_ or _MethodDef_ table, specifying the Type or Method to which this generic parameter applies; more precisely, a _TypeOrMethodDef_ (§[II.24.2.6](#todo-missing-hyperlink)) coded index)
+ * _Owner_ (an index into the _TypeDef_ or _MethodDef_ table, specifying the Type or Method to which this generic parameter applies; more precisely, a _TypeOrMethodDef_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index)
 
  * _Name_ (a non-null index into the String heap, giving the name for the generic parameter. This is purely descriptive and is used only by source language compilers and by Reflection)
 

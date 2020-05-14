@@ -45,9 +45,9 @@ For compactness, the `NATIVE_TYPE_` prefixes have been omitted in the above list
  | ----
  | _NativeIntrinsic_
 
-_ParamNum_ is an unsigned integer (compressed as described in §[II.23.2](#todo-missing-hyperlink)) specifying the parameter in the method call that provides the number of elements in the array &ndash; see below.
+_ParamNum_ is an unsigned integer (compressed as described in §[II.23.2](ii.23.2-blobs-and-signatures.md)) specifying the parameter in the method call that provides the number of elements in the array &ndash; see below.
 
-_NumElem_ is an unsigned integer (compressed as described in §[II.23.2](#todo-missing-hyperlink)) specifying the number of elements or additional elements &ndash; see below.
+_NumElem_ is an unsigned integer (compressed as described in §[II.23.2](ii.23.2-blobs-and-signatures.md)) specifying the number of elements or additional elements &ndash; see below.
 
 _[Note:_ For example, in the method declaration:
 
@@ -71,4 +71,4 @@ This says the parameter is marshalled to a `NATIVE_TYPE_ARRAY`. There is no addi
  endif
  ```
 
-The syntax `@ParamNum` is used here to denote the value passed in for parameter number _ParamNum_ &ndash; it would be 42 in this example. The size of each element is calculated from the metadata for the `ar1` parameter in `Foo`'s signature &ndash; an `ELEMENT_TYPE_I4` (§[II.23.1.16](#todo-missing-hyperlink)) of size 4 bytes. _end note]_
+The syntax `@ParamNum` is used here to denote the value passed in for parameter number _ParamNum_ &ndash; it would be 42 in this example. The size of each element is calculated from the metadata for the `ar1` parameter in `Foo`'s signature &ndash; an `ELEMENT_TYPE_I4` (§[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md)) of size 4 bytes. _end note]_

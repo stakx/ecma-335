@@ -87,7 +87,7 @@ _end note]_
 
 The most significant bits (the first ones encountered in a PE file) of a "compressed" field, can reveal whether it occupies 1, 2, or 4 bytes, as well as its value. For this to work, the "compressed" value, as explained above, is stored in big-endian order; i.e., with the most significant byte at the smallest offset within the file.
 
-Signatures make extensive use of constant values called `ELEMENT_TYPE_xxx` &ndash; see §[II.23.1.16](#todo-missing-hyperlink). In particular, signatures include two modifiers called:
+Signatures make extensive use of constant values called `ELEMENT_TYPE_xxx` &ndash; see §[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md). In particular, signatures include two modifiers called:
 
  * `ELEMENT_TYPE_BYREF` &ndash; this element is a managed pointer (see [Partition I](#todo-missing-hyperlink)). This modifier can only occur in the definition of _LocalVarSig_ (§[II.23.2.6](#todo-missing-hyperlink)), _Param_ (§[II.23.2.10](#todo-missing-hyperlink)) or _RetType_ (§[II.23.2.11](#todo-missing-hyperlink)). It shall not occur within the definition of a _Field_ (§[II.23.2.4](#todo-missing-hyperlink))
 

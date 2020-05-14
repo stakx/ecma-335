@@ -12,11 +12,11 @@ _Event_ tables do a little more than group together existing rows from other tab
 
 The _Event_ table has the following columns:
 
- * _EventFlags_ (a 2-byte bitmask of type _EventAttributes_, §[II.23.1.4](#todo-missing-hyperlink))
+ * _EventFlags_ (a 2-byte bitmask of type _EventAttributes_, §[II.23.1.4](ii.23.1.4-flags-for-events-eventattributes.md))
 
  * _Name_ (an index into the String heap)
 
- * _EventType_ (an index into a _TypeDef_, a _TypeRef_, or _TypeSpec_ table; more precisely, a _TypeDefOrRef_ (§[II.24.2.6](#todo-missing-hyperlink)) coded index) (This corresponds to the Type of the Event; it is not the Type that owns this event.)
+ * _EventType_ (an index into a _TypeDef_, a _TypeRef_, or _TypeSpec_ table; more precisely, a _TypeDefOrRef_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index) (This corresponds to the Type of the Event; it is not the Type that owns this event.)
 
 Note that _Event_ information does not directly influence runtime behavior; what counts is the information stored for each method that the event comprises. The _EventMap_ and _Event_ tables result from putting the **.event** directive on a class (§[II.18](#todo-missing-hyperlink)).
 

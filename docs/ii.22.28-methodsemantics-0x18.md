@@ -2,11 +2,11 @@
 
 The _MethodSemantics_ table has the following columns:
 
- * _Semantics_ (a 2-byte bitmask of type _MethodSemanticsAttributes_, §[II.23.1.12](#todo-missing-hyperlink))
+ * _Semantics_ (a 2-byte bitmask of type _MethodSemanticsAttributes_, §[II.23.1.12](ii.23.1.12-flags-for-methodsemantics-methodsemanticsattributes.md))
 
  * _Method_ (an index into the _MethodDef_ table)
 
- * _Association_ (an index into the _Event_ or _Property_ table; more precisely, a _HasSemantics_ (§[II.24.2.6](#todo-missing-hyperlink)) coded index)
+ * _Association_ (an index into the _Event_ or _Property_ table; more precisely, a _HasSemantics_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index)
 
 The rows of the _MethodSemantics_ table are filled by **.property** (§[II.17](#todo-missing-hyperlink)) and **.event** directives (§[II.18](#todo-missing-hyperlink)). (See §[II.22.13](#todo-missing-hyperlink) for more information.)
 
@@ -46,14 +46,14 @@ The rows of the _MethodSemantics_ table are filled by **.property** (§[II.17](#
 
  15. The last parameter for any setter method shall have a type which matches the signature indexed by the _Property_._Type_ field \[CLS\]
 
- 16. Any setter method shall have return type `ELEMENT_TYPE_VOID` (§[II.23.1.16](#todo-missing-hyperlink)) in _Method_._Signature_ \[CLS\]
+ 16. Any setter method shall have return type `ELEMENT_TYPE_VOID` (§[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md)) in _Method_._Signature_ \[CLS\]
 
  17. If the property is indexed, the indexes for getter and setter shall agree in number and type \[CLS\]
 
- 18. Any *AddOn* method for an event whose _Name_ is `xxx` shall have the signature: `void add_xxx (`\<DelegateType\>`handler)` (§[I.10.4](#todo-missing-hyperlink)) \[CLS\]
+ 18. Any *AddOn* method for an event whose _Name_ is `xxx` shall have the signature: `void add_xxx (`\<DelegateType\>`handler)` (§[I.10.4](i.10.4-naming-patterns.md)) \[CLS\]
 
- 19. Any *RemoveOn* method for an event whose _Name_ is `xxx` shall have the signature: `void remove_xxx(`\<DelegateType\>` handler)` (§[I.10.4](#todo-missing-hyperlink)) \[CLS\]
+ 19. Any *RemoveOn* method for an event whose _Name_ is `xxx` shall have the signature: `void remove_xxx(`\<DelegateType\>` handler)` (§[I.10.4](i.10.4-naming-patterns.md)) \[CLS\]
 
- 20. Any *Fire* method for an event whose _Name_ is `xxx` shall have the signature: `void raise_xxx(Event e)` (§[I.10.4](#todo-missing-hyperlink)) \[CLS\]
+ 20. Any *Fire* method for an event whose _Name_ is `xxx` shall have the signature: `void raise_xxx(Event e)` (§[I.10.4](i.10.4-naming-patterns.md)) \[CLS\]
 
 > _End informative text._

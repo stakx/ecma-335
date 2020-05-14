@@ -2,7 +2,7 @@
 
 The _TypeRef_ table has the following columns:
 
- * _ResolutionScope_ (an index into a _Module_, _ModuleRef_, _AssemblyRef_ or _TypeRef_ table, or null; more precisely, a _ResolutionScope_ (§[II.24.2.6](#todo-missing-hyperlink)) coded index)
+ * _ResolutionScope_ (an index into a _Module_, _ModuleRef_, _AssemblyRef_ or _TypeRef_ table, or null; more precisely, a _ResolutionScope_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index)
 
  * _TypeName_ (an index into the String heap)
 

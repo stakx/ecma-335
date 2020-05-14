@@ -8,11 +8,11 @@ All value types have an operation called `box`. Boxing a value of any value type
 
 The `box` instruction can be applied to more than just value types; such types are called *boxable types*. A type is boxable if it is one of the following:
 
- * A value type (including instantiations of generic value types) excluding typed references (§[I.8.2.1.1](#todo-missing-hyperlink)). Boxing a byref-like type is not verifiable (§[I.8.2.1.1](#todo-missing-hyperlink)).
+ * A value type (including instantiations of generic value types) excluding typed references (§[I.8.2.1.1](i.8.2.1.1-managed-pointers-and-related-types.md)). Boxing a byref-like type is not verifiable (§[I.8.2.1.1](i.8.2.1.1-managed-pointers-and-related-types.md)).
 
    _[Rationale:_ Typed references are excluded so that objects in the GC heap cannot contain references to the interior of other GC objects (§[I.8.2.1.1](#todo-missing-hyperlink)). Byref-like types contain embedded pointers to entries in the VES stack. If byref-like types are boxed these embedded pointers could outlive the entries to which they point, so this operation is unverifiable. _end rationale]_
 
- * A reference type (including classes, arrays, delegates, and instantiations of generic classes) excluding managed pointers/byrefs (§[I.8.2.1.1](#todo-missing-hyperlink))
+ * A reference type (including classes, arrays, delegates, and instantiations of generic classes) excluding managed pointers/byrefs (§[I.8.2.1.1](i.8.2.1.1-managed-pointers-and-related-types.md))
 
  * A generic parameter (to a generic type definition, or a generic method definition) _[Note:_ Boxing and unboxing of generic arguments adds performance overhead to a CLI implementation. The `constrained.` prefix can improve performance during virtual dispatch to a method defined by a value type, by avoiding boxing the value type. _end note]_
 

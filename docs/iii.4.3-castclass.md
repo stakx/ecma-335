@@ -14,7 +14,7 @@ _typeTok_ is a metadata token (a `typeref`, `typedef` or `typespec`), indicating
 
 The `castclass` instruction determines if _obj_ (of type `O`) is an instance of the type _typeTok_, termed "casting". If the actual type (not the verifier tracked type) of _obj_ is *verifier-assignable-to* the type _typeTok_ the cast succeeds and _obj_ (as _obj2_) is returned unchanged while verification tracks its type as _typeTok_.
 
-Unlike coercions (§[III.1.6](#todo-missing-hyperlink)) and conversions (§[III.3.27](#todo-missing-hyperlink)), a cast never changes the actual type of an object and preserves object identity (see [Partition I](#todo-missing-hyperlink)).
+Unlike coercions (§[III.1.6](iii.1.6-implicit-argument-coercion.md)) and conversions (§[III.3.27](#todo-missing-hyperlink)), a cast never changes the actual type of an object and preserves object identity (see [Partition I](#todo-missing-hyperlink)).
 
 If the cast fails then an `InvalidCastException` is thrown. If _obj_ is null, `castclass` succeeds and returns null. This behavior differs semantically from `isinst` where if _obj_ is null, `isinst` fails and returns null. 
 

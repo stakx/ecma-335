@@ -14,7 +14,7 @@ This diagram uses the following abbreviations:
  
  * `VARARG` = 0x5, used to encode the keyword **vararg** in the calling convention, see §[II.15.3](#todo-missing-hyperlink)
  
- * `SENTINEL` = 0x41 (§[II.23.1.16](#todo-missing-hyperlink)), used to encode "`...`" in the parameter list, see §[II.15.3](#todo-missing-hyperlink)
+ * `SENTINEL` = 0x41 (§[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md)), used to encode "`...`" in the parameter list, see §[II.15.3](#todo-missing-hyperlink)
 
 The first byte of the Signature holds bits for `HASTHIS`, `EXPLICITTHIS`, and the calling convention `VARARG`. These are ORed together.
 

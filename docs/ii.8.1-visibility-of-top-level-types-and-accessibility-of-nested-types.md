@@ -4,4 +4,4 @@
 
 Because the visibility of a top-level type controls the visibility of the names of all of its members, a nested type cannot be more visible than the type in which it is nested. That is, if the enclosing type is visible only within an assembly then a nested type with **public** accessibility is still only available within that assembly. By contrast, a nested type that has **assembly** accessibility is restricted to use within the assembly even if the enclosing type is visible outside the assembly.
 
-To make the encoding of all types consistent and compact, the visibility of a top-level type and the accessibility of a nested type are encoded using the same mechanism in the logical model of §[II.23.1.15](#todo-missing-hyperlink).
+To make the encoding of all types consistent and compact, the visibility of a top-level type and the accessibility of a nested type are encoded using the same mechanism in the logical model of §[II.23.1.15](ii.23.1.15-flags-for-types-typeattributes.md).

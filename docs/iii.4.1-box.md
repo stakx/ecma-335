@@ -10,7 +10,7 @@
 
 #### Description:
 
-If _typeTok_ is a value type, the `box` instruction converts val to its boxed form. When _typeTok_ is a non-nullable type (§[I.8.2.4](#todo-missing-hyperlink)), this is done by creating a new object and copying the data from _val_ into the newly allocated object. If it is a nullable type, this is done by inspecting _val_'s `HasValue` property; if it is `false`, a null reference is pushed onto the stack; otherwise, the result of boxing _val_'s `Value` property is pushed onto the stack.
+If _typeTok_ is a value type, the `box` instruction converts val to its boxed form. When _typeTok_ is a non-nullable type (§[I.8.2.4](i.8.2.4-boxing-and-unboxing-of-values.md)), this is done by creating a new object and copying the data from _val_ into the newly allocated object. If it is a nullable type, this is done by inspecting _val_'s `HasValue` property; if it is `false`, a null reference is pushed onto the stack; otherwise, the result of boxing _val_'s `Value` property is pushed onto the stack.
 
 If _typeTok_ is a reference type, the `box` instruction does returns _val_ unchanged as _obj_.
 
@@ -26,7 +26,7 @@ _typeTok_ is a metadata token (a `typedef`, `typeref`, or `typespec`) indicating
 
 #### Correctness:
 
-_typeTok_ shall be a valid `typedef`, `typeref`, or `typespec` metadata token. The type operand _typeTok_ shall represent a boxable type (§[I.8.2.4](#todo-missing-hyperlink)).
+_typeTok_ shall be a valid `typedef`, `typeref`, or `typespec` metadata token. The type operand _typeTok_ shall represent a boxable type (§[I.8.2.4](i.8.2.4-boxing-and-unboxing-of-values.md)).
 
 #### Verifiability:
 

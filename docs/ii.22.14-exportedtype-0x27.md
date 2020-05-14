@@ -12,7 +12,7 @@ The full name of the type need not be stored directly.  Instead, it can be split
 
 The _ExportedType_ table has the following columns:
 
- * _Flags_ (a 4-byte bitmask of type _TypeAttributes_, §[II.23.1.15](#todo-missing-hyperlink))
+ * _Flags_ (a 4-byte bitmask of type _TypeAttributes_, §[II.23.1.15](ii.23.1.15-flags-for-types-typeattributes.md))
 
  * _TypeDefId_ (a 4-byte index into a _TypeDef_ table of another module in this Assembly). This column is used as a hint only. If the entry in the target _TypeDef_ table matches the _TypeName_ and _TypeNamespace_ entries in this table, resolution has succeeded. But if there is a mismatch, the CLI shall fall back to a search of the target _TypeDef_ table. Ignored and should be zero if _Flags_ has `IsTypeForwarder` set.
 
@@ -20,7 +20,7 @@ The _ExportedType_ table has the following columns:
 
  * _TypeNamespace_ (an index into the String heap)
 
- * _Implementation_. This is an index (more precisely, an _Implementation_ (§[II.24.2.6](#todo-missing-hyperlink)) coded index) into either of the following tables:
+ * _Implementation_. This is an index (more precisely, an _Implementation_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index) into either of the following tables:
 
      * _File_ table, where that entry says which module in the current assembly holds the _TypeDef_
 
@@ -40,11 +40,11 @@ The rows in the _ExportedType_ table are the result of the **.class extern** dir
 
  3. _Flags_ shall have only those values set that are specified \[ERROR\]
 
- 4. If _Implementation_ indexes the _File_ table, then _Flags_.`VisibilityMask` shall be `Public` (§[II.23.1.15](#todo-missing-hyperlink)) \[ERROR\]
+ 4. If _Implementation_ indexes the _File_ table, then _Flags_.`VisibilityMask` shall be `Public` (§[II.23.1.15](ii.23.1.15-flags-for-types-typeattributes.md)) \[ERROR\]
 
- 5. If _Implementation_ indexes the _ExportedType_ table, then _Flags_.`VisibilityMask` shall be `NestedPublic` (§[II.23.1.15](#todo-missing-hyperlink)) \[ERROR\]
+ 5. If _Implementation_ indexes the _ExportedType_ table, then _Flags_.`VisibilityMask` shall be `NestedPublic` (§[II.23.1.15](ii.23.1.15-flags-for-types-typeattributes.md)) \[ERROR\]
 
- 6. If non-null, _TypeDefId_ should index a valid row in a _TypeDef_ table in a module somewhere within this Assembly (but not this module), and the row so indexed should have its _Flags_.`Public` = 1 (§[II.23.1.15](#todo-missing-hyperlink)) \[WARNING\]
+ 6. If non-null, _TypeDefId_ should index a valid row in a _TypeDef_ table in a module somewhere within this Assembly (but not this module), and the row so indexed should have its _Flags_.`Public` = 1 (§[II.23.1.15](ii.23.1.15-flags-for-types-typeattributes.md)) \[WARNING\]
 
  7. _TypeName_ shall index a non-empty string in the String heap \[ERROR\]
 

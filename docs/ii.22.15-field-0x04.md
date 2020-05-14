@@ -2,7 +2,7 @@
 
 The _Field_ table has the following columns:
 
- * _Flags_ (a 2-byte bitmask of type _FieldAttributes_, §[II.23.1.5](#todo-missing-hyperlink))
+ * _Flags_ (a 2-byte bitmask of type _FieldAttributes_, §[II.23.1.5](ii.23.1.5-flags-for-fields-fieldattributes.md))
 
  * _Name_ (an index into the String heap)
 
@@ -26,19 +26,19 @@ Each row in the _Field_ table results from a top-level **.field** directive (§[
 
  4. _Flags_ shall have only those values set that are specified \[ERROR\]
 
- 5. The `FieldAccessMask` subfield of _Flags_ shall contain precisely one of `CompilerControlled`, `Private`, `FamANDAssem`, `Assembly`, `Family`, `FamORAssem`, or `Public` (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
+ 5. The `FieldAccessMask` subfield of _Flags_ shall contain precisely one of `CompilerControlled`, `Private`, `FamANDAssem`, `Assembly`, `Family`, `FamORAssem`, or `Public` (§[II.23.1.5](ii.23.1.5-flags-for-fields-fieldattributes.md)) \[ERROR\]
 
- 6. _Flags_ can set either or neither of `Literal` or `InitOnly`, but not both (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
+ 6. _Flags_ can set either or neither of `Literal` or `InitOnly`, but not both (§[II.23.1.5](ii.23.1.5-flags-for-fields-fieldattributes.md)) \[ERROR\]
 
- 7. If _Flags_.`Literal` = 1 then _Flags_.`Static` shall also be 1 (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
+ 7. If _Flags_.`Literal` = 1 then _Flags_.`Static` shall also be 1 (§[II.23.1.5](ii.23.1.5-flags-for-fields-fieldattributes.md)) \[ERROR\]
 
- 8. If _Flags_.`RTSpecialName` = 1, then _Flags_.`SpecialName` shall also be 1 (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
+ 8. If _Flags_.`RTSpecialName` = 1, then _Flags_.`SpecialName` shall also be 1 (§[II.23.1.5](ii.23.1.5-flags-for-fields-fieldattributes.md)) \[ERROR\]
 
- 9. If _Flags_.`HasFieldMarshal` = 1, then this row shall 'own' exactly one row in the _FieldMarshal_ table (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
+ 9. If _Flags_.`HasFieldMarshal` = 1, then this row shall 'own' exactly one row in the _FieldMarshal_ table (§[II.23.1.5](ii.23.1.5-flags-for-fields-fieldattributes.md)) \[ERROR\]
 
- 10. If _Flags_.`HasDefault` = 1, then this row shall 'own' exactly one row in the _Constant_ table (§[II.23.1.5](#todo-missing-hyperlink) \[ERROR\]
+ 10. If _Flags_.`HasDefault` = 1, then this row shall 'own' exactly one row in the _Constant_ table (§[II.23.1.5](ii.23.1.5-flags-for-fields-fieldattributes.md) \[ERROR\]
 
- 11. If _Flags_.`HasFieldRVA` = 1, then this row shall 'own' exactly one row in the _Field's RVA_ table (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
+ 11. If _Flags_.`HasFieldRVA` = 1, then this row shall 'own' exactly one row in the _Field's RVA_ table (§[II.23.1.5](ii.23.1.5-flags-for-fields-fieldattributes.md)) \[ERROR\]
 
  12. _Name_ shall index a non-empty string in the String heap \[ERROR\]
 
@@ -46,13 +46,13 @@ Each row in the _Field_ table results from a top-level **.field** directive (§[
 
  14. _Signature_ shall index a valid field signature in the Blob heap \[ERROR\]
 
- 15. If _Flags_.`CompilerControlled` = 1 (§[II.23.1.5](#todo-missing-hyperlink)), then this row is ignored completely in duplicate checking.
+ 15. If _Flags_.`CompilerControlled` = 1 (§[II.23.1.5](ii.23.1.5-flags-for-fields-fieldattributes.md)), then this row is ignored completely in duplicate checking.
 
  16. If the owner of this field is the internally-generated type called `<Module>`, it denotes that this field is defined at module scope (commonly called a global variable). In this case:
 
      * _Flags_.`Static` shall be 1 \[ERROR\] 
 
-     * _Flags_.`MemberAccessMask` subfield shall be one of `Public`, `CompilerControlled`, or `Private` (§[II.23.1.5](#todo-missing-hyperlink)) \[ERROR\]
+     * _Flags_.`MemberAccessMask` subfield shall be one of `Public`, `CompilerControlled`, or `Private` (§[II.23.1.5](ii.23.1.5-flags-for-fields-fieldattributes.md)) \[ERROR\]
 
      * module-scope fields are not allowed  \[CLS\]
 
@@ -66,7 +66,7 @@ Each row in the _Field_ table results from a top-level **.field** directive (§[
 
      * the owner row in _TypeDef_ table shall have no other instance fields \[CLS\]
 
-     * its _Signature_ shall be one of `ELEMENT_TYPE_U1`, `ELEMENT_TYPE_I2`, `ELEMENT_TYPE_I4`, or `ELEMENT_TYPE_I8` (§[II.23.1.16](#todo-missing-hyperlink)) \[CLS\]
+     * its _Signature_ shall be one of `ELEMENT_TYPE_U1`, `ELEMENT_TYPE_I2`, `ELEMENT_TYPE_I4`, or `ELEMENT_TYPE_I8` (§[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md)) \[CLS\]
 
  20. its _Signature_ shall be an integral type. \[ERROR\]
 
