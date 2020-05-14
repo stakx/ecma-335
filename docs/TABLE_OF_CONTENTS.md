@@ -574,10 +574,10 @@
  * [III.4.17 ldtoken &ndash; load the runtime representation of a metadata token](iii.4.17-ldtoken.md)
  * [III.4.18 ldvirtftn &ndash; load a virtual method pointer](iii.4.18-ldvirtftn.md)
  * [III.4.19 mkrefany &ndash; push a typed reference on the stack](iii.4.19-mkrefany.md)
- * III.4.20 newarr &ndash; create a zero-based, one-dimensional array
- * III.4.21 newobj &ndash; create a new object
- * III.4.22 refanytype &ndash; load the type out of a typed reference
- * III.4.23 refanyval &ndash; load the address out of a typed reference
+ * [III.4.20 newarr &ndash; create a zero-based, one-dimensional array](iii.4.20-newarr.md)
+ * [III.4.21 newobj &ndash; create a new object](iii.4.21-newobj.md)
+ * [III.4.22 refanytype &ndash; load the type out of a typed reference](iii.4.22-refanytype.md)
+ * [III.4.23 refanyval &ndash; load the address out of a typed reference](iii.4.23-refanyval.md)
  * III.4.24 rethrow &ndash; rethrow the current exception
  * III.4.25 sizeof &ndash; load the size, in bytes, of a type
  * III.4.26 stelem &ndash; store element to array

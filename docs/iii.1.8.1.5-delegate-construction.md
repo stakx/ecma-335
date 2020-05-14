@@ -1,6 +1,6 @@
 ## III.1.8.1.5 Delegate construction
 
-Verification of delegate construction is based on code sequences rather than individual instructions. These are detailed in the description of the `newobj` instruction (§[III.4.21](#todo-missing-hyperlink)).
+Verification of delegate construction is based on code sequences rather than individual instructions. These are detailed in the description of the `newobj` instruction (§[III.4.21](iii.4.21-newobj.md)).
 
 The verification algorithm shall fail if a branch target is within these instruction sequences (other than at the start of the sequence).
 
