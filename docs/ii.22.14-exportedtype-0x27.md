@@ -28,7 +28,7 @@ The _ExportedType_ table has the following columns:
 
      * _AssemblyRef_ table, where that entry says in which assembly the type may now be found (_Flags_ must have the `IsTypeForwarder` flag set).
 
-The rows in the _ExportedType_ table are the result of the **.class extern** directive (§[II.6.7](#todo-missing-hyperlink)).
+The rows in the _ExportedType_ table are the result of the **.class extern** directive (§[II.6.7](ii.6.7-exported-type-definitions.md)).
 
 > _This contains informative text only._
 

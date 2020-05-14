@@ -14,7 +14,7 @@ The _Assembly_ table has the following columns:
 
  * _Culture_ (an index into the String heap)
 
-The _Assembly_ table is defined using the **.assembly** directive (§[II.6.2](#todo-missing-hyperlink)); its columns are obtained from the respective **.hash** algorithm, **.ver**, **.publickey**, and **.culture** (§[II.6.2.1](#todo-missing-hyperlink)). (For an example, see §[II.6.2](#todo-missing-hyperlink).)
+The _Assembly_ table is defined using the **.assembly** directive (§[II.6.2](ii.6.2-defining-an-assembly.md)); its columns are obtained from the respective **.hash** algorithm, **.ver**, **.publickey**, and **.culture** (§[II.6.2.1](ii.6.2.1-information-about-the-assembly-asmdecl.md)). (For an example, see §[II.6.2](ii.6.2-defining-an-assembly.md).)
 
 > _This contains informative text only._
 

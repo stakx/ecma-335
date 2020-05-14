@@ -4,7 +4,7 @@ The _ModuleRef_ table has the following column:
 
  * _Name_ (an index into the String heap)
 
-The rows in the _ModuleRef_ table result from **.module extern** directives in the Assembly (§[II.6.5](#todo-missing-hyperlink)).
+The rows in the _ModuleRef_ table result from **.module extern** directives in the Assembly (§[II.6.5](ii.6.5-referencing-modules.md)).
 
 > _This contains informative text only._
 

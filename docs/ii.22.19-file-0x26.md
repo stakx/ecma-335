@@ -8,7 +8,7 @@ The _File_ table has the following columns:
 
  * _HashValue_ (an index into the Blob heap)
 
-The rows of the _File_ table result from **.file** directives in an Assembly (§[II.6.2.3](#todo-missing-hyperlink))
+The rows of the _File_ table result from **.file** directives in an Assembly (§[II.6.2.3](ii.6.2.3-associating-files-with-an-assembly.md))
 
 > _This contains informative text only._
 

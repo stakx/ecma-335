@@ -12,7 +12,7 @@ The _ManifestResource_ table has the following columns:
 
 The _Offset_ specifies the byte offset within the referenced file at which this resource record begins. The _Implementation_ specifies which file holds this resource.
 
-The rows in the table result from **.mresource** directives on the Assembly (§[II.6.2.2](#todo-missing-hyperlink)).
+The rows in the table result from **.mresource** directives on the Assembly (§[II.6.2.2](ii.6.2.2-manifest-resources.md)).
 
 > _This contains informative text only._
 

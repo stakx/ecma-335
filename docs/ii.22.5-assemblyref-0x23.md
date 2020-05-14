@@ -14,7 +14,7 @@ The _AssemblyRef_ table has the following columns:
 
  * _HashValue_ (an index into the Blob heap)
 
-The table is defined by the **.assembly extern** directive (§[II.6.3](#todo-missing-hyperlink)). Its columns are filled using directives similar to those of the _Assembly_ table except for the _PublicKeyOrToken_ column, which is defined using the **.publickeytoken** directive. (For an example, see §[II.6.3](#todo-missing-hyperlink).)
+The table is defined by the **.assembly extern** directive (§[II.6.3](ii.6.3-referencing-assemblies.md)). Its columns are filled using directives similar to those of the _Assembly_ table except for the _PublicKeyOrToken_ column, which is defined using the **.publickeytoken** directive. (For an example, see §[II.6.3](ii.6.3-referencing-assemblies.md).)
 
 > _This contains informative text only._
 

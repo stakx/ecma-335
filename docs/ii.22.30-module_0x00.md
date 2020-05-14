@@ -20,7 +20,7 @@ _[Rationale:_ While the VES itself makes no use of the _Mvid_, other tools (such
 
 The _Generation_, _EncId_, and _EncBaseId_ columns can be written as zero, and can be ignored by conforming implementations of the CLI.
 
-The rows in the _Module_ table result from **.module** directives in the Assembly (§[II.6.4](#todo-missing-hyperlink)).
+The rows in the _Module_ table result from **.module** directives in the Assembly (§[II.6.4](ii.6.4-declaring-modules.md)).
 
 > _This contains informative text only._
 

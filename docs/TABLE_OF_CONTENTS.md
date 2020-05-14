@@ -176,19 +176,19 @@
  * II.5.9 Attributes and metadata
  * II.5.10 ilasm source files
 
-**II.6 Assemblies, manifests and modules**
+**[II.6 Assemblies, manifests and modules](ii.6-assemblies-manifests-and-modules.md)**
 
- * II.6.1 Overview of modules, assemblies, and files
- * II.6.2 Defining an assembly
-    * II.6.2.1 Information about the assembly (AsmDecl)
-    * II.6.2.2 Manifest resources
-    * II.6.2.3 Associating files with an assembly
- * II.6.3 Referencing assemblies
- * II.6.4 Declaring modules
- * II.6.5 Referencing modules
- * II.6.6 Declarations inside a module or assembly
- * II.6.7 Exported type definitions
- * II.6.8 Type forwarders
+ * [II.6.1 Overview of modules, assemblies, and files](ii.6.1-overview-of-modules-assemblies-and-files.md)
+ * [II.6.2 Defining an assembly](ii.6.2-defining-an-assembly.md)
+    * [II.6.2.1 Information about the assembly (AsmDecl)](ii.6.2.1-information-about-the-assembly-asmdecl.md)
+    * [II.6.2.2 Manifest resources](ii.6.2.2-manifest-resources.md)
+    * [II.6.2.3 Associating files with an assembly](ii.6.2.3-associating-files-with-an-assembly.md)
+ * [II.6.3 Referencing assemblies](ii.6.3-referencing-assemblies.md)
+ * [II.6.4 Declaring modules](ii.6.8-type-forwarders.md)
+ * [II.6.5 Referencing modules](ii.6.5-referencing-modules.md)
+ * [II.6.6 Declarations inside a module or assembly](ii.6.6-declarations-inside-a-module-or-assembly.md)
+ * [II.6.7 Exported type definitions](ii.6.7-exported-type-definitions.md)
+ * [II.6.8 Type forwarders](ii.6.8-type-forwarders.md)
 
 **[II.7 Types and signatures](ii.7-types-and-signatures.md)**
 
