@@ -1,4 +1,4 @@
-II.6.2 Defining an assembly
+## II.6.2 Defining an assembly
 
 An assembly is specified as a module that contains a manifest in the metadata; see §[II.22.2](ii.22.2-assembly-0x20.md). The information for the manifest is created from the following portions of the grammar:
 
