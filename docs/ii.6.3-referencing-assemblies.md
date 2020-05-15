@@ -3,7 +3,7 @@
  | _Decl_ ::= | Clause
  | ---- | ----
  | \| `.assembly extern` _DottedName_ [ `as` _DottedName_ ] `'{'` _AsmRefDecl_* `'}'` | &nbsp;
- | \| &hellip; | §[II.5.10](#todo-missing-hyperlink)
+ | \| &hellip; | §[II.5.10](ii.5.10-ilasm-source-files.md)
 
 An assembly mediates all accesses to other assemblies from the files that it contains. This is done through the metadata by requiring that the manifest for the executing assembly contain a declaration for any assembly referenced by the executing code. A top-level **.assembly extern** declaration is used for this purpose. The optional as clause provides an alias, which allows ILAsm to address external assemblies that have the same name, but differing in version, culture, etc.
 

@@ -5,7 +5,7 @@ When an item is in the current assembly, but is part of a module other than the 
  | _Decl_ ::= | Clause
  | ---- | ----
  | \| `.module extern` _Filename_
- | \| &hellip; | §[II.5.10](#todo-missing-hyperlink)
+ | \| &hellip; | §[II.5.10](ii.5.10-ilasm-source-files.md)
 
 _[Example:_
 

@@ -163,18 +163,18 @@
  * [II.4.1 "Hello world!"](ii.4.1-hello-world.md)
  * [II.4.2 Other examples](ii.4.2-other-examples.md)
 
-**II.5 General syntax**
+**[II.5 General syntax](ii.5-general-syntax.md)**
 
- * II.5.1 General syntax notation
- * II.5.2 Basic syntax categories
- * II.5.3 Identifiers
- * II.5.4 Labels and lists of labels
- * II.5.5 Lists of hex bytes
- * II.5.6 Floating-point numbers
- * II.5.7 Source line information
- * II.5.8 File names
- * II.5.9 Attributes and metadata
- * II.5.10 ilasm source files
+ * [II.5.1 General syntax notation](ii.5.1-general-syntax-notation.md)
+ * [II.5.2 Basic syntax categories](ii.5.2-basic-syntax-categories.md)
+ * [II.5.3 Identifiers](ii.5.3-identifiers.md)
+ * [II.5.4 Labels and lists of labels](ii.5.4-labels-and-lists-of-labels.md)
+ * [II.5.5 Lists of hex bytes](ii.5.5-lists-of-hex-bytes.md)
+ * [II.5.6 Floating-point numbers](ii.5.6-floating-point-numbers.md)
+ * [II.5.7 Source line information](ii.5.7-source-line-information.md)
+ * [II.5.8 File names](ii.5.8-file-names.md)
+ * [II.5.9 Attributes and metadata](ii.5.9-attributes-and-metadata.md)
+ * [II.5.10 ilasm source files](ii.5.10-ilasm-source-files.md)
 
 **[II.6 Assemblies, manifests and modules](ii.6-assemblies-manifests-and-modules.md)**
 

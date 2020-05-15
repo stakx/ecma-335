@@ -4,7 +4,7 @@ A *manifest resource* is simply a named item of data associated with an assembly
 
  | _Decl_ ::= | Clause
  | `.mresource` [ `public` | `private` ] _DottedName_ `'{'` _ManResDecl_* `'}'`
- | \| &hellip; | §[II.5.10](#todo-missing-hyperlink)
+ | \| &hellip; | §[II.5.10](ii.5.10-ilasm-source-files.md)
 
 If the manifest resource is declared **public**, it is exported from the assembly. If it is declared **private**, it is not exported, in which case, it is only available from within the assembly. The _DottedName_ is the name of the resource.
 

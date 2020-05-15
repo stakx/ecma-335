@@ -14,7 +14,7 @@ Conceptually, each row in the _Field_ table is owned by one, and only one, row i
 
 The _TypeDef_ table has rows 1&ndash;4. The first row in the _TypeDef_ table corresponds to a pseudo type, inserted automatically by the CLI. It is used to denote those rows in the _Field_ table corresponding to global variables. The _Field_ table has rows 1&mdash;6. Type 1 (pseudo type for 'module') owns rows 1 and 2 in the _Field_ table. Type 2 owns no rows in the _Field_ table, even though its _FieldList_ indexes row 3 in the _Field_ table. Type 3 owns rows 3&mdash;5 in the _Field_ table. Type 4 owns row 6 in the _Field_ table.  So, in the _Field_ table, rows 1 and 2 belong to Type 1 (global variables); rows 3&mdash;5 belong to Type 3; row 6 belongs to Type 4.
 
-Each row in the _Field_ table results from a top-level **.field** directive (§[II.5.10](#todo-missing-hyperlink)), or a **.field** directive inside a Type (§[II.10.2](#todo-missing-hyperlink)). (For an example, see §[II.14.5](#todo-missing-hyperlink).)
+Each row in the _Field_ table results from a top-level **.field** directive (§[II.5.10](ii.5.10-ilasm-source-files.md)), or a **.field** directive inside a Type (§[II.10.2](#todo-missing-hyperlink)). (For an example, see §[II.14.5](#todo-missing-hyperlink).)
 
 > _This contains informative text only._
 

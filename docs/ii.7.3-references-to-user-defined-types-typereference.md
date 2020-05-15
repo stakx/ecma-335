@@ -12,7 +12,7 @@ User-defined types are referenced either using their full name and a resolution 
  
  | _AssemblyRefName_ ::= | Clause
  | ---- | ----
- | _DottedName_ | §[II.5.1](#todo-missing-hyperlink)
+ | _DottedName_ | §[II.5.1](ii.5.1-general-syntax-notation.md)
  
 The following resolution scopes are specified for un-nested types:
 

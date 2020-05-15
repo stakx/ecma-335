@@ -5,7 +5,7 @@ All CIL files are modules and are referenced by a logical name carried in the me
  | _Decl_ ::= | Clause
  | ---- | ----
  | \| `.module` _Filename_ | &nbsp;
- | \| &hellip; | §[II.5.10](#todo-missing-hyperlink)
+ | \| &hellip; | §[II.5.10](ii.5.10-ilasm-source-files.md)
 
 _[Example:_
 
