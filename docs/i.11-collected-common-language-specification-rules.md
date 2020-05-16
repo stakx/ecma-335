@@ -2,9 +2,9 @@
 
 The complete set of CLS rules are collected here for reference. Recall that these rules apply only to "externally visible" items&mdash;types that are visible outside of their own assembly and members of those types that have `public`, `family`, or `family-or-assembly` accessibility. Furthermore, items can be explicitly marked as CLS-compliant or not using the `System.CLSCompliantAttribute`. The CLS rules apply only to items that are marked as CLS-compliant.
 
-**CLS Rule 1:** CLS rules apply only to those parts of a type that are accessible or visible outside of the defining assembly. (§[I.7.3](#todo-missing-hyperlink))
+**CLS Rule 1:** CLS rules apply only to those parts of a type that are accessible or visible outside of the defining assembly. (§[I.7.3](i.7.3-cls-compliance.md))
 
-**CLS Rule 2:** Members of non-CLS compliant types shall not be marked CLS-compliant. (§[I.7.3.1](#todo-missing-hyperlink))
+**CLS Rule 2:** Members of non-CLS compliant types shall not be marked CLS-compliant. (§[I.7.3.1](i.7.3.1-marking-items-as-cls-compliant.md))
 
 **CLS Rule 3:** Boxed value types are not CLS-compliant. (§[I.8.2.4](i.8.2.4-boxing-and-unboxing-of-values.md).)
 
@@ -96,4 +96,4 @@ The complete set of CLS rules are collected here for reference. Recall that thes
 
 **CLS Rule 47:** For each abstract or virtual generic method, there shall be a default concrete (non-abstract) implementation. (§[I.10.7.6](i.10.7.6-frameworks-and-abstract-or-virtual-methods.md))
 
-**CLS Rule 48:** If two or more CLS-compliant methods declared in a type have the same name and, for a specific set of type instantiations, they have the same parameter and return types, then all these methods shall be semantically equivalent at those type instantiations. (§[I.7.2.1](#todo-missing-hyperlink))
+**CLS Rule 48:** If two or more CLS-compliant methods declared in a type have the same name and, for a specific set of type instantiations, they have the same parameter and return types, then all these methods shall be semantically equivalent at those type instantiations. (§[I.7.2.1](i.7.2.1-cls-framework.md))

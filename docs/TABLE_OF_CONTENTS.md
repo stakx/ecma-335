@@ -25,15 +25,15 @@
     * [I.6.2.2 Managed data](i.6.2.2-managed-data.md)
     * [I.6.2.3 Summary](i.6.2.3-summary.md)
 
-**I.7 Common Language Specification**
+**[I.7 Common Language Specification](i.7-common-language-specification.md)**
 
- * I.7.1 Introduction
- * I.7.2 Views of CLS compliance
-    * I.7.2.1 CLS framework
-    * I.7.2.2 CLS consumer
-    * I.7.2.3 CLS extender
- * I.7.3 CLS compliance
-    * I.7.3.1 Marking items as CLS-compliant
+ * [I.7.1 Introduction](i.7.1-introduction.md)
+ * [I.7.2 Views of CLS compliance](i.7.2-views-of-cls-compliance.md)
+    * [I.7.2.1 CLS framework](i.7.2.1-cls-framework.md)
+    * [I.7.2.2 CLS consumer](i.7.2.2-cls-consumer.md)
+    * [I.7.2.3 CLS extender](i.7.2.3-cls-extender.md)
+ * [I.7.3 CLS compliance](i.7.3-cls-compliance.md)
+    * [I.7.3.1 Marking items as CLS-compliant](i.7.3.1-marking-items-as-cls-compliant.md)
 
 **[I.8 Common Type System](i.8-common-type-system.md)**
 
