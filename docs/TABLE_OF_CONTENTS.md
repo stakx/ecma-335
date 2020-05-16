@@ -259,19 +259,19 @@
  * [II.13.2 Initializing value types](ii.13.2-initializing-value-types.md)
  * [II.13.3 Methods of value types](ii.13.3-methods-of-value-types.md)
 
-**II.14 Semantics of special types**
+**[II.14 Semantics of special types](ii.14-semantics-of-special-types.md)**
 
- * II.14.1 Vectors
- * II.14.2 Arrays
- * II.14.3 Enums
- * II.14.4 Pointer types
-    * II.14.4.1 Unmanaged pointers
-    * II.14.4.2 Managed pointers
- * II.14.5 Method pointers
- * II.14.6 Delegates
-    * II.14.6.1 Delegate signature compatibility
-    * II.14.6.2 Synchronous calls to delegates
-    * II.14.6.3 Asynchronous calls to delegates
+ * [II.14.1 Vectors](ii.14.1-vectors.md)
+ * [II.14.2 Arrays](ii.14.2-arrays.md)
+ * [II.14.3 Enums](ii.14.3-enums.md)
+ * [II.14.4 Pointer types](ii.14.4-pointer-types.md)
+    * [II.14.4.1 Unmanaged pointers](ii.14.4.1-unmanaged-pointers.md)
+    * [II.14.4.2 Managed pointers](ii.14.4.2-managed-pointers.md)
+ * [II.14.5 Method pointers](ii.14.5-method-pointers.md)
+ * [II.14.6 Delegates](ii.14.6-delegates.md)
+    * [II.14.6.1 Delegate signature compatibility](ii.14.6.1-delegate-signature-compatibility.md)
+    * [II.14.6.2 Synchronous calls to delegates](ii.14.6.2-synchronous-calls-to-delegates.md)
+    * [II.14.6.3 Asynchronous calls to delegates](ii.14.6.3-asynchronous-calls-to-delegates.md)
 
 **II.15 Defining, referencing, and calling methods**
 
