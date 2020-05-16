@@ -20,10 +20,10 @@
 **[I.6 Overview of the Common Language Infrastructure](i.6-overview-of-the-common-language-infrastructure.md)**
 
  * [I.6.1 Relationship to type safety](i.6.1-relationship-to-type-safety.md)
- * I.6.2 Relationship to managed metadata-driven execution
-    * I.6.2.1 Managed code
-    * I.6.2.2 Managed data
-    * I.6.2.3 Summary
+ * [I.6.2 Relationship to managed metadata-driven execution](i.6.2-relationship-to-managed-metadata-driven-execution.md)
+    * [I.6.2.1 Managed code](i.6.2.1-managed-code.md)
+    * [I.6.2.2 Managed data](i.6.2.2-managed-data.md)
+    * [I.6.2.3 Summary](i.6.2.3-summary.md)
 
 **I.7 Common Language Specification**
 
