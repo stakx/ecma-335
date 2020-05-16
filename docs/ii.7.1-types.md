@@ -4,8 +4,8 @@ The following grammar completely specifies all built-in types (including pointer
 
  *Type* ::= | Description | Clause
  ---- | ---- | ----
- `'!'` _Int32_ | Generic parameter in a type definition, accessed by index from 0 | §[II.9.1](#todo-missing-hyperlink)
- \| `'!!'` _Int32_ | Generic parameter in a method definition, accessed by index from 0 | §[II.9.2](#todo-missing-hyperlink)
+ `'!'` _Int32_ | Generic parameter in a type definition, accessed by index from 0 | §[II.9.1](ii.9.1-generic-type-definitions.md)
+ \| `'!!'` _Int32_ | Generic parameter in a method definition, accessed by index from 0 | §[II.9.2](ii.9.2-generics-and-recursive-inheritance-graphs.md)
  \| `bool` | Boolean | §[II.7.2](ii.7.2-built-in-types.md)
  \| `char` | 16-bit Unicode code point | §[II.7.2](ii.7.2-built-in-types.md)
  \| `class` _TypeReference_ | User defined reference type | §[II.7.3](ii.7.3-references-to-user-defined-types-typereference.md)
@@ -22,7 +22,7 @@ The following grammar completely specifies all built-in types (including pointer
  \| `string` | See `System.String` in [Partition IV](#todo-missing-hyperlink) | &nbsp;
  \| _Type_ `'&'` | Managed pointer to _Type_. _Type_ shall not be a managed pointer type or **typedref** | §[II.14.4](#todo-missing-hyperlink)
  \| *Type* `'*'` | Unmanaged pointer to *Type* | §[II.14.4](#todo-missing-hyperlink)
- \| *Type* `'<'` *GenArgs* `'>'` | Instantiation of generic type | §[II.9.4](#todo-missing-hyperlink)
+ \| *Type* `'<'` *GenArgs* `'>'` | Instantiation of generic type | §[II.9.4](ii.9.4-instantiating-generic-types.md)
  \| _Type_ `'['` [ *Bound* [ `','` *Bound* ]*] `']'` | Array of _Type_ with optional rank (number of dimensions) and bounds. | §[II.14.1](#todo-missing-hyperlink) and §[II.14.2](#todo-missing-hyperlink)
  \| _Type_ `modopt` `'('` _TypeReference_ `')'` | Custom modifier that can be ignored by the caller. | §[II.7.1.1](ii.7.1.1-modreq-and-modopt.md)
  \| _Type_ `modreq` `'('` _TypeReference_ `')'` | Custom modifier that the caller shall understand. | §[II.7.1.1](ii.7.1.1-modreq-and-modopt.md)

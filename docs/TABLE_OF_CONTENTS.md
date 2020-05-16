@@ -205,20 +205,20 @@
  * [II.8.2 Accessibility](ii.8.2-accessibility.md)
  * [II.8.3 Hiding](ii.8.3-hiding.md)
 
-**II.9 Generics**
+**[II.9 Generics](ii.9-generics.md)**
 
- * II.9.1 Generic type definitions
- * II.9.2 Generics and recursive inheritance graphs 
- * II.9.3 Generic method definitions
- * II.9.4 Instantiating generic types
- * II.9.5 Generics variance
- * II.9.6 Assignment compatibility of instantiated types
- * II.9.7 Validity of member signatures
- * II.9.8 Signatures and binding
- * II.9.9 Inheritance and overriding
- * II.9.10 Explicit method overrides
- * II.9.11 Constraints on generic parameters
- * II.9.12 References to members of generic types
+ * [II.9.1 Generic type definitions](ii.9.1-generic-type-definitions.md)
+ * [II.9.2 Generics and recursive inheritance graphs](ii.9.2-generics-and-recursive-inheritance-graphs.md)
+ * [II.9.3 Generic method definitions](ii.9.3-generic-method-definitions.md)
+ * [II.9.4 Instantiating generic types](ii.9.4-instantiating-generic-types.md)
+ * [II.9.5 Generics variance](ii.9.5-generics-variance.md)
+ * [II.9.6 Assignment compatibility of instantiated types](ii.9.6-assignment-compatibility-of-instantiated-types.md)
+ * [II.9.7 Validity of member signatures](ii.9.7-validity-of-member-signatures.md)
+ * [II.9.8 Signatures and binding](ii.9.8-signatures-and-binding.md)
+ * [II.9.9 Inheritance and overriding](ii.9.9-inheritance-and-overriding.md)
+ * [II.9.10 Explicit method overrides](ii.9.10-explicit-method-overrides.md)
+ * [II.9.11 Constraints on generic parameters](ii.9.11-constraints-on-generic-parameters.md)
+ * [II.9.12 References to members of generic types](ii.9.12-references-to-members-of-generic-types.md)
 
 **II.10 Defining types**
 

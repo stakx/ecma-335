@@ -60,7 +60,7 @@ Interfaces do not inherit from one another; however, they can have zero or more 
 
 User-defined delegates derive from `System.Delegate`. Delegates cannot be derived to a depth of more than one.
 
-For the directives to declare types see §[II.9](#todo-missing-hyperlink).
+For the directives to declare types see §[II.9](ii.9-generics.md).
 
  1. A _TypeDef_ table can contain one or more rows.
 
@@ -102,7 +102,7 @@ For the directives to declare types see §[II.9](#todo-missing-hyperlink).
 
  11. With the exception of `System.Object` and the special class `<Module>`, for any Class, _Extends_ shall index a valid row in the _TypeDef_, _TypeRef_, or _TypeSpec_ table, where valid means 1 &le; row &le; rowcount. In addition, that row itself shall be a Class (not an Interface or ValueType) In addition, that base Class shall not be sealed (its _Flags_.`Sealed` shall be 0) \[ERROR\]
 
- 12. A Class cannot extend itself, or any of its children (i.e., its derived Classes), since this would introduce loops in the hierarchy tree \[ERROR\] (For generic types, see §[II.9.1](#todo-missing-hyperlink) and §[II.9.2](#todo-missing-hyperlink).)
+ 12. A Class cannot extend itself, or any of its children (i.e., its derived Classes), since this would introduce loops in the hierarchy tree \[ERROR\] (For generic types, see §[II.9.1](ii.9.1-generic-type-definitions.md) and §[II.9.2](ii.9.2-generics-and-recursive-inheritance-graphs.md).)
 
  13. An Interface never extends another Type &ndash; so _Extends_ shall be null (Interfaces do implement other Interfaces, but recall that this relationship is captured via the _InterfaceImpl_ table, rather than the _Extends_ column) \[ERROR\]
 
