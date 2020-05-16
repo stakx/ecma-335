@@ -18,7 +18,7 @@ The `box` instruction can be applied to more than just value types; such types a
 
 The type `System.Void` is never boxable.
 
-Interfaces and inheritance are defined only on reference types. Thus, while a value type definition (§[I.8.9.7](#todo-missing-hyperlink)) can specify both interfaces that shall be implemented by the value type and the class (`System.ValueType` or `System.Enum`) from which it inherits, these apply only to boxed values. 
+Interfaces and inheritance are defined only on reference types. Thus, while a value type definition (§[I.8.9.7](i.8.9.7-value-type-definition.md)) can specify both interfaces that shall be implemented by the value type and the class (`System.ValueType` or `System.Enum`) from which it inherits, these apply only to boxed values. 
 
 > #### CLS Rule 3:
 >

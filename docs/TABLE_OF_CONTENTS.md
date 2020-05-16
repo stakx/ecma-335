@@ -68,14 +68,14 @@
     * [I.8.9.1 Array types](i.8.9.1-array-types.md)
     * [I.8.9.2 Unmanaged pointer types](i.8.9.2-unmanaged-pointer-types.md)
     * [I.8.9.3 Delegates](i.8.9.3-delegates.md)
-    * I.8.9.4 Interface type definition
-    * I.8.9.5 Class type definition
-    * I.8.9.6 Object type definitions
-    * I.8.9.7 Value type definition
-    * I.8.9.8 Type inheritance
-    * I.8.9.9 Object type inheritance
-    * I.8.9.10 Value type inheritance
-    * I.8.9.11 Interface type derivation
+    * [I.8.9.4 Interface type definition](i.8.9.4-interface-type-definition.md)
+    * [I.8.9.5 Class type definition](i.8.9.5-class-type-definition.md)
+    * [I.8.9.6 Object type definitions](i.8.9.6-object-type-definitions.md)
+    * [I.8.9.7 Value type definition](i.8.9.7-value-type-definition.md)
+    * [I.8.9.8 Type inheritance](i.8.9.8-type-inheritance.md)
+    * [I.8.9.9 Object type inheritance](i.8.9.9-object-type-inheritance.md)
+    * [I.8.9.10 Value type inheritance](i.8.9.10-value-type-inheritance.md)
+    * [I.8.9.11 Interface type derivation](i.8.9.10-value-type-inheritance.md)
  * I.8.10 Member inheritance
     * I.8.10.1 Field inheritance
     * I.8.10.2 Method inheritance

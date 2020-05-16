@@ -36,9 +36,9 @@ The complete set of CLS rules are collected here for reference. Recall that thes
 
 **CLS Rule 17:** Unmanaged pointer types are not CLS-compliant. (§[I.8.9.2](i.8.9.2-unmanaged-pointer-types.md))
 
-**CLS Rule 18:** CLS-compliant interfaces shall not require the definition of non-CLS compliant methods in order to implement them. (§[I.8.9.4](#todo-missing-hyperlink))
+**CLS Rule 18:** CLS-compliant interfaces shall not require the definition of non-CLS compliant methods in order to implement them. (§[I.8.9.4](i.8.9.4-interface-type-definition.md))
 
-**CLS Rule 19:** CLS-compliant interfaces shall not define static methods, nor shall they define fields. (§[I.8.9.4](#todo-missing-hyperlink))
+**CLS Rule 19:** CLS-compliant interfaces shall not define static methods, nor shall they define fields. (§[I.8.9.4](i.8.9.4-interface-type-definition.md))
 
 **CLS Rule 20:** CLS-compliant classes, value types, and interfaces shall not require the implementation of non-CLS-compliant members. (§[I.8.9.6.4]](#todo-missing-hyperlink))
 

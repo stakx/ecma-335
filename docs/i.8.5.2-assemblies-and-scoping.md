@@ -42,7 +42,7 @@ The CTS supports an **enum** (also known as an **enumeration type**), an alterna
 
  * It shall not have any static fields unless they are literal. (see §[I.8.6.1.2](#todo-missing-hyperlink))
 
-The underlying type shall be a built-in integer type. Enums shall derive from `System.Enum`, hence they are value types. Like all value types, they shall be sealed (see §[I.8.9.9](#todo-missing-hyperlink)).
+The underlying type shall be a built-in integer type. Enums shall derive from `System.Enum`, hence they are value types. Like all value types, they shall be sealed (see §[I.8.9.9](i.8.9.9-object-type-inheritance.md)).
 
 > #### CLS Rule 7:
 >
