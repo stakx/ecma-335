@@ -5,7 +5,7 @@
  | &hellip;
  | \| `method` _CallConv_ _Type_ `'*'` `'('` _Parameters_ `')'`
 
-Variables of type method pointer shall store the address of the entry point to a method whose signature is *method-signature-compatible-with* (§[I.8.7.1](#todo-missing-hyperlink)) the type of the method pointer. A pointer to a static or instance method is obtained with the `ldftn` instruction, while a pointer to a virtual method is obtained with the `ldvirtftn` instruction. A method can be called by using a method pointer with the `calli` instruction.  See [Partition III](#todo-missing-hyperlink) for the specification of these instructions.
+Variables of type method pointer shall store the address of the entry point to a method whose signature is *method-signature-compatible-with* (§[I.8.7.1](i.8.7.1-assignment-compatibility-for-signature-types.md)) the type of the method pointer. A pointer to a static or instance method is obtained with the `ldftn` instruction, while a pointer to a virtual method is obtained with the `ldvirtftn` instruction. A method can be called by using a method pointer with the `calli` instruction.  See [Partition III](#todo-missing-hyperlink) for the specification of these instructions.
 
 _[Note:_ Like other pointers, method pointers are compatible with `unsigned int64` on 64-bit architectures, and with `unsigned int32` on 32-bit architectures. The preferred usage, however, is `unsigned native int`, which works on both 32- and 64-bit architectures. _end note]_
 

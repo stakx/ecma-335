@@ -1,6 +1,6 @@
 ## II.14.6.1 Delegate signature compatibility
 
-This clause defines the relation *delegate-assignable-to*, which is a variant of *method-signature-compatible-with* (§[I.8.7.1](#todo-missing-hyperlink)) and covers delegate construction.
+This clause defines the relation *delegate-assignable-to*, which is a variant of *method-signature-compatible-with* (§[I.8.7.1](i.8.7.1-assignment-compatibility-for-signature-types.md)) and covers delegate construction.
 
 Delegates are bound to target methods through the `newobj` IL instruction (§[III.4.21](iii.4.21-newobj.md)) passing a method pointer for the target method and an object reference, if the target is an instance method, or null, if the target is a static method. The target method is loaded onto the evaluation stack through the `ldftn`, `ldvirtftn`, or one of the load IL instructions, at which time the signature of the method is available.
 
@@ -20,6 +20,6 @@ A target method or delegate of type _T_ is *delegate-assignable-to* a delegate o
 
  2. _T_ and _D_ have the same number of parameters, ignoring any this parameter if _T_ is a method.
 
- 3. For each parameter type _U_ of _T_, ignoring any this parameter if _T_ is a method, and corresponding type _V_ of _D_, _U_ is *assignable-to* (§[I.8.7.3](#todo-missing-hyperlink)) _V_.
+ 3. For each parameter type _U_ of _T_, ignoring any this parameter if _T_ is a method, and corresponding type _V_ of _D_, _U_ is *assignable-to* (§[I.8.7.3](i.8.7.3-general-assignment-compatibility.md)) _V_.
 
  4. The return type _U_ of _T_ and return type _V_ of _D_, _V_ is *assignable-to* _U_.

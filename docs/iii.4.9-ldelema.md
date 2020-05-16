@@ -34,7 +34,7 @@ Verification requires that:
 
  * the tracked type of _array_ is `T[]`, for some `T`, or the `Null` type (§[III.1.8.1.2](iii.1.8.1.2-verification-type-system.md));
 
- * a managed pointer to `T` is *pointer-element-compatible-with* (§[I.8.7.1](#todo-missing-hyperlink)) a managed pointer to _typeTok_; and
+ * a managed pointer to `T` is *pointer-element-compatible-with* (§[I.8.7.1](i.8.7.1-assignment-compatibility-for-signature-types.md)) a managed pointer to _typeTok_; and
 
  * the type of _index_ is `int32` or `native int`.
 

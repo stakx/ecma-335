@@ -60,9 +60,9 @@
  * [I.8.6 Contracts](i.8.6-contracts.md)
     * [I.8.6.1 Signatures](i.8.6.1-signatures.md)
  * [I.8.7 Assignment compatibility](i.8.7-assignment-compatibility.md)
-    * I.8.7.1 Assignment compatibility for signature types
-    * I.8.7.2 Assignment compatibility for location types
-    * I.8.7.3 General assignment compatibility
+    * [I.8.7.1 Assignment compatibility for signature types](i.8.7.1-assignment-compatibility-for-signature-types.md)
+    * [I.8.7.2 Assignment compatibility for location types](i.8.7.2-assignment-compatibility-for-location-types.md)
+    * [I.8.7.3 General assignment compatibility](i.8.7.3-general-assignment-compatibility.md)
  * [I.8.8 Type safety and verification](i.8.8-type-safety-and-verification.md)
  * [I.8.9 Type definers](i.8.9-type-definers.md)
     * [I.8.9.1 Array types](i.8.9.1-array-types.md)

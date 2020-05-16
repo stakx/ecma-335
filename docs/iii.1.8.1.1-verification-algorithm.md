@@ -30,7 +30,7 @@ To accommodate generics, the type compatibility relation is extended to deal wit
 
  * generic parameters: a generic parameter is only *assignable-to* (§[I.8.7.3](#todo-missing-hyperlink)) itself.
 
- * boxed generic parameters: a boxed generic parameter is *assignable-to* (§[I.8.7.3](#todo-missing-hyperlink)) the constraint types declared on the generic parameter.
+ * boxed generic parameters: a boxed generic parameter is *assignable-to* (§[I.8.7.3](i.8.7.3-general-assignment-compatibility.md)) the constraint types declared on the generic parameter.
 
 In the verification semantics, boxing a value of primitive or value type on the stack introduces a value of type "boxed" type; if the value type is `Nullable<T>` ([Partition I.8.2.4](#todo-missing-hyperlink)), a value of type "boxed" `T` is introduced. This notion of boxed type is extended to generic parameters. Boxing a value whose type is a generic parameter (`!0`, for example) introduces a value of the boxed parameter type on the stack ("boxed" `!0`, for example). The boxed forms of value types, and now generic parameters, are used to support efficient instance and virtual method calls on boxed values. Because the "boxed" type statically records the exact type of the underlying value, there is no need to perform a checked cast on the instance from some less informative, but syntactically expressible, reference type.
 

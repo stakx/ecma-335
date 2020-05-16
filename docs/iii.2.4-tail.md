@@ -33,7 +33,7 @@ None.
 
 #### Correctness:
 
-Correct CIL obeys the control transfer constraints listed above. In addition, no managed pointers can be passed to the method being called if they point into the stack frame that is about to be removed. The return type of the method being called shall be *assignable-to* (§[I.8.7.3](#todo-missing-hyperlink)) the return type of the current method.
+Correct CIL obeys the control transfer constraints listed above. In addition, no managed pointers can be passed to the method being called if they point into the stack frame that is about to be removed. The return type of the method being called shall be *assignable-to* (§[I.8.7.3](i.8.7.3-general-assignment-compatibility.md)) the return type of the current method.
 
 #### Verifiability:
 

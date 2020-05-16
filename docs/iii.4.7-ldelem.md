@@ -32,7 +32,7 @@ Verification requires that:
 
  * the tracked type of _array_ is `T[]`, for some `T`;
 
- * `T` is *array-element-compatible-with* (§[I.8.7.1](#todo-missing-hyperlink)) _typeTok_; and
+ * `T` is *array-element-compatible-with* (§[I.8.7.1](i.8.7.1-assignment-compatibility-for-signature-types.md)) _typeTok_; and
 
  * the type of _index_ is `int32` or `native int`.
 

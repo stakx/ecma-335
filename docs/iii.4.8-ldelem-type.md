@@ -39,7 +39,7 @@ _[Note:_ that is elements that are smaller than 4 bytes, a boolean or a characte
 
 #### Correctness:
 
-Correct CIL code requires that _array_ is either null or a zero-based, one-dimensional array whose declared element type is *array-element-compatible-with* (§[I.8.7.1](#todo-missing-hyperlink)) the type for this particular instruction suffix.
+Correct CIL code requires that _array_ is either null or a zero-based, one-dimensional array whose declared element type is *array-element-compatible-with* (§[I.8.7.1](i.8.7.1-assignment-compatibility-for-signature-types.md)) the type for this particular instruction suffix.
 
 #### Verifiability:
 

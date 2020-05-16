@@ -8,7 +8,7 @@ A type `Q` is *verifier-assignable-to* `R` (sometimes written `R` := `Q`) if and
 
  2. There exists some `V` such that `T` is *verifier-assignable-to* `V` and `V` is *verifier-assignable-to* `U`. _[Note:_ this is transitivity for verification type compatibility._]_
 
- 3. `T` is *assignable-to* `U` according to the rules in §[I.8.7.3](#todo-missing-hyperlink).
+ 3. `T` is *assignable-to* `U` according to the rules in §[I.8.7.3](i.8.7.3-general-assignment-compatibility.md).
 
  4. `T` is a controlled-mutability managed pointer type to type `V` and `U` is a controlled-mutability managed pointer type to type `W` and `V` is *pointer-element-assignable-to* `W`.
 

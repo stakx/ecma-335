@@ -32,7 +32,7 @@ Value types are not usually created using `newobj`. They are usually allocated e
 
 #### Correctness:
 
-Correct CIL ensures that _ctor_ is a valid `methodref` or `methoddef` token, and that the arguments on the stack are *assignable-to* (§[I.8.7.3](#todo-missing-hyperlink)) the parameters of the constructor.
+Correct CIL ensures that _ctor_ is a valid `methodref` or `methoddef` token, and that the arguments on the stack are *assignable-to* (§[I.8.7.3](i.8.7.3-general-assignment-compatibility.md)) the parameters of the constructor.
 
 #### Verifiability:
 
