@@ -1,6 +1,6 @@
 ## II.22.13 Event: 0x14
 
-Events are treated within metadata much like Properties; that is, as a way to associate a collection of methods defined on a given class. There are two required methods (`add_` and `remove_`) plus an optional one (`raise_`); additonal methods with other names are also permitted (§[18](#todo-missing-hyperlink)). All of the methods gathered together as an Event shall be defined on the class (§[I.8.11.4](#todo-missing-hyperlink))
+Events are treated within metadata much like Properties; that is, as a way to associate a collection of methods defined on a given class. There are two required methods (`add_` and `remove_`) plus an optional one (`raise_`); additonal methods with other names are also permitted (§[18](#todo-missing-hyperlink)). All of the methods gathered together as an Event shall be defined on the class (§[I.8.11.4](i.8.11.4-event-definitions.md))
 
 The association between a row in the _TypeDef_ table and the collection of methods that make up a given Event is held in three separate tables (exactly analogous to the approach used for Properties), as follows:
 

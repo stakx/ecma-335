@@ -50,23 +50,23 @@ The complete set of CLS rules are collected here for reference. Recall that thes
 
 **CLS Rule 24:** The methods that implement the getter and setter methods of a property shall be marked SpecialName in the metadata. (§[I.8.11.3]](#todo-missing-hyperlink))
 
-**CLS Rule 25:** No longer used. _[Note:_ In an earlier version of this standard, this rule stated "The accessibility of a property and of its accessors shall be identical." The removal of this rule allows, for example, public access to a getter while restricting access to the setter. _end note]_ (§[I.8.11.3](#todo-missing-hyperlink))
+**CLS Rule 25:** No longer used. _[Note:_ In an earlier version of this standard, this rule stated "The accessibility of a property and of its accessors shall be identical." The removal of this rule allows, for example, public access to a getter while restricting access to the setter. _end note]_ (§[I.8.11.3](i.8.11.3-property-definitions.md))
 
-**CLS Rule 26:** A property’s accessors shall all be static, all be virtual, or all be instance. (§[I.8.11.3](#todo-missing-hyperlink))
+**CLS Rule 26:** A property’s accessors shall all be static, all be virtual, or all be instance. (§[I.8.11.3](i.8.11.3-property-definitions.md))
 
-**CLS Rule 27:** The type of a property shall be the return type of the getter and the type of the last argument of the setter.  The types of the parameters of the property shall be the types of the parameters to the getter and the types of all but the final parameter of the setter.  All of these types shall be CLS-compliant, and shall not be managed pointers (i.e., shall not be passed by reference). (§[I.8.11.3](#todo-missing-hyperlink))
+**CLS Rule 27:** The type of a property shall be the return type of the getter and the type of the last argument of the setter.  The types of the parameters of the property shall be the types of the parameters to the getter and the types of all but the final parameter of the setter.  All of these types shall be CLS-compliant, and shall not be managed pointers (i.e., shall not be passed by reference). (§[I.8.11.3](i.8.11.3-property-definitions.md))
 
-**CLS Rule 28:** Properties shall adhere to a specific naming pattern. See §[I.10.4](i.10.4-naming-patterns.md). The SpecialName attribute referred to in CLS rule 24 shall be ignored in appropriate name comparisons and shall adhere to identifier rules. A property shall have a getter method, a setter method, or both. (§[I.8.11.3](#todo-missing-hyperlink))
+**CLS Rule 28:** Properties shall adhere to a specific naming pattern. See §[I.10.4](i.10.4-naming-patterns.md). The SpecialName attribute referred to in CLS rule 24 shall be ignored in appropriate name comparisons and shall adhere to identifier rules. A property shall have a getter method, a setter method, or both. (§[I.8.11.3](i.8.11.3-property-definitions.md))
 
-**CLS Rule 29:** The methods that implement an event shall be marked SpecialName in the metadata. (§[I.8.11.4](#todo-missing-hyperlink))
+**CLS Rule 29:** The methods that implement an event shall be marked SpecialName in the metadata. (§[I.8.11.4](i.8.11.4-event-definitions.md))
 
-**CLS Rule 30:** The accessibility of an event and of its accessors shall be identical. (§[I.8.11.4](#todo-missing-hyperlink))
+**CLS Rule 30:** The accessibility of an event and of its accessors shall be identical. (§[I.8.11.4](i.8.11.4-event-definitions.md))
 
-**CLS Rule 31:** The add and remove methods for an event shall both either be present or absent. (§[I.8.11.4](#todo-missing-hyperlink))
+**CLS Rule 31:** The add and remove methods for an event shall both either be present or absent. (§[I.8.11.4](i.8.11.4-event-definitions.md))
 
-**CLS Rule 32:** The add and remove methods for an event shall each take one parameter whose type defines the type of the event and that shall be derived from `System.Delegate`. (§[I.8.11.4](#todo-missing-hyperlink))
+**CLS Rule 32:** The add and remove methods for an event shall each take one parameter whose type defines the type of the event and that shall be derived from `System.Delegate`. (§[I.8.11.4](i.8.11.4-event-definitions.md))
 
-**CLS Rule 33:** Events shall adhere to a specific naming pattern. See §[I.10.4](i.10.4-naming-patterns.md). The SpecialName attribute referred to in CLS rule 29 shall be ignored in appropriate name comparisons and shall adhere to identifier rules. (§[I.8.11.4](#todo-missing-hyperlink))
+**CLS Rule 33:** Events shall adhere to a specific naming pattern. See §[I.10.4](i.10.4-naming-patterns.md). The SpecialName attribute referred to in CLS rule 29 shall be ignored in appropriate name comparisons and shall adhere to identifier rules. (§[I.8.11.4](i.8.11.4-event-definitions.md))
 
 **CLS Rule 34:** The CLS only allows a subset of the encodings of custom attributes.  The only types that shall appear in these encodings are (see Partition IV): `System.Type`, `System.String`, `System.Char`, `System.Boolean`, `System.Byte`, `System.Int16`, `System.Int32`, `System.Int64`, `System.Single`, `System.Double`, and any enumeration type based on a CLS-compliant base integer type. (§[I.9.7](i.9.7-metadata-extensibility.md))
 

@@ -1,0 +1,3 @@
+## I.8.10.1 Field inheritance
+
+A derived object type inherits all of the non-static fields of its base object type. This allows instances of the derived type to be used wherever instances of the base type are expected (the shapes, or layouts, of the instances will be the same). Static fields are not inherited. Just because a field exists does not mean that it can be read or written. The type visibility, field accessibility, and security attributes of the field definition (see §[I.8.5.3](i.8.5.3-visibility-accessibility-and-security.md)) determine if a field is accessible to the derived object type.

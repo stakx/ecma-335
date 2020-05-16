@@ -20,9 +20,9 @@ An explicit class definition:
 
  * Defines the class contract of the same name (see §[I.8.6](i.8.6-contracts.md)).
 
- * Defines the representations and valid operations of all values of the class type using member definitions for the fields, methods, properties, and events (see §[I.8.11](#todo-missing-hyperlink)).
+ * Defines the representations and valid operations of all values of the class type using member definitions for the fields, methods, properties, and events (see §[I.8.11](i.8.11-member-definitions.md)).
 
- * Defines the static members of the class type (see §[I.8.11](#todo-missing-hyperlink)).
+ * Defines the static members of the class type (see §[I.8.11](i.8.11-member-definitions.md)).
 
  * Specifies any other interface and class contracts also supported by the class type.
 

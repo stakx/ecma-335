@@ -76,17 +76,17 @@
     * [I.8.9.9 Object type inheritance](i.8.9.9-object-type-inheritance.md)
     * [I.8.9.10 Value type inheritance](i.8.9.10-value-type-inheritance.md)
     * [I.8.9.11 Interface type derivation](i.8.9.10-value-type-inheritance.md)
- * I.8.10 Member inheritance
-    * I.8.10.1 Field inheritance
-    * I.8.10.2 Method inheritance
-    * I.8.10.3 Property and event inheritance
-    * I.8.10.4 Hiding, overriding, and layout
- * I.8.11 Member definitions
-    * I.8.11.1 Method definitions
-    * I.8.11.2 Field definitions
-    * I.8.11.3 Property definitions
-    * I.8.11.4 Event definitions
-    * I.8.11.5 Nested type definitions
+ * [I.8.10 Member inheritance](i.8.10-member-inheritance.md)
+    * [I.8.10.1 Field inheritance](i.8.10.1-field-inheritance.md)
+    * [I.8.10.2 Method inheritance](i.8.10.2-method-inheritance.md)
+    * [I.8.10.3 Property and event inheritance](i.8.10.3-property-and-event-inheritance.md)
+    * [I.8.10.4 Hiding, overriding, and layout](i.8.10.4-hiding-overriding-and-layout.md)
+ * [I.8.11 Member definitions](i.8.11-member-definitions.md)
+    * [I.8.11.1 Method definitions](i.8.11.1-method-definitions.md)
+    * [I.8.11.2 Field definitions](i.8.11.2-field-definitions.md)
+    * [I.8.11.3 Property definitions](i.8.11.3-property-definitions.md)
+    * [I.8.11.4 Event definitions](i.8.11.4-event-definitions.md)
+    * [I.8.11.5 Nested type definitions](i.8.11.5-nested-type-definitions.md)
  
 **[I.9 Metadata](i.9-metadata.md)**
 

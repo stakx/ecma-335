@@ -36,7 +36,7 @@ Interfaces can have static or virtual methods, but shall not have instance metho
 >
 > **CLS (framework):** Shall not externally expose interfaces that violate these rules. Where static methods, instance methods, or fields are required, a separate class can be defined that provides them. _end note]_
 
-Interface types can also define event and property contracts that shall be implemented by object types that support the interface. Since event and property contracts reduce to sets of method contracts (§[I.8.6](i.8.6-contracts.md)), the above rules for method definitions apply. For more information, see §[I.8.11.4](#todo-missing-hyperlink) and §[I.8.11.3](#todo-missing-hyperlink).
+Interface types can also define event and property contracts that shall be implemented by object types that support the interface. Since event and property contracts reduce to sets of method contracts (§[I.8.6](i.8.6-contracts.md)), the above rules for method definitions apply. For more information, see §[I.8.11.4](i.8.11.4-event-definitions.md) and §[I.8.11.3](i.8.11.3-property-definitions.md).
 
 Interface type definitions can specify other interface contracts that implementations of the interface type are required to support. See §[I.8.9.11](i.8.9.11-interface-type-derivation.md) for specifics.
 
