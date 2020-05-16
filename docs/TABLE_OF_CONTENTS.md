@@ -491,18 +491,18 @@
  * [III.3.4 arglist &ndash; get argument list](iii.3.4-arglist.md)
  * [III.3.5 beq.\<length\> &ndash; branch on equal](iii.3.5-beq.length.md)
  * [III.3.6 bge.\<length\> &ndash; branch on greater than or equal to](iii.3.6-bge.length.md)
- * III.3.7 bge.un.\<length\> &ndash; branch on greater than or equal to, unsigned or unordered
- * III.3.8 bgt.\<length\> &ndash; branch on greater than
- * III.3.9 bgt.un.\<length\> &ndash; branch on greater than, unsigned or unordered
- * III.3.10 ble.\<length\> &ndash; branch on less than or equal to
- * III.3.11 ble.un.\<length\> &ndash; branch on less than or equal to, unsigned or unordered
- * III.3.12 blt.\<length\> &ndash; branch on less than
- * III.3.13 blt.un.\<length\> &ndash; branch on less than, unsigned or unordered
- * III.3.14 bne.un\<length\> &ndash; branch on not equal or unordered
- * III.3.15 br.\<length\> &ndash; unconditional branch
- * III.3.16 break &ndash; breakpoint instruction
- * III.3.17 brfalse.\<length\> &ndash; branch on false, null, or zero
- * III.3.18 brtrue.\<length\> &ndash; branch on non-false or non-null
+ * [III.3.7 bge.un.\<length\> &ndash; branch on greater than or equal to, unsigned or unordered](iii.3.7-bge.un.length.md)
+ * [III.3.8 bgt.\<length\> &ndash; branch on greater than](iii.3.8-bgt.length.md)
+ * [III.3.9 bgt.un.\<length\> &ndash; branch on greater than, unsigned or unordered](iii.3.9-bgt.un.length.md)
+ * [III.3.10 ble.\<length\> &ndash; branch on less than or equal to](iii.3.10-ble.length.md)
+ * [III.3.11 ble.un.\<length\> &ndash; branch on less than or equal to, unsigned or unordered](iii.3.11-ble.un.length.md)
+ * [III.3.12 blt.\<length\> &ndash; branch on less than](iii.3.12-blt.length.md)
+ * [III.3.13 blt.un.\<length\> &ndash; branch on less than, unsigned or unordered](iii.3.13-blt.un.length.md)
+ * [III.3.14 bne.un.\<length\> &ndash; branch on not equal or unordered](iii.3.14-bne.un.length.md)
+ * [III.3.15 br.\<length\> &ndash; unconditional branch](iii.3.15-br.length.md)
+ * [III.3.16 break &ndash; breakpoint instruction](iii.3.16-break.md)
+ * [III.3.17 brfalse.\<length\> &ndash; branch on false, null, or zero](iii.3.17-brfalse.length.md)
+ * [III.3.18 brtrue.\<length\> &ndash; branch on non-false or non-null](iii.3.18-brtrue.length.md)
  * III.3.19 call &ndash; call a method
  * III.3.20 calli &ndash; indirect method call
  * III.3.21 ceq &ndash; compare equal
