@@ -12,7 +12,7 @@ The _FieldMarshal_ table has the following columns:
 
 For the detailed format of the 'blob', see §[II.23.4](ii.23.4-marshalling-descriptors.md)
 
-A row in the _FieldMarshal_ table is created if the **.field** directive for the parent field has specified a **marshal** attribute (§[II.16.1](#todo-missing-hyperlink)).
+A row in the _FieldMarshal_ table is created if the **.field** directive for the parent field has specified a **marshal** attribute (§[II.16.1](ii.16.1-attributes-of-fields.md)).
 
 > _This contains informative text only._
 

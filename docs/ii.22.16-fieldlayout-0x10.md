@@ -18,7 +18,7 @@ Note that each Field in any Type is defined by its Signature.  When a Type insta
 
 Note that metadata specifying explicit structure layout can be valid for use on one platform but not on another, since some of the rules specified here are dependent on platform-specific alignment rules.
 
-A row in the _FieldLayout_ table is created if the **.field** directive for the parent field has specified a field offset (§[II.16](#todo-missing-hyperlink)).
+A row in the _FieldLayout_ table is created if the **.field** directive for the parent field has specified a field offset (§[II.16](ii.16-defining-and-referencing-fields.md)).
 
 > _This contains informative text only._
 

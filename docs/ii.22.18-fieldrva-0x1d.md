@@ -8,7 +8,7 @@ The _FieldRVA_ table has the following columns:
 
 Conceptually, each row in the _FieldRVA_ table is an extension to exactly one row in the _Field_ table, and records the RVA (Relative Virtual Address) within the image file at which this field's initial value is stored.
 
-A row in the _FieldRVA_ table is created for each static parent field that has specified the optional **data** label §[II.16](#todo-missing-hyperlink)). The RVA column is the relative virtual address of the data in the PE file (§[II.16.3](#todo-missing-hyperlink)). 
+A row in the _FieldRVA_ table is created for each static parent field that has specified the optional **data** label §[II.16](ii.16-defining-and-referencing-fields.md)). The RVA column is the relative virtual address of the data in the PE file (§[II.16.3](ii.16.3-embedding-data-in-a-pe-file.md)). 
 
 > _This contains informative text only._
 

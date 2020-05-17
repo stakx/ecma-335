@@ -4,7 +4,7 @@ The _Constant_ table is used to store compile-time, constant values for fields, 
 
 The _Constant_ table has the following columns:
 
- * _Type_ (a 1-byte constant, followed by a 1-byte padding zero); see §[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md). The encoding of _Type_ for the **nullref** value for _FieldInit_ in _ilasm_ (§[II.16.2](#todo-missing-hyperlink)) is `ELEMENT_TYPE_CLASS` with a _Value_ of a 4-byte zero. Unlike uses of `ELEMENT_TYPE_CLASS` in signatures, this one is not followed by a type token.
+ * _Type_ (a 1-byte constant, followed by a 1-byte padding zero); see §[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md). The encoding of _Type_ for the **nullref** value for _FieldInit_ in _ilasm_ (§[II.16.2](ii.16.2-field-init-metadata.md)) is `ELEMENT_TYPE_CLASS` with a _Value_ of a 4-byte zero. Unlike uses of `ELEMENT_TYPE_CLASS` in signatures, this one is not followed by a type token.
 
  * _Parent_ (an index into the _Param_, _Field_, or _Property_ table; more precisely, a _HasConstant_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index)
 

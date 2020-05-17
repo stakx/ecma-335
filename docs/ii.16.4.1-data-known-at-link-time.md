@@ -1,0 +1,7 @@
+## II.16.4.1 Data known at link time
+
+When the correct value to be stored into the static data is known at the time the program is linked (or compiled for those languages with no linker step), the actual value can be stored directly into the PE file, typically into the data area (§[II.16.3](ii.16.3-embedding-data-in-a-pe-file.md)). References to the variable are made directly to the location where this data has been placed in memory, using the OS-supplied fixup mechanism to adjust any references to this area if the file loads at an address other than the one assumed by the linker.
+
+In the CLI, this technique can be used directly if the static variable has one of the primitive numeric types or is a value type with explicit type layout and no embedded references to managed objects. In this case the data is laid out in the data area as usual and the static variable is assigned a particular RVA (i.e., offset from the start of the PE file) by using a data label with the field declaration (using the at syntax).
+
+This mechanism, however, does not interact well with the CLI notion of an application domain (see [Partition I](#todo-missing-hyperlink)). An application domain is intended to isolate two applications running in the same OS process from one another by guaranteeing that they have no shared data. Since the PE file is shared across the entire process, any data accessed via this mechanism is visible to all application domains in the process, thus violating the application domain isolation boundary.

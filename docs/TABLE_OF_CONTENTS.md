@@ -294,21 +294,21 @@
     * II.15.5.3 Method calls via function pointers
     * II.15.5.4 Data type marshaling
 
-**II.16 Defining and referencing fields**
+**[II.16 Defining and referencing fields](ii.16-defining-and-referencing-fields.md)**
 
- * II.16.1 Attributes of fields
-    * II.16.1.1 Accessibility information
-    * II.16.1.2 Field contract attributes
-    * II.16.1.3 Interoperation attributes
-    * II.16.1.4 Other attributes
- * II.16.2 Field init metadata
- * II.16.3 Embedding data in a PE file
-    * II.16.3.1 Data declaration
-    * II.16.3.2 Accessing data from the PE file
- * II.16.4 Initialization of non-literal static data
-    * II.16.4.1 Data known at link time
- * II.16.5 Data known at load time
-    * II.16.5.1 Data known at run time
+ * [II.16.1 Attributes of fields](ii.16.1-attributes-of-fields.md)
+    * [II.16.1.1 Accessibility information](ii.16.1.1-accessibility-information.md)
+    * [II.16.1.2 Field contract attributes](ii.16.1.2-field-contract-attributes.md)
+    * [II.16.1.3 Interoperation attributes](ii.16.1.3-interoperation-attributes.md)
+    * [II.16.1.4 Other attributes](ii.16.1.4-other-attributes.md)
+ * [II.16.2 Field init metadata](ii.16.2-field-init-metadata.md)
+ * [II.16.3 Embedding data in a PE file](ii.16.3-embedding-data-in-a-pe-file.md)
+    * [II.16.3.1 Data declaration](ii.16.3.1-data-declaration.md)
+    * [II.16.3.2 Accessing data from the PE file](ii.16.3.2-accessing-data-from-the-pe-file.md)
+ * [II.16.4 Initialization of non-literal static data](ii.16.4-initialization-of-non-literal-static-data.md)
+    * [II.16.4.1 Data known at link time](ii.16.4.1-data-known-at-link-time.md)
+ * [II.16.5 Data known at load time](ii.16.5-data-known-at-load-time.md)
+    * [II.16.5.1 Data known at run time](ii.16.5.1-data-known-at-run-time.md)
 
 **II.17 Defining properties**
 
