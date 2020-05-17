@@ -10,7 +10,7 @@ The _PropertyMap_ table has the following columns:
 
      * the next run of Properties, found by inspecting the _PropertyList_ of the next row in this _PropertyMap_ table
 
-The _PropertyMap_ and _Property_ tables result from putting the **.property** directive on a class (§[II.17](#todo-missing-hyperlink)).
+The _PropertyMap_ and _Property_ tables result from putting the **.property** directive on a class (§[II.17](ii.17-defining-properties.md)).
 
 > _This contains informative text only._
 

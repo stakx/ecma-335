@@ -310,7 +310,7 @@
  * [II.16.5 Data known at load time](ii.16.5-data-known-at-load-time.md)
     * [II.16.5.1 Data known at run time](ii.16.5.1-data-known-at-run-time.md)
 
-**II.17 Defining properties**
+**[II.17 Defining properties](ii.17-defining-properties.md)**
 
 **II.18 Defining events**
 
