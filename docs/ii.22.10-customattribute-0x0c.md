@@ -9,7 +9,7 @@ The _CustomAttribute_ table has the following columns:
  * _Value_ (an index into the Blob heap).
 
 The _CustomAttribute_ table stores data that can be used to instantiate a Custom Attribute (more precisely, an object of the specified Custom Attribute class) at runtime. The column called _Type_ is slightly misleading&mdash;it actually indexes a constructor method&mdash;the owner of that constructor method is the Type of the Custom Attribute. 
-A row in the _CustomAttribute_ table for a parent is created by the **.custom** attribute, which gives the value of the _Type_ column and optionally that of the _Value_ column (§[II.21](#todo-missing-hyperlink)). 
+A row in the _CustomAttribute_ table for a parent is created by the **.custom** attribute, which gives the value of the _Type_ column and optionally that of the _Value_ column (§[II.21](ii.21-custom-attributes.md)). 
 
 > _This contains informative text only._
 

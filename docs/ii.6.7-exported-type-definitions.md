@@ -14,7 +14,7 @@ The manifest module, of which there can only be one per assembly, includes the *
  | _ExternClassDecl_ ::= | Clause
  | ---- | ----
  | \| `.class extern` _DottedName_
- | \| `.custom` _CustomDecl_ | §[II.21](#todo-missing-hyperlink)
+ | \| `.custom` _CustomDecl_ | §[II.21](ii.21-custom-attributes.md)
  
 The _ExportAttr_ value shall be either **public** or **nested public** and shall match the visibility of the type.
 

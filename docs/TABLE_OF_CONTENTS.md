@@ -325,15 +325,15 @@
 
 **[II.20 Declarative security](ii.20-declarative-security.md)**
 
-**II.21 Custom attributes**
+**[II.21 Custom attributes](ii.21-custom-attributes.md)**
 
- * II.21.1 CLS conventions: custom attribute usage
- * II.21.2 Attributes used by the CLI
-    * II.21.2.1 Pseudo custom attributes
-    * II.21.2.2 Custom attributes defined by the CLS
-    * II.21.2.3 Custom attributes for security
-    * II.21.2.4 Custom attributes for TLS
-    * II.21.2.5 Custom attributes, various
+ * [II.21.1 CLS conventions: custom attribute usage](ii.21.1-cls-conventions-custom-attribute-usage.md)
+ * [II.21.2 Attributes used by the CLI](ii.21.2-attributes-used-by-the-cli.md)
+    * [II.21.2.1 Pseudo custom attributes](ii.21.2.1-pseudo-custom-attributes.md)
+    * [II.21.2.2 Custom attributes defined by the CLS](ii.21.2.2-custom-attributes-defined-by-the-cls.md)
+    * [II.21.2.3 Custom attributes for security](ii.21.2.3-custom-attributes-for-security.md)
+    * [II.21.2.4 Custom attributes for TLS](ii.21.2.4-custom-attributes-for-tls.md)
+    * [II.21.2.5 Custom attributes, various](ii.21.2.5-custom-attributes-various.md)
 
 **[II.22 Metadata logical format: tables](ii.22-metadata-logical-format-tables.md)**
 

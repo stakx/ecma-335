@@ -1,6 +1,6 @@
 ## II.7.1.1 modreq and modopt
 
-Custom modifiers, defined using **modreq** ("required modifier") and **modopt** ("optional modifier"), are similar to custom attributes (§[II.21](#todo-missing-hyperlink)) except that modifiers are part of a signature rather than being attached to a declaration. Each modifer associates a type reference with an item in the signature.
+Custom modifiers, defined using **modreq** ("required modifier") and **modopt** ("optional modifier"), are similar to custom attributes (§[II.21](ii.21-custom-attributes.md)) except that modifiers are part of a signature rather than being attached to a declaration. Each modifer associates a type reference with an item in the signature.
 
 The CLI itself shall treat required and optional modifiers in the same manner. Two signatures that differ only by the addition of a custom modifier (required or optional) shall not be considered to match. Custom modifiers have no other effect on the operation of the VES.
 

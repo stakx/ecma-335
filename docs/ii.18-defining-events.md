@@ -22,7 +22,7 @@ _[Rationale:_ There are currently no event names that are required to be marked 
  | _EventMember_ ::= | Description | Clause
  | ---- | ---- | ----
  | `.addon` _CallConv_ _Type_ [ _TypeSpec_ `'::'` ] _MethodName_ `'('` _Parameters_ `')'` | Add method for event.
- | \| `.custom` _CustomDecl_ | Custom attribute. | §[II.21](#todo-missing-hyperlink)
+ | \| `.custom` _CustomDecl_ | Custom attribute. | §[II.21](ii.21-custom-attributes.md)
  | \| `.fire` _CallConv_ _Type_ [ _TypeSpec_ `'::'` ] _MethodName_ `'('` _Parameters_ `')'` | Fire method for event.
  | \| `.other` _CallConv_ _Type_ [ _TypeSpec_ `'::'` ] _MethodName_ `'('` _Parameters_ `')'` | Other method.
  | \| `.removeon` _CallConv_ _Type_ [ _TypeSpec_ `'::'` ] _MethodName_ `'('` _Parameters_ `')'` | Remove method for event.
@@ -34,7 +34,7 @@ The **.removeon** directive specifies the *remove* method, and the _TypeSpec_ de
 
 The **.fire** directive specifies the *fire* method, and the _TypeSpec_ defaults to the same type as the event. The CLS specifies naming conventions and consistency constraints for events, and requires that the definition of the *fire* method be marked with **specialname**. (§[I.10.4](i.10.4-naming-patterns.md))
 
-An event can contain any number of other methods specified with the **.other** directive. From the point of view of the CLI, these methods are only associated with each other through the event. If they have special semantics, this needs to be documented by the implementer. Events can also have custom attributes (§[II.21](#todo-missing-hyperlink)) associated with them and they can declare source line information.
+An event can contain any number of other methods specified with the **.other** directive. From the point of view of the CLI, these methods are only associated with each other through the event. If they have special semantics, this needs to be documented by the implementer. Events can also have custom attributes (§[II.21](ii.21-custom-attributes.md)) associated with them and they can declare source line information.
 
 _[Example:_ This shows the declaration of an event, its corresponding delegate, and typical implementations of the *add*, *remove*, and *fire* method of the event. The event and the methods are declared in a class called `Counter`.
 

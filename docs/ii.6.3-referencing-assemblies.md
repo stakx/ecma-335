@@ -12,7 +12,7 @@ The dotted name used in **.assembly extern** shall exactly match the name of the
  | _AsmRefDecl_ ::= | Description | Clause
  | ---- | ---- | ----
  | `.hash` `'='` `'('` _Bytes_ `')'` | Hash of referenced assembly | §[II.6.2.3](ii.6.2.3-associating-files-with-an-assembly.md)
- | \| `.custom` _CustomDecl_ | Custom attributes | §[II.21](#todo-missing-hyperlink)
+ | \| `.custom` _CustomDecl_ | Custom attributes | §[II.21](ii.21-custom-attributes.md)
  | \| `.culture` _QSTRING_ | Culture of the referenced assembly | §[II.6.2.1.2](ii.6.2.1.2-culture.md)
  | \| `.publickeytoken` `'='` `'('` _Bytes_ `')'` | The low 8 bytes of the SHA-1 hash of the originator's public key. | §[II.6.3](ii.6.3-referencing-assemblies.md)
  | \| `.publickey` `'='` `'('` _Bytes_ `')'` | The originator's full public key | §[II.6.2.1.3](ii.6.2.1.3-originators-public-key.md)

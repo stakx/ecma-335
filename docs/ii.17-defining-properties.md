@@ -20,7 +20,7 @@ While the CLI places no constraints on the methods that make up a property, the 
 
  | _PropMember_ ::= | Description | Clause
  | ---- | ---- | ----
- | \| `.custom` _CustomDecl_ | Custom attribute. | §[II.21](#todo-missing-hyperlink)
+ | \| `.custom` _CustomDecl_ | Custom attribute. | §[II.21](ii.21-custom-attributes.md)
  | \| `.get` _CallConv_ _Type_ [ _TypeSpec_ `'::'` ] _MethodName_ `'('` _Parameters_ `')'` | Specifies the getter for the property.
  | \| `.other` _CallConv_ _Type_ [ _TypeSpec_ `'::'` ] _MethodName_ `'('` _Parameters_ `')'` | Specifies a method for the property other than the getter or setter.
  | \| `.set` _CallConv_ _Type_ [ _TypeSpec_ `'::'` ] _MethodName_ `'('` _Parameters_ `')'` | Specifies the setter for the property. 
@@ -32,7 +32,7 @@ While the CLI places no constraints on the methods that make up a property, the 
 
 **.other** is used to specify any other methods that this property comprises.
 
-In addition, custom attributes (§[II.21](#todo-missing-hyperlink)) or source line declarations can be specified.
+In addition, custom attributes (§[II.21](ii.21-custom-attributes.md)) or source line declarations can be specified.
 
 _[Example:_ This shows the declaration of the property called `count`.
 
