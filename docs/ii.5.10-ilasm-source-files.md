@@ -26,4 +26,4 @@ The complete grammar for a top-level declaration is shown below. The reference s
  | \| `.subsystem` _Int32_ | §[II.6.2](ii.6.2-defining-an-assembly.md)
  | \| `.vtfixup` _VTFixupDecl_ | §[II.15.5.1](#todo-missing-hyperlink)
  | \| _ExternSourceDecl_ | §[II.5.7](ii.5.7-source-line-information.md)
- | \| _SecurityDecl_ | §[II.20](#todo-missing-hyperlink)
+ | \| _SecurityDecl_ | §[II.20](ii.20-declarative-security.md)

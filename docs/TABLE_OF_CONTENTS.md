@@ -323,7 +323,7 @@
  * [II.19.5 Finally blocks](ii.19.5-finally-blocks.md)
  * [II.19.6 Fault handlers](ii.19.6-fault-handlers.md)
 
-**II.20 Declarative security**
+**[II.20 Declarative security](ii.20-declarative-security.md)**
 
 **II.21 Custom attributes**
 

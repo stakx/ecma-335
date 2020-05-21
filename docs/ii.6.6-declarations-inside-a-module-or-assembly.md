@@ -10,5 +10,5 @@ Declarations inside a module or assembly are specified by the following grammar.
  | \| `.field` _FieldDecl_ | §[II.16](ii.16-defining-and-referencing-fields.md)
  | \| `.method` _MethodHeader_ `'{'` _MethodBodyItem_* `'}'` | §[II.15](#todo-missing-hyperlink)
  | \| _ExternSourceDecl_ | §[II.5.7](ii.5.7-source-line-information.md)
- | \| _SecurityDecl_ | §[II.20](#todo-missing-hyperlink) 
+ | \| _SecurityDecl_ | §[II.20](ii.20-declarative-security.md) 
  | \| &hellip;
