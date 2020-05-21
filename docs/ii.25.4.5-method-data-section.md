@@ -9,7 +9,7 @@ At the next 4-byte boundary following the method body can be extra method data s
  `CorILMethod_Sect_FatFormat` | 0x40 | Data format is of the fat variety, meaning there is a 3-byte length least-significant byte first format. If not set, the header is small with a 1-byte length
  `CorILMethod_Sect_MoreSects` | 0x80 | Another data section occurs after this current section
 
-Currently, the method data sections are only used for exception tables (§[II.19](#todo-missing-hyperlink)). The layout of a small exception header structure as is a follows: 
+Currently, the method data sections are only used for exception tables (§[II.19](ii.19-exception-handling.md)). The layout of a small exception header structure as is a follows: 
 
  Offset | Size | Field | Description
  ---- | ---- | ---- | ---- 

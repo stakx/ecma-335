@@ -314,14 +314,14 @@
 
 **[II.18 Defining events](ii.18-defining-events.md)**
 
-**II.19 Exception handling**
+**[II.19 Exception handling](ii.19-exception-handling.md)**
 
- * II.19.1 Protected blocks
- * II.19.2 Handler blocks
- * II.19.3 Catch blocks
- * II.19.4 Filter blocks
- * II.19.5 Finally blocks
- * II.19.6 Fault handlers
+ * [II.19.1 Protected blocks](ii.19.1-protected-blocks.md)
+ * [II.19.2 Handler blocks](ii.19.2-handler-blocks.md)
+ * [II.19.3 Catch blocks](ii.19.3-catch-blocks.md)
+ * [II.19.4 Filter blocks](ii.19.4-filter-blocks.md)
+ * [II.19.5 Finally blocks](ii.19.5-finally-blocks.md)
+ * [II.19.6 Fault handlers](ii.19.6-fault-handlers.md)
 
 **II.20 Declarative security**
 
