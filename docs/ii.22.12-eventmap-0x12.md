@@ -8,7 +8,7 @@ The _EventMap_ table has the following columns:
 
     * the last row of the _Event_ table o the next run of Events, found by inspecting the _EventList_ of the next row in the _EventMap_ table
 
-Note that _EventMap_ info does not directly influence runtime behavior; what counts is the information stored for each method that the event comprises. The _EventMap_ and _Event_ tables result from putting the **.event** directive on a class (§[II.18](#todo-missing-hyperlink)).
+Note that _EventMap_ info does not directly influence runtime behavior; what counts is the information stored for each method that the event comprises. The _EventMap_ and _Event_ tables result from putting the **.event** directive on a class (§[II.18](ii.18-defining-events.md)).
 
 > _This contains informative text only._
 

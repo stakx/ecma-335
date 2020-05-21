@@ -312,7 +312,7 @@
 
 **[II.17 Defining properties](ii.17-defining-properties.md)**
 
-**II.18 Defining events**
+**[II.18 Defining events](ii.18-defining-events.md)**
 
 **II.19 Exception handling**
 

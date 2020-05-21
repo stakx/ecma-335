@@ -8,7 +8,7 @@ The _MethodSemantics_ table has the following columns:
 
  * _Association_ (an index into the _Event_ or _Property_ table; more precisely, a _HasSemantics_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index)
 
-The rows of the _MethodSemantics_ table are filled by **.property** (§[II.17](ii.17-defining-properties.md)) and **.event** directives (§[II.18](#todo-missing-hyperlink)). (See §[II.22.13](#todo-missing-hyperlink) for more information.)
+The rows of the _MethodSemantics_ table are filled by **.property** (§[II.17](ii.17-defining-properties.md)) and **.event** directives (§[II.18](ii.18-defining-events.md)). (See §[II.22.13](#todo-missing-hyperlink) for more information.)
 
 > _This contains informative text only._
 

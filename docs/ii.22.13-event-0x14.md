@@ -18,7 +18,7 @@ The _Event_ table has the following columns:
 
  * _EventType_ (an index into a _TypeDef_, a _TypeRef_, or _TypeSpec_ table; more precisely, a _TypeDefOrRef_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index) (This corresponds to the Type of the Event; it is not the Type that owns this event.)
 
-Note that _Event_ information does not directly influence runtime behavior; what counts is the information stored for each method that the event comprises. The _EventMap_ and _Event_ tables result from putting the **.event** directive on a class (§[II.18](#todo-missing-hyperlink)).
+Note that _Event_ information does not directly influence runtime behavior; what counts is the information stored for each method that the event comprises. The _EventMap_ and _Event_ tables result from putting the **.event** directive on a class (§[II.18](ii.18-defining-events.md)).
 
 > _This contains informative text only._
 
