@@ -2,7 +2,7 @@
 
 A Marshalling Descriptor is like a signature &ndash; it's a 'blob' of binary data. It describes how a field or parameter (which, as usual, covers the method return, as parameter number 0) should be marshalled when calling to or from unmanaged code via PInvoke dispatch. The ILAsm syntax **marshal** can be used to create a marshalling descriptor, as can the pseudo custom attribute `MarshalAsAttribute` &ndash; see §[II.21.2.1](ii.21.2.1-pseudo-custom-attributes.md))
 
-Note that a conforming implementation of the CLI need only support marshalling of the types specified earlier &ndash; see §[II.15.5.4](#todo-missing-hyperlink).
+Note that a conforming implementation of the CLI need only support marshalling of the types specified earlier &ndash; see §[II.15.5.4](ii.15.5.4-data-type-marshaling.md).
 
 Marshalling descriptors make use of constants named `NATIVE_TYPE_xxx`. Their names and values are listed in the following table:
 

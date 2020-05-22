@@ -12,7 +12,7 @@ See §[II.22.34](#todo-missing-hyperlink) and §[II.22.35](ii.22.35-propertymap-
  | ----
  | \[ `specialname` \] \[ `rtspecialname` \] _CallConv_ _Type_ _Id_ `'('` _Parameters_ `')'`
 
-The **.property** directive specifies a calling convention (§[II.15.3](#todo-missing-hyperlink)), type, name, and parameters in parentheses. `specialname` marks the property as *special* to other tools, while `rtspecialname` marks the property as *special* to the CLI. The signature for the property (i.e., the _PropHeader_ production) shall match the signature of the property's **.get** method (see below)
+The **.property** directive specifies a calling convention (§[II.15.3](ii.15.3-calling-convention.md)), type, name, and parameters in parentheses. `specialname` marks the property as *special* to other tools, while `rtspecialname` marks the property as *special* to the CLI. The signature for the property (i.e., the _PropHeader_ production) shall match the signature of the property's **.get** method (see below)
 
 _[Rationale:_ There are currently no property names that are required to be marked with `rtspecialname`. It is provided for extensions, future standardization, and to increase consistency between the declaration of properties and methods (instance and type initializer methods shall be marked with this attribute). _end rationale]_
 

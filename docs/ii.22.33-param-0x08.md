@@ -10,7 +10,7 @@ The _Param_ table has the following columns:
  
 Conceptually, every row in the _Param_ table is owned by one, and only one, row in the _MethodDef_ table.
 
-The rows in the _Param_ table result from the parameters in a method declaration (§II.15.4), or from a **.param** attribute attached to a method (§[II.15.4.1](#todo-missing-hyperlink).
+The rows in the _Param_ table result from the parameters in a method declaration (§II.15.4), or from a **.param** attribute attached to a method (§[II.15.4.1](ii.15.4.1-method-body.md).
 
 > _This contains informative text only._
 

@@ -8,13 +8,13 @@ The Signature at a call site differs from that at its definition, only for a met
 
 This diagram uses the following abbreviations:
 
- * `HASTHIS` = 0x20, used to encode the keyword **instance** in the calling convention, see §[II.15.3](#todo-missing-hyperlink)
+ * `HASTHIS` = 0x20, used to encode the keyword **instance** in the calling convention, see §[II.15.3](ii.15.3-calling-convention.md)
 
- * `EXPLICITTHIS` = 0x40, used to encode the keyword **explicit** in the calling convention, see §[II.15.3](#todo-missing-hyperlink)
+ * `EXPLICITTHIS` = 0x40, used to encode the keyword **explicit** in the calling convention, see §[II.15.3](ii.15.3-calling-convention.md)
  
- * `VARARG` = 0x5, used to encode the keyword **vararg** in the calling convention, see §[II.15.3](#todo-missing-hyperlink)
+ * `VARARG` = 0x5, used to encode the keyword **vararg** in the calling convention, see §[II.15.3](ii.15.3-calling-convention.md)
  
- * `SENTINEL` = 0x41 (§[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md)), used to encode "`...`" in the parameter list, see §[II.15.3](#todo-missing-hyperlink)
+ * `SENTINEL` = 0x41 (§[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md)), used to encode "`...`" in the parameter list, see §[II.15.3](ii.15.3-calling-convention.md)
 
 The first byte of the Signature holds bits for `HASTHIS`, `EXPLICITTHIS`, and the calling convention `VARARG`. These are ORed together.
 

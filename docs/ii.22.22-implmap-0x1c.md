@@ -16,7 +16,7 @@ The _ImplMap_ table has the following columns:
 
  * _ImportScope_ (an index into the _ModuleRef_ table)
 
-A row is entered in the _ImplMap_ table for each parent Method (§[II.15.5](#todo-missing-hyperlink)) that is defined with a **.pinvokeimpl** interoperation attribute specifying the _MappingFlags_, _ImportName_, and _ImportScope_.
+A row is entered in the _ImplMap_ table for each parent Method (§[II.15.5](ii.15.5-unmanaged-methods.md)) that is defined with a **.pinvokeimpl** interoperation attribute specifying the _MappingFlags_, _ImportName_, and _ImportScope_.
 
 > _This contains informative text only._
 

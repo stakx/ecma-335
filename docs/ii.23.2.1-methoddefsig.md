@@ -6,13 +6,13 @@ A _MethodDefSig_ is indexed by the _Method_._Signature_ column. It captures the 
 
 This diagram uses the following abbreviations:
 
- * `HASTHIS` = 0x20, used to encode the keyword **instance** in the calling convention, see §[II.15.3](#todo-missing-hyperlink)
+ * `HASTHIS` = 0x20, used to encode the keyword **instance** in the calling convention, see §[II.15.3](ii.15.3-calling-convention.md)
 
- * `EXPLICITTHIS` = 0x40, used to encode the keyword **explicit** in the calling convention, see §[II.15.3](#todo-missing-hyperlink)
+ * `EXPLICITTHIS` = 0x40, used to encode the keyword **explicit** in the calling convention, see §[II.15.3](ii.15.3-calling-convention.md)
 
- * `DEFAULT` = 0x0, used to encode the keyword **default** in the calling convention, see §[II.15.3](#todo-missing-hyperlink)
+ * `DEFAULT` = 0x0, used to encode the keyword **default** in the calling convention, see §[II.15.3](ii.15.3-calling-convention.md)
 
- * `VARARG` = 0x5, used to encode the keyword **vararg** in the calling convention, see §[II.15.3](#todo-missing-hyperlink)
+ * `VARARG` = 0x5, used to encode the keyword **vararg** in the calling convention, see §[II.15.3](ii.15.3-calling-convention.md)
 
  * `GENERIC` = 0x10, used to indicate that the method has one or more generic parameters.
 

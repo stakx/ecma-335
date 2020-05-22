@@ -6,7 +6,7 @@ The signature shall describe either:
 
  * **a method** &ndash; code generators create a row in the _StandAloneSig_ table for each occurrence of a `calli` CIL instruction. That row indexes the call-site signature for the function pointer operand of the `calli` instruction
 
- * **local variables** &ndash; code generators create one row in the _StandAloneSig_ table for each method, to describe all of its local variables.  The **.locals** directive (§[II.15.4.1](#todo-missing-hyperlink)) in ILAsm generates a row in the _StandAloneSig_ table.
+ * **local variables** &ndash; code generators create one row in the _StandAloneSig_ table for each method, to describe all of its local variables.  The **.locals** directive (§[II.15.4.1](ii.15.4.1-method-body.md)) in ILAsm generates a row in the _StandAloneSig_ table.
 
 The _StandAloneSig_ table has the following column:
 

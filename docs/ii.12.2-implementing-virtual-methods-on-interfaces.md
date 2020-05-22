@@ -6,7 +6,7 @@ Classes that implement an interface (§[II.12.1](ii.12.1-implementing-interfaces
 
  * Inheritance of an existing implementation from the base type.
 
- * Use of an explicit _MethodImpl_ (§[II.15.1.4](#todo-missing-hyperlink)).
+ * Use of an explicit _MethodImpl_ (§[II.15.1.4](ii.15.1.4-method-implementations.md)).
 
 Where there are multiple implementations for a given interface method due to differences in type parameters, the declaration order of the interfaces on the class determines which method is invoked, as well as the order in which the methods are declared. The following terms are used in the specification for interface method invocation (see Example in §[12.2.1](#todo-missing-hyperlink)):
 

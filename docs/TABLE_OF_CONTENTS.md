@@ -273,26 +273,26 @@
     * [II.14.6.2 Synchronous calls to delegates](ii.14.6.2-synchronous-calls-to-delegates.md)
     * [II.14.6.3 Asynchronous calls to delegates](ii.14.6.3-asynchronous-calls-to-delegates.md)
 
-**II.15 Defining, referencing, and calling methods**
+**[II.15 Defining, referencing, and calling methods](ii.15-defining-referencing-and-calling-methods.md)**
 
- * II.15.1 Method descriptors
-    * II.15.1.1 Method declarations
-    * II.15.1.2 Method definitions
-    * II.15.1.3 Method references
-    * II.15.1.4 Method implementations
- * II.15.2 Static, instance, and virtual methods
- * II.15.3 Calling convention
- * II.15.4 Defining methods
-    * II.15.4.1 Method body
-    * II.15.4.2 Predefined attributes on methods
-    * II.15.4.3 Implementation attributes of methods
-    * II.15.4.4 Scope blocks
-    * II.15.4.5 vararg methods
- * II.15.5 Unmanaged methods
-    * II.15.5.1 Method transition thunks
-    * II.15.5.2 Platform invoke
-    * II.15.5.3 Method calls via function pointers
-    * II.15.5.4 Data type marshaling
+ * [II.15.1 Method descriptors](ii.15.1-method-descriptors.md)
+    * [II.15.1.1 Method declarations](ii.15.1.1-method-declarations.md)
+    * [II.15.1.2 Method definitions](ii.15.1.2-method-definitions.md)
+    * [II.15.1.3 Method references](ii.15.1.3-method-references.md)
+    * [II.15.1.4 Method implementations](ii.15.1.4-method-implementations.md)
+ * [II.15.2 Static, instance, and virtual methods](ii.15.2-static-instance-and-virtual-methods.md)
+ * [II.15.3 Calling convention](ii.15.3-calling-convention.md)
+ * [II.15.4 Defining methods](ii.15.4-defining-methods.md)
+    * [II.15.4.1 Method body](ii.15.4.1-method-body.md)
+    * [II.15.4.2 Predefined attributes on methods](ii.15.4.2-predefined-attributes-on-methods.md)
+    * [II.15.4.3 Implementation attributes of methods](ii.15.4.3-implementation-attributes-of-methods.md)
+    * [II.15.4.4 Scope blocks](ii.15.4.4-scope-blocks.md)
+    * [II.15.4.5 vararg methods](ii.15.4.5-vararg-methods.md)
+ * [II.15.5 Unmanaged methods](ii.15.5-unmanaged-methods.md)
+    * [II.15.5.1 Method transition thunks](ii.15.5.1-method-transition-thunks.md)
+    * [II.15.5.2 Platform invoke](ii.15.5.2-platform-invoke.md)
+    * [II.15.5.3 Method calls via function pointers](ii.15.5.3-method-calls-via-function-pointers.md)
+    * [II.15.5.4 Data type marshaling](ii.15.5.4-data-type-marshaling.md)
 
 **[II.16 Defining and referencing fields](ii.16-defining-and-referencing-fields.md)**
 

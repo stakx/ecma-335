@@ -8,7 +8,7 @@ Custom attributes are declared using the directive **.custom**, followed by the 
  | ----
  | _Ctor_ [ `'='` `'('` _Bytes_ `')'` ]
 
-The _Ctor_ item represents a method declaration (§[II.15.4](#todo-missing-hyperlink)), specific for the case where the method's name is `.ctor`. _[Example:_
+The _Ctor_ item represents a method declaration (§[II.15.4](ii.15.4-defining-methods.md)), specific for the case where the method's name is `.ctor`. _[Example:_
 
  ```ilasm
  custom instance void myAttribute::.ctor(bool, bool) = ( 01 00 00 01 00 00 )

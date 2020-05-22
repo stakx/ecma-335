@@ -20,7 +20,7 @@ The _MethodDef_ table has the following columns:
 
 Conceptually, every row in the _MethodDef_ table is owned by one, and only one, row in the _TypeDef_ table.
 
-The rows in the _MethodDef_ table result from **.method** directives (§[II.15](#todo-missing-hyperlink)). The RVA column is computed when the image for the PE file is emitted and points to the `COR_ILMETHOD` structure for the body of the method (§[II.25.4](ii.25.4-common-intermediate-language-physical-layout.md))
+The rows in the _MethodDef_ table result from **.method** directives (§[II.15](ii.15-defining-referencing-and-calling-methods.md)). The RVA column is computed when the image for the PE file is emitted and points to the `COR_ILMETHOD` structure for the body of the method (§[II.25.4](ii.25.4-common-intermediate-language-physical-layout.md))
 
 _[Note:_ If _Signature_ is `GENERIC` (0x10), the generic arguments are described in the _GenericParam_ table (§[II.22.20](#todo-missing-hyperlink)). _end note]_
 

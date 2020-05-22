@@ -9,4 +9,4 @@ A *try*, or *protected*, or *guarded*, block is declared with the **.try** direc
 
 In the first case, the protected block is delimited by two labels. The first label is the first instruction to be protected, while the second label is the instruction just beyond the last one to be protected. Both labels shall be defined prior to this point.
 
-The second case uses a scope block (§[II.15.4.4](#todo-missing-hyperlink)) after the **.try** directive&mdash;the instructions within that scope are the ones to be protected.
+The second case uses a scope block (§[II.15.4.4](ii.15.4.4-scope-blocks.md)) after the **.try** directive&mdash;the instructions within that scope are the ones to be protected.

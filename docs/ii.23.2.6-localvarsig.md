@@ -6,7 +6,7 @@ A _LocalVarSig_ is indexed by the _StandAloneSig_._Signature_ column. It capture
 
 This diagram uses the following abbreviations:
 
- * `LOCAL_SIG` for 0x7, used for the **.locals** directive, see §[II.15.4.1.3](#todo-missing-hyperlink)
+ * `LOCAL_SIG` for 0x7, used for the **.locals** directive, see §[II.15.4.1.3](ii.15.4.1.3-the-locals-directive.md)
 
  * `BYREF` for `ELEMENT_TYPE_BYREF` (§[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md))
 
