@@ -616,18 +616,18 @@
     * [IV.4.1.7 Frame growth](iv.4.1.7-frame-growth.md)
     * [IV.4.1.8 Filtered exceptions](iv.4.1.8-filtered-exceptions.md)
 
-**IV.5 The standard libraries**
+**[IV.5 The standard libraries](iv.5-the-standard-libraries.md)**
 
- * IV.5.1 General comments
- * IV.5.2 Runtime infrastructure library
- * IV.5.3 Base Class Library (BCL)
- * IV.5.4 Network library
- * IV.5.5 Reflection library
- * IV.5.6 XML library
- * IV.5.7 Extended numerics library
- * IV.5.8 Extended array library
- * IV.5.9 Vararg library
- * IV.5.10 Parallel library
+ * [IV.5.1 General comments](iv.5.1-general-comments.md)
+ * [IV.5.2 Runtime infrastructure library](iv.5.2-runtime-infrastructure-library.md)
+ * [IV.5.3 Base Class Library (BCL)](iv.5.3-base-class-library-bcl.md)
+ * [IV.5.4 Network library](iv.5.4-network-library.md)
+ * [IV.5.5 Reflection library](iv.5.5-reflection-library.md)
+ * [IV.5.6 XML library](iv.5.6-xml-library.md)
+ * [IV.5.7 Extended numerics library](iv.5.7-extended-numerics-library.md)
+ * [IV.5.8 Extended array library](iv.5.8-extended-array-library.md)
+ * [IV.5.9 Vararg library](iv.5.9-vararg-library.md)
+ * [IV.5.10 Parallel library](iv.5.10-parallel-library.md)
 
 **IV.6 Implementation-specific modifications to the system libraries**
 

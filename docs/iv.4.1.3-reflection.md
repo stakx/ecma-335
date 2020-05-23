@@ -6,4 +6,4 @@ The **reflection feature set** supports full reflection on data types. All of it
 
 _[Note:_ With just the Kernel Profile there is no requirement, for example, to determine the members of the type, dynamically create instances of the type, or invoke methods of the type given an instance of `System.Type`. This can simplify the implementation of the CLI compared to that required when the Reflection Library is available. _end note]_
 
-**Part of Library:** Reflection (see §[IV.5.5](#todo-missing-hyperlink)).
+**Part of Library:** Reflection (see §[IV.5.5](iv.5.5-reflection-library.md)).
