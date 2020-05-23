@@ -1,6 +1,6 @@
 ## I.8.7.3 General assignment compatibility
 
-In this section the relation *assignable-to* is defined which extends *compatible-with* to cover the primitive value type assignments supported by the semantics of the various load and store instructions (§[III.3](iii.3-base-instructions.md)), implicit argument coercion (§[III.1.6](iii.1.6-implicit-argument-coercion.md)), and method return (§[III.3.57](#todo-missing-hyperlink)).
+In this section the relation *assignable-to* is defined which extends *compatible-with* to cover the primitive value type assignments supported by the semantics of the various load and store instructions (§[III.3](iii.3-base-instructions.md)), implicit argument coercion (§[III.1.6](iii.1.6-implicit-argument-coercion.md)), and method return (§[III.3.57](iii.3.57-ret.md)).
 
 A location type T is *assignable-to* a location type _U_ if one of the following holds:
 

@@ -8,7 +8,7 @@ There are different rules for determining the compatibility of types, depending 
 
  * *compatible-with* &ndash; this is the relation used by `castclass` (§[III.4.3](iii.4.3-castclass.md)) and `isinst` (§[III.4.6](iii.4.6-isinst.md)), and in determining the validity of variant generic arguments. _[Note:_ operations based on this relation do not change the representation of a value. When casting, the source type is the dynamic type of the value. _end note]_
 
- * *assignable-to* &ndash; this is the relation used for general assignment; including load and store instructions (§[III.3](iii.3-base-instructions.md)), implicit argument coercion (§[III.1.6](iii.1.6-implicit-argument-coercion.md)), and method return (§[III.3.57](#todo-missing-hyperlink)). _[Note:_ operations based on this relation may change the representation of a value. When assigning, the source type is the static type of the value. _end note]_
+ * *assignable-to* &ndash; this is the relation used for general assignment; including load and store instructions (§[III.3](iii.3-base-instructions.md)), implicit argument coercion (§[III.1.6](iii.1.6-implicit-argument-coercion.md)), and method return (§[III.3.57](iii.3.57-ret.md)). _[Note:_ operations based on this relation may change the representation of a value. When assigning, the source type is the static type of the value. _end note]_
 
  * *array-element-compatible-with* &ndash; this is the auxiliary relation used to determine the validity of assignments to array elements
 

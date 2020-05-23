@@ -540,18 +540,18 @@
  * III.3.53 or &ndash; bitwise OR
  * III.3.54 pop &ndash; remove the top element of the stack
  * III.3.55 rem &ndash; compute remainder
- * III.3.56 rem.un &ndash; compute integer remainder, unsigned
- * III.3.57 ret &ndash; return from method
- * III.3.58 shl &ndash; shift integer left
- * III.3.59 shr &ndash; shift integer right
- * III.3.60 shr.un &ndash; shift integer right, unsigned
- * III.3.61 starg.\<length\> &ndash; store a value in an argument slot
- * III.3.62 stind.\<type\> &ndash; store value indirect from stack
- * III.3.63 stloc &ndash; pop value from stack to local variable
- * III.3.64 sub &ndash; subtract numeric values
- * III.3.65 sub.ovf.\<type\> &ndash; subtract integer values, checking for overflow
- * III.3.66 switch &ndash; table switch based on value
- * III.3.67 xor &ndash; bitwise XOR
+ * [III.3.56 rem.un &ndash; compute integer remainder, unsigned](iii.3.56-rem-un.md)
+ * [III.3.57 ret &ndash; return from method](iii.3.57-ret.md)
+ * [III.3.58 shl &ndash; shift integer left](iii.3.58-shl.md)
+ * [III.3.59 shr &ndash; shift integer right](iii.3.59-shr.md)
+ * [III.3.60 shr.un &ndash; shift integer right, unsigned](iii.3.60-shr-un.md)
+ * [III.3.61 starg.\<length\> &ndash; store a value in an argument slot](iii.3.61-starg-length.md)
+ * [III.3.62 stind.\<type\> &ndash; store value indirect from stack](iii.3.62-stind-type.md)
+ * [III.3.63 stloc &ndash; pop value from stack to local variable](iii.3.63-stloc.md)
+ * [III.3.64 sub &ndash; subtract numeric values](iii.3.64-sub.md)
+ * [III.3.65 sub.ovf.\<type\> &ndash; subtract integer values, checking for overflow](iii.3.65-sub-ovf-type.md)
+ * [III.3.66 switch &ndash; table switch based on value](iii.3.66-switch.md)
+ * [III.3.67 xor &ndash; bitwise XOR](iii.3.67-xor.md)
 
 **[III.4 Object model instructions](iii.4-object-model-instructions.md)**
 
