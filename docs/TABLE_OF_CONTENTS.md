@@ -578,16 +578,16 @@
  * [III.4.21 newobj &ndash; create a new object](iii.4.21-newobj.md)
  * [III.4.22 refanytype &ndash; load the type out of a typed reference](iii.4.22-refanytype.md)
  * [III.4.23 refanyval &ndash; load the address out of a typed reference](iii.4.23-refanyval.md)
- * III.4.24 rethrow &ndash; rethrow the current exception
- * III.4.25 sizeof &ndash; load the size, in bytes, of a type
- * III.4.26 stelem &ndash; store element to array
- * III.4.27 stelem.\<type\> &ndash; store an element of an array
- * III.4.28 stfld &ndash; store into a field of an object
- * III.4.29 stobj &ndash; store a value at an address
- * III.4.30 stsfld &ndash; store a static field of a class
- * III.4.31 throw &ndash; throw an exception
- * III.4.32 unbox &ndash; convert boxed value type to its raw form
- * III.4.33 unbox.any &ndash; convert boxed type to value
+ * [III.4.24 rethrow &ndash; rethrow the current exception](iii.4.24-rethrow.md)
+ * [III.4.25 sizeof &ndash; load the size, in bytes, of a type](iii.4.25-sizeof.md)
+ * [III.4.26 stelem &ndash; store element to array](iii.4.26-stelem.md)
+ * [III.4.27 stelem.\<type\> &ndash; store an element of an array](iii.4.27-stelem-type.md)
+ * [III.4.28 stfld &ndash; store into a field of an object](iii.4.28-stfld.md)
+ * [III.4.29 stobj &ndash; store a value at an address](iii.4.29-stobj.md)
+ * [III.4.30 stsfld &ndash; store a static field of a class](iii.4.30-stsfld.md)
+ * [III.4.31 throw &ndash; throw an exception](iii.4.31-throw.md)
+ * [III.4.32 unbox &ndash; convert boxed value type to its raw form](iii.4.32-unbox.md)
+ * [III.4.33 unbox.any &ndash; convert boxed type to value](iii.4.33-unbox-any.md)
 
 # Partition IV: Profiles and Libraries
 
