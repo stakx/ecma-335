@@ -698,11 +698,11 @@
 
 **VI.Annex D Class library design guidelines**
 
-**VI.Annex E Portability considerations**
+**[VI.Annex E Portability considerations](vi.e-portability-considerations.md)**
 
- * VI.E.1 Uncontrollable behavior
- * VI.E.2 Language- and compiler-controllable behavior
- * VI.E.3 Programmer-controllable behavior
+ * [VI.E.1 Uncontrollable behavior](vi.e.1-uncontrollable-behavior.md)
+ * [VI.E.2 Language- and compiler-controllable behavior](vi.e.2-language-and-compiler-controllable-behavior.md)
+ * [VI.E.3 Programmer-controllable behavior](vi.e.3-programmer-controllable-behavior.md)
 
 **[VI.Annex F Imprecise faults](vi.f-imprecise-faults.md)**
 
