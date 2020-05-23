@@ -12,7 +12,7 @@ The _MethodImpl_ table has the following columns:
 
  * _MethodDeclaration_ (an index into the _MethodDef_ or _MemberRef_ table; more precisely, a _MethodDefOrRef_ (§[II.24.2.6](ii.24.2.6-metadata-stream.md)) coded index)
 
-ILAsm uses the **.override** directive to specify the rows of the _MethodImpl_ table (§[II.10.3.2](#todo-missing-hyperlink) and §[II.15.4.1](ii.15.4.1-method-body.md)).
+ILAsm uses the **.override** directive to specify the rows of the _MethodImpl_ table (§[II.10.3.2](ii.10.3.2-the-override-directive.md) and §[II.15.4.1](ii.15.4.1-method-body.md)).
 
 > _This contains informative text only._
 

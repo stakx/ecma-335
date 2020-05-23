@@ -1,12 +1,12 @@
 ## II.16.5.1 Data known at run time
 
-When the correct value cannot be determined until type layout is computed, the user shall supply code as part of a type initializer to initialize the static data. The guarantees about type initialization are covered in §[II.10.5.3.1](#todo-missing-hyperlink). As will be explained below, global statics are modeled in the CLI as though they belonged to a type, so the same guarantees apply to both global and type statics.
+When the correct value cannot be determined until type layout is computed, the user shall supply code as part of a type initializer to initialize the static data. The guarantees about type initialization are covered in §[II.10.5.3.1](ii.10.5.3.1-type-initialization-guarantees.md). As will be explained below, global statics are modeled in the CLI as though they belonged to a type, so the same guarantees apply to both global and type statics.
 
 Because the layout of managed types need not occur until a type is first referenced, it is not possible to statically initialize managed types by simply laying out the data in the PE file. Instead, there is a type initialization process that proceeds in the following steps:
 
  1. All static variables are zeroed.
 
- 2. The user-supplied type initialization procedure, if any, is invoked as described in §[II.10.5.3](#todo-missing-hyperlink).
+ 2. The user-supplied type initialization procedure, if any, is invoked as described in §[II.10.5.3](ii.10.5.3-type-initializer.md).
 
 Within a type initialization procedure there are several techniques:
 

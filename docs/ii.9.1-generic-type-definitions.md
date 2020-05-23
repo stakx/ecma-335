@@ -1,6 +1,6 @@
 ## II.9.1 Generic type definitions
 
-A generic type definition is one that includes generic parameters. Each such generic parameter can have a name and an optional set of constraints&mdash;types which generic arguments shall be *assignable-to* (§[I.8.7.3](i.8.7.3-general-assignment-compatibility.md)). Optional variance notation is also permitted (§[II.10.1.7](#todo-missing-hyperlink)). (For an explanation of the `!` and `!!` notation used below, see §[II.9.4](ii.9.4-instantiating-generic-types.md)) The generic parameter is in scope in the declarations of:
+A generic type definition is one that includes generic parameters. Each such generic parameter can have a name and an optional set of constraints&mdash;types which generic arguments shall be *assignable-to* (§[I.8.7.3](i.8.7.3-general-assignment-compatibility.md)). Optional variance notation is also permitted (§[II.10.1.7](ii.10.1.7-generic-parameters-genpars.md)). (For an explanation of the `!` and `!!` notation used below, see §[II.9.4](ii.9.4-instantiating-generic-types.md)) The generic parameter is in scope in the declarations of:
 
  * its constraints (e.g., ``.class … C`1<(class IComparable`1<!0>) T>)``
 

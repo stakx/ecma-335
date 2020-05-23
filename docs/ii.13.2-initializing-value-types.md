@@ -1,8 +1,8 @@
 ## II.13.2 Initializing value types
 
-Like classes, value types can have both instance constructors (§[II.10.5.1](#todo-missing-hyperlink)) and type initializers (§[II.10.5.3](#todo-missing-hyperlink)). Unlike classes, whose fields are automatically initialized to null, the following rules constitute the only guarantee about the initilization of (unboxed) value types:
+Like classes, value types can have both instance constructors (§[II.10.5.1](ii.10.5.1-instance-constructor.md)) and type initializers (§[II.10.5.3](ii.10.5.3-type-initializer.md)). Unlike classes, whose fields are automatically initialized to null, the following rules constitute the only guarantee about the initilization of (unboxed) value types:
 
- * Static variables shall be initialized to zero when a type is loaded (§[II.10.5.3.3](#todo-missing-hyperlink)), hence statics whose type is a value type are zero-initialized when the type is loaded.
+ * Static variables shall be initialized to zero when a type is loaded (§[II.10.5.3.3](ii.10.5.3.3-races-and-deadlocks.md)), hence statics whose type is a value type are zero-initialized when the type is loaded.
 
  * Local variables shall be initialized to zero if the **localsinit** bit in the method header (§[II.25.4.4](ii.25.4.4-flags-for-method-headers.md)) is set.
 

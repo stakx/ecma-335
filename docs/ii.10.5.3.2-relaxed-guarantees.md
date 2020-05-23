@@ -1,0 +1,5 @@
+## II.10.5.3.2 Relaxed guarantees
+
+A type can be marked with the attribute **beforefieldinit** (§[II.10.1.6](ii.10.1.6-special-handling-attributes.md)) to indicate that the guarantees specified in §[II.10.5.3.1](ii.10.5.3.1-type-initialization-guarantees.md) are not necessarily required. In particular, the final requirement above need not be provided: the type initializer need not be executed before a static method is called or referenced.
+
+_[Rationale:_ When code can be executed in multiple application domains it becomes particularly expensive to ensure this final guarantee. At the same time, examination of large bodies of managed code have shown that this final guarantee is rarely required, since type initializers are almost always simple methods for initializing static fields. Leaving it up to the CIL generator (and hence, possibly, to the programmer) to decide whether this guarantee is required therefore provides efficiency when it is desired at the cost of consistency guarantees. _end rationale]_

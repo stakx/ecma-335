@@ -1,6 +1,6 @@
 ## II.12.1 Implementing interfaces
 
-Classes and value types shall *implement* zero or more interfaces. Implementing an interface implies that all concrete instances of the class or value type shall provide an implementation for each **abstract** virtual method declared in the interface. In order to implement an interface, a class or value type shall either explicitly declare that it does so (using the **implements** attribute in its type definition, see §[II.10.1](#todo-missing-hyperlink)) or shall be derived from a base class that implements the interface.
+Classes and value types shall *implement* zero or more interfaces. Implementing an interface implies that all concrete instances of the class or value type shall provide an implementation for each **abstract** virtual method declared in the interface. In order to implement an interface, a class or value type shall either explicitly declare that it does so (using the **implements** attribute in its type definition, see §[II.10.1](ii.10.1-type-header-classheader.md)) or shall be derived from a base class that implements the interface.
 
 _[Note:_ An **abstract** class (since it cannot be instantiated) need not provide implementations of the virtual methods of interfaces it implements, but any concrete class derived from it shall provide the implementation.
 

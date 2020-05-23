@@ -4,7 +4,7 @@
  | ----
  | _MethAttr_* [ _CallConv_ ] _Type_ [ `marshal` `'('` [ _NativeType_ ] `')'` ] _MethodName_ [ `'<'` _GenPars_ `'>'` ] `'('` _Parameters_ `')'` _ImplAttr_*
 
-The method head (see also §[II.10](#todo-missing-hyperlink)) consists of
+The method head (see also §[II.10](ii.10-defining-types.md)) consists of
 
  * the calling convention (_CallConv_, see §[II.15.3](ii.15.3-calling-convention.md))
 
@@ -16,7 +16,7 @@ The method head (see also §[II.10](#todo-missing-hyperlink)) consists of
 
  * a method name
 
- * optional generic parameters (when defining generic methods, see §[II.10.1.7](#todo-missing-hyperlink))
+ * optional generic parameters (when defining generic methods, see §[II.10.1.7](ii.10.1.7-generic-parameters-genpars.md))
 
  * a signature
 

@@ -1,6 +1,6 @@
 ## II.9.5 Generics variance
 
-The CLI supports covariance and contravariance of generic parameters, but only in the signatures of interfaces and delegate classes. The symbol "`+`" is used in the syntax of §[II.10.1.7](#todo-missing-hyperlink) to denote a covariant generic parameter, while "`-`" is used to denote a contravariant generic parameter
+The CLI supports covariance and contravariance of generic parameters, but only in the signatures of interfaces and delegate classes. The symbol "`+`" is used in the syntax of §[II.10.1.7](ii.10.1.7-generic-parameters-genpars.md) to denote a covariant generic parameter, while "`-`" is used to denote a contravariant generic parameter
 
 > _This block contains only informative text._
 

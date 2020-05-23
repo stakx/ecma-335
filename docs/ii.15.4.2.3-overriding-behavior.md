@@ -4,4 +4,4 @@
  | ----
  | \| `newslot`
 
-**newslot** shall only be used with **virtual** methods. See [II.10.3](#todo-missing-hyperlink).
+**newslot** shall only be used with **virtual** methods. See [II.10.3](ii.10.3-introducing-and-overriding-virtual-methods.md).

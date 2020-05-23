@@ -8,7 +8,7 @@ Like other types, value types can have fields (static or instance), methods (sta
 
 Unboxed value types are not considered subtypes of another type and it is not valid to use the `isinst` instruction (see [Partition III](#todo-missing-hyperlink)) on unboxed value types. The `isinst` instruction can be used for boxed value types, however. Unboxed value types shall not be assigned the value *null* and they shall not be compared to *null*.
 
-Value types support layout control in the same way as do reference types (§[II.10.7](#todo-missing-hyperlink)). This is especially important when values are imported from native code.
+Value types support layout control in the same way as do reference types (§[II.10.7](ii.10.7-controlling-instance-layout.md)). This is especially important when values are imported from native code.
 
 Since ValueTypes represent direct layout of data, recursive struct definitions such as (in C#) `struct S {S x; S y;}` are not permitted. A struct shall have an acyclic finite **flattening graph**:
 

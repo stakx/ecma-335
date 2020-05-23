@@ -14,7 +14,7 @@ Data can also be declared as part of a type:
  | _ClassMember_ ::= | Clause
  | ---- | ----
  | `.data` _DataDecl_
- | \| &hellip; | §[II.10.2](#todo-missing-hyperlink)
+ | \| &hellip; | §[II.10.2](ii.10.2-body-of-a-type-definition.md)
 
 Yet another alternative is to declare data inside a method:
 

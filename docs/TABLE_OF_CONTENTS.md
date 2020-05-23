@@ -220,30 +220,30 @@
  * [II.9.11 Constraints on generic parameters](ii.9.11-constraints-on-generic-parameters.md)
  * [II.9.12 References to members of generic types](ii.9.12-references-to-members-of-generic-types.md)
 
-**II.10 Defining types**
+**[II.10 Defining types](ii.10-defining-types.md)**
 
- * II.10.1 Type header (ClassHeader)
-    * II.10.1.1 Visibility and accessibility attributes
-    * II.10.1.2 Type layout attributes
-    * II.10.1.3 Type semantics attributes
-    * II.10.1.4 Inheritance attributes
-    * II.10.1.5 Interoperation attributes
-    * II.10.1.6 Special handling attributes
-    * II.10.1.7 Generic parameters (GenPars)
- * II.10.2 Body of a type definition
- * II.10.3 Introducing and overriding virtual methods
-    * II.10.3.1 Introducing a virtual method
-    * II.10.3.2 The .override directive
-    * II.10.3.3 Accessibility and overriding
-    * II.10.3.4 Impact of overrides on derived classes
- * II.10.4 Method implementation requirements
- * II.10.5 Special members
-    * II.10.5.1 Instance constructor
-    * II.10.5.2 Instance finalizer
-    * II.10.5.3 Type initializer
- * II.10.6 Nested types
- * II.10.7 Controlling instance layout
- * II.10.8 Global fields and methods
+ * [II.10.1 Type header (ClassHeader)](ii.10.1-type-header-classheader.md)
+    * [II.10.1.1 Visibility and accessibility attributes](ii.10.1.1-visibility-and-accessibility-attributes.md)
+    * [II.10.1.2 Type layout attributes](ii.10.1.2-type-layout-attributes.md)
+    * [II.10.1.3 Type semantics attributes](ii.10.1.3-type-semantics-attributes.md)
+    * [II.10.1.4 Inheritance attributes](ii.10.1.4-inheritance-attributes.md)
+    * [II.10.1.5 Interoperation attributes](ii.10.1.5-interoperation-attributes.md)
+    * [II.10.1.6 Special handling attributes](ii.10.1.6-special-handling-attributes.md)
+    * [II.10.1.7 Generic parameters (GenPars)](ii.10.1.7-generic-parameters-genpars.md)
+ * [II.10.2 Body of a type definition](ii.10.2-body-of-a-type-definition.md)
+ * [II.10.3 Introducing and overriding virtual methods](ii.10.3-introducing-and-overriding-virtual-methods.md)
+    * [II.10.3.1 Introducing a virtual method](ii.10.3.1-introducing-a-virtual-method.md)
+    * [II.10.3.2 The .override directive](ii.10.3.2-the-override-directive.md)
+    * [II.10.3.3 Accessibility and overriding](ii.10.3.3-accessibility-and-overriding.md)
+    * [II.10.3.4 Impact of overrides on derived classes](ii.10.3.4-impact-of-overrides-on-derived-classes.md)
+ * [II.10.4 Method implementation requirements](ii.10.4-method-implementation-requirements.md)
+ * [II.10.5 Special members](ii.10.5-special-members.md)
+    * [II.10.5.1 Instance constructor](ii.10.5.1-instance-constructor.md)
+    * [II.10.5.2 Instance finalizer](ii.10.5.2-instance-finalizer.md)
+    * [II.10.5.3 Type initializer](ii.10.5.3-type-initializer.md)
+ * [II.10.6 Nested types](ii.10.6-nested-types.md)
+ * [II.10.7 Controlling instance layout](ii.10.7-controlling-instance-layout.md)
+ * [II.10.8 Global fields and methods](ii.10.8-global-fields-and-methods.md)
 
 **[II.11 Semantics of classes](ii.11-semantics-of-classes.md)**
 

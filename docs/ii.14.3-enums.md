@@ -4,7 +4,7 @@ An *enum* (short for *enumeration*) defines a set of symbols that all have the s
 
 _[Note:_ Unlike Pascal, the CLI does *not* provide a guarantee that values of the enum type are integers corresponding to one of the symbols. In fact, the CLS (see [Partition I](#todo-missing-hyperlink), CLS) defines a convention for using enums to represent bit flags which can be combined to form integral value that are not named by the enum type itself. _end note]_
 
-Enums obey additional restrictions beyond those on other value types. Enums shall contain only fields as members (they shall not even define type initializers or instance constructors); they shall not implement any interfaces; they shall have auto field layout (§[II.10.1.2](#todo-missing-hyperlink)); they shall have exactly one instance field and it shall be of the underlying type of the enum; all other fields shall be static and literal (§[II.16.1](ii.16.1-attributes-of-fields.md)); and they shall not be initialized with the `initobj` instruction.
+Enums obey additional restrictions beyond those on other value types. Enums shall contain only fields as members (they shall not even define type initializers or instance constructors); they shall not implement any interfaces; they shall have auto field layout (§[II.10.1.2](ii.10.1.2-type-layout-attributes.md)); they shall have exactly one instance field and it shall be of the underlying type of the enum; all other fields shall be static and literal (§[II.16.1](ii.16.1-attributes-of-fields.md)); and they shall not be initialized with the `initobj` instruction.
 
 _[Rationale:_ These restrictions allow a very efficient implementation of enums. _end rationale]_
 

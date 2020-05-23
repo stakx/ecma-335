@@ -12,7 +12,7 @@ The complete grammar for a top-level declaration is shown below. The reference s
  | ---- | ----
  | `.assembly` _DottedName_ `'{'` _AsmDecl_* `'}'` | §[II.6.2](ii.6.2-defining-an-assembly.md)
  | \| `.assembly extern` _DottedName_ `'{'` _AsmRefDecl_* `'}'` | §[II.6.3](ii.6.3-referencing-assemblies.md)
- | \| `.class` _ClassHeader_ `'{'` _ClassMember_* `'}'` | §[II.10](#todo-missing-hyperlink)
+ | \| `.class` _ClassHeader_ `'{'` _ClassMember_* `'}'` | §[II.10](ii.10-defining-types.md)
  | \| `.class extern` _ExportAttr_ _DottedName_ `'{'` _ExternClassDecl_* `'}'` | §[II.6.7](ii.6.7-exported-type-definitions.md)
  | \| `.corflags` _Int32_ | §[II.6.2](ii.6.2-defining-an-assembly.md)
  | \| `.custom` _CustomDecl_ | §[II.21](ii.21-custom-attributes.md)

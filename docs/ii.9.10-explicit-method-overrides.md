@@ -1,6 +1,6 @@
 ## II.9.10
 
-Explicit method overrides A type, be it generic or non-generic, can implement particular virtual methods (whether the method was introduced in an interface or base class) using an explicit override. (See §[II.10.3.2](#todo-missing-hyperlink) and §[II.15.1.4](ii.15.1.4-method-implementations.md).)
+Explicit method overrides A type, be it generic or non-generic, can implement particular virtual methods (whether the method was introduced in an interface or base class) using an explicit override. (See §[II.10.3.2](ii.10.3.2-the-override-directive.md) and §[II.15.1.4](ii.15.1.4-method-implementations.md).)
 
 The rules governing overrides are extended, in the presence of generics, as follows:
 

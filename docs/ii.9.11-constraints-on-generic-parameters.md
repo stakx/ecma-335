@@ -1,6 +1,6 @@
 ## II.9.11 Constraints on generic parameters
 
-A generic parameter declared on a generic class or generic method can be *constrained* by one or more types (for encoding, see _GenericParamConstraint_ table in §[II.22.21](ii.22.21-genericparamconstraint-0x2c.md)) and by one or more special constraints (§[II.10.1.7](#todo-missing-hyperlink)). Generic parameters can be instantiated only with generic arguments that are *assignable-to* (§[I.8.7.3](i.8.7.3-general-assignment-compatibility.md)) (when boxed) each of the declared constraints and that satisfy all specified special constraints.
+A generic parameter declared on a generic class or generic method can be *constrained* by one or more types (for encoding, see _GenericParamConstraint_ table in §[II.22.21](ii.22.21-genericparamconstraint-0x2c.md)) and by one or more special constraints (§[II.10.1.7](ii.10.1.7-generic-parameters-genpars.md)). Generic parameters can be instantiated only with generic arguments that are *assignable-to* (§[I.8.7.3](i.8.7.3-general-assignment-compatibility.md)) (when boxed) each of the declared constraints and that satisfy all specified special constraints.
 
 Generic parameter constraints shall have at least the same visibility as the generic type definition or generic method definition itself.
 
@@ -35,7 +35,7 @@ _[Note:_ There are no other restrictions on generic parameter constraints. In pa
 
 _end note]_
 
-Generic parameters can have multiple constraints: to inherit from at most one base class (if none is specified, the CLI defaults to inheriting from `System.Object`); and to implement zero or more interfaces. (The syntax for using constraints with a class or method is defined in §[II.10.1.7](#todo-missing-hyperlink).)
+Generic parameters can have multiple constraints: to inherit from at most one base class (if none is specified, the CLI defaults to inheriting from `System.Object`); and to implement zero or more interfaces. (The syntax for using constraints with a class or method is defined in §[II.10.1.7](ii.10.1.7-generic-parameters-genpars.md).)
 
 _[Example:_
 

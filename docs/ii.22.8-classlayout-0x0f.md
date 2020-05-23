@@ -34,7 +34,7 @@ The _ClassLayout_ table has the following columns:
 
  * _Parent_ (an index into the _TypeDef_ table)
 
-The rows of the _ClassLayout_ table are defined by placing **.pack** and **.size** directives on the body of the type declaration in which this type is declared (§[II.10.2](#todo-missing-hyperlink)). When either of these directives is omitted, its corresponding value is zero. (See §[II.10.7](#todo-missing-hyperlink).)
+The rows of the _ClassLayout_ table are defined by placing **.pack** and **.size** directives on the body of the type declaration in which this type is declared (§[II.10.2](ii.10.2-body-of-a-type-definition.md)). When either of these directives is omitted, its corresponding value is zero. (See §[II.10.7](ii.10.7-controlling-instance-layout.md).)
 
 _ClassSize_ of zero does not mean the class has zero size. It means that no **.size** directive was specified at definition time, in which case, the actual size is calculated from the field types, taking account of packing size (default or specified) and natural alignment on the target, runtime platform.
 

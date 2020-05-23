@@ -4,7 +4,7 @@ Declarations inside a module or assembly are specified by the following grammar.
 
  | _Decl_ ::= | Clause
  | ---- | ----
- | \| `.class` _ClassHeader_ `'{'` _ClassMember_* `'}'` | §[II.10](#todo-missing-hyperlink)
+ | \| `.class` _ClassHeader_ `'{'` _ClassMember_* `'}'` | §[II.10](ii.10-defining-types.md)
  | \| `.custom` _CustomDecl_ | §[II.21](ii.21-custom-attributes.md)
  | \| `.data` _DataDecl_ | §[II.16.3.1](ii.16.3.1-data-declaration.md)
  | \| `.field` _FieldDecl_ | §[II.16](ii.16-defining-and-referencing-fields.md)

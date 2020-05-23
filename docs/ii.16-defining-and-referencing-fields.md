@@ -14,7 +14,7 @@ A field is defined by the **.field** directive: (§[II.22.15](#todo-missing-hype
 
 The _FieldDecl_ has the following parts:
 
- * An optional integer specifying the byte offset of the field within an instance (§[II.10.7](#todo-missing-hyperlink)). If present, the type containing this field shall have the explicit layout attribute. An offset shall not be supplied for global or static fields.
+ * An optional integer specifying the byte offset of the field within an instance (§[II.10.7](ii.10.7-controlling-instance-layout.md)). If present, the type containing this field shall have the explicit layout attribute. An offset shall not be supplied for global or static fields.
 
  * Any number of field attributes (§[II.16.2](ii.16.2-field-init-metadata.md)).
 

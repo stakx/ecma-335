@@ -53,7 +53,7 @@ The permission set contains the permissions that were requested with an _Action_
 
 _[Note:_ The first edition of this standard specified an XML encoding of a permission set. Implementations should continue supporting this encoding for backward compatibility. _end note]_
 
-The rows of the _DeclSecurity_ table are filled by attaching a **.permission** or **.permissionset** directive that specifies the _Action_ and _PermissionSet_ on a parent assembly (§[II.6.6](ii.6.6-declarations-inside-a-module-or-assembly.md)) or parent type or method (§[II.10.2](#todo-missing-hyperlink)).
+The rows of the _DeclSecurity_ table are filled by attaching a **.permission** or **.permissionset** directive that specifies the _Action_ and _PermissionSet_ on a parent assembly (§[II.6.6](ii.6.6-declarations-inside-a-module-or-assembly.md)) or parent type or method (§[II.10.2](ii.10.2-body-of-a-type-definition.md)).
 
 > _This contains informative text only._
 
