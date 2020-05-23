@@ -696,7 +696,7 @@
     * VI.C.4.13 Instructions that take a metadata token as an argument
     * VI.C.4.14 Switch instruction
 
-**VI.Annex D Class library design guidelines**
+**[VI.Annex D Class library design guidelines](vi.d-class-library-design-guidelines.md)**
 
 **[VI.Annex E Portability considerations](vi.e-portability-considerations.md)**
 
