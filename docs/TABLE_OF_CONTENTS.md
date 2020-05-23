@@ -503,15 +503,15 @@
  * [III.3.16 break &ndash; breakpoint instruction](iii.3.16-break.md)
  * [III.3.17 brfalse.\<length\> &ndash; branch on false, null, or zero](iii.3.17-brfalse.length.md)
  * [III.3.18 brtrue.\<length\> &ndash; branch on non-false or non-null](iii.3.18-brtrue.length.md)
- * III.3.19 call &ndash; call a method
- * III.3.20 calli &ndash; indirect method call
- * III.3.21 ceq &ndash; compare equal
- * III.3.22 cgt &ndash; compare greater than
- * III.3.23 cgt.un &ndash; compare greater than, unsigned or unordered
- * III.3.24 ckfinite &ndash; check for a finite real number
- * III.3.25 clt &ndash; compare less than
- * III.3.26 clt.un &ndash; compare less than, unsigned or unordered
- * III.3.27 conv.\<to type\> &ndash; data conversion
+ * [III.3.19 call &ndash; call a method](iii.3.19-call.md)
+ * [III.3.20 calli &ndash; indirect method call](iii.3.20-calli.md)
+ * [III.3.21 ceq &ndash; compare equal](iii.3.21-ceq.md)
+ * [III.3.22 cgt &ndash; compare greater than](iii.3.22-cgt.md)
+ * [III.3.23 cgt.un &ndash; compare greater than, unsigned or unordered](iii.3.23-cgt-un.md)
+ * [III.3.24 ckfinite &ndash; check for a finite real number](iii.3.24-ckfinite.md)
+ * [III.3.25 clt &ndash; compare less than](iii.3.25-clt.md)
+ * [III.3.26 clt.un &ndash; compare less than, unsigned or unordered](iii.3.26-clt-un.md)
+ * [III.3.27 conv.\<to type\> &ndash; data conversion](iii.3.27-conv-to-type.md)
  * III.3.28 conv.ovf.\<to type\> &ndash; data conversion with overflow detection
  * III.3.29 conv.ovf.\<to type\>.un &ndash; unsigned data conversion with overflow detection
  * III.3.30 cpblk &ndash; copy data from memory to memory
