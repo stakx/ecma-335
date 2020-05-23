@@ -591,30 +591,30 @@
 
 # Partition IV: Profiles and Libraries
 
-**IV.1 Overview**
+**[IV.1 Overview](iv.1-overview.md)**
 
-**IV.2 Libraries and Profiles**
+**[IV.2 Libraries and Profiles](iv.2-libraries-and-profiles.md)**
 
- * IV.2.1 Libraries
- * IV.2.2 Profiles
- * IV.2.3 The relationship between Libraries and Profiles
+ * [IV.2.1 Libraries](iv.2.1-libraries.md)
+ * [IV.2.2 Profiles](iv.2.2-profiles.md)
+ * [IV.2.3 The relationship between Libraries and Profiles](iv.2.3-the-relationship-between-libraries-and-profiles.md)
 
-**IV.3 The Standard Profiles**
+**[IV.3 The Standard Profiles](iv.3-the-standard-profiles.md)**
 
- * IV.3.1 The Kernel Profile
- * IV.3.2 The Compact Profile
+ * [IV.3.1 The Kernel Profile](iv.3.1-the-kernel-profile.md)
+ * [IV.3.2 The Compact Profile](iv.3.2-the-compact-profile.md)
 
-**IV.4 Kernel Profile feature requirements**
+**[IV.4 Kernel Profile feature requirements](iv.4-kernel-profile-feature-requirements.md)**
 
- * IV.4.1 Features excluded from the Kernel Profile
-    * IV.4.1.1 Floating point
-    * IV.4.1.2 Non-vector arrays
-    * IV.4.1.3 Reflection
-    * IV.4.1.4 Application domains
-    * IV.4.1.5 Remoting
-    * IV.4.1.6 Vararg
-    * IV.4.1.7 Frame growth
-    * IV.4.1.8 Filtered exceptions
+ * [IV.4.1 Features excluded from the Kernel Profile](iv.4.1-features-excluded-from-the-kernel-profile.md)
+    * [IV.4.1.1 Floating point](iv.4.1.1-floating-point.md)
+    * [IV.4.1.2 Non-vector arrays](iv.4.1.2-non-vector-arrays.md)
+    * [IV.4.1.3 Reflection](iv.4.1.3-reflection.md)
+    * [IV.4.1.4 Application domains](iv.4.1.4-application-domains.md)
+    * [IV.4.1.5 Remoting](iv.4.1.5-remoting.md)
+    * [IV.4.1.6 Vararg](iv.4.1.6-vararg.md)
+    * [IV.4.1.7 Frame growth](iv.4.1.7-frame-growth.md)
+    * [IV.4.1.8 Filtered exceptions](iv.4.1.8-filtered-exceptions.md)
 
 **IV.5 The standard libraries**
 
