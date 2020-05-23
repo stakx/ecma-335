@@ -716,7 +716,8 @@ repeatOpt                : /* EMPTY */
                          | 'float64' '(' int64 ')'
                          ;
 
- secDecl                 : '.permission' secAction typeSpec '(' nameValPairs ')'                       | '.permission' secAction typeSpec
+ secDecl                 : '.permission' secAction typeSpec '(' nameValPairs ')'
+                         | '.permission' secAction typeSpec
                          | psetHead bytes ')'
                          ;
 
@@ -730,9 +731,9 @@ repeatOpt                : /* EMPTY */
  nameValPair             : compQstring '=' caValue
                          ;
 
- truefalse    : 'true'
-              | 'false'
-              ;
+ truefalse               : 'true'
+                         | 'false'
+                         ;
 
  caValue                 : truefalse
                          | int32
