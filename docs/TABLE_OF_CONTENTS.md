@@ -629,9 +629,9 @@
  * [IV.5.9 Vararg library](iv.5.9-vararg-library.md)
  * [IV.5.10 Parallel library](iv.5.10-parallel-library.md)
 
-**IV.6 Implementation-specific modifications to the system libraries**
+**[IV.6 Implementation-specific modifications to the system libraries](iv.6-implementation-specific-modifications-to-the-system-libraries.md)**
 
-**IV.7 The XML specification**
+**[IV.7 The XML specification](iv.7-The-xml-specification.md)**
 
  * IV.7.1 Semantics
     * IV.7.1.1 Value types as objects
