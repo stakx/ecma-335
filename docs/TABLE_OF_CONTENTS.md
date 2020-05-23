@@ -679,8 +679,8 @@
 
  * [VI.C.1 ILAsm keywords](vi.c.1-ilasm-keywords.md)
  * [VI.C.2 CIL opcode descriptions](vi.c.2-cil-opcode-descriptions.md)
- * VI.C.3 Complete grammar
- * VI.C.4 Instruction syntax
+ * [VI.C.3 Complete grammar](vi.c.3-complete-grammar.md)
+ * [VI.C.4 Instruction syntax](vi.c.4-instruction-syntax.md)
     * VI.C.4.1 Top-level instruction syntax
     * VI.C.4.2 Instructions with no operand
     * VI.C.4.3 Instructions that refer to parameters or local variables
