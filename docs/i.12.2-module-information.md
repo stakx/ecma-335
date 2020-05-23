@@ -12,7 +12,7 @@
 
  * The size of the locals array that the method will require.
 
- * A "localsinit flag" that indicates whether the local variables and memory pool (§[I.12.3.2.4](i.12.3.2.4-local-memory-pool.md)) should be initialized by the CLI (see also `localloc` §[III.3.47](#todo-missing-hyperlink)).
+ * A "localsinit flag" that indicates whether the local variables and memory pool (§[I.12.3.2.4](i.12.3.2.4-local-memory-pool.md)) should be initialized by the CLI (see also `localloc` §[III.3.47](iii.3.47-localloc.md)).
 
  * Type of each local variable in the form of a signature of the local variable array (called the "locals signature").
 
