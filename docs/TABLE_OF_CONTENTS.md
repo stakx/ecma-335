@@ -716,12 +716,12 @@
     * VI.F.5.2 Vectorizing a loop
     * VI.F.5.3 Autothreading a loop
 
-**VI.Annex G Parallel library**
+**[VI.Annex G Parallel library](vi-annex-g-parallel-library.md)**
 
- * VI.G.1 Considerations
- * VI.G.2 ParallelFor
- * VI.G.3 ParallelForEach
- * VI.G.4 ParallelWhile
- * VI.G.5 Debugging
+ * [VI.G.1 Considerations](vi.g.1-considerations.md)
+ * [VI.G.2 ParallelFor](vi.g.2-parallelfor.md)
+ * [VI.G.3 ParallelForEach](vi.g.3-parallelforeach.md)
+ * [VI.G.4 ParallelWhile](vi.g.4-parallelwhile.md)
+ * [VI.G.5 Debugging](vi.g.5-debugging.md)
 
 **Index**
