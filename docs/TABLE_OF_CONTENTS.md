@@ -704,17 +704,17 @@
  * VI.E.2 Language- and compiler-controllable behavior
  * VI.E.3 Programmer-controllable behavior
 
-**VI.Annex F Imprecise faults**
+**[VI.Annex F Imprecise faults](vi.f-imprecise-faults.md)**
 
- * VI.F.1 Instruction reordering
- * VI.F.2 Inlining
- * VI.F.3 Finally handlers still guaranteed once a try block is entered
- * VI.F.4 Interleaved calls
-    * VI.F.4.1 Rejected notions for fencing
- * VI.F.5 Examples
-    * VI.F.5.1 Hoisting checks out of a loop
-    * VI.F.5.2 Vectorizing a loop
-    * VI.F.5.3 Autothreading a loop
+ * [VI.F.1 Instruction reordering](vi.f.1-instruction-reordering.md)
+ * [VI.F.2 Inlining](vi.f.2-inlining.md)
+ * [VI.F.3 Finally handlers still guaranteed once a try block is entered](vi.f.3-finally-handlers-still-guaranteed-once-a-try-block-is-entered.md)
+ * [VI.F.4 Interleaved calls](vi.f.4-interleaved-calls.md)
+    * [VI.F.4.1 Rejected notions for fencing](vi.f.4.1-rejected-notions-for-fencing.md)
+ * [VI.F.5 Examples](vi.f.5-examples.md)
+    * [VI.F.5.1 Hoisting checks out of a loop](vi.f.5.1-hoisting-checks-out-of-a-loop.md)
+    * [VI.F.5.2 Vectorizing a loop](vi.f.5.2-vectorizing-a-loop.md)
+    * [VI.F.5.3 Autothreading a loop](vi.f.5.3-autothreading-a-loop.md)
 
 **[VI.Annex G Parallel library](vi-annex-g-parallel-library.md)**
 

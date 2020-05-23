@@ -1,0 +1,3 @@
+## VI.F.2 Inlining
+
+Inliners must be careful when dealing with a call to a method of different strictness. A call from a method to a more relaxed method can be inlined, conservatively, by treating the callee as strict as the caller; i.e., by ignoring any additional latitude granted the callee. Otherwise, if the strictness of the caller and callee differ, inlining the call requires either careful tracking of whether each check is relaxed or strict, or demoting the entire caller and inlined copy of the callee to a strictness that is at least as strict as the strictnesses of the caller and callee.
