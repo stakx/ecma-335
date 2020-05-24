@@ -48,7 +48,7 @@ In the following definitions and relations:
 
 The notation:
 
-_T_ is of the form _N_\<{_X_<sub>_i_</sub> &larr; _T_<sub>i</sub>}\>
+_T_ is of the form _N_\<{_X_<sub>_i_</sub> &larr; _T_<sub>_i_</sub>}\>
 
 is defined to mean:
 
@@ -128,7 +128,7 @@ The *direct base class* of a type _T_ is the following:
 
  2. If _T_ is an interface type, then its direct base class is `System.Object`.
 
- 3. If _T_ is of the form _N_\<{_X_<sub>_i_</sub> &larr; _T_<sub>_i_</sub>}\>, and _N_ is declared to extend a type _U_ of the form _M_\<{_Y_<sub>_j_</sub> &larr; _S_<sub>_j_</sub>}\>, then the direct base class of _T_ is _U_ with any occurrence of _X_<sub>1</sub>,&hellip;,_X_<sub>_n_</sub> in _S_<sub>1</sub>,&hellip;,_S_<sub>_m_</sub> replaced by the corresponding _T_<sub>1<sub>,&hellip;,_T_<sub>_n_<sub>.
+ 3. If _T_ is of the form _N_\<{_X_<sub>_i_</sub> &larr; _T_<sub>_i_</sub>}\>, and _N_ is declared to extend a type _U_ of the form _M_\<{_Y_<sub>_j_</sub> &larr; _S_<sub>_j_</sub>}\>, then the direct base class of _T_ is _U_ with any occurrence of _X_<sub>1</sub>,&hellip;,_X_<sub>_n_</sub> in _S_<sub>1</sub>,&hellip;,_S_<sub>_m_</sub> replaced by the corresponding _T_<sub>1</sub>,&hellip;,_T_<sub>_n_</sub>.
 
  4. For any other form of type _T_, there is no direct base class.
 
