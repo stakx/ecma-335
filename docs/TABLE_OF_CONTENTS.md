@@ -665,15 +665,15 @@
 
 **VI.Annex A Introduction**
 
-**VI.Annex B Sample programs**
+**[VI.Annex B Sample programs](vi.b-sample-programs.md)**
 
- * VI.B.1 Mutually recursive program (with tail calls)
- * VI.B.2 Using value types
- * VI.B.3 Custom attributes
- * VI.B.4 Generics code and metadata
-    * VI.B.4.1 ILAsm version
-    * VI.B.4.2 C# version
-    * VI.B.4.3 Metadata
+ * [VI.B.1 Mutually recursive program (with tail calls)](vi.b.1-mutually-recursive-program-with-tail-calls.md)
+ * [VI.B.2 Using value types](vi.b.2-using-value-types.md)
+ * [VI.B.3 Custom attributes](vi.b.3-custom-attributes.md)
+ * [VI.B.4 Generics code and metadata](vi.b.4-generics-code-and-metadata.md)
+    * [VI.B.4.1 ILAsm version](vi.b.4.1-ilasm-version.md)
+    * [VI.B.4.2 C# version](vi.b.4.2-csharp-version.md)
+    * [VI.B.4.3 Metadata](vi.b.4.3-metadata.md)
 
 **[VI.Annex C CIL assembler implementation](vi.annex-c-cil-assembler-implementation.md)**
 
