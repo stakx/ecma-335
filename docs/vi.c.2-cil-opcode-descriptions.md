@@ -125,6 +125,8 @@ The `OPALIAS` macro takes three arguments:
 
  3. The symbolic name for an instruction introduced using the OPDEF macro. The "new instruction" is really just an alternative name for this instruction.
 
+<a id="opcode-def"></a>
+
 ```c
 #ifndef __OPCODE_DEF_
 #define __OPCODE_DEF_

@@ -681,20 +681,20 @@
  * [VI.C.2 CIL opcode descriptions](vi.c.2-cil-opcode-descriptions.md)
  * [VI.C.3 Complete grammar](vi.c.3-complete-grammar.md)
  * [VI.C.4 Instruction syntax](vi.c.4-instruction-syntax.md)
-    * VI.C.4.1 Top-level instruction syntax
-    * VI.C.4.2 Instructions with no operand
-    * VI.C.4.3 Instructions that refer to parameters or local variables
-    * VI.C.4.4 Instructions that take a single 32-bit integer argument
-    * VI.C.4.5 Instructions that take a single 64-bit integer argument
-    * VI.C.4.6 Instructions that take a single floating-point argument
-    * VI.C.4.7 Branch instructions
-    * VI.C.4.8 Instructions that take a method as an argument
-    * VI.C.4.9 Instructions that take a field of a class as an argument
-    * VI.C.4.10 Instructions that take a type as an argument
-    * VI.C.4.11 Instructions that take a string as an argument
-    * VI.C.4.12 Instructions that take a signature as an argument
-    * VI.C.4.13 Instructions that take a metadata token as an argument
-    * VI.C.4.14 Switch instruction
+    * [VI.C.4.1 Top-level instruction syntax](vi.c.4.1-top-level-instruction-syntax.md)
+    * [VI.C.4.2 Instructions with no operand](vi.c.4.2-instructions-with-no-operand.md)
+    * [VI.C.4.3 Instructions that refer to parameters or local variables](vi.c.4.3-instructions-that-refer-to-parameters-or-local-variables.md)
+    * [VI.C.4.4 Instructions that take a single 32-bit integer argument](vi.c.4.4-instructions-that-take-a-single-32-bit-integer-argument.md)
+    * [VI.C.4.5 Instructions that take a single 64-bit integer argument](vi.c.4.5-instructions-that-take-a-single-64-bit-integer-argument.md)
+    * [VI.C.4.6 Instructions that take a single floating-point argument](vi.c.4.6-instructions-that-take-a-single-floating-point-argument.md)
+    * [VI.C.4.7 Branch instructions](vi.c.4.7-branch-instructions.md)
+    * [VI.C.4.8 Instructions that take a method as an argument](vi.c.4.8-instructions-that-take-a-method-as-an-argument.md)
+    * [VI.C.4.9 Instructions that take a field of a class as an argument](vi.c.4.9-instructions-that-take-a-field-of-a-class-as-an-argument.md)
+    * [VI.C.4.10 Instructions that take a type as an argument](vi.c.4.10-instructions-that-take-a-type-as-an-argument.md)
+    * [VI.C.4.11 Instructions that take a string as an argument](vi.c.4.11-instructions-that-take-a-string-as-an-argument.md)
+    * [VI.C.4.12 Instructions that take a signature as an argument](vi.c.4.12-instructions-that-take-a-signature-as-an-argument.md)
+    * [VI.C.4.13 Instructions that take a metadata token as an argument](vi.c.4.13-instructions-that-take-a-metadata-token-as-an-argument.md)
+    * [VI.C.4.14 Switch instruction](vi.c.4.14-switch-instruction.md)
 
 **[VI.Annex D Class library design guidelines](vi.d-class-library-design-guidelines.md)**
 
