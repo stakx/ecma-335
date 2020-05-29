@@ -633,14 +633,14 @@
 
 **[IV.7 The XML specification](iv.7-The-xml-specification.md)**
 
- * IV.7.1 Semantics
-    * IV.7.1.1 Value types as objects
-    * IV.7.1.2 Exceptions
- * IV.7.2 XML signature notation issues
-    * IV.7.2.1 Serialization
-    * IV.7.2.2 Delegates
-    * IV.7.2.3 Properties
-    * IV.7.2.4 Nested types
+ * [IV.7.1 Semantics](iv.7.1-semantics.md)
+    * [IV.7.1.1 Value types as objects](iv.7.1.1-value-types-as-objects.md)
+    * [IV.7.1.2 Exceptions](iv.7.1.2-exceptions.md)
+ * [IV.7.2 XML signature notation issues](iv.7.2-xml-signature-notation-issues.md)
+    * [IV.7.2.1 Serialization](iv.7.2.1-serialization.md)
+    * [IV.7.2.2 Delegates](iv.7.2.2-delegates.md)
+    * [IV.7.2.3 Properties](iv.7.2.3-properties.md)
+    * [IV.7.2.4 Nested types](iv.7.2.4-nested-types.md)
 
 # Partition V: Binary Formats
 

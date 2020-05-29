@@ -1,0 +1,3 @@
+## IV.7.2 XML signature notation issues
+
+For each type and member described in the XML, there is an ILAsm and C# signature pair. These are intended to be equivalent and to provide sufficient information to allow these types and members to be implemented correctly. Each signature pair shows both the low-level and one high-level view of these signatures. However, as written in the XML, the members of a given pair of signatures are not always written in an equivalent manner, even though they are intended to produce identical behavior. The differences in signature notation are described in this subclause
