@@ -642,24 +642,24 @@
     * [IV.7.2.3 Properties](iv.7.2.3-properties.md)
     * [IV.7.2.4 Nested types](iv.7.2.4-nested-types.md)
 
-# Partition V: Binary Formats
+# Partition V: Binary Formats / Debug Interchange Format
 
-**V.1 Portable CILDB files**
+**[V.1 Portable CILDB files](v.1-portable-cildb-files.md)**
 
- * V.1.1 Encoding of integers
- * V.1.2 CILDB header
-    * V.1.2.1 Version GUID
-    * V.1.3 Tables and heaps
-    * V.1.3.1 SymConstant table
-    * V.1.3.2 SymDocument table
-    * V.1.3.3 SymMethod table
-    * V.1.3.4 SymSequencePoint
-    * V.1.3.5 SymScope table
-    * V.1.3.6 SymVariable table
-    * V.1.3.7 SymUsing table
-    * V.1.3.8 SymMisc heap
-    * V.1.3.9 SymString heap
- * V.1.4 Signatures
+ * [V.1.1 Encoding of integers](v.1.1-encoding-of-integers.md)
+ * [V.1.2 CILDB header](v.1.2-cildb-header.md)
+    * [V.1.2.1 Version GUID](v.1.2.1-version-guid.md)
+ * [V.1.3 Tables and heaps](v.1.3-tables-and-heaps.md)
+    * [V.1.3.1 SymConstant table](v.1.3.1-symconstant-table.md)
+    * [V.1.3.2 SymDocument table](v.1.3.2-symdocument-table.md)
+    * [V.1.3.3 SymMethod table](v.1.3.3-symmethod-table.md)
+    * [V.1.3.4 SymSequencePoint](v.1.3.4-symsequencepoint-table.md)
+    * [V.1.3.5 SymScope table](v.1.3.5-symscope-table.md)
+    * [V.1.3.6 SymVariable table](v.1.3.6-symvariable-table.md)
+    * [V.1.3.7 SymUsing table](v.1.3.7-symusing-table.md)
+    * [V.1.3.8 SymMisc heap](v.1.3.8-symmisc-heap.md)
+    * [V.1.3.9 SymString heap](v.1.3.9-symstring-heap.md)
+ * [V.1.4 Signatures](v.1.4-signatures.md)
 
 # Partition VI: Annexes
 
