@@ -663,7 +663,7 @@
 
 # Partition VI: Annexes
 
-**VI.Annex A Introduction**
+**[VI.Annex A Introduction](vi.a-introduction.md)**
 
 **[VI.Annex B Sample programs](vi.b-sample-programs.md)**
 
@@ -675,7 +675,7 @@
     * [VI.B.4.2 C# version](vi.b.4.2-csharp-version.md)
     * [VI.B.4.3 Metadata](vi.b.4.3-metadata.md)
 
-**[VI.Annex C CIL assembler implementation](vi.annex-c-cil-assembler-implementation.md)**
+**[VI.Annex C CIL assembler implementation](vi.c-cil-assembler-implementation.md)**
 
  * [VI.C.1 ILAsm keywords](vi.c.1-ilasm-keywords.md)
  * [VI.C.2 CIL opcode descriptions](vi.c.2-cil-opcode-descriptions.md)
