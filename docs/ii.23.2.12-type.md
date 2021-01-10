@@ -9,7 +9,7 @@ _Type_ is encoded in signatures as follows (`I1` is an abbreviation for `ELEMENT
  | \| `CLASS` _TypeDefOrRefOrSpecEncoded_
  | \| `FNPTR` _MethodDefSig_
  | \| `FNPTR` _MethodRefSig_
- | \| `GENERICINST` (`CLASS` | `VALUETYPE`) _TypeDefOrRefOrSpecEncoded_GenArgCount Type * 
+ | \| `GENERICINST` (`CLASS` \| `VALUETYPE`) _TypeDefOrRefOrSpecEncoded_ _GenArgCount_ _Type_* 
  | \| `MVAR` _number_
  | \| `OBJECT` 
  | \| `PTR` _CustomMod_* _Type_
@@ -19,4 +19,4 @@ _Type_ is encoded in signatures as follows (`I1` is an abbreviation for `ELEMENT
  | \| `VALUETYPE` _TypeDefOrRefOrSpecEncoded_
  | \| `VAR` _number_
 
-The _GenArgCount_ non-terminal is an unsigned integer value (compressed) specifying the number of generic arguments in this signature. The number non-terminal following `MVAR` or `VAR` is an unsigned integer value (compressed).
+The _GenArgCount_ non-terminal is an unsigned integer value (compressed) specifying the _number_ of generic arguments in this signature. The number non-terminal following `MVAR` or `VAR` is an unsigned integer value (compressed).
