@@ -6,7 +6,9 @@ The _EventMap_ table has the following columns:
 
  * _EventList_ (an index into the _Event_ table). It marks the first of a contiguous run of Events owned by this Type. That run continues to the smaller of:
 
-    * the last row of the _Event_ table o the next run of Events, found by inspecting the _EventList_ of the next row in the _EventMap_ table
+    * the last row of the _Event_ table
+
+    * the next run of Events, found by inspecting the _EventList_ of the next row in the _EventMap_ table
 
 Note that _EventMap_ info does not directly influence runtime behavior; what counts is the information stored for each method that the event comprises. The _EventMap_ and _Event_ tables result from putting the **.event** directive on a class (§[II.18](ii.18-defining-events.md)).
 
