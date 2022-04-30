@@ -6,7 +6,7 @@
 
 #### Stack Transition:
 
-&hellip;, TypedRef_ &rarr; &hellip;, _type_
+&hellip;, _TypedRef_ &rarr; &hellip;, _type_
 
 #### Description:
 
