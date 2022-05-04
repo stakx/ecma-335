@@ -47,7 +47,7 @@ _PermissionSet_ is a 'blob' having the following format:
 
     * A String, which is the fully-qualified type name of the attribute. (Strings are encoded as a compressed unsigned integer to indicate the size followed by an array of UTF8 characters.)
 
-    * A set of properties, encoded as the named arguments to a custom attribute would be (as in §[II.23.3](#todo-missing-hyperlink), beginning with _NumNamed_).
+    * A set of properties, encoded as the named arguments to a custom attribute would be (as in §[II.23.3](ii.23.3-custom-attributes.md), beginning with _NumNamed_).
 
 The permission set contains the permissions that were requested with an _Action_ on a specific _Method_, _Type_, or _Assembly_ (see _Parent_). In other words, the blob will contain an encoding of all the attributes on the _Parent_ with that particular _Action_.
 

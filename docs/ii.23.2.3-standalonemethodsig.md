@@ -20,9 +20,9 @@ The first byte of the Signature holds bits for `HASTHIS`, `EXPLICITTHIS` and cal
 
 _ParamCount_ is an unsigned integer that holds the number of non-vararg and vararg parameters, combined. It can be any number between 0 and 0x1FFFFFFF. The compiler compresses it (see §[15](#todo-missing-hyperlink)) &ndash; before storing into the blob (_ParamCount_ counts just the method parameters &ndash; it does not include the method's return type)
 
-The _RetType_ item describes the type of the method's return value (§[II.23.2.11](#todo-missing-hyperlink)) 
+The _RetType_ item describes the type of the method's return value (§[II.23.2.11](ii.23.2.11-rettype.md)) 
 
-The first _Param_ item describes the type of each of the method's non-vararg parameters. The (optional) second _Param_ item describes the type of each of the method's vararg parameters. There shall be _ParamCount_ instances of _Param_ (§[II.23.2.10](#todo-missing-hyperlink)).
+The first _Param_ item describes the type of each of the method's non-vararg parameters. The (optional) second _Param_ item describes the type of each of the method's vararg parameters. There shall be _ParamCount_ instances of _Param_ (§[II.23.2.10](ii.23.2.10-param.md)).
 
 This is the most complex of the various method signatures. Two separate diagrams have been combined into one in this diagram, using shading to distinguish between them. Thus, for the following calling conventions: `DEFAULT` (managed), `STDCALL`, `THISCALL` and `FASTCALL` (unmanaged), the signature ends just before the `SENTINEL` item (these are all non vararg signatures). However, for the managed and unmanaged vararg calling conventions:
 

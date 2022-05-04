@@ -2,7 +2,7 @@
 
 Assemblies and modules are grouping constructs, each playing a different role in the CLI.
 
-An *assembly* is a set of one or more files deployed as a unit. An assembly always contains a manifest that specifies (§[II.6.1](#todo-missing-hyperlink)):
+An *assembly* is a set of one or more files deployed as a unit. An assembly always contains a manifest that specifies (§[II.6.1](ii.6.1-overview-of-modules-assemblies-and-files.md)):
 
  * Version, name, culture, and security requirements for the assembly.
 

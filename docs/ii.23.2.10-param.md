@@ -10,6 +10,6 @@ This diagram uses the following abbreviations:
 
  * `TYPEDBYREF` for 0x16 (§[II.23.1.16](ii.23.1.16-element-types-used-in-signatures.md))
 
-_CustomMod_ is defined in §[II.23.2.7](#todo-missing-hyperlink)
+_CustomMod_ is defined in §[II.23.2.7](ii.23.2.7-custommod.md)
 
 _Type_ is defined in §[II.23.2.12](ii.23.2.12-type.md).

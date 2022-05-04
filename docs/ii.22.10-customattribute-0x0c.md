@@ -25,7 +25,7 @@ All binary values are stored in little-endian format (except for _PackedLen_ ite
 
  5. If _Value_ is non-null, it shall index a 'blob' in the Blob heap \[ERROR\]
 
- 6. The following rules apply to the overall structure of the _Value_ 'blob' (§[II.23.3](#todo-missing-hyperlink)):
+ 6. The following rules apply to the overall structure of the _Value_ 'blob' (§[II.23.3](ii.23.3-custom-attributes.md)):
 
      * _Prolog_ shall be 0x0001 \[ERROR\]
 
@@ -39,7 +39,7 @@ All binary values are stored in little-endian format (except for _PackedLen_ ite
 
     * If _NumNamed_ = 0 then there shall be no further items in the _CustomAttrib_ \[ERROR\]
 
- 7. The following rules apply to the structure of _FixedArg_ (§[II.23.3](#todo-missing-hyperlink)):
+ 7. The following rules apply to the structure of _FixedArg_ (§[II.23.3](ii.23.3-custom-attributes.md)):
 
     * If this item is not for a vector (a single-dimension array with lower bound of 0), then there shall be exactly one _Elem_ \[ERROR\]
 
@@ -49,15 +49,15 @@ All binary values are stored in little-endian format (except for _PackedLen_ ite
 
     * This shall be followed by _NumElem_ occurrences of _Elem_ \[ERROR\]
 
- 8. The following rules apply to the structure of _Elem_ (§[II.23.3](#todo-missing-hyperlink)):
+ 8. The following rules apply to the structure of _Elem_ (§[II.23.3](ii.23.3-custom-attributes.md)):
 
-    * If this is a simple type or an enum (see §[II.23.3](#todo-missing-hyperlink) for how this is defined), then _Elem_ consists simply of its value \[ERROR\]
+    * If this is a simple type or an enum (see §[II.23.3](ii.23.3-custom-attributes.md) for how this is defined), then _Elem_ consists simply of its value \[ERROR\]
 
     * If this is a string or a Type, then _Elem_ consists of a _SerString_ &mdash; _PackedLen_ count of bytes, followed by the UTF8 characters \[ERROR\]
 
     * If this is a boxed simple value type (`bool`, `char`, `float32`, `float64`, `int8`, `int16`, `int32`, `int64`, `unsigned int8`, `unsigned int16`, `unsigned int32`, or `unsigned int64`), then Elem consists of the corresponding type denoter (`ELEMENT_TYPE_BOOLEAN`, `ELEMENT_TYPE_CHAR`, `ELEMENT_TYPE_I1`, `ELEMENT_TYPE_U1`, `ELEMENT_TYPE_I2`, `ELEMENT_TYPE_U2`, `ELEMENT_TYPE_I4`, `ELEMENT_TYPE_U4`, `ELEMENT_TYPE_I8`, `ELEMENT_TYPE_U8`, `ELEMENT_TYPE_R4`, or `ELEMENT_TYPE_R8`), followed by its value. \[ERROR\]
 
- 9. The following rules apply to the structure of NamedArg (§[II.23.3](#todo-missing-hyperlink)):
+ 9. The following rules apply to the structure of NamedArg (§[II.23.3](ii.23.3-custom-attributes.md)):
 
     * A _NamedArg_ shall begin with the single byte `FIELD` (0x53) or `PROPERTY` (0x54) for identification \[ERROR\]
 

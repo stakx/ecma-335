@@ -23,7 +23,7 @@ The following grammar completely specifies all built-in types (including pointer
  \| _Type_ `'&'` | Managed pointer to _Type_. _Type_ shall not be a managed pointer type or **typedref** | §[II.14.4](ii.14.4-pointer-types.md)
  \| *Type* `'*'` | Unmanaged pointer to *Type* | §[II.14.4](ii.14.4-pointer-types.md)
  \| *Type* `'<'` *GenArgs* `'>'` | Instantiation of generic type | §[II.9.4](ii.9.4-instantiating-generic-types.md)
- \| _Type_ `'['` [ *Bound* [ `','` *Bound* ]*] `']'` | Array of _Type_ with optional rank (number of dimensions) and bounds. | §[II.14.1](ii.14.1-vectors.md) and §[II.14.2](#todo-missing-hyperlink)
+ \| _Type_ `'['` [ *Bound* [ `','` *Bound* ]*] `']'` | Array of _Type_ with optional rank (number of dimensions) and bounds. | §[II.14.1](ii.14.1-vectors.md) and §[II.14.2](ii.14.2-arrays.md)
  \| _Type_ `modopt` `'('` _TypeReference_ `')'` | Custom modifier that can be ignored by the caller. | §[II.7.1.1](ii.7.1.1-modreq-and-modopt.md)
  \| _Type_ `modreq` `'('` _TypeReference_ `')'` | Custom modifier that the caller shall understand. | §[II.7.1.1](ii.7.1.1-modreq-and-modopt.md)
  \| _Type_ `pinned` | For local variables only. The garbage collector shall not move the referenced value. | §[II.7.1.2](ii.7.1.2-pinned.md)

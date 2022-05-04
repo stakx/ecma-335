@@ -10,7 +10,9 @@ for (const fileName of docs.filter(f => f.toLowerCase().endsWith('.md'))) {
     const fileContents = fs.readFileSync(filePath, 'utf8');
     console.log(fileName, ':');
     const newFileContents = fileContents.replace(todoMissingHyperlinkRegex, (_, text, __, str) => {
-        const matchingFiles = docs.filter(f => f.toLowerCase().startsWith(text.toLowerCase() + '-'));
+        const matchingFiles = docs
+          .filter(f => f.toLowerCase().startsWith(text.toLowerCase() + '-'))
+          .filter(f => f.toLowerCase().endsWith('.md'));
         if (matchingFiles.length === 1) {
             console.debug({ text, targetFileName: matchingFiles[0] });
             return `[${text}](${matchingFiles[0]})`;

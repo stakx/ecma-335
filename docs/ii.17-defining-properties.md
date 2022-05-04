@@ -6,7 +6,7 @@ A Property is declared by the using the **.property** directive. Properties shal
  | ----
  | **.property** _PropHeader_ `'{'` _PropMember_* `'}'`
 
-See §[II.22.34](#todo-missing-hyperlink) and §[II.22.35](ii.22.35-propertymap-0x15.md) for how property information is stored in metadata.
+See §[II.22.34](ii.22.34-property-0x17.md) and §[II.22.35](ii.22.35-propertymap-0x15.md) for how property information is stored in metadata.
 
  | _PropHeader_ ::=
  | ----
