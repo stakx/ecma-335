@@ -8,7 +8,7 @@ In this partition, each instruction is described in its own subclause, one per p
 
  * A stack transition diagram, that describes the state of the evaluation stack before and after the instruction is executed. (See §[III.1.3](iii.1.3-stack-transition-diagram.md).)
 
- * An English description of the instruction. See §[III.1.4]((#todo-missing-hyperlink)).
+ * An English description of the instruction. See §[III.1.4](#todo-missing-hyperlink).
 
  * A list of exceptions that might be thrown by the instruction. (See [Partition I](#todo-missing-hyperlink) for details.) There are three exceptions which can be thrown by any instruction and are *not* listed with the instruction:
 
@@ -18,7 +18,7 @@ In this partition, each instruction is described in its own subclause, one per p
 
    * `System.OutOfMemoryException`: indicates that the available memory space has been exhausted, either because the instruction inherently allocates memory (`newobj`, `newarr`) or for an implementation-specific reason (e.g., an implementation based on JIT compilation to native code can run out of space to store the translated method while executing the first call or callvirt to a given method).
 
- * A section describing the verifiability conditions associated with the instruction. See §[III.1.8]((#todo-missing-hyperlink)).
+ * A section describing the verifiability conditions associated with the instruction. See §[III.1.8](#todo-missing-hyperlink).
 
 In addition, operations that have a numeric operand also specify an operand type table that describes how they operate based on the type of the operand. See §[III.1.5](iii.1.5-operand-type-table.md).
 
