@@ -18,11 +18,11 @@ The complete set of CLS rules are collected here for reference. Recall that thes
 
 **CLS Rule 8:** There are two distinct kinds of enums, indicated by the presence or absence of the `System.FlagsAttribute` (see [Partition IV Library](#todo-missing-hyperlink)) custom attribute. One represents named integer values; the other represents named bit flags that can be combined to generate an unnamed value.  The value of an enum is not limited to the specified values. (§[I.8.5.2](i.8.5.2-assemblies-and-scoping.md))
 
-**CLS Rule 9:** Literal static fields (see §[I.8.6.1](#todo-missing-hyperlink)) of an enum shall have the type of the enum itself. (§[I.8.5.2](#todo-missing-hyperlink))
+**CLS Rule 9:** Literal static fields (see §[I.8.6.1](i.8.6.1-signatures.md)) of an enum shall have the type of the enum itself. (§[I.8.5.2](i.8.5.2-assemblies-and-scoping.md))
 
-**CLS Rule 10:** Accessibility shall not be changed when overriding inherited methods, except when overriding a method inherited from a different assembly with accessibility family-or-assembly.  In this case, the override shall have accessibility family. (§[I.8.5.3.2](#todo-missing-hyperlink))
+**CLS Rule 10:** Accessibility shall not be changed when overriding inherited methods, except when overriding a method inherited from a different assembly with accessibility family-or-assembly.  In this case, the override shall have accessibility family. (§[I.8.5.3.2](i.8.5.3.2-accessibility-of-members-and-nested-types.md))
 
-**CLS Rule 11:** All types appearing in a signature shall be CLS-compliant. All types composing an instantiated generic type shall be CLS-compliant. (§[I.8.6.1](#todo-missing-hyperlink))
+**CLS Rule 11:** All types appearing in a signature shall be CLS-compliant. All types composing an instantiated generic type shall be CLS-compliant. (§[I.8.6.1](i.8.6.1-signatures.md))
 
 **CLS Rule 12:** The visibility and accessibility of types and members shall be such that types in the signature of any member shall be visible and accessible whenever the member itself is visible and accessible. For example, a public method that is visible outside its assembly shall not have an argument whose type is visible only within the assembly. The visibility and accessibility of types composing an instantiated generic type used in the signature of any member shall be visible and accessible whenever the member itself is visible and accessible. For example, an instantiated generic type present in the signature of a member that is visible outside its assembly shall not have a generic argument whose type is visible only within the assembly. (§[I.8.6.1](i.8.6.1-signatures.md))
 

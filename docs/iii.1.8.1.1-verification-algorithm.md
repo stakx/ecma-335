@@ -28,7 +28,7 @@ The VES ensures that both special constraints and type constraints are satisfied
 
 To accommodate generics, the type compatibility relation is extended to deal with:
 
- * generic parameters: a generic parameter is only *assignable-to* (§[I.8.7.3](#todo-missing-hyperlink)) itself.
+ * generic parameters: a generic parameter is only *assignable-to* (§[I.8.7.3](i.8.7.3-general-assignment-compatibility.md)) itself.
 
  * boxed generic parameters: a boxed generic parameter is *assignable-to* (§[I.8.7.3](i.8.7.3-general-assignment-compatibility.md)) the constraint types declared on the generic parameter.
 

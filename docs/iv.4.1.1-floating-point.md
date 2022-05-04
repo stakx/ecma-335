@@ -6,4 +6,4 @@ The **floating point feature set** consists of the user-visible floating-point d
 
 _[Note:_ These restrictions guarantee that the VES will not encounter any floating-point data. Hence the implementation of the arithmetic instructions (such as `add`) need not handle those types. _end note]_
 
-**Part of Library:** Extended Numerics (§[IV.5.7](#todo-missing-hyperlink))
+**Part of Library:** Extended Numerics (§[IV.5.7](iv.5.7-extended-numerics-library.md))

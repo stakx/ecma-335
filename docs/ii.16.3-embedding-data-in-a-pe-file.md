@@ -21,4 +21,4 @@ Yet another alternative is to declare data inside a method:
  | _MethodBodyItem_ ::= | Clause
  | ---- | ----
  | `.data` _DataDecl_
- | \| &hellip; | §[II.15.4.1](#todo-missing-hyperlink)
+ | \| &hellip; | §[II.15.4.1](ii.15.4.1-method-body.md)

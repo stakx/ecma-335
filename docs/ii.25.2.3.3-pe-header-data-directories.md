@@ -5,7 +5,7 @@ The optional header data directories give the address and size of several tables
  Offset | Size | Field | Description
  ---- | ---- | ---- | ----
  96 | 8 | Export Table | Always 0 (§[II.24.1](ii.24.1-fixed-fields.md)).
- 104 | 8 | Import Table | RVA and Size of Import Table, (§[II.25.3.1](#todo-missing-hyperlink)).
+ 104 | 8 | Import Table | RVA and Size of Import Table, (§[II.25.3.1](ii.25.3.1-import-table-and-import-address-table-iat.md)).
  112 | 8 | Resource Table | Always 0 (§[II.24.1](ii.24.1-fixed-fields.md)).
  120 | 8 | Exception Table | Always 0 (§[II.24.1](ii.24.1-fixed-fields.md)).
  128 | 8 | Certificate Table | Always 0 (§[II.24.1](ii.24.1-fixed-fields.md)).
