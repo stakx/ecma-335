@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const todoMissingHyperlinkRegex = new RegExp(/\[([^\]]+)\]\(#todo-missing-hyperlink\)/gi);
+const todoMissingHyperlinkRegex = new RegExp(/§\[([^\]]+)\]\(#todo-missing-hyperlink\)/gi);
 
 const docsDir = path.join(__dirname, '../docs/');
 const docs = fs.readdirSync(docsDir);
@@ -15,10 +15,10 @@ for (const fileName of docs.filter(f => f.toLowerCase().endsWith('.md'))) {
           .filter(f => f.toLowerCase().endsWith('.md'));
         if (matchingFiles.length === 1) {
             console.debug({ text, targetFileName: matchingFiles[0] });
-            return `[${text}](${matchingFiles[0]})`;
+            return `§[${text}](${matchingFiles[0]})`;
         }
         else {
-            return `[${text}](#todo-missing-hyperlink)`;
+            return `§[${text}](#todo-missing-hyperlink)`;
         }
     });
     if (newFileContents != fileContents) {

@@ -4,7 +4,7 @@ The _MethodDef_ table has the following columns:
 
  * _RVA_ (a 4-byte constant)
 
- * _ImplFlags_ (a 2-byte bitmask of type _MethodImplAttributes_, §[II.23.1.11](#todo-missing-hyperlinks))
+ * _ImplFlags_ (a 2-byte bitmask of type _MethodImplAttributes_, §[II.23.1.11](ii.23.1.11-flags-for-methods-methodimplattributes.md))
 
  * _Flags_ (a 2-byte bitmask of type _MethodAttributes_, §[II.23.1.10](ii.23.1.10-flags-for-methods-methodattributes.md))
 
@@ -22,7 +22,7 @@ Conceptually, every row in the _MethodDef_ table is owned by one, and only one, 
 
 The rows in the _MethodDef_ table result from **.method** directives (§[II.15](ii.15-defining-referencing-and-calling-methods.md)). The RVA column is computed when the image for the PE file is emitted and points to the `COR_ILMETHOD` structure for the body of the method (§[II.25.4](ii.25.4-common-intermediate-language-physical-layout.md))
 
-_[Note:_ If _Signature_ is `GENERIC` (0x10), the generic arguments are described in the _GenericParam_ table (§[II.22.20](#todo-missing-hyperlink)). _end note]_
+_[Note:_ If _Signature_ is `GENERIC` (0x10), the generic arguments are described in the _GenericParam_ table (§[II.22.20](ii.22.20-genericparam-0x2a.md)). _end note]_
 
 > _This contains informative text only._
 

@@ -4,7 +4,7 @@ All types other than interfaces and those types for which a definition is automa
 
 A class definition, and hence the implementation of the class type, always resides in some assembly. (An assembly is a configured set of loadable code modules and other resources that together implement a unit of functionality.)
 
-_[Note:_ While class definitions always define class types, not all class types require a class definition. Array types and pointer types, which are implicitly defined, are also class types. See §[I.8.2.3](#todo-missing-hyperlink). _end note]_
+_[Note:_ While class definitions always define class types, not all class types require a class definition. Array types and pointer types, which are implicitly defined, are also class types. See §[I.8.2.3](i.8.2.3-classes-interfaces-and-objects.md). _end note]_
 
 An explicit class definition is used to define:
 

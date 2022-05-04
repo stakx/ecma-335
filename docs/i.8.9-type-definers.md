@@ -12,7 +12,7 @@ All other types shall be explicitly defined using an explicit type definition. T
 
      * value types and their associated boxed types
 
-_[Note:_ While class definitions always define class types, not all class types require a class definition.  Array types and pointer types, which are implicitly defined, are also class types. See §[I.8.2.3](#todo-missing-hyperlink).
+_[Note:_ While class definitions always define class types, not all class types require a class definition.  Array types and pointer types, which are implicitly defined, are also class types. See §[I.8.2.3](i.8.2.3-classes-interfaces-and-objects.md).
 
 Similarly, not all types defined by a class definition are object types. Array types, explicitly defined object types, and boxed types are object types. Pointer types, function pointer types, and value types are not object types. See §[I.8.2.3](i.8.2.3-classes-interfaces-and-objects.md). _end note]_
 

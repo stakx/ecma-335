@@ -2,7 +2,7 @@
 
 These categories are used to describe syntactic constraints on the input intended to convey logical restrictions on the information encoded in the metadata.
 
-_Int32_ is either a decimal number or "`0x`" followed by a hexadecimal number, and shall be represented in 32 bits. _[Note:_ ILAsm has no concept of 8- or 16-bit integer constants. Instead, situations requiring such a constant (such as `int8(...)` and `int16(...)` in §[II.16.2](#todo-missing-hyperlink)) accept an _Int32_ instead, and use only the least-significant bytes. _end note]_
+_Int32_ is either a decimal number or "`0x`" followed by a hexadecimal number, and shall be represented in 32 bits. _[Note:_ ILAsm has no concept of 8- or 16-bit integer constants. Instead, situations requiring such a constant (such as `int8(...)` and `int16(...)` in §[II.16.2](ii.16.2-field-init-metadata.md)) accept an _Int32_ instead, and use only the least-significant bytes. _end note]_
 
 _Int64_ is either a decimal number or "`0x`" followed by a hexadecimal number, and shall be represented in 64 bits.
 

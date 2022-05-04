@@ -28,7 +28,7 @@ In general, a member of a type can have any one of the accessibility rules assig
 
  3. A member defined by a nested type, or a nested type enclosed by a nested type, shall not have greater accessibility than the nested type that defines it (in the case of a member) or the nested type that encloses it (in the case of a nested type).
 
-_[Rationale:_ Languages including C++ allow this "widening" of access. Restricting access would provide an incorrect illusion of security since simply casting an object to the base class (which occurs implicitly on method call) would allow the method to be called despite the restricted accessibility. To prevent overriding a virtual method use **final** (see §[I.8.10.2](#todo-missing-hyperlink)) rather than relying on limited accessibility. _end rationale]_
+_[Rationale:_ Languages including C++ allow this "widening" of access. Restricting access would provide an incorrect illusion of security since simply casting an object to the base class (which occurs implicitly on method call) would allow the method to be called despite the restricted accessibility. To prevent overriding a virtual method use **final** (see §[I.8.10.2](i.8.10.2-method-inheritance.md)) rather than relying on limited accessibility. _end rationale]_
  
 > #### CLS Rule 10:
 >

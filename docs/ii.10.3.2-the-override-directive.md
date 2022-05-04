@@ -18,7 +18,7 @@ While the syntax specified here (as well as the actual metadata format (§[II.22
 
 _[Rationale:_ The metadata is designed to be more expressive than can be expected of all implementations of the VES. _end rationale]_
 
-_[Example:_ The following shows a typical use of the **.override** directive. A method implementation is provided for a method declared in an interface (see §[II.12](#todo-missing-hyperlink)).
+_[Example:_ The following shows a typical use of the **.override** directive. A method implementation is provided for a method declared in an interface (see §[II.12](ii.12-semantics-of-interfaces.md)).
 
  ```ilasm
  .class interface I

@@ -32,7 +32,7 @@ Properties shall not be overloaded by type (that is, by the return type of their
 >
 > _[Note:_
 >
-> **CLS (consumer):** Can assume that only properties and methods are overloaded, and need not support overloading based on return type unless providing special syntax for operator overloading. If return type overloading isn’t supported, then the `op_Implicit` and `op_Explicit` can be ignored since the functionality shall be provided in some other way by a CLS-compliant framework. Consumers must first apply the hide-by-name and hide-by-signature-and-name rules (§[I.8.10.4](#todo-missing-hyperlink)) to avoid any ambiguity.
+> **CLS (consumer):** Can assume that only properties and methods are overloaded, and need not support overloading based on return type unless providing special syntax for operator overloading. If return type overloading isn’t supported, then the `op_Implicit` and `op_Explicit` can be ignored since the functionality shall be provided in some other way by a CLS-compliant framework. Consumers must first apply the hide-by-name and hide-by-signature-and-name rules (§[I.8.10.4](i.8.10.4-hiding-overriding-and-layout.md)) to avoid any ambiguity.
 >
 > **CLS (extender):** Should not permit the authoring of overloads other than those specified here. It is not necessary to support operator overloading at all, hence it is possible to entirely avoid support for overloading on return type.
 >
