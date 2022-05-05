@@ -6,7 +6,7 @@ A Library specifies three things:
 
  2. A set of features of the CLI that shall be available.
 
-   _[Note:_ The set of features required for any particular Library is a subset of the complete set of CLI features. Each Library described in §[IV.5](#todo-missing-hyperlink) has text that defines the CLI features that are required for implementations that support that Library. _end note]_
+   _[Note:_ The set of features required for any particular Library is a subset of the complete set of CLI features. Each Library described in §[IV.5](iv.5-the-standard-libraries.md) has text that defines the CLI features that are required for implementations that support that Library. _end note]_
 
  3. Modifications to types defined in *other* Libraries. These modifications typically involve the addition of methods and interfaces to types belonging to some other Library, and additional exception types that can be thrown by methods of that other Library’s types. These modifications shall provide only additional functionality or specify behavior where it was previously unspecified; they shall not be used to alter previously specified behavior.
 

@@ -40,8 +40,8 @@ The following table lists the values for `ELEMENT_TYPE` constants. These are use
  `ELEMENT_TYPE_SENTINEL` | 0x41 | Sentinel for vararg method signature
  `ELEMENT_TYPE_PINNED` | 0x45 | Denotes a local variable that points at a pinned object
  &nbsp; | 0x50 | Indicates an argument of type `System.Type`.
- &nbsp; | 0x51 | Used in custom attributes to specify a boxed object (§[II.23.3](#todo-missing-hyperlink)).
+ &nbsp; | 0x51 | Used in custom attributes to specify a boxed object (§[II.23.3](ii.23.3-custom-attributes.md)).
  &nbsp; | 0x52 | Reserved
- &nbsp; | 0x53 | Used in custom attributes to indicate a `FIELD` (§[II.22.10](ii.22.10-customattribute-0x0c.md), [II.23.3](#todo-missing-hyperlink)).
- &nbsp; | 0x54 | Used in custom attributes to indicate a `PROPERTY` (§[II.22.10](ii.22.10-customattribute-0x0c.md), [II.23.3](#todo-missing-hyperlink)).
- &nbsp; | 0x55 | Used in custom attributes to specify an enum (§[II.23.3](#todo-missing-hyperlink)).
+ &nbsp; | 0x53 | Used in custom attributes to indicate a `FIELD` (§[II.22.10](ii.22.10-customattribute-0x0c.md), [II.23.3](ii.23.3-custom-attributes.md)).
+ &nbsp; | 0x54 | Used in custom attributes to indicate a `PROPERTY` (§[II.22.10](ii.22.10-customattribute-0x0c.md), [II.23.3](ii.23.3-custom-attributes.md)).
+ &nbsp; | 0x55 | Used in custom attributes to specify an enum (§[II.23.3](ii.23.3-custom-attributes.md)).

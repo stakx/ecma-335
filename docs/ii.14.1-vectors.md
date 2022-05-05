@@ -5,7 +5,7 @@
  | &hellip;
  | \| _Type_ `'['` `']'`
 
-Vectors are single-dimension arrays with a zero lower bound. They have direct support in CIL instructions (`newarr`, `ldelem`, `stelem`, and `ldelema`, see [Partition III](#todo-missing-hyperlink)). The CIL Framework also provides methods that deal with multidimensional arrays and single-dimension arrays with a non-zero lower bound (§[II.14.2](#todo-missing-hyperlink)). Two vectors have the same type if their element types are the same, regardless of their actual upper bounds.
+Vectors are single-dimension arrays with a zero lower bound. They have direct support in CIL instructions (`newarr`, `ldelem`, `stelem`, and `ldelema`, see [Partition III](#todo-missing-hyperlink)). The CIL Framework also provides methods that deal with multidimensional arrays and single-dimension arrays with a non-zero lower bound (§[II.14.2](ii.14.2-arrays.md)). Two vectors have the same type if their element types are the same, regardless of their actual upper bounds.
 
 Vectors have a fixed size and element type, determined when they are created.  All CIL instructions shall respect these values. That is, they shall reliably detect attempts to do the following: index beyond the end of the vector, store the incorrect type of data into an element of a vector, and take the address of elements of a vector with an incorrect data type. See [Partition III](#todo-missing-hyperlink).
 

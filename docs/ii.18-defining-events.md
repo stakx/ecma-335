@@ -7,7 +7,7 @@ Events are declared inside types, using the **.event** directive; there are no g
  | **.event** _EventHeader_ `'{'` _EventMember_* `'}'`
  | \| &hellip; | §[II.9](ii.9-generics.md)
  
-See §[II.22.13](#todo-missing-hyperlink) and §[II.22.11](ii.22.11-declsecurity-0x0e.md)
+See §[II.22.13](ii.22.13-event-0x14.md) and §[II.22.11](ii.22.11-declsecurity-0x0e.md)
 
  | _EventHeader_ ::=
  | ----

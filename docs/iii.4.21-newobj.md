@@ -99,7 +99,7 @@ instruction sequence then verification checks that:
 
  5. the signature of _function_ is *delegate-assignable-to* the signature of _deltype_ (i.e. the signature of the `Invoke` method of _deltype_); and
 
- 6. when _function_ is a non-final virtual method and the _target_ on the stack is not a boxed valued type, verification checks that _target_ is the result of `ldarg.s 0`, `ldarg 0` or `ldarg.0` and the creator's body does not contain `starg.s 0`, `starg 0` or `ldarga.s 0`, `ldarga 0`. _[Note:_ This mirrors the requirement, and rationale, for the `call` instruction (§[III.3.19](#todo-missing-hyperlink)). _end note]_; and
+ 6. when _function_ is a non-final virtual method and the _target_ on the stack is not a boxed valued type, verification checks that _target_ is the result of `ldarg.s 0`, `ldarg 0` or `ldarg.0` and the creator's body does not contain `starg.s 0`, `starg 0` or `ldarga.s 0`, `ldarga 0`. _[Note:_ This mirrors the requirement, and rationale, for the `call` instruction (§[III.3.19](iii.3.19-call.md)). _end note]_; and
 
  7. no branch instructions target the `newobj` instruction within the sequence.
 

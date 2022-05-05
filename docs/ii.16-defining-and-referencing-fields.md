@@ -2,7 +2,7 @@
 
 Fields are typed memory locations that store the data of a program. The CLI allows the declaration of both instance and static fields. While static fields are associated with a type, and are shared across all instances of that type, instance fields are associated with a particular instance of that type. Once instantiated, an instance has its own copy of each instance field. The CLI also supports global fields, which are fields declared outside of any type definition. Global fields shall be static.
 
-A field is defined by the **.field** directive: (§[II.22.15](#todo-missing-hyperlink))
+A field is defined by the **.field** directive: (§[II.22.15](ii.22.15-field-0x04.md))
 
  | _Field_ ::=
  | ----

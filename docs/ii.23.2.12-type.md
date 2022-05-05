@@ -5,7 +5,7 @@ _Type_ is encoded in signatures as follows (`I1` is an abbreviation for `ELEMENT
  | _Type_ ::=
  | ----
  | `BOOLEAN` \| `CHAR` \| `I1` \| `U1` \| `I2` \| `U2` \| `I4` \| `U4` \| `I8` \| `U8` \| `R4` \| `R8` \| `I` \| `U`
- | \| `ARRAY` _Type_ _ArrayShape_ (general array, see §[II.23.2.13](#todo-missing-hyperlink))
+ | \| `ARRAY` _Type_ _ArrayShape_ (general array, see §[II.23.2.13](ii.23.2.13-arrayshape.md))
  | \| `CLASS` _TypeDefOrRefOrSpecEncoded_
  | \| `FNPTR` _MethodDefSig_
  | \| `FNPTR` _MethodRefSig_

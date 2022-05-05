@@ -53,7 +53,7 @@ _end note]_
 
 A method signature type _T_ is *method-signature-compatible-with* a method signature type _U_ if and only if:
 
- 1. For each signature, independently, if the signature is for an instance method it carries the type of this. _[Note:_ This is always true for the signatures of instance method pointers produced by the `ldftn` (§[III.3.41](#todo-missing-hyperlink)) and `ldvirtftn` (§[III.4.18](iii.4.18-ldvirtftn.md)) instructions. However, variables (as opposed to methods) whose signatures specified in the metadata have `HASTHIS` set with `EXPLICITTHIS` being set cannot be used in verified code and are unsupported by *method-signature-compatible-with*. _end note]_
+ 1. For each signature, independently, if the signature is for an instance method it carries the type of this. _[Note:_ This is always true for the signatures of instance method pointers produced by the `ldftn` (§[III.3.41](iii.3.41-ldftn.md)) and `ldvirtftn` (§[III.4.18](iii.4.18-ldvirtftn.md)) instructions. However, variables (as opposed to methods) whose signatures specified in the metadata have `HASTHIS` set with `EXPLICITTHIS` being set cannot be used in verified code and are unsupported by *method-signature-compatible-with*. _end note]_
 
  2. The calling conventions of _T_ and _U_ shall match exactly, ignoring the distinction between static and instance methods (i.e., the this parameter, if any, is not treated specially).
 

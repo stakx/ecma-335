@@ -22,6 +22,6 @@ The first byte of the Signature holds bits for `HASTHIS` and `PROPERTY`. These a
 
 _Type_ specifies the type returned by the *getter* method for this property. _Type_ is defined in §[II.23.2.12](ii.23.2.12-type.md).
 
-_Param_ is defined in §[II.23.2.10](#todo-missing-hyperlink).
+_Param_ is defined in §[II.23.2.10](ii.23.2.10-param.md).
 
-_ParamCount_ is a compressed unsigned integer that holds the number of index parameters in the getter methods (0 or more). (§[II.23.2.1](#todo-missing-hyperlink)) (_ParamCount_ counts just the method parameters &ndash; it does not include the method's base type of the Property)
+_ParamCount_ is a compressed unsigned integer that holds the number of index parameters in the getter methods (0 or more). (§[II.23.2.1](ii.23.2.1-methoddefsig.md)) (_ParamCount_ counts just the method parameters &ndash; it does not include the method's base type of the Property)

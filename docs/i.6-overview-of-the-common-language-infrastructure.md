@@ -8,7 +8,7 @@ At the center of the CLI is a unified type system, the Common Type System that i
 
 The following four areas are covered in this clause:
 
- * **The Common Type System (CTS)** &ndash; The CTS provides a rich type system that supports the types and operations found in many programming languages. The CTS is intended to support the complete implementation of a wide range of programming languages. See §[I.8](#todo-missing-hyperlink)
+ * **The Common Type System (CTS)** &ndash; The CTS provides a rich type system that supports the types and operations found in many programming languages. The CTS is intended to support the complete implementation of a wide range of programming languages. See §[I.8](i.8-common-type-system.md)
 
  * **Metadata** &ndash; The CLI uses metadata to describe and reference the types defined by the CTS. Metadata is stored (that is, persisted) in a way that is independent of any particular programming language. Thus, metadata provides a common interchange mechanism for use between tools (such as compilers and debuggers) that manipulate programs, as well as between these tools and the VES. See §[I.9](i.9-metadata.md).
 

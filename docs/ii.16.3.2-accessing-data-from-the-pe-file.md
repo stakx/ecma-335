@@ -8,7 +8,7 @@ The data stored in a PE File using the **.data** directive can be accessed throu
  
 The data is then accessed by a program as it would access any other static variable, using instructions such as `ldsfld`, `ldsflda`, and so on (see [Partition III](#todo-missing-hyperlink)). The ability to access data from within the PE File can be subject to platform-specific rules, typically related to section access permissions within the PE File format itself.
 
-_[Example:_ The following accesses the data declared in the example of §[II.16.3.1](#todo-missing-hyperlink). First a static variable needs to be declared for the data, e.g., a global static variable:
+_[Example:_ The following accesses the data declared in the example of §[II.16.3.1](ii.16.3.1-data-declaration.md). First a static variable needs to be declared for the data, e.g., a global static variable:
 
  ```ilasm
  .field public static int32 myInt at theInt

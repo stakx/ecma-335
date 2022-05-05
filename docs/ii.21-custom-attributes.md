@@ -20,7 +20,7 @@ Custom attributes can be attached to any item in metadata, except a custom attri
 
 The _Bytes_ item is not required if the constructor takes no arguments. In such cases, all that matters is the presence of the custom attribute.
 
-If the constructor takes parameters, their values shall be specified in the _Bytes_ item. The format for this ‘blob’ is defined in §[II.23.3](#todo-missing-hyperlink).
+If the constructor takes parameters, their values shall be specified in the _Bytes_ item. The format for this ‘blob’ is defined in §[II.23.3](ii.23.3-custom-attributes.md).
 
 _[Example:_ The following shows a class that is marked with the attribute called `System.CLSCompliantAttribute` and a method that is marked with the attribute called `System.ObsoleteAttribute`.
 

@@ -8,7 +8,7 @@ Row 3 of the _PropertyMap_ table indexes row 2 of the _TypeDef_ table on the lef
 
 Property tables do a little more than group together existing rows from other tables. The _Property_ table has columns for _Flags_, _Name_ (eg `Foo` and `Bar` in the example here) and _Type_. In addition, the _MethodSemantics_ table has a column to record whether the method it points at is a *set_*, a *get_* or *other*.
 
-_[Note:_ The CLS (see Partition I) refers to instance, virtual, and static properties. The signature of a property (from the _Type_ column) can be used to distinguish a static property, since instance and virtual properties will have the "`HASTHIS`" bit set in the signature (§[II.23.2.1](#todo-missing-hyperlink)) while a static property will not. The distinction between an instance and a virtual property depends on the signature of the getter and setter methods, which the CLS requires to be either both virtual or both instance. _end note]_
+_[Note:_ The CLS (see Partition I) refers to instance, virtual, and static properties. The signature of a property (from the _Type_ column) can be used to distinguish a static property, since instance and virtual properties will have the "`HASTHIS`" bit set in the signature (§[II.23.2.1](ii.23.2.1-methoddefsig.md)) while a static property will not. The distinction between an instance and a virtual property depends on the signature of the getter and setter methods, which the CLS requires to be either both virtual or both instance. _end note]_
 
 The _Property_ (0x17) table has the following columns:
 

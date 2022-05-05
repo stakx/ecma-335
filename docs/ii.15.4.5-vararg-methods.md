@@ -4,7 +4,7 @@
 
 At each call site, a method reference shall be used to describe the types of the fixed and variable arguments that are passed. The fixed part of the argument list shall be separated from the additional arguments with an ellipsis (see [Partition I](#todo-missing-hyperlink)).
 
-_[Note:_ The method reference is represented by either a _MethodRef_ (§[II.22.25](#todo-missing-hyperlink)) or _MethodDef_ (§[II.22.26](ii.22.26-methoddef-0x06.md)). A _MethodRef_ might be needed even if the method is defined in the same assembly, because the _MethodDef_ only describes the fixed part of the argument list. If the call site does not pass any additional arguments, then it can use the _MethodDef_ for **vararg** methods defined in the same assembly. _end note]_
+_[Note:_ The method reference is represented by either a _MethodRef_ (§[II.22.25](ii.22.25-memberref-0x0a.md)) or _MethodDef_ (§[II.22.26](ii.22.26-methoddef-0x06.md)). A _MethodRef_ might be needed even if the method is defined in the same assembly, because the _MethodDef_ only describes the fixed part of the argument list. If the call site does not pass any additional arguments, then it can use the _MethodDef_ for **vararg** methods defined in the same assembly. _end note]_
 
 The **vararg** arguments shall be accessed by obtaining a handle to the argument list using the CIL instruction `arglist` (see [Partition III](#todo-missing-hyperlink)). The handle can be used to create an instance of the value type `System.ArgIterator` which provides a type-safe mechanism for accessing the arguments (see [Partition IV](#todo-missing-hyperlink)).
 

@@ -11,5 +11,5 @@ An optimizing compiler that converts CIL to native code shall not remove any vol
 
 _[Rationale:_ One traditional use of volatile operations is to model hardware registers that are visible through direct memory access.  In these cases, removing or coalescing the operations might change the behavior of the program. _end rationale]_
 
-_[Note:_ An optimizing compiler from CIL to native code is permitted to reorder code, provided that it guarantees both the single-thread semantics described in §[I.12.6](#todo-missing-hyperlink) and the cross-thread semantics of volatile operations. _end note]_
+_[Note:_ An optimizing compiler from CIL to native code is permitted to reorder code, provided that it guarantees both the single-thread semantics described in §[I.12.6](i.12.6-memory-model-and-optimizations.md) and the cross-thread semantics of volatile operations. _end note]_
 
