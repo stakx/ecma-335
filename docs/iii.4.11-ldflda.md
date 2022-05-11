@@ -12,7 +12,7 @@
 
 The `ldflda` instruction pushes the address of a field of _obj_. _obj_ is either an object, type `O`, a managed pointer, type `&`, or an unmanaged pointer, type `native int`. The use of an unmanaged pointer is not allowed in verifiable code. The value returned by `ldflda` is a managed pointer (type `&`) unless _obj_ is an unmanaged pointer, in which case it is an unmanaged pointer (type `native int`).
 
-_field_ is a metadata token (a `fieldref` or `fielddef`; see [Partition II](#todo-missing-hyperlink)) that shall refer to a field member. The field can be either an instance field (in which case _obj_ shall not be null) or a static field.
+_field_ is a metadata token (a `fieldref` or `fielddef`; see [Partition II](ii.22-metadata-logical-format-tables.md)) that shall refer to a field member. The field can be either an instance field (in which case _obj_ shall not be null) or a static field.
 
 #### Exceptions:
 

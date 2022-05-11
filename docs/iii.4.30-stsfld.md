@@ -10,7 +10,7 @@
 
 #### Description:
 
-The `stsfld` instruction replaces the value of a static field with a value from the stack. _field_ is a metadata token (a `fieldref` or `fielddef`; see [Partition II](#todo-missing-hyperlink)) that shall refer to a static field member. `stsfld` pops the value off the stack and updates the static field with that value.
+The `stsfld` instruction replaces the value of a static field with a value from the stack. _field_ is a metadata token (a `fieldref` or `fielddef`; see [Partition II](ii.22-metadata-logical-format-tables.md)) that shall refer to a static field member. `stsfld` pops the value off the stack and updates the static field with that value.
 
 Storing into fields that hold a value smaller than 4 bytes truncates the value as it moves from the stack to the local variable. Floating-point values are rounded from their native size (type `F`) to the size associated with the argument. (See §[III.1.1.1](iii.1.1.1-numeric-data-types.md), _Numeric data types_.)
 

@@ -10,7 +10,7 @@
 
 #### Description:
 
-The `ldsfld` instruction pushes the value of a static (shared among all instances of a class) field on the stack. _field_ is a metadata token (a `fieldref` or `fielddef`; see [Partition II](#todo-missing-hyperlink)) referring to a static field member. The return type is that associated with _field_.
+The `ldsfld` instruction pushes the value of a static (shared among all instances of a class) field on the stack. _field_ is a metadata token (a `fieldref` or `fielddef`; see [Partition II](ii.22-metadata-logical-format-tables.md)) referring to a static field member. The return type is that associated with _field_.
 
 The `ldsfld` instruction can have a `volatile.` prefix. If required field values are converted to the representation of their *intermediate type* (§[I.8.7](i.8.7-assignment-compatibility.md)) when loaded onto the stack (§[III.1.1.1](iii.1.1.1-numeric-data-types.md)).
 

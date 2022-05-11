@@ -10,7 +10,7 @@
 
 #### Description:
 
-Retrieves the address (of type `&`) embedded in _TypedRef_. The type of reference in _TypedRef_ shall match the type specified by _type_ (a metadata token, either a `typedef`, `typeref` or a `typespec`; see [Partition II](#todo-missing-hyperlink)). See the `mkrefany` instruction.
+Retrieves the address (of type `&`) embedded in _TypedRef_. The type of reference in _TypedRef_ shall match the type specified by _type_ (a metadata token, either a `typedef`, `typeref` or a `typespec`; see [Partition II](ii.22-metadata-logical-format-tables.md)). See the `mkrefany` instruction.
 
 #### Exceptions:
 

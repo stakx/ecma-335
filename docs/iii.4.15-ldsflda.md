@@ -10,7 +10,7 @@
 
 #### Description:
 
-The `ldsflda` instruction pushes the address (a managed pointer, type `&`, if _field_ refers to a type whose memory is managed; otherwise an unmanaged pointer, type `native int`) of a static field on the stack. `field` is a metadata token (a `fieldref` or `fielddef`; see [Partition II](#todo-missing-hyperlink)) referring to a static field member. (Note that _field_ can be a static global with assigned RVA, in which case its memory is unmanaged; where RVA stands for Relative Virtual Address, the offset of the field from the base address at which its containing PE file is loaded into memory)
+The `ldsflda` instruction pushes the address (a managed pointer, type `&`, if _field_ refers to a type whose memory is managed; otherwise an unmanaged pointer, type `native int`) of a static field on the stack. `field` is a metadata token (a `fieldref` or `fielddef`; see [Partition II](ii.22-metadata-logical-format-tables.md)) referring to a static field member. (Note that _field_ can be a static global with assigned RVA, in which case its memory is unmanaged; where RVA stands for Relative Virtual Address, the offset of the field from the base address at which its containing PE file is loaded into memory)
 
 #### Exceptions:
 
