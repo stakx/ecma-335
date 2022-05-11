@@ -1,12 +1,12 @@
 ## I.12.2 Module information
 
-[Partition II](#todo-missing-hyperlink) provides details of the CLI PE file format. The CLI relies on the following information about each method defined in a PE file:
+[Partition II](ii.25-file-format-extensions-to-pe.md) provides details of the CLI PE file format. The CLI relies on the following information about each method defined in a PE file:
 
  * The _instructions_ composing the method body, including all exception handlers.
 
  * The _signature_ of the method, which specifies the return type and the number, order, parameter passing convention, and built-in data type of each of the arguments. It also specifies the native calling convention (this does not affect the CIL virtual calling convention, just the native code).
 
- * The _exception handling array_. This array holds information delineating the ranges over which exceptions are filtered and caught. See [Partition II](#todo-missing-hyperlink) and §[I.12.4.2](i.12.4.2-exception-handling.md).
+ * The _exception handling array_. This array holds information delineating the ranges over which exceptions are filtered and caught. See [Partition II](i.12.4.2-exception-handling.md) and §[I.12.4.2](i.12.4.2-exception-handling.md).
 
  * The size of the evaluation stack that the method will require.
 

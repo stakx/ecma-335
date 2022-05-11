@@ -12,4 +12,4 @@ There are four kinds of handlers for protected blocks. A single protected block 
 
  * A **filter handler** that runs a user-specified set of CIL instructions to determine if the exception should be handled by the associated handler, or passed on to the next protected block.
 
-Protected regions, the type of the associated handler, and the location of the associated handler and (if needed) user-supplied filter code are described through an Exception Handler Table associated with each method. The exact format of the Exception Handler Table is specified in detail in [Partition II](#todo-missing-hyperlink). Details of the exception handling mechanism are also specified in [Partition II](#todo-missing-hyperlink).
+Protected regions, the type of the associated handler, and the location of the associated handler and (if needed) user-supplied filter code are described through an Exception Handler Table associated with each method. The exact format of the Exception Handler Table is specified in detail in [Partition II](i.12.4.2-exception-handling.md). Details of the exception handling mechanism are also specified in [Partition II](i.12.4.2-exception-handling.md).

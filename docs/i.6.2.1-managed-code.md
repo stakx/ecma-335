@@ -8,4 +8,6 @@
 
  * Handle exceptions
 
- * Store and retrieve security information This standard specifies a particular instruction set, the CIL (see [Partition III](#todo-missing-hyperlink)), and a file format (see [Partition II](#todo-missing-hyperlink)) for storing and transmitting managed code.
+ * Store and retrieve security information
+ 
+ This standard specifies a particular instruction set, the CIL (see [Partition III](#todo-missing-hyperlink)), and a file format (see [Partition II](#todo-missing-hyperlink)) for storing and transmitting managed code.

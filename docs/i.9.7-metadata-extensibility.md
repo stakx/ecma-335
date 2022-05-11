@@ -24,11 +24,11 @@ This extensibility comes in the following forms:
    >
    > **CLS (framework):** Shall externally expose only attributes that are encoded within the CLS rules and following the conventions specified for `System.AttributeUsageAttribute` _end note]_
 
-* In addition to CTS type extensibility, it is possible to emit custom modifiers into member signatures (see Types in [Partition II](#todo-missing-hyperlink)). The CLI will honor these modifiers for purposes of method overloading and hiding, as well as for binding, but will not enforce any of the language-specific semantics. These modifiers can reference the return type or any parameter of a method, or the type of a field. They come in two kinds: **required modifiers** that anyone using the member must understand in order to correctly use it, and **optional modifiers** that can be ignored if the modifier is not understood.
+* In addition to CTS type extensibility, it is possible to emit custom modifiers into member signatures (see Types in [Partition II](ii.7-types-and-signatures.md)). The CLI will honor these modifiers for purposes of method overloading and hiding, as well as for binding, but will not enforce any of the language-specific semantics. These modifiers can reference the return type or any parameter of a method, or the type of a field. They come in two kinds: **required modifiers** that anyone using the member must understand in order to correctly use it, and **optional modifiers** that can be ignored if the modifier is not understood.
 
    > #### CLS Rule 35:
    >
-   > The CLS does not allow publicly visible required modifiers (**modreq**, see [Partition II](#todo-missing-hyperlink)), but does allow optional modifiers (**modopt**, see [Partition II](#todo-missing-hyperlink)) it does not understand.
+   > The CLS does not allow publicly visible required modifiers (**modreq**, see [Partition II](ii.7.1.1-modreq-and-modopt.md)), but does allow optional modifiers (**modopt**, see [Partition II](ii.7.1.1-modreq-and-modopt.md)) it does not understand.
    >
    > _[Note:_
    >

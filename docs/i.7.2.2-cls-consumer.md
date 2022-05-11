@@ -30,4 +30,4 @@ The following is a list of things CLS consumer tools need not support:
 
  * Creation of new types or interfaces.
 
- * Initialization metadata (see [Partition II](#todo-missing-hyperlink)) on fields and parameters other than static literal fields. Note that consumers can choose to use initialization metadata, but can also safely ignore such metadata on anything other than static literal fields.
+ * Initialization metadata (see [Partition II](ii.16.2-field-init-metadata.md)) on fields and parameters other than static literal fields. Note that consumers can choose to use initialization metadata, but can also safely ignore such metadata on anything other than static literal fields.

@@ -70,7 +70,7 @@ The complete set of CLS rules are collected here for reference. Recall that thes
 
 **CLS Rule 34:** The CLS only allows a subset of the encodings of custom attributes.  The only types that shall appear in these encodings are (see Partition IV): `System.Type`, `System.String`, `System.Char`, `System.Boolean`, `System.Byte`, `System.Int16`, `System.Int32`, `System.Int64`, `System.Single`, `System.Double`, and any enumeration type based on a CLS-compliant base integer type. (§[I.9.7](i.9.7-metadata-extensibility.md))
 
-**CLS Rule 35:** The CLS does not allow publicly visible required modifiers (modreq, see [Partition II](#todo-missing-hyperlink)), but does allow optional modifiers (modopt, see [Partition II](#todo-missing-hyperlink)) it does not understand. (§[I.9.7](i.9.7-metadata-extensibility.md))
+**CLS Rule 35:** The CLS does not allow publicly visible required modifiers (modreq, see [Partition II](i.9.7-metadata-extensibility.md#cls-rule-35)), but does allow optional modifiers (modopt, see [Partition II](i.9.7-metadata-extensibility.md#cls-rule-35)) it does not understand. (§[I.9.7](i.9.7-metadata-extensibility.md))
 
 **CLS Rule 36:** Global static fields and methods are not CLS-compliant. (§[I.9.8](i.9.8-globals-imports-and-exports.md))
 
