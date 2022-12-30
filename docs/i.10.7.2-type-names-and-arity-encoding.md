@@ -2,7 +2,7 @@
 
 CLS-compliant generic type names are encoded using the format "*name*\[`` ` ``*arity*\]" , where \[&hellip;\] indicates that the grave accent character "`` ` ``" and *arity* together are optional. The encoded name shall follow these rules:
 
- 1. *name* shall be an ID (see [Partition II](#todo-missing-hyperlink)) that does not contain the "`` ` ``" character.
+ 1. *name* shall be an ID (see Partition II) that does not contain the "`` ` ``" character.
 
  2. *arity* is specified as an unsigned decimal number without leading zeros or spaces.
 

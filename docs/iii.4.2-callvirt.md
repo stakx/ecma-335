@@ -14,7 +14,7 @@ The `callvirt` instruction calls a late-bound method on an object. That is, the 
 
 [A callee of "higher trust" is defined as one whose permission grant-set is a strict superset of the grant-set of the caller]
 
-_method_ is a metadata token (a `methoddef`, `methodref` or `methodspec` see [Partition II](#todo-missing-hyperlink)) that provides the name, class and signature of the method to call. In more detail, `callvirt` can be thought of as follows. Associated with _obj_ is the class of which it is an instance. The CLI resolves the method to be called according to the rules specified in §[I.12.4.1.3](i.12.4.1.3-computed-destinations.md) (Computed destinations).
+_method_ is a metadata token (a `methoddef`, `methodref` or `methodspec` see [Partition II](ii.22-metadata-logical-format-tables.md)) that provides the name, class and signature of the method to call. In more detail, `callvirt` can be thought of as follows. Associated with _obj_ is the class of which it is an instance. The CLI resolves the method to be called according to the rules specified in §[I.12.4.1.3](i.12.4.1.3-computed-destinations.md) (Computed destinations).
 
 `callvirt` pops the object and the arguments off the evaluation stack before calling the method. If the method has a return value, it is pushed on the stack upon method completion. On the callee side, the _obj_ parameter is accessed as argument 0, _arg1_ as argument 1, and so on.
 

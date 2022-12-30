@@ -4,7 +4,7 @@ CIL allows types to reference, among other things, interfaces, classes, methods,
 
 To allow scalability with respect to optimization, detection of resolution exceptions is given latitude such that it might occur as early as install time and as late as execution time.
 
-The latest opportunity to check for resolution exceptions from all references except CIL instructions is as part of initialization of the type that is doing the referencing (see [Partition II](#todo-missing-hyperlink)). If such a resolution exception is detected the static initializer for that type, if present, shall not be executed.
+The latest opportunity to check for resolution exceptions from all references except CIL instructions is as part of initialization of the type that is doing the referencing (see [Partition II](ii.10.5.3-type-initializer.md)). If such a resolution exception is detected the static initializer for that type, if present, shall not be executed.
 
 The latest opportunity to check for resolution exceptions in CIL instructions is as part of the first execution of the associated CIL instruction. When an implementation chooses to perform resolution exception checking in CIL instructions as late as possible, these exceptions, if they occur, shall be thrown prior to any other non-resolution exception that the VES might throw for that CIL instruction. Once a CIL instruction has passed the point of throwing resolution errors (it has completed without exception, or has completed by throwing a non-resolution exception), subsequent executions of that instruction shall no longer throw resolution exceptions.
 

@@ -10,7 +10,7 @@
 
 #### Description:
 
-The `ldfld` instruction pushes onto the stack the value of a field of _obj_. _obj_ shall be an object (type `O`), a managed pointer (type `&`), an unmanaged pointer (type `native int`), or an instance of a value type. The use of an unmanaged pointer is not permitted in verifiable code. _field_ is a metadata token (a `fieldref` or `fielddef` see [Partition II]#todo-missing-hyperlink)) that shall refer to a field member. The return type is that associated with _field_. `ldfld` pops the object reference off the stack and pushes the value for the field in its place. The field can be either an instance field (in which case _obj_ shall not be null) or a static field.
+The `ldfld` instruction pushes onto the stack the value of a field of _obj_. _obj_ shall be an object (type `O`), a managed pointer (type `&`), an unmanaged pointer (type `native int`), or an instance of a value type. The use of an unmanaged pointer is not permitted in verifiable code. _field_ is a metadata token (a `fieldref` or `fielddef` see [Partition II](ii.22-metadata-logical-format-tables.md)) that shall refer to a field member. The return type is that associated with _field_. `ldfld` pops the object reference off the stack and pushes the value for the field in its place. The field can be either an instance field (in which case _obj_ shall not be null) or a static field.
 
 The `ldfld` instruction can be preceded by either or both of the `unaligned.` and `volatile.` prefixes. If required field values are converted to the representation of their *intermediate type* (§[I.8.7](i.8.7-assignment-compatibility.md)) when loaded onto the stack (§[III.1.1.1](iii.1.1.1-numeric-data-types.md)).
 

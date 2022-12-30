@@ -1,6 +1,6 @@
 ## I.6 Overview of the Common Language Infrastructure
 
-The Common Language Infrastructure (CLI) provides a specification for executable code and the execution environment (the Virtual Execution System) in which it runs. Executable code is presented to the VES as modules. A module is a single file containing executable content in the format specified in [Partition II](#todo-missing-hyperlink).
+The Common Language Infrastructure (CLI) provides a specification for executable code and the execution environment (the Virtual Execution System) in which it runs. Executable code is presented to the VES as modules. A module is a single file containing executable content in the format specified in [Partition II](ii.6-assemblies-manifests-and-modules.md).
 
 > _The remainder of this clause and its subclauses contain only informative text._
 

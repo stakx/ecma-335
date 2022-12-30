@@ -10,7 +10,7 @@
 
 #### Description:
 
-The `newobj` instruction creates a new object or a new instance of a value type. _ctor_ is a metadata token (a `methodref` or `methodef` that shall be marked as a constructor; see [Partition II](#todo-missing-hyperlink)) that indicates the name, class, and signature of the constructor to call. If a constructor exactly matching the indicated name, class and signature cannot be found, `MissingMethodException` is thrown.
+The `newobj` instruction creates a new object or a new instance of a value type. _ctor_ is a metadata token (a `methodref` or `methodef` that shall be marked as a constructor; see [Partition II](ii.22-metadata-logical-format-tables.md)) that indicates the name, class, and signature of the constructor to call. If a constructor exactly matching the indicated name, class and signature cannot be found, `MissingMethodException` is thrown.
 
 The `newobj` instruction allocates a new instance of the class associated with _ctor_ and initializes all the fields in the new instance to 0 (of the proper type) or `null` as appropriate. It then calls the constructor with the given arguments along with the newly created instance. After the constructor has been called, the now initialized object reference is pushed on the stack.
 

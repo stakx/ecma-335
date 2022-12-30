@@ -2,7 +2,7 @@
 
 > _This subclause contains only informative text._
 
-Most CIL instructions that deal with numbers take their operands from the evaluation stack (see §[I.12.3.2.1](i.12.3.2.1-the-evaluation-stack.md)), and these inputs have an associated type that is known to the VES. As a result, a single operation like `add` can have inputs of any numeric data type, although not all instructions can deal with all combinations of operand types. Binary operations other than addition and subtraction require that both operands be of the same type. Addition and subtraction allow an integer to be added to or subtracted from a managed pointer (types `&` and `O`). Details are specified in [Partition II](#todo-missing-hyperlink).
+Most CIL instructions that deal with numbers take their operands from the evaluation stack (see §[I.12.3.2.1](i.12.3.2.1-the-evaluation-stack.md)), and these inputs have an associated type that is known to the VES. As a result, a single operation like `add` can have inputs of any numeric data type, although not all instructions can deal with all combinations of operand types. Binary operations other than addition and subtraction require that both operands be of the same type. Addition and subtraction allow an integer to be added to or subtracted from a managed pointer (types `&` and `O`). Details are specified in [Partition II](ii.14.4-pointer-types.md).
 
 Instructions fall into the following categories:
 

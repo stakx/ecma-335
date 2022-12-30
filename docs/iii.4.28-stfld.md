@@ -10,7 +10,7 @@
 
 #### Description:
 
-The `stfld` instruction replaces the value of a _field_ of an _obj_ (an `O`) or via a pointer (type `native int`, or `&`) with _value_. _field_ is a metadata token (a `fieldref` or `fielddef`; see [Partition II](#todo-missing-hyperlink)) that refers to a field member reference. `stfld` pops the value and the object reference off the stack and updates the object.
+The `stfld` instruction replaces the value of a _field_ of an _obj_ (an `O`) or via a pointer (type `native int`, or `&`) with _value_. _field_ is a metadata token (a `fieldref` or `fielddef`; see [Partition II](ii.22-metadata-logical-format-tables.md)) that refers to a field member reference. `stfld` pops the value and the object reference off the stack and updates the object.
 
 Storing into fields that hold a value smaller than 4 bytes truncates the value as it moves from the stack to the local variable. Floating-point values are rounded from their native size (type `F`) to the size associated with the argument. (See §[III.1.1.1](iii.1.1.1-numeric-data-types.md), _Numeric data types_.)
 

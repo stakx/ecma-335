@@ -10,7 +10,7 @@
 
 #### Description:
 
-The `mkrefany` instruction supports the passing of dynamically typed references. _ptr_ shall be a pointer (type `&`, or `native int`) that holds the address of a piece of data. _class_ is the class token (a `typeref`, `typedef` or `typespec`; see [Partition II](#todo-missing-hyperlink)) describing the type of _ptr_. `mkrefany` pushes a typed reference on the stack, that is an opaque descriptor of _ptr_ and _class_. This instruction enables the passing of dynamically typed references as arguments. The callee can use the `refanytype` and `refanyval` instructions to retrieve the type (_class_) and address (_ptr_) respectively of the parameter.
+The `mkrefany` instruction supports the passing of dynamically typed references. _ptr_ shall be a pointer (type `&`, or `native int`) that holds the address of a piece of data. _class_ is the class token (a `typeref`, `typedef` or `typespec`; see [Partition II](ii.22-metadata-logical-format-tables.md)) describing the type of _ptr_. `mkrefany` pushes a typed reference on the stack, that is an opaque descriptor of _ptr_ and _class_. This instruction enables the passing of dynamically typed references as arguments. The callee can use the `refanytype` and `refanyval` instructions to retrieve the type (_class_) and address (_ptr_) respectively of the parameter.
 
 #### Exceptions:
 
