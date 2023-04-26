@@ -631,7 +631,7 @@
 
 **[IV.6 Implementation-specific modifications to the system libraries](iv.6-implementation-specific-modifications-to-the-system-libraries.md)**
 
-**[IV.7 The XML specification](iv.7-The-xml-specification.md)**
+**[IV.7 The XML specification](iv.7-the-xml-specification.md)**
 
  * [IV.7.1 Semantics](iv.7.1-semantics.md)
     * [IV.7.1.1 Value types as objects](iv.7.1.1-value-types-as-objects.md)
@@ -716,7 +716,7 @@
     * [VI.F.5.2 Vectorizing a loop](vi.f.5.2-vectorizing-a-loop.md)
     * [VI.F.5.3 Autothreading a loop](vi.f.5.3-autothreading-a-loop.md)
 
-**[VI.Annex G Parallel library](vi-annex-g-parallel-library.md)**
+**[VI.Annex G Parallel library](vi.g-parallel-library.md)**
 
  * [VI.G.1 Considerations](vi.g.1-considerations.md)
  * [VI.G.2 ParallelFor](vi.g.2-parallelfor.md)
