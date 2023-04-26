@@ -27,7 +27,7 @@ Access to a member of a type is permitted only if all three of the following con
 
  2. The member is accessible.
 
- 3. All relevant security demands (see §[I.8.5.3.3](i.8.5.3.3-Security-permissions.md)) have been granted.
+ 3. All relevant security demands (see §[I.8.5.3.3](i.8.5.3.3-security-permissions.md)) have been granted.
 
 An instantiated generic type is visible from some assembly if and only if the generic type itself and each of its component parts (generic type definition and generic arguments) are visible.  For example, if `List` is exported from assembly `A` (i.e., declared "public") and `MyClass` is defined in assembly `B` but not exported, then `List<MyClass>` is visible only from within assembly `B`.
 
