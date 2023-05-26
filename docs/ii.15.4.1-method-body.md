@@ -12,7 +12,7 @@ The method body shall contain the instructions of a program. However, it can als
  | \| `.maxstack` _Int32_ | The `int32` specifies the maximum number of elements on the evaluation stack during the execution of the method. | §[II.15.4.1](ii.15.4.1-method-body.md)
  | \| `.override` _TypeSpec_ `'::'` _MethodName_ | Use current method as the implementation for the method specified. | §[II.10.3.2](ii.10.3.2-the-override-directive.md)
  | \| `.override method` _CallConv_ _Type_ _TypeSpec_ `'::'` _MethodName_ _GenArity_ `'('` _Parameters_ `')'` | Use current method as the implementation for the method specified. | §[II.10.3.2](ii.10.3.2-the-override-directive.md)
- | \| `.param` ``['` _Int32_ `']'` [ `'='` _FieldInit_ ] | Store a constant _FieldInit_ value for parameter _Int32_ | §[II.15.4.1.4](ii.15.4.1.4-the-param-directive.md)
+ | \| `.param` `'['` _Int32_ `']'` [ `'='` _FieldInit_ ] | Store a constant _FieldInit_ value for parameter _Int32_ | §[II.15.4.1.4](ii.15.4.1.4-the-param-directive.md)
  | \| `.param type` `'['` _Int32_ `']'` | Specifies a type parameter for a generic method | §[II.15.4.1.5](ii.15.4.1.5-the-param-type_directive.md)
  | \| _ExternSourceDecl_ | `.line` or `#line` | §[II.5.7](ii.5.7-source-line-information.md)
  | \| _Instr_ | An instruction | [Partition VI](#todo-missing-hyperlink)
