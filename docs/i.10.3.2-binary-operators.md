@@ -15,7 +15,7 @@ Binary operators take two operands, perform some operation on them, and return a
  `op_BitwiseAnd` | `&` (binary)
  `op_BitwiseOr` | `\|`
  `op_LogicalAnd` | `&&`
- `op_LogicalOr` | `||`
+ `op_LogicalOr` | `\|\|`
  `op_Assign` | Not defined (`=` is not the same)
  `op_LeftShift` | `<<`
  `op_RightShift` | `>>`
