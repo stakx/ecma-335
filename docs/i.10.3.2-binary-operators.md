@@ -13,7 +13,7 @@ Binary operators take two operands, perform some operation on them, and return a
  `op_Modulus` | `%`
  `op_ExclusiveOr` | `^`
  `op_BitwiseAnd` | `&` (binary)
- `op_BitwiseOr` | `|`
+ `op_BitwiseOr` | `\|`
  `op_LogicalAnd` | `&&`
  `op_LogicalOr` | `||`
  `op_Assign` | Not defined (`=` is not the same)
@@ -38,6 +38,6 @@ Binary operators take two operands, perform some operation on them, and return a
  `op_ModulusAssignment` | `%=`
  `op_AdditionAssignment` | `+=`
  `op_BitwiseAndAssignment` | `&=`
- `op_BitwiseOrAssignment` | `|=`
+ `op_BitwiseOrAssignment` | `\|=`
  `op_Comma` | `,`
  `op_DivisionAssignment` | `/=`
