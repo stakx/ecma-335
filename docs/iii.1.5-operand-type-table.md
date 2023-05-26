@@ -50,7 +50,7 @@ Many CIL operations take numeric operands on the stack. These operations fall in
 
 #### Table III.5: Integer Operations
 
- &nbsp; | `int32` | `int64` | `native int` | `F` `&` `O`
+ &nbsp; | `int32` | `int64` | `native int` | `F` | `&` | `O`
  ---- | ---- | ---- | ---- | ---- | ---- | ----
  **`int32`** | `int32` | &cross; | `native int` | &cross; | &cross; | &cross;
  **`int64`** | &cross; | `int64` | &cross; | &cross; | &cross; | &cross;
