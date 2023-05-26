@@ -9,7 +9,7 @@ The currently defined encodings are specified in [Table 1: Opcode Encodings](#to
  Opcode | Instruction
  ---- | ----
  0x00 | `nop`
- 0x01 | `break `
+ 0x01 | `break`
  0x02 | `ldarg.0`
  0x03 | `ldarg.1`
  0x04 | `ldarg.2`
@@ -74,7 +74,7 @@ The currently defined encodings are specified in [Table 1: Opcode Encodings](#to
  0x40 | `bne.un`
  0x41 | `bge.un`
  0x42 | `bgt.un`
- 0x43 | `ble.un `
+ 0x43 | `ble.un`
  0x44 | `blt.un`
  0x45 | `switch`
  0x46 | `ldind.i1`
@@ -83,7 +83,7 @@ The currently defined encodings are specified in [Table 1: Opcode Encodings](#to
  0x49 | `ldind.u2`
  0x4A | `ldind.i4`
  0x4B | `ldind.u4`
- 0x4C | `ldind.i8 `
+ 0x4C | `ldind.i8`
  0x4D | `ldind.i`
  0x4E | `ldind.r4`
  0x4F | `ldind.r8`
@@ -120,7 +120,7 @@ The currently defined encodings are specified in [Table 1: Opcode Encodings](#to
  0x6E | `conv.u8`
  0x6F | `callvirt`
  0x70 | `cpobj`
- 0x71 | `ldobj `
+ 0x71 | `ldobj`
  0x72 | `ldstr`
  0x73 | `newobj`
  0x74 | `castclass`
