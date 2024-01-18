@@ -78,6 +78,7 @@ HasCustomAttribute: 5 bits to encode tag | Tag
 _[Note:_ _HasCustomAttributes_ only has values for tables that are "externally visible"; that is, that correspond to items in a user source program. For example, an attribute can be attached to a _TypeDef_ table and a _Field_ table, but not a _ClassLayout_ table. As a result, some table types are missing from the enum above. _end note]_
 
  HasFieldMarshall: 1 bit to encode tag | Tag
+ ---- | ----
  `Field` | 0
  `Param` | 1
 
