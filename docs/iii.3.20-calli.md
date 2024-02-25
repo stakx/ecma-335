@@ -18,7 +18,7 @@ The _ftn_ argument must be a method pointer to a method that can be legitimately
 
 The standalone signature specifies the number and type of parameters being passed, as well as the calling convention (See [Partition II](#todo-missing-hyperlink)) The calling convention is not checked dynamically, so code that uses a `calli` instruction will not work correctly if the destination does not actually use the specified calling convention.
 
-The arguments are placed on the stack in left-to-right order. That is, the first argument is computed and placed on the stack, then the second argument, and so on. The argument-building code sequence for an instance or virtual method shall push that instance reference (the *this* pointer, which shall not be null) first. _[Note:_ for calls to methods on value types, the *this* pointer is a managed pointer, not an instance reference. §[I.8.6.1.5](#todo-missing-hyperlink). _end note]_
+The arguments are placed on the stack in left-to-right order. That is, the first argument is computed and placed on the stack, then the second argument, and so on. The argument-building code sequence for an instance or virtual method shall push that instance reference (the *this* pointer, which shall not be null) first. _[Note:_ for calls to methods on value types, the *this* pointer is a managed pointer, not an instance reference. §[I.8.6.1.5](i.8.6.1.5-method-signatures.md). _end note]_
 
 The arguments are passed as though by implicit `starg` (§[III.3.61](iii.3.61-starg-length.md)) instructions, see _Implicit argument coercion_ §[III.1.6](iii.1.6-implicit-argument-coercion.md).
 

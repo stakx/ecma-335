@@ -28,6 +28,6 @@ Correct CIL requires that method is a valid `methoddef` or `methodref` token.
 
 #### Verifiability:
 
-Verification tracks the method signature (§[I.8.6.1.5](#todo-missing-hyperlink)) of the value, which includes the number and types of parameters, the type of the *this* pointer (for an instance method), and the return type and the calling convention. _[Note:_ the type of *this* pointer for an instance method is determined as described in §[I.8.6.1.5](#todo-missing-hyperlink) based on the resolved method definition. _end note]_
+Verification tracks the method signature (§[I.8.6.1.5](i.8.6.1.5-method-signatures.md)) of the value, which includes the number and types of parameters, the type of the *this* pointer (for an instance method), and the return type and the calling convention. _[Note:_ the type of *this* pointer for an instance method is determined as described in §[I.8.6.1.5](i.8.6.1.5-method-signatures.md) based on the resolved method definition. _end note]_
 
 See also the `newobj` instruction.

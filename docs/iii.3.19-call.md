@@ -20,7 +20,7 @@ _[Rationale:_ This implements "call base class" behavior. _end rationale]_
 
 The arguments are placed on the stack in left-to-right order. That is, the first argument is computed and placed on the stack, then the second argument, and so on. There are three important special cases:
 
- 1. Calls to an instance (or virtual, see below) method shall push that instance reference (the *this* pointer) first. The signature carried in the metadata may not contain an entry in the parameter list for the *this* pointer but the calling convention always indicates whether one is required and if its signature is explicit or inferred (see §[I.8.6.1.5](#todo-missing-hyperlink) and §[II.15.3](ii.15.3-calling-convention.md)) _[Note:_ for calls to methods on value types, the *this* pointer is a managed pointer, not an instance reference §[I.8.6.1.5(#todo-missing-hyperlink). _end note]_
+ 1. Calls to an instance (or virtual, see below) method shall push that instance reference (the *this* pointer) first. The signature carried in the metadata may not contain an entry in the parameter list for the *this* pointer but the calling convention always indicates whether one is required and if its signature is explicit or inferred (see §[I.8.6.1.5](i.8.6.1.5-method-signatures.md) and §[II.15.3](ii.15.3-calling-convention.md)) _[Note:_ for calls to methods on value types, the *this* pointer is a managed pointer, not an instance reference §[I.8.6.1.5](i.8.6.1.5-method-signatures.md). _end note]_
 
  2. It is valid to call a virtual method using `call` (rather than `callvirt`); this indicates that the method is to be resolved using the class specified by method rather than as specified dynamically from the object being invoked. This is used, for example, to compile calls to "methods on super" (i.e., the statically known parent class).
 
@@ -46,7 +46,7 @@ For a typical use of the `call` instruction, verification checks that:
 
  1. _method_ refers to a valid `methodref`, `methoddef`, or `methodspec` token;
 
- 2. if _method_ requires a *this* pointer, as specified by its method signature (§[I.8.6.1.5](#todo-missing-hyperlink)), then one is one the stack and its verification type is *verifier-assignable-to* (§[III.1.8.1.2.3](iii.1.8.1.2.3-verification-type-compatibility.md)) the *this* signature of the method's signature;
+ 2. if _method_ requires a *this* pointer, as specified by its method signature (§[I.8.6.1.5](i.8.6.1.5-method-signatures.md)), then one is one the stack and its verification type is *verifier-assignable-to* (§[III.1.8.1.2.3](iii.1.8.1.2.3-verification-type-compatibility.md)) the *this* signature of the method's signature;
 
  3. the types of the arguments on the stack are *verifier-assignable-to* (§[III.1.8.1.2.3](iii.1.8.1.2.3-verification-type-compatibility.md)) the parameter signatures of the method's signature;
 
