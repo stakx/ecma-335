@@ -26,11 +26,11 @@ The complete set of CLS rules are collected here for reference. Recall that thes
 
 **CLS Rule 12:** The visibility and accessibility of types and members shall be such that types in the signature of any member shall be visible and accessible whenever the member itself is visible and accessible. For example, a public method that is visible outside its assembly shall not have an argument whose type is visible only within the assembly. The visibility and accessibility of types composing an instantiated generic type used in the signature of any member shall be visible and accessible whenever the member itself is visible and accessible. For example, an instantiated generic type present in the signature of a member that is visible outside its assembly shall not have a generic argument whose type is visible only within the assembly. (§[I.8.6.1](i.8.6.1-signatures.md))
 
-**CLS Rule 13:** The value of a literal static is specified through the use of field initialization metadata (see Partition II Metadata). A CLS-compliant literal must have a value specified in field initialization metadata that is of exactly the same type as the literal (or of the underlying type, if that literal is an enum). (§[I.8.6.1.2](#todo-missing-hyperlink))
+**CLS Rule 13:** The value of a literal static is specified through the use of field initialization metadata (see Partition II Metadata). A CLS-compliant literal must have a value specified in field initialization metadata that is of exactly the same type as the literal (or of the underlying type, if that literal is an enum). (§[I.8.6.1.2](i.8.6.1.2-location-signatures.md))
 
-**CLS Rule 14:** Typed references are not CLS-compliant. (§[I.8.6.1.3](#todo-missing-hyperlink))
+**CLS Rule 14:** Typed references are not CLS-compliant. (§[I.8.6.1.3](i.8.6.1.3-local-signatures.md))
 
-**CLS Rule 15:** The vararg constraint is not part of the CLS, and the only calling convention supported by the CLS is the standard managed calling convention. (§[I.8.6.1.5](#todo-missing-hyperlink))
+**CLS Rule 15:** The vararg constraint is not part of the CLS, and the only calling convention supported by the CLS is the standard managed calling convention. (§[I.8.6.1.5](i.8.6.1.5-method-signatures.md))
 
 **CLS Rule 16:** Arrays shall have elements with a CLS-compliant type, and all dimensions of the array shall have lower bounds of zero. Only the fact that an item is an array and the element type of the array shall be required to distinguish between overloads.  When overloading is based on two or more array types the element types shall be named types. (§[I.8.9.1](i.8.9.1-array-types.md))
 

@@ -1,6 +1,6 @@
 ## II.15.4.5 vararg methods
 
-**vararg** methods accept a variable number of arguments. They shall use the **vararg** calling convention (§[II.15.3(#todo-missing-hyperlink)).
+**vararg** methods accept a variable number of arguments. They shall use the **vararg** calling convention (§[II.15.3](ii.15.3-calling-convention.md)).
 
 At each call site, a method reference shall be used to describe the types of the fixed and variable arguments that are passed. The fixed part of the argument list shall be separated from the additional arguments with an ellipsis (see [Partition I](#todo-missing-hyperlink)).
 

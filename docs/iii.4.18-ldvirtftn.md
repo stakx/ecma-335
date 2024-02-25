@@ -30,6 +30,6 @@ Correct CIL ensures that _method_ is a valid `methoddef`, `methodref` or `method
 
 Verification requires that tracked type of _object_ combined with _method_ identify a final virtual method. _[Rationale:_ If the identified method is not final then the exact type of its **this** pointer cannot be statically determined. _end rationale]_
 
-There is a defined exception to the above requirement as described for `newobj` (§[III.4.21](iii.4.21-newobj.md)). Verification tracks the method signature (§[I.8.6.1.5](#todo-missing-hyperlink)) of the value, which includes the number and types of parameters, the type of the **this** pointer, and the return type and the calling convention. _[Note:_ the type of the **this** pointer is determined in §[I.8.6.1.5](#todo-missing-hyperlink) based on the resolved method definition. _end note]_
+There is a defined exception to the above requirement as described for `newobj` (§[III.4.21](iii.4.21-newobj.md)). Verification tracks the method signature (§[I.8.6.1.5](i.8.6.1.5-method-signatures.md)) of the value, which includes the number and types of parameters, the type of the **this** pointer, and the return type and the calling convention. _[Note:_ the type of the **this** pointer is determined in §[I.8.6.1.5](i.8.6.1.5-method-signatures.md) based on the resolved method definition. _end note]_
 
 See also the `newobj` instruction.

@@ -18,7 +18,7 @@ There are different rules for determining the compatibility of types, depending 
 
 These relations are defined in terms of six type subsets:
 
-* *storage types* &ndash; these are the types that can occur as location (§[I.8.6.1.2](#todo-missing-hyperlink)), local (§[I.8.6.1.3](#todo-missing-hyperlink)) and parameter (§[I.8.6.1.4](#todo-missing-hyperlink)) signatures. _[Note:_ method signatures (§[I.8.6.1.5](#todo-missing-hyperlink)) are not included here as there are no method values which can be assigned, delegate types (§[I.8.9.3](i.8.9.3-delegates.md)) are reference types (§[I.8.2.1](i.8.2.1-value-types-and-reference-types.md)) and may occur in the above signatures. _end note]_
+* *storage types* &ndash; these are the types that can occur as location (§[I.8.6.1.2](i.8.6.1.2-location-signatures.md)), local (§[I.8.6.1.3](i.8.6.1.3-local-signatures.md)) and parameter (§[I.8.6.1.4](i.8.6.1.4-paramater-signatures.md)) signatures. _[Note:_ method signatures (§[I.8.6.1.5](i.8.6.1.5-method-signatures.md)) are not included here as there are no method values which can be assigned, delegate types (§[I.8.9.3](i.8.9.3-delegates.md)) are reference types (§[I.8.2.1](i.8.2.1-value-types-and-reference-types.md)) and may occur in the above signatures. _end note]_
 
  * *underlying types* &ndash; in the CTS enumerations are alternate names for existing types (§[I.8.5.2](i.8.5.2-assemblies-and-scoping.md)), termed their underlying type. Except for signature matching (§[I.8.5.2](i.8.5.2-assemblies-and-scoping.md)) enumerations are treated as their underlying type. This subset is the set of storage types with the enumerations removed.
 
@@ -150,12 +150,12 @@ _[Note:_ generic parameters are not reference types. Therefore, the compatibilit
 
 For the purpose of type compatibility when determining a type from a signature:
 
- 1. Any byref (`&`) constraint (§[I.8.6.1.3](#todo-missing-hyperlink)) is considered part of the type;
+ 1. Any byref (`&`) constraint (§[I.8.6.1.3](i.8.6.1.3-local-signatures.md)) is considered part of the type;
  
- 2. The special signature typed reference (§[I.8.6.1.3](#todo-missing-hyperlink)) is the type **typedref**;
+ 2. The special signature typed reference (§[I.8.6.1.3](i.8.6.1.3-local-signatures.md)) is the type **typedref**;
 
  3. Any **modopt**, **modreq**, or **pinned** modifiers are ignored; and
 
  4. Any calling convention is considered part of the type.
 
-_[Note:_ the literal constraint is not considered as fields so marked cannot be referenced from CIL (§[I.8.6.1.2](#todo-missing-hyperlink)). _end note]_
+_[Note:_ the literal constraint is not considered as fields so marked cannot be referenced from CIL (§[I.8.6.1.2](i.8.6.1.2-location-signatures.md)). _end note]_

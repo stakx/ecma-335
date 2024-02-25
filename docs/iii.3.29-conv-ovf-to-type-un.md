@@ -35,4 +35,4 @@ Correct CIL has at least one value, of a type specified in [Table 8: Conversion 
 
 #### Verifiability:
 
-The table [Table 8: Conversion Operations(#todo-missing-hyperlink) specifies a restricted set of types that are acceptable in verified code.
+The table [Table 8: Conversion Operations](#todo-missing-hyperlink) specifies a restricted set of types that are acceptable in verified code.
